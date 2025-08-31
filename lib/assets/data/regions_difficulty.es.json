@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Prólogo y Necrolimbo oeste",
+    "difficulty": 1
+  },
+  {
+    "name": "Necrolimbo este",
+    "difficulty": 2
+  },
+  {
+    "name": "Península del Llanto",
+    "difficulty": 3
+  },
+  {
+    "name": "Castillo de Velo Tormentoso",
+    "difficulty": 4
+  },
+  {
+    "name": "Liurnia este, Liurnia norte y Liurnia oeste",
+    "difficulty": 5
+  },
+  {
+    "name": "Academia de Raya Lucaria",
+    "difficulty": 6
+  },
+  {
+    "name": "Río Ainsel",
+    "difficulty": 7
+  },
+  {
+    "name": "Río Siofra",
+    "difficulty": 7
+  },
+  {
+    "name": "Calid",
+    "difficulty": 8
+  },
+  {
+    "name": "Meseta Altus",
+    "difficulty": 9
+  },
+  {
+    "name": "Nokron, la Ciudad Eterna",
+    "difficulty": 10
+  },
+  {
+    "name": "Fondo de Raíz Profunda",
+    "difficulty": 11
+  },
+  {
+    "name": "Monte Gelmir",
+    "difficulty": 12
+  },
+  {
+    "name": "Lago de la Putrefacción",
+    "difficulty": 12
+  },
+  {
+    "name": "Montedrago, lecho de Greyoll",
+    "difficulty": 13
+  },
+  {
+    "name": "Leyndell (afueras) y Leyndell, Capital del reino",
+    "difficulty": 14
+  },
+  {
+    "name": "Picos de los Gigantes oeste y Picos de los Gigantes este",
+    "difficulty": 15
+  },
+  {
+    "name": "Campo sacroníveo",
+    "difficulty": 15
+  },
+  {
+    "name": "Palacio de Mohgwyn",
+    "difficulty": 16
+  },
+  {
+    "name": "Árbol Hierático de Miquella y Elphael, tutor del Árbol Hierático",
+    "difficulty": 17
+  },
+  {
+    "name": "Farum Azula, la ciudad en ruinas",
+    "difficulty": 17
+  },
+  {
+    "name": "Leyndell, capital cinérea",
+    "difficulty": 17
+  }
+]

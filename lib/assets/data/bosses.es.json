@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "17f695abef9l0i1ujzrup5y0z7rw6",
+    "name": "Vírgenes Abductoras",
+    "image": null,
+    "region": "Monte Gelmir",
+    "description": "Constructos mecánicos mortales que empuñan enormes cuchillas.",
+    "location": "Mansión del Volcán",
+    "drops": [
+      "10.000 Runas",
+      "Girándula del Inquisidor"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69b4ba0al0i1uk6s98t1nbtxunt",
+    "name": "Alecto, Cabecilla del Cuchillo Negro",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b4ba0al0i1uk6s98t1nbtxunt.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Guerrera notablemente ágil y agresiva. Peligrosa incluso para aquellos con cobertura de escudo...",
+    "location": "Cárcel Eterna del Cabecilla, Liurnia de los Lagos",
+    "drops": [
+      "8.000 Runas",
+      "Tiche, la del Cuchillo Negro"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69d0313fl0i1uk8pokynv71bkz8",
+    "name": "Alecto, Cabecilla del Cuchillo Negro",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d0313fl0i1uk8pokynv71bkz8.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Guerrera notablemente ágil y agresiva. Peligrosa incluso para aquellos con cobertura de escudo...",
+    "location": "Limgrave",
+    "drops": [
+      "80.000 Runas",
+      "Otros Botines"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69b85929l0i1ukc4l2up7yp9v0i",
+    "name": "Señor de Alabastro",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b85929l0i1ukc4l2up7yp9v0i.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Un prisionero de la Cárcel Eterna que empuña una espada viciosa y el vacío con intenciones asesinas.",
+    "location": "Cárcel Eterna de la Tumba Real, Liurnia de los Lagos",
+    "drops": [
+      "3.600 Runas",
+      "Meteorito"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69a3ca37l0i1ukd1lq14ctafbk",
+    "name": "Adán, Ladrón de Fuego",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a3ca37l0i1ukd1lq14ctafbk.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Un prisionero de la Cárcel Eterna y antiguo mago de batalla, Adán empuña un mayal con púas y usa el conocimiento robado de la magia de fuego con gran efecto.",
+    "location": "Cárcel Eterna del Malhechor",
+    "drops": [
+      "3.800 Runas",
+      "Llama del Dios Caído"
+    ],
+    "healthPoints": "2200"
+  },
+  {
+    "id": "17f69a63610l0i1ukyx7xgx6vf0zoa",
+    "name": "Dragón Antiguo Lansseax",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a63610l0i1ukyx7xgx6vf0zoa.png",
+    "region": "Meseta de Altus",
+    "description": "Lansseax era la hermana de Fortissax. Se dice que tomó la forma de una humana para comulgar con los caballeros como sacerdotisa del antiguo culto al dragón.",
+    "location": "Meseta de Altus",
+    "drops": [
+      "60.000 Runas",
+      "Guja de Lansseax"
+    ],
+    "healthPoints": "9087"
+  },
+  {
+    "id": "17f69590896l0i1ul0hnmor8iyf9xd",
+    "name": "Espíritu Ancestral",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69590896l0i1ul0hnmor8iyf9xd.png",
+    "region": "Limgrave",
+    "description": "Un espíritu brillante que toma la forma de un gran ciervo, lo que lo convierte en una amenaza amenazante cuando carga contra los objetivos.",
+    "location": "Río Siofra",
+    "drops": [
+      "13.000 Runas",
+      "Cenizas de Seguidor Ancestral"
+    ],
+    "healthPoints": "2200"
+  },
+  {
+    "id": "17f69878c4al0i1ul0i7dsfou8igrk",
+    "name": "Héroe Antiguo de Zamor",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69878c4al0i1ul0i7dsfou8igrk.png",
+    "region": "Península del Llanto",
+    "description": "Criatura notablemente ágil y hecha de escarcha, susceptible a los ataques mágicos.",
+    "location": "Cárcel Eterna del Llanto, Tumba del Héroe Conquistador de Gigantes",
+    "drops": [
+      "5,400 Runas",
+      "Escarseal de Radagon",
+      "83,000 Runas",
+      "Espada Curva de Zamor",
+      "Máscara de Zamor",
+      "Armadura de Zamor",
+      "Brazaletes de Zamor",
+      "Perneras de Zamor"
+    ],
+    "healthPoints": " 2200"
+  },
+  {
+    "id": "17f697240ecl0i1ul21nevug9wq54e",
+    "name": "Clérigo Bestia",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697240ecl0i1ul21nevug9wq54e.png",
+    "region": "Caelid",
+    "description": "Temporalmente superado por su furia bestial, el Clérigo Bestia ataca ferozmente, arrojando rocas y a sí mismo a sus enemigos. Calma su agresión y devuélvelo a sus sentidos.",
+    "location": "Farum Azula en Ruinas",
+    "drops": [
+      "N/A"
+    ],
+    "healthPoints": "2200"
+  },
+  {
+    "id": "17f69bcfd7dl0i1ul502rklvi8tx62",
+    "name": "Astel, Estrellas de la Oscuridad",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bcfd7dl0i1ul502rklvi8tx62.png",
+    "region": "Campo Sacroníveo",
+    "description": "Una criatura hostil y masiva parecida a una libélula-dragón. Amenazante y extremadamente poderosa.",
+    "location": "Túnel de Yelough Anix en el Campo Sacroníveo",
+    "drops": [
+      "120000 Runas",
+      "Meteorito de Astel"
+    ],
+    "healthPoints": "25,376"
+  },
+  {
+    "id": "17f69d4387al0i1ulpqqumwqw05j3c",
+    "name": "Bestia de Farum Azula",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d4387al0i1ulpqqumwqw05j3c.png",
+    "region": "Limgrave",
+    "description": "Criatura que vive bajo tierra y se encuentra en la Cueva de la Arboleda",
+    "location": "Cueva de la Arboleda",
+    "drops": [
+      "1000 Runas",
+      "Talismán de Dragón de Fuego"
+    ],
+    "healthPoints": "1960"
+  },
+  {
+    "id": "17f69d7fe72l0i1ultk418yedh25s7",
+    "name": "Hombre Bestia de Farum Azula",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d7fe72l0i1ultk418yedh25s7.png",
+    "region": "Sepultura del Dragón",
+    "description": "Las bestias de la Cueva de la Arboleda se congregan en torno a la destreza del Hombre Bestia de Farum Azula",
+    "location": "Cueva de la Arboleda, Cueva de la Sepultura del Dragón",
+    "drops": [
+      "1000 Runas",
+      "Talismán de Dragón de Fuego",
+      "65,000 Runas",
+      "Talismán de Dragón de Fuego +2"
+    ],
+    "healthPoints": "1,960"
+  },
+  {
+    "id": "17f69c4aacel0i1uluegh15idblimv",
+    "name": "Cazador de Esferas",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c4aacel0i1uluegh15idblimv.png",
+    "region": "Sepultura del Dragón",
+    "description": "Amenazante y de paso lento, empuña una gran espada de brillo rojo y un escudo combinado con una armadura de cuerpo completo y una capa escalofriante.",
+    "location": "Choza del Señor de la Guerra, Norte de Colina Tormentosa, Iglesia de los Juramentos, Este de Liurnia, Choza del Mercader Ermitaño, Capital Real de Leyndell, Sepultura del Dragón, Norte de Caelid",
+    "drops": [
+      "2700 Runas",
+      "Esfera de Mercader de Huesos"
+    ],
+    "healthPoints": "6000 Runas, Esfera de Mercader de Carne"
+  },
+  {
+    "id": "17f69a61779l0i1ulv0a3ru8iy0zh5",
+    "name": "Vástago de la Hoja Negra",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a61779l0i1ulv0a3ru8iy0zh5.png",
+    "region": "Sepultura del Dragón",
+    "description": "Gárgola imponente que empuña un armamento masivo",
+    "location": "Caelid, Tierras Prohibidas",
+    "drops": [
+      "88,000 Runas",
+      "Hoja Negra de Gárgola",
+      "Alabarda Negra de Gárgola",
+      "60,000 Runas",
+      "Hacha Negra de Gárgola",
+      "Hojas Negras de Gárgola"
+    ],
+    "healthPoints": "12,500"
+  },
+  {
+    "id": "17f69bd3c06l0i1ulx2jxbiogta1i",
+    "name": "Asesino del Cuchillo Negro",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bd3c06l0i1ulx2jxbiogta1i.png",
+    "region": "Limgrave",
+    "description": "Figuras oscuras implacables y ágiles que portan un",
+    "location": "Catacumbas de la Muerte, Catacumbas del Cuchillo Negro, Cueva del Sabio",
+    "drops": [
+      "1,600 Runas",
+      "Daga Carmesí de Asesino",
+      "1, 600 Runas",
+      "Daga Cerúlea de Asesino",
+      "Cueva del Sabio",
+      "?? Runas",
+      "Velo Ocultador",
+      "11,339 Runas",
+      "Cuchillo Negro"
+    ],
+    "healthPoints": "2750"
+  },
+  {
+    "id": "17f69637e92l0i1um8wqsflgk3i9yr",
+    "name": "Caballero Sabueso Darriwil",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69637e92l0i1um8wqsflgk3i9yr.png",
+    "region": "Limgrave",
+    "description": "Los despiadados sabuesos atacan con gracia y agilidad, sin retroceder nunca ni dar un momento de descanso.",
+    "location": "Limgrave, Cárcel Eterna del Sabueso Desolado",
+    "drops": [
+      "1900 Runas",
+      "Colmillo de Sabueso"
+    ],
+    "healthPoints": "14,792"
+  },
+  {
+    "id": "17f697f48d5l0i1umdbu7v5ffgq",
+    "name": "Perro Guardián del Árbol del Entierro",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f48d5l0i1umdbu7v5ffgq.png",
+    "region": "Limgrave",
+    "description": "Un gran guardián con aspecto de felino-sabueso que sirve como \"Perro Guardián\" para el Árbol del Entierro de las Catacumbas de la Tormenta.",
+    "location": "Limgrave, Catacumbas de la Tormenta",
+    "drops": [
+      "800 Runas",
+      "Ceniza de Guerra: Arco de Espada Refulgente"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69563d15l0i1umhb4am3xzuib3g",
+    "name": "Caballero de la Putrefacción Limpia",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69563d15l0i1umhb4am3xzuib3g.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Caballero poderoso y diestro, capaz de realizar ataques a distancia muy rápidos. Su lanza y espada son una amenaza para cualquier luchador con armadura ligera.",
+    "location": "Cueva de Aguas Tranquilas, Liurnia de los Lagos",
+    "drops": [
+      "3,300 Runas",
+      "Insignia de Espada Alada",
+      "Espada de Caballero de la Putrefacción Limpia"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69d6ca41l0i1umlxg0j36mhrnzr",
+    "name": "Borealis, la Niebla Gélida",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d6ca41l0i1umlxg0j36mhrnzr.png",
+    "region": "Picos de los Gigantes",
+    "description": "Dragón de Escarcha que custodia el lago helado de los Picos de los Gigantes, emite una ventisca permanente.",
+    "location": "Picos de los Gigantes",
+    "drops": [
+      "100,000 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "11,100"
+  },
+  {
+    "id": "17f698b7d2fl0i1umtkf7cu5a21hdw",
+    "name": "Comandante Niall",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698b7d2fl0i1umtkf7cu5a21hdw.png",
+    "region": "Picos de los Gigantes",
+    "description": "El Comandante Niall es un caballero alto y fornido con una pata de palo, vestido con una armadura pesada y empuñando una alabarda que también sirve como estandarte de batalla. Lo acompañan dos Caballeros Desterrados Espectrales, uno equipado con espadas dobles y el otro con una espada y un escudo.",
+    "location": "Picos de los Gigantes",
+    "drops": [
+      "90000 Runas",
+      "Prótesis del Veterano"
+    ],
+    "healthPoints": "16,000"
+  },
+  {
+    "id": "17f69562d87l0i1umxu2qwle86ai8q",
+    "name": "Comandante O'neil",
+    "image": null,
+    "region": "Caelid",
+    "description": "Un comandante humano grande e imponente que empuña una alabarda que también sirve como estandarte de batalla, incitando a sus secuaces espirituales a la batalla con un fervor insaciable.",
+    "location": "Caelid",
+    "drops": [
+      "12,000 Runas",
+      "Estandarte del Comandante",
+      "Aguja de Oro sin Alear"
+    ],
+    "healthPoints": "11,400"
+  },
+  {
+    "id": "17f699b0755l0i1un48m87fngquaw",
+    "name": "Caballero del Crisol Ordovis",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699b0755l0i1un48m87fngquaw.png",
+    "region": "Meseta de Altus",
+    "description": "Grande, pesado y completamente acorazado. Con la capacidad de materializar alas de fuego y atacar desde arriba. Ataca con el enorme poder del Espadón de Ordovis y un Gran Escudo. Lento, pero extremadamente duro y muy peligroso.",
+    "location": "Tumba del Héroe de Auriza",
+    "drops": [
+      "28000 Runas",
+      "Espadón de Ordovis",
+      "Yelmo de Hacha del Crisol",
+      "Armadura de Hacha del Crisol",
+      "Guanteletes del Crisol",
+      "Grebas del Crisol"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f695b37c1l0i1ungf7vjojqaf4zp",
+    "name": "Cristalinos",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695b37c1l0i1ungf7vjojqaf4zp.png",
+    "region": "Meseta de Altus",
+    "description": "Energía de cristal en forma de humano con un poder devastador.",
+    "location": "Cueva de Cristal de la Academia, Túnel de Altus",
+    "drops": [
+      "3300 Runas",
+      "Liberación de Cristal",
+      "1800 Runas",
+      "Esfera de Minero de Piedra Sombría (2)",
+      "3000 Runas",
+      "Esfera de Minero de Piedra de Herrería (1)",
+      "7000 Runas",
+      "Torrente de Cristal"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69e151d8l0i1uo19hl8r6l0snmo",
+    "name": "Ave de la Muerte",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e151d8l0i1uo19hl8r6l0snmo.png",
+    "region": "Limgrave",
+    "description": "Un pájaro bípedo con brazos y un cráneo de pájaro por cabeza y se encuentra en varios lugares",
+    "location": "Limgrave, Península del Llanto, Liurnia de los Lagos",
+    "drops": [
+      "3,900 Runas",
+      "Rama Emplumada Azul",
+      "Hacha Sacrificial",
+      "Rama Emplumada Roja"
+    ],
+    "healthPoints": "2750"
+  },
+  {
+    "id": "17f69bcc1cdl0i1uoai2hm5tcbuhh2",
+    "name": "Ekzykes el Decadente",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bcc1cdl0i1uoai2hm5tcbuhh2.png",
+    "region": "Caelid",
+    "description": "Un dragón blanco pálido, sus escamas plagadas por la misma podredumbre escarlata que azota la región de Caelid. Espera en silencio a lo largo de la carretera del sur, esperando que los viajeros desprevenidos caigan presa de su embestida mortal.",
+    "location": "Caelid",
+    "drops": [
+      "38,000 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "23,731"
+  },
+  {
+    "id": "17f6961da46l0i1uoh7hemoben3dtg",
+    "name": "Jefe Semihumano",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6961da46l0i1uoh7hemoben3dtg.png",
+    "region": "Limgrave",
+    "description": "La oscuridad de la Cueva de la Costa esconde una guarida de aquellos que pueden parecer casi humanos, pero ciertamente no lo son.",
+    "location": "Cueva de la Costa",
+    "drops": [
+      "900 Runas",
+      "Herramientas de Sastre",
+      "Aguja de Coser"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69559137l0i1uoqf3qzndh0901t",
+    "name": "Reina Semihumana Maggie",
+    "image": null,
+    "region": "Monte Gelmir",
+    "description": "Criatura soberana semihumana que deambula por las tierras del Monte Gelmir",
+    "location": "Monte Gelmir",
+    "drops": [
+      "13000 Runas",
+      "Piedra de la Memoria",
+      "Runa Dorada [1]"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69518792l0i1up7fr7vzvqcmzf",
+    "name": "Gólem del Puente Divino",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69518792l0i1up7fr7vzvqcmzf.png",
+    "region": "Meseta de Altus",
+    "description": "Gólem enormemente grande y letárgico que irrumpe lentamente en la batalla cuando se da cuenta de tu presencia.",
+    "location": "Lyendell, Capital Real",
+    "drops": [
+      "2992 Runas"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69b39c43l0i1up7iq7q4lvvgyc",
+    "name": "Reina Semihumana Margot",
+    "image": null,
+    "region": "Monte Gelmir",
+    "description": "Criatura soberana semihumana oculta en cuevas aisladas.",
+    "location": "Monte Gelmir",
+    "drops": [
+      "11,000 Runas",
+      "Cañón de Jarra"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69625d6el0i1upqw478c5kvsjv3",
+    "name": "Centinela Dracónico del Árbol",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69625d6el0i1upqw478c5kvsjv3.png",
+    "region": "Meseta de Altus",
+    "description": "Caballero masivo vestido con una armadura dorada sobre un caballo gigante.",
+    "location": "Afueras de la Capital, Farum Azula en Ruinas",
+    "drops": [
+      "50,000 Runas",
+      "Gran Garra de Dragón",
+      "Escudo de Garra de Dragón"
+    ],
+    "healthPoints": "8,398"
+  },
+  {
+    "id": "17f69de1071l0i1uprrms3umg3rug",
+    "name": "Soldado Dragonkin",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69de1071l0i1uprrms3umg3rug.png",
+    "region": "Limgrave",
+    "description": "Una criatura humanoide grande y hostil que despierta de su letargo directamente a la batalla.",
+    "location": "Río Siofra, Lago de la Putrefacción",
+    "drops": [
+      "16000 Runas",
+      "Alabarda de Dragón"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69b43b78l0i1upyrupf0wna8q7a",
+    "name": "Sombra del Cementerio",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b43b78l0i1upyrupf0wna8q7a.png",
+    "region": "Caelid",
+    "description": "Ser amorfo y sombrío perteneciente a las catacumbas",
+    "location": "Catacumbas de la Tumba, Catacumbas del Cuchillo Negro, Catacumbas de Caelid,",
+    "drops": [
+      "2200 Runas",
+      "Lhutel la Sin Cabeza",
+      "xx Runas",
+      "Cenizas de Hechicero de Dos Sabios",
+      "Cenizas de Vástago de la Putrefacción"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69a6fae3l0i1uq63au7m71cs8mh",
+    "name": "Caballero del Crisol",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a6fae3l0i1uq63au7m71cs8mh.png",
+    "region": "Meseta de Altus",
+    "description": "Un luchador formidable y diestro, hábil en el combate cuerpo a cuerpo.",
+    "location": "Cárcel Eterna de Colina Tormentosa, Castillo de Velo Tormentoso, Tumba del Héroe de Auriza",
+    "drops": [
+      "2100 Runas",
+      "Aspectos del Crisol: Cola",
+      "1500 Runas",
+      "Aspectos del Crisol: Cuernos"
+    ],
+    "healthPoints": "Cárcel Eterna de Colina Tormentosa:, 2750"
+  },
+  {
+    "id": "17f699200d2l0i1uqbs9w1ijmp2ner",
+    "name": "Soldado Dragonkin de Nokstella",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699200d2l0i1uqbs9w1ijmp2ner.png",
+    "region": "Limgrave",
+    "description": "Enorme criatura de aspecto humanoide ubicada en las cuevas subterráneas de las Ruinas del Palacio de Uhl",
+    "location": "Río Ainsel",
+    "drops": [
+      "12000 Runas",
+      "Lanza de Rayo Congelado"
+    ],
+    "healthPoints": "≈4372"
+  },
+  {
+    "id": "17f69bf3366l0i1uqds10qc8exqn1ik",
+    "name": "Señor Dragón Placidusax",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bf3366l0i1uqds10qc8exqn1ik.png",
+    "region": "Picos de los Gigantes",
+    "description": "Un dragón de dos cabezas de tamaño masivo, capaz de inmensos actos de aniquilación.",
+    "location": "Farum Azula en Ruinas",
+    "drops": [
+      "28000 Runas",
+      "Recuerdo del Señor Dragón"
+    ],
+    "healthPoints": "≈26651"
+  },
+  {
+    "id": "17f699dadfbl0i1uqmgi50oii11eaj",
+    "name": "Bestia de Elden",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699dadfbl0i1uqmgi50oii11eaj.png",
+    "region": "Meseta de Altus",
+    "description": "Se dice que hace mucho tiempo, la Gran Voluntad envió una estrella dorada con una bestia a las Tierras Intermedias, que más tarde se convertiría en el Círculo de Elden.",
+    "location": "Trono de Elden",
+    "drops": [
+      "500000 Runas",
+      "Recuerdo de Elden"
+    ],
+    "healthPoints": "26,880 (DIOS)"
+  },
+  {
+    "id": "17f695cb903l0i1uqqf40ik8th6wqw",
+    "name": "Elemer de la Zarza",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695cb903l0i1uqqf40ik8th6wqw.png",
+    "region": "Meseta de Altus",
+    "description": "Empuñando la espada robada de la familia Marais, Elemer de la Zarza espera en lo alto del castillo.",
+    "location": "El Castillo Sombrío",
+    "drops": [
+      "24,000 Runas",
+      "Espada de Verdugo de Marais",
+      "Gran Escudo de Zarza"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69579c3dl0i1uqxt6ul73e103ur",
+    "name": "Esgar, Sacerdote de la Sangre",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69579c3dl0i1uqxt6ul73e103ur.png",
+    "region": "Meseta de Altus",
+    "description": "Un sacerdote humanoide muy agresivo",
+    "location": "Leyndell, Capital Real",
+    "drops": [
+      "30000 Runas",
+      "Exultación del Señor de la Sangre"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f6969fb51l0i1ur3o74ppc7h3gl5",
+    "name": "Avatar del Árbol Áureo",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6969fb51l0i1ur3o74ppc7h3gl5.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Una gran criatura sin cabeza que se asemeja a un tocón de árbol.",
+    "location": "Árbol Áureo Menor (Península del Llanto), Árbol Áureo Menor (Suroeste de Liurnia), Árbol Áureo Menor (Noreste de Liurnia), Árbol Áureo Menor (Caelid), Árbol Áureo Menor (Este de los Picos de los Gigantes)",
+    "drops": [
+      "3,600 Runas",
+      "Lágrima de Burbuja Opalina",
+      "Lágrima de Cristal de Explosión Carmesí",
+      "5,800 Runas",
+      "Lágrima de Cristal Cerúlea",
+      "Lágrima de Cristal Rota",
+      "5,800 Runas",
+      "Lágrima Rota Sagrada",
+      "Lágrima Rota de Rayo",
+      "Lágrima Rota Mágica",
+      "9,600 Runas",
+      "Lágrima de Cristal de Explosión Verde",
+      "Lágrima Rota de Fuego",
+      "70,000 Runas",
+      "Lágrima de Cristal Cerúlea",
+      "Lágrima de Burbuja Carmesí"
+    ],
+    "healthPoints": "14,992"
+  },
+  {
+    "id": "17f69aae933l0i1urbz9zyz3jjvhjf",
+    "name": "Bestia de la Estrella Fugaz",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6969fb51l0i1ur3o74ppc7h3gl5.png",
+    "region": "Caelid",
+    "description": "Un cuadrúpedo masivo con una larga cola espinosa y una cabeza que recuerda a la de un ciempiés, con enormes mandíbulas que sobresalen de su cara. Se comporta de manera muy parecida a un toro y parece tener poderes sísmicos, lo que le permite controlar la tierra dentro de su cámara.",
+    "location": "Túnel de Cristal de Sellia, Caelid, Meseta de Altus",
+    "drops": [
+      "7,600 Runas",
+      "Esfera de Minero de Piedra Sombría (1)",
+      "Piedra de Herrería (7) x 5",
+      "Piedra de Herrería Sombría (6)",
+      "Trozo de Piedra de Gravedad x 4"
+    ],
+    "healthPoints": "≈8000"
+  },
+  {
+    "id": "17f69c5a361l0i1urf5b4r5s5cf125",
+    "name": "Gemelos Caídos",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c5a361l0i1urf5b4r5s5cf125.png",
+    "region": "Meseta de Altus",
+    "description": "Dos criaturas voluminosas parecidas a ogros que luchan codo con codo con armamento al rojo vivo",
+    "location": "Afueras de la Capital",
+    "drops": [
+      "29,000 Runas",
+      "Rollo de Matador de Augurios"
+    ],
+    "healthPoints": "15,664"
+  },
+  {
+    "id": "17f695d42c3l0i1uriibjok1ydfodg",
+    "name": "Campeones de Fia",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695d42c3l0i1uriibjok1ydfodg.png",
+    "region": "Limgrave",
+    "description": "Cinco invasores convocados en un combate de resistencia en tres oleadas.",
+    "location": "Profundidades de Raíz Profunda",
+    "drops": [
+      "40000 Runas",
+      "Niebla de Fia"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69725115l0i1urx3t47u0gfs43",
+    "name": "Dragón Volador Agheel",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69725115l0i1urx3t47u0gfs43.png",
+    "region": "Limgrave",
+    "description": "Un dragón masivo temido por la mayoría, ubicado en las Ruinas Quemadas por el Dragón en Limgrave",
+    "location": "Limgrave, Ruinas Quemadas por el Dragón",
+    "drops": [
+      "5000 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "≈3200 "
+  },
+  {
+    "id": "17f69ba1aa7l0i1us08w3dodkoeju",
+    "name": "Gigante de Fuego",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ba1aa7l0i1us08w3dodkoeju.png",
+    "region": "Picos de los Gigantes",
+    "description": "Al darse cuenta de que las llamas de su forja nunca morirían, la Reina Márika lo marcó con una maldición. \"Oh, gigante insignificante, que cuides tu llama por la eternidad.\"",
+    "location": "Picos de los Gigantes",
+    "drops": [
+      "180,000 Runas",
+      "Recuerdo del Gigante de Fuego"
+    ],
+    "healthPoints": "126,720"
+  },
+  {
+    "id": "17f69846e66l0i1us1stxjbqloi1z",
+    "name": "Dragón Volador Greyll",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69846e66l0i1us1stxjbqloi1z.png",
+    "region": "Caelid",
+    "description": "Un gran dragón gris, el Dragón Volador Greyll patrulla el puente escupiendo fuego y descendiendo sobre aquellos que intentan cruzar.",
+    "location": "Caelid",
+    "drops": [
+      "80,000 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "11,628 Gran Enemigo"
+  },
+  {
+    "id": "17f696b2a70l0i1us26mtvbp7p85",
+    "name": "Duelista Frenético",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696b2a70l0i1us26mtvbp7p85.png",
+    "region": "Caelid",
+    "description": "Un humanoide con armadura pesada y un hacha masiva.",
+    "location": "Cueva de la Cárcel",
+    "drops": [
+      "6700 Runas",
+      "Cenizas de Cadáver Putrefacto"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f699fafc0l0i1usmk2s2oybvx44a",
+    "name": "Serpiente Devoradora de Dioses",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699fafc0l0i1usmk2s2oybvx44a.png",
+    "region": "Monte Gelmir",
+    "description": "Un reptil masivo y amenazante que representa una amenaza notable.",
+    "location": "Monte Gelmir",
+    "drops": [
+      "Ver Rykard, Señor de la Blasfemia"
+    ],
+    "healthPoints": "≈30439"
+  },
+  {
+    "id": "17f6953dec4l0i1uso41jlanmo9c4v",
+    "name": "Dragón de Piedra Refulgente Smarag",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6953dec4l0i1uso41jlanmo9c4v.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Un temible dragón mágico con piedra de magia cristalizada por escamas. Custodia celosamente la entrada a la Cueva de Cristal de la Academia.",
+    "location": "Liurnia de los Lagos",
+    "drops": [
+      "14,699 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "6,100"
+  },
+  {
+    "id": "17f695d390el0i1usszzihpctlfb2",
+    "name": "Dragón de Piedra Refulgente Adula",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695d390el0i1usszzihpctlfb2.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Un dragón poderoso y devastador, una amenaza para todo tipo de luchadores.",
+    "location": "Liurnia de los Lagos",
+    "drops": [
+      "120,000 Runas",
+      "Hoja Lunar de Adula",
+      "3x Corazón de Dragón",
+      "Sin Runas"
+    ],
+    "healthPoints": "≈11550"
+  },
+  {
+    "id": "17f69c4aefal0i1usvodp9osviy7v",
+    "name": "Godefroy el Injertado",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c4aefal0i1usvodp9osviy7v.png",
+    "region": "Meseta de Altus",
+    "description": "Un miembro de la familia de Godrick el Injertado, encarcelado por el Caballero Dragón durante la Guerra de la Devastación.",
+    "location": "Cárcel Eterna del Linaje Dorado",
+    "drops": [
+      "26,000 Runas (NG)",
+      "Icono de Godfrey"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f696099a7l0i1ut7jqzmbg7hm5tk",
+    "name": "Godfrey el Injertado",
+    "image": null,
+    "region": "Meseta de Altus",
+    "description": "",
+    "location": "Cárcel Eterna del Linaje Dorado",
+    "drops": [
+      "26,000 Runas",
+      "Otros Botines",
+      "Icono de Godfrey"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69a82a2el0i1uta5rxvqv53g7e",
+    "name": "Godfrey, Primer Señor de Elden (Hoarah Loux)",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a82a2el0i1uta5rxvqv53g7e.png",
+    "region": "Meseta de Altus",
+    "description": "Te he dado suficiente cortesía. Ahora lucho como Hoarah Loux. ¡Guerrero!",
+    "location": "Leyndell, Capital de Ceniza",
+    "drops": [
+      "300,000 Runas",
+      "Recuerdo de Hoarah Loux"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f697d2396l0i1utcv9km3qxcnt6m",
+    "name": "Godfrey, Primer Señor de Elden (Sombra Dorada)",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697d2396l0i1utcv9km3qxcnt6m.png",
+    "region": "Meseta de Altus",
+    "description": "Forma física de Godfrey, Primer Señor de Elden",
+    "location": "Leyndell, Capital Real",
+    "drops": [
+      "80,000 Runas",
+      "Bolsa de Talismanes"
+    ],
+    "healthPoints": "≈7099"
+  },
+  {
+    "id": "17f6953f0d5l0i1uthl5j30bc50wdo",
+    "name": "Godrick el Injertado",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6953f0d5l0i1uthl5j30bc50wdo.png",
+    "region": "Limgrave",
+    "description": "Godrick el Injertado es el gobernante del Castillo de Velo Tormentoso, empuñando una gran hacha dorada. Ha injertado muchos brazos en su cuerpo, un símbolo de poder para todos aquellos que podrían intentar deponerlo.",
+    "location": "Castillo de Velo Tormentoso",
+    "drops": [
+      "Gran Runa de Godrick, Recuerdo del Injertado"
+    ],
+    "healthPoints": "6080"
+  },
+  {
+    "id": "17f69c1bc31l0i1utrgxwhdp1csdis",
+    "name": "Apóstol de la Piel de Dios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c1bc31l0i1utrgxwhdp1csdis.png",
+    "region": "Caelid",
+    "description": "Los apóstoles, que se dice que sirven a la Muerte Destinada, son portadores de la llama negra que mata a los dioses. Pero después de su derrota por Maliketh, la Hoja Negra, la fuente de su poder fue sellada.",
+    "location": "Cueva del Invocador de Espíritus",
+    "drops": [
+      "70k Runas",
+      "Paño Envolvente de la Piel de Dios",
+      "Ritual de la Llama Negra"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69c68871l0i1utx4r38kpdj1yil",
+    "name": "Dúo de la Piel de Dios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69c68871l0i1utx4r38kpdj1yil.png",
+    "region": "Picos de los Gigantes",
+    "description": "Se encuentran en sus formas espirituales, generados por el oportunista Caracol Invocador de Espíritus.",
+    "location": "Cueva del Invocador de Espíritus, Picos de los Gigantes",
+    "drops": [
+      "70,000 Runas",
+      "Paño Envolvente de la Piel de Dios x1",
+      "Ritual de la Llama Negra x1"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69e15137l0i1uu7e0w9qynlhveh",
+    "name": "Pájaro del Rito de la Muerte",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e15137l0i1uu7e0w9qynlhveh.png",
+    "region": "Picos de los Gigantes",
+    "description": "Inmenso esqueleto de pájaro con rasgos de cuervo. Se lanza a la batalla desde arriba mientras empuña una lanza gigante.",
+    "location": "Picos de los Gigantes",
+    "drops": [
+      "77,000 Runas",
+      "Lanza del Ritual de la Muerte",
+      "18,000 Runas",
+      "Atizador de la Muerte"
+    ],
+    "healthPoints": "≈2750"
+  },
+  {
+    "id": "17f69b45618l0i1uuc1z6qlw7hnnq",
+    "name": "Apóstol de la Piel de Dios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b45618l0i1uuc1z6qlw7hnnq.png",
+    "region": "Meseta de Altus",
+    "description": "Los apóstoles, que se dice que sirven a la Muerte Destinada, son portadores de la llama negra que mata a los dioses. Pero después de su derrota por Maliketh, la Hoja Negra, la fuente de su poder fue sellada.",
+    "location": "Meseta de Altus, Caelid",
+    "drops": [
+      "14,000 Runas",
+      "Pelador de Piel de Dios",
+      "Llama Negra Abrasadora",
+      "94,000 Runas",
+      "Capucha de Apóstol de la Piel de Dios",
+      "Túnica de Apóstol de la Piel de Dios",
+      "Brazales de Apóstol de la Piel de Dios",
+      "Pantalones de Apóstol de la Piel de Dios",
+      "70,000 Runas",
+      "Paño Envolvente de la Piel de Dios",
+      "Ritual de la Llama Negra"
+    ],
+    "healthPoints": "≈10,000"
+  },
+  {
+    "id": "17f69814439l0i1uuifby3b0bn9gs",
+    "name": "Noble de la Piel de Dios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69814439l0i1uuifby3b0bn9gs.png",
+    "region": "Monte Gelmir",
+    "description": "El más agresivo de los Piel de Dios.",
+    "location": "Cueva del Invocador de Espíritus, Mansión del Volcán,",
+    "drops": [
+      "70,000 Runas",
+      "Paño Envolvente de la Piel de Dios",
+      "Ritual de la Llama Negra",
+      "50,000 Runas",
+      "Estoque de Piel de Dios",
+      "Presencia Noble"
+    ],
+    "healthPoints": "≈10,000"
+  },
+  {
+    "id": "17f69bf253bl0i1uuma3733w2zwodm",
+    "name": "Vástago Injertado",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bf253bl0i1uuma3733w2zwodm.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Una masa amorfa que empuña dos espadas y un escudo, y parece estar injertada con múltiples brazos.",
+    "location": "Área del Tutorial",
+    "drops": [
+      "1176 Runas",
+      "583 runas-moneda-elden-ring-wiki-guía-18 Runas",
+      "3200 Runas",
+      "1283 Runas",
+      "Lágrima Larvaria",
+      "2313 runas-moneda-elden-ring-wiki-guía-18 Runas",
+      "12800 Runas (NG+1)",
+      "Espada Recta Ornamental",
+      "Escudo de la Bestia Dorada"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f695140e9l0i1uuu2pjzqqsbskl",
+    "name": "Gran Wyrm Theodorix",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695140e9l0i1uuu2pjzqqsbskl.png",
+    "region": "Picos de los Gigantes",
+    "description": "Un wyrm dragón de inmenso poder.",
+    "location": "Norte de la Subida de los Albinaúricos en los Picos de los Gigantes",
+    "drops": [
+      "180,000 Runas",
+      "Corazón de Dragón x3"
+    ],
+    "healthPoints": "≈35,000"
+  },
+  {
+    "id": "17f695022a1l0i1uv9aohy5ip9yh9f",
+    "name": "Hoarah Loux, Guerrero",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f695022a1l0i1uv9aohy5ip9yh9f.png",
+    "region": "Meseta de Altus",
+    "description": "Jefe de los Guerreros de las Tierras Yermas.",
+    "location": "Leyndell, Capital de Ceniza.",
+    "drops": [
+      "300000 Runas",
+      "Recuerdo de Hoarah Loux"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69a5abc3l0i1uvfn18gmmqaf8jvj",
+    "name": "Vástago de la Putrefacción",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a5abc3l0i1uvfn18gmmqaf8jvj.png",
+    "region": "Monte Gelmir",
+    "description": "Criaturas grandes, parecidas a langostinos, hábiles en el combate cuerpo a cuerpo. Su Guja de la Peste representa una amenaza cuando es empuñada por estos seres ágiles.",
+    "location": "Monte Gelmir",
+    "drops": [
+      "10000 Runas",
+      "Exultación del Vástago de la Putrefacción"
+    ],
+    "healthPoints": "≈4000"
+  },
+  {
+    "id": "17f69cbe6cbl0i1uvgek1x2hoimz99",
+    "name": "Gólem Guardián",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cbe6cbl0i1uvgek1x2hoimz99.png",
+    "region": "Limgrave",
+    "description": "El Gólem Guardián, constructos mágicos que han sido cortados y cincelados de la piedra. Es el único guardián de la Cueva del Camino Principal que posee un objeto precioso.",
+    "location": "Cueva del Camino Principal",
+    "drops": [
+      "1700 Runas",
+      "Amuleto de Bailarina Azul"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f698b6791l0i1uvgjwlxwarfpe7a",
+    "name": "Dúo de la Piel de Dios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698b6791l0i1uvgjwlxwarfpe7a.png",
+    "region": "Meseta de Altus",
+    "description": "Un par complementario de criaturas extremadamente versadas en el combate dual. Estos seres logran un equilibrio excepcional en el combate, lo que resulta en una sinergia devastadora.",
+    "location": "Farum Azula en Ruinas",
+    "drops": [
+      "170000 Runas",
+      "Esfera de Minero de Piedra de Herrería [4]",
+      "Ceniza de Guerra: Tornado de Llama Negra"
+    ],
+    "healthPoints": "≈24,000"
+  },
+  {
+    "id": "17f69b5bcb4l0i1uvn888e99evsdgh",
+    "name": "Vástago de la Putrefacción",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a5abc3l0i1uvfn18gmmqaf8jvj.png",
+    "region": "Monte Gelmir",
+    "description": "Criaturas grandes, parecidas a langostinos, hábiles en el combate cuerpo a cuerpo. Su Guja de la Peste representa una amenaza cuando es empuñada por estos seres ágiles.",
+    "location": "Cueva de Aguahirviente",
+    "drops": [
+      "10000 Runas",
+      "Exultación del Vástago de la Putrefacción"
+    ],
+    "healthPoints": "≈4000"
+  },
+  {
+    "id": "17f69644c82l0i1uw7sqlk2v4b6bfg",
+    "name": "Malnacido Leonino",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69644c82l0i1uw7sqlk2v4b6bfg.png",
+    "region": "Península del Llanto",
+    "description": "Agresivo y salvaje, el Malnacido no ve más que rabia",
+    "location": "Castillo de Morne, Península del Llanto",
+    "drops": [
+      "3800 Runas",
+      "Espadón de la Hoja Injertada"
+    ],
+    "healthPoints": "14,272"
+  },
+  {
+    "id": "17f699223e7l0i1uwcol7wflmcgajb",
+    "name": "Lichdragón Fortissax",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699223e7l0i1uwcol7wflmcgajb.png",
+    "region": "Limgrave",
+    "description": "Enorme dragón negro de cuatro alas con la capacidad de empuñar el rayo.",
+    "location": "Profundidades de Raíz Profunda",
+    "drops": [
+      "90000 Runas",
+      "Recuerdo del Lichdragón"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69a078e0l0i1uwdp4xqjq6cpbxl",
+    "name": "Cabeza de Calabaza Demente",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a078e0l0i1uwdp4xqjq6cpbxl.png",
+    "region": "Limgrave",
+    "description": "Una enorme criatura con aspecto de ogro que tiene un gran casco de calabaza en la cabeza. Empuña un mayal masivo y parece estar protegiendo algo o a alguien de los intrusos.",
+    "location": "Ruinas del Puesto de la Calzada, Limgrave, Ruinas de Caelem, Caelid",
+    "drops": [
+      "6300 Runas"
+    ],
+    "healthPoints": "≈10,500"
+  },
+  {
+    "id": "17f69bfa759l0i1uwfa0yrdvzcov1i",
+    "name": "Wyrm de Magma",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bfa759l0i1uwfa0yrdvzcov1i.png",
+    "region": "Caelid",
+    "description": "Un gran dragón menor con escamas de color bronce que cubren su cuerpo. Los Wyrms de Magma habitan en sistemas de cuevas profundas y volcanes, prosperando en entornos inundados de lava.",
+    "location": "Túnel de Gael",
+    "drops": [
+      "7500 Runas",
+      "Corazón de Dragón",
+      "Velo Lunar"
+    ],
+    "healthPoints": "7000"
+  },
+  {
+    "id": "17f696318a4l0i1uwi4cr4u43opdj5",
+    "name": "Guardián León",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696318a4l0i1uwi4cr4u43opdj5.png",
+    "region": "Limgrave",
+    "description": "El Guardián León de Velo Tormentoso ha sido coaccionado al servicio por medios crueles",
+    "location": "Castillo de Velo Tormentoso",
+    "drops": [
+      "2350"
+    ],
+    "healthPoints": "≈2350"
+  },
+  {
+    "id": "17f69a48308l0i1ux3rigvv37tx84f",
+    "name": "Malenia, Espada de Miquella",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a48308l0i1ux3rigvv37tx84f.png",
+    "region": "Campo Sacroníveo",
+    "description": "... Presta atención a mis palabras. Soy Malenia. Espada de Miquella. Y nunca he conocido la derrota.",
+    "location": "Elphael, Tutor del Árbol Hierático",
+    "drops": [
+      "Gran Runa de Malenia",
+      "Recuerdo de la Diosa de la Putrefacción",
+      "480,000 Runas"
+    ],
+    "healthPoints": "≈26,128"
+  },
+  {
+    "id": "17f69dbf58cl0i1ux7vft8wsk6ejbb",
+    "name": "Maliketh, la Hoja Negra",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69dbf58cl0i1ux7vft8wsk6ejbb.png",
+    "region": "Meseta de Altus",
+    "description": "Oh, Muerte. Conviértete en mi hoja una vez más.",
+    "location": "Farum Azula en Ruinas",
+    "drops": [
+      "220,000 Runas",
+      "Otros Botines",
+      "Recuerdo de la Hoja Negra"
+    ],
+    "healthPoints": "≈10620"
+  },
+  {
+    "id": "17f699a40dfl0i1ux9v66kv7dyxcqx",
+    "name": "Miranda, la Flor Marchita",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699a40dfl0i1ux9v66kv7dyxcqx.png",
+    "region": "Península del Llanto",
+    "description": "Una flor venenosa gigante que es más mortal de lo que parece.",
+    "location": "Península del Llanto: Cueva de la Tumba, Llanuras de Altus: Gruta del Perfumista",
+    "drops": [
+      "2100 Runas",
+      "Medallón de Ámbar Viridiano",
+      "8500 Runas",
+      "Gran Cuchilla de Matador de Augurios"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69e11c75l0i1uxa6gb2wpb12ipb",
+    "name": "Lágrima Imitadora",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69e11c75l0i1uxa6gb2wpb12ipb.png",
+    "region": "Limgrave",
+    "description": "Un ser excéntrico capaz de tomar una forma completa de su adversario, desde rasgos corporales hasta armamento.",
+    "location": "Nokron, Ciudad Eterna",
+    "drops": [
+      "10000 Runas",
+      "Lágrima Larvaria x2",
+      "Máscara de Lágrima Plateada"
+    ],
+    "healthPoints": "≈19,536"
+  },
+  {
+    "id": "17f698a5648l0i1uxs5sk4eq7dy3vh",
+    "name": "Cruzado Malnacido",
+    "image": null,
+    "region": "Picos de los Gigantes",
+    "description": "El Señor de la Llama Frenética.",
+    "location": "Cueva de los Desamparados en los Picos de los Gigantes",
+    "drops": [
+      "93000 Runas",
+      "Espadón de la Orden Dorada"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f697f4363l0i1uy2tk9e7g2jqcu",
+    "name": "Mohg, Señor de la Sangre",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f4363l0i1uy2tk9e7g2jqcu.png",
+    "region": "Limgrave",
+    "description": "¡Bienvenido, honorable invitado. Al lugar de nacimiento de nuestra Dinastía!",
+    "location": "Palacio de Mohgwyn",
+    "drops": [
+      "420,000 Runas",
+      "Gran Runa de Mohg",
+      "Recuerdo del Señor de la Sangre"
+    ],
+    "healthPoints": "≈38,848"
+  },
+  {
+    "id": "17f69a3b2f2l0i1uy2usy0fea155ms",
+    "name": "Mohg, el Augurio",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697f4363l0i1uy2tk9e7g2jqcu.png",
+    "region": "Meseta de Altus",
+    "description": "El Señor de la Llama Frenética",
+    "location": "Subterráneo de los Renegados",
+    "drops": [
+      "100,000 Runas",
+      "Garras de Llama de Sangre"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69d3101al0i1uyefex03ulrqazi",
+    "name": "Wyrm de Magma Makar",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d3101al0i1uyefex03ulrqazi.png",
+    "region": "Meseta de Altus",
+    "description": "Wyrm de Fuego agresivo que custodia la entrada a las Llanuras de Altus de cualquiera que intente evitar el elevador",
+    "location": "Precipicio Lleno de Ruinas",
+    "drops": [
+      "24000 Runas",
+      "Espada de Escamas de Wyrm de Magma",
+      "72000 Runas",
+      "Corazón de Dragón"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69d237f0l0i1uytr06ed4gz92qdj",
+    "name": "Nigromante Garris",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69d237f0l0i1uytr06ed4gz92qdj.png",
+    "region": "Meseta de Altus",
+    "description": "Un nigromante humanoide envuelto en una tela roja. Eficiente en las hechicerías de la muerte.",
+    "location": "Cueva del Sabio, Meseta de Altus",
+    "drops": [
+      "0 Runas",
+      "Cabezas de Familia"
+    ],
+    "healthPoints": "Jefe de Campo"
+  },
+  {
+    "id": "17f6963b02cl0i1uyzthmeyyq45wna",
+    "name": "Maestra de la Espada de Nox y Sacerdote de Nox",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6963b02cl0i1uyzthmeyyq45wna.png",
+    "region": "Caelid",
+    "description": "Un dúo de guerreros compuesto por la Maestra de la Espada femenina, que usa una espada con una función similar a un látigo para atacar a media distancia, y un Sacerdote masculino que usa hechizos desde lejos.",
+    "location": "Sellia, Ciudad de la Hechicería, Caelid",
+    "drops": [
+      "6,400 Runas",
+      "Espada Fluyente de Nox"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f69a6c3fcl0i1uyzw7a7ssn0qlpp",
+    "name": "Caballería Nocturna",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a6c3fcl0i1uyzw7a7ssn0qlpp.png",
+    "region": "Limgrave",
+    "description": "Imponente figura de caballero sobre un corcel oscuro, empuñando un gran mayal o alabarda.",
+    "location": "Muchos",
+    "drops": [
+      "2400 Runas",
+      "Ceniza de Guerra: Estocada Repetida",
+      "3400 Runas",
+      "Ceniza de Guerra: Escudo de Barricada",
+      "5600 Runas",
+      "Ceniza de Guerra: Lanza de Hielo",
+      "8500 Runas",
+      "Ceniza de Guerra: Vuelo de la Polilla Venenosa",
+      "10000 Runas",
+      "Ceniza de Guerra: Cuchillada Fantasma",
+      "36000 Runas",
+      "Ceniza de Guerra: Cuchillada Fantasma",
+      "42000 Runas",
+      "Ceniza de Guerra: Paso del Sabueso",
+      "84000 Runas",
+      "Set de Caballería Nocturna"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69a1be26l0i1uz1kl2dyuibof4d",
+    "name": "Matador de Augurios",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a1be26l0i1uz1kl2dyuibof4d.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Una figura ominosa que empuña dos espadas dentadas.",
+    "location": "Aldea de los Albinaúricos, Mansión del Volcán, Gruta del Perfumista",
+    "drops": [
+      "4900 Runas",
+      "Talismán de Nudo del Crisol",
+      "8400 Runas",
+      "Gran Cuchilla de Matador de Augurios",
+      "Gran Cuchilla de Matador de Augurios"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69a36cf8l0i1uz6gmzy0dr777k",
+    "name": "Señor de Ónice",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69a36cf8l0i1uz6gmzy0dr777k.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Los Señores de Ónice, que tenían la piel de piedra, eran llamados señores en temor reverencial a su poder destructivo.",
+    "location": "Túnel Sellado, Cárcel Eterna de la Tumba Real",
+    "drops": [
+      "16000 Runas",
+      "Espadón del Señor de Ónice"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f699438b8l0i1uze1493a9h5ipk3",
+    "name": "Perfumista Tricia",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699438b8l0i1uze1493a9h5ipk3.png",
+    "region": "Monte Gelmir",
+    "description": "Una lanzadora de hechizos de largo alcance complementada por un guerrero acorazado de corta distancia.",
+    "location": "Catacumbas Repugnantes, Monte Gelmir",
+    "drops": [
+      "9400 Runas",
+      "Otros Botines"
+    ],
+    "healthPoints": "≈1024"
+  },
+  {
+    "id": "17f699ad704l0i1uzmqfup4jxyto7",
+    "name": "Duelista Guardián de Tumba Putrefacto",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699ad704l0i1uzmqfup4jxyto7.png",
+    "region": "Campo Sacroníveo",
+    "description": "Los Guardianes de Tumbas protegen los secretos de los antiguos, pero la corrupción de la tierra también los ha afectado",
+    "location": "Catacumbas del Campo Sacroníveo, Campo Sacroníveo.",
+    "drops": [
+      "78,000 Runas",
+      "Gran Convalaria de Tumba",
+      "Capa de Guardián de Tumba Podrida"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f697e343bl0i1uznxx67p026exqf",
+    "name": "Cabeza de Calabaza",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697e343bl0i1uznxx67p026exqf.png",
+    "region": "Península del Llanto",
+    "description": "La ruptura interrumpió la flora y la fauna de la región. Algunos tomaron un gusto bastante intenso por las plantas más grandes que surgieron",
+    "location": "Castillo de Morne, Península del Llanto",
+    "drops": [
+      "291 Runas",
+      "Yelmo de Calabaza",
+      "Piedra del Santuario"
+    ]
+  },
+  {
+    "id": "17f69cfaee3l0i1uzongoyxg1dptid",
+    "name": "Espíritu de Árbol Putrefacto",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cfaee3l0i1uzongoyxg1dptid.png",
+    "region": "Caelid",
+    "description": "Un árbol podrido de sangre que ha encontrado vida a pesar de la muerte que lo consume.",
+    "location": "Catacumbas de los Muertos en la Guerra",
+    "drops": [
+      "67,200 Runas ",
+      "Cenizas de Caballero de la Melena Roja Ogha",
+      "Semilla Dorada"
+    ],
+    "healthPoints": "≈18091"
+  },
+  {
+    "id": "17f69bc8bd6l0i1v03619u4s9j9ql",
+    "name": "Radagon de la Orden Dorada",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69bc8bd6l0i1v03619u4s9j9ql.png",
+    "region": "Meseta de Altus",
+    "description": "El Señor Radagon era un gran campeón, poseedor de mechones rojos y fluidos. Llegó a estas tierras al frente de una gran hueste dorada, cuando se encontró con la Dama Rennala en la batalla. Sin embargo, pronto se arrepintió de sus transgresiones territoriales y se convirtió en el esposo de la Reina Cariana. Sin embargo, cuando Godfrey, primer Señor de Elden, fue expulsado de las Tierras Intermedias, Radagon dejó a Rennala para regresar a la Capital del Árbol Áureo, convirtiéndose en el segundo esposo de la Reina Márika y Rey Consorte. Tomando el título... de segundo Señor de Elden.",
+    "location": "Trono de Elden",
+    "drops": [
+      "N/A"
+    ],
+    "healthPoints": "≈13339"
+  },
+  {
+    "id": "17f6992c3e3l0i1v0af3d14p4dcgzx",
+    "name": "Lobo Rojo de Radagon",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6992c3e3l0i1v0af3d14p4dcgzx.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Feroz guardián y protector de su amo, incluso cuando este hace mucho que se fue.",
+    "location": "Academia de Raya Lucaria, Liurnia de los Lagos",
+    "drops": [
+      "14000 Runas",
+      "Piedra de la Memoria"
+    ],
+    "healthPoints": "≈2204"
+  },
+  {
+    "id": "17f69cf967fl0i1v0cmt73nix34p0c",
+    "name": "Lobo Rojo del Campeón",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69cf967fl0i1v0cmt73nix34p0c.png",
+    "region": "Monte Gelmir",
+    "description": "Un feroz lobo rojo con grandes colmillos y una velocidad vertiginosa.",
+    "location": "Tumba del Héroe de Gelmir",
+    "drops": [
+      "21000 Runas",
+      "Caballero Sabueso Floh"
+    ],
+    "healthPoints": "≈3238"
+  },
+  {
+    "id": "17f69ae5092l0i1v0k714w3s2jz8tj",
+    "name": "Espíritu del Ancestro Real",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ae5092l0i1v0k714w3s2jz8tj.png",
+    "region": "Limgrave",
+    "description": "Un espíritu que brilla con una pálida luz azul, suspendido en el aire y con la forma de un enorme ciervo.",
+    "location": "Nokron, Ciudad Eterna",
+    "drops": [
+      "24000 Runas",
+      "Recuerdo del Ancestro Real"
+    ],
+    "healthPoints": "≈6301"
+  },
+  {
+    "id": "17f69b19e80l0i1v0x2eima4yhdbd",
+    "name": "Caballera Real Loretta",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69b19e80l0i1v0x2eima4yhdbd.png",
+    "region": "Liurnia de los Lagos",
+    "description": "La eterna guardiana de la Mansión de Caria defiende fervientemente su dominio sobre los Terrenos Reales de Observación Lunar. Loretta usa su gran arco para hacer llover destrucción sobre todos los que se atrevan a acercarse a los terrenos de la finca.",
+    "location": "Mansión de Caria",
+    "drops": [
+      "10,000 Runas",
+      "Gran Arco de Loretta",
+      "Ceniza de Guerra: Cuchillada de Loretta"
+    ],
+    "healthPoints": "≈4214"
+  },
+  {
+    "id": "17f69de0562l0i1v105zzs817wea9m",
+    "name": "Revenido Real",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69de0562l0i1v105zzs817wea9m.png",
+    "region": "Liurnia de los Lagos",
+    "description": "Una abominación obscena y perturbadora, mezcla de una criatura parecida a una araña y miembros humanos que resulta en un luchador bastante ingenioso a corta distancia.",
+    "location": "Ruinas del Reino de los Reyes, Liurnia de los Lagos",
+    "drops": [
+      "3,100 Runas"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f699179aal0i1v13n497m1yhps2s",
+    "name": "Oso Rúnico",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f699179aal0i1v13n497m1yhps2s.png",
+    "region": "Península del Llanto",
+    "description": "Criatura feroz y robusta, de enorme tamaño y notablemente agresiva.",
+    "location": "Cueva Terrenal, Península del Llanto",
+    "drops": [
+      "2600 Runas",
+      "Talismán de Dragón Mágico"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f696d979al0i1v1775oof02bi8oh",
+    "name": "Rykard, Señor de la Blasfemia",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f696d979al0i1v1775oof02bi8oh.png",
+    "region": "Monte Gelmir",
+    "description": "Únete al Rey Serpiente, como familia... Juntos, devoraremos a los mismos dioses!",
+    "location": "Monte Gelmir",
+    "drops": [
+      "130,000 Runas",
+      "Gran Runa de Rykard",
+      "Recuerdo del Blasfemo"
+    ],
+    "healthPoints": "1000000"
+  },
+  {
+    "id": "17f698d3cc6l0i1v18wptud2du5ts",
+    "name": "Malnacido Escamoso",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f698d3cc6l0i1v18wptud2du5ts.png",
+    "region": "Península del Llanto",
+    "description": "Un carroñero con aspecto de trol con un insaciable gusto por la sangre.",
+    "location": "Túnel de Morne",
+    "drops": [
+      "2000 Runas",
+      "Ancla Oxidada"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69ca8b2al0i1v1pg987jdl4cd68",
+    "name": "Sir Gideon Ofnir, el Omnisciente",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69ca8b2al0i1v1pg987jdl4cd68.png",
+    "region": "Meseta de Altus",
+    "description": "Sir Gideon Ofnir, ahora lejos de los libros e inmerso en la batalla.",
+    "location": "Leyndell, Capital de Ceniza",
+    "drops": [
+      "180,000 Runas",
+      "Yelmo de Omnisciente",
+      "Armadura de Omnisciente",
+      "Guanteletes de Omnisciente",
+      "Grebas de Omnisciente",
+      "Cetro del Omnisciente"
+    ],
+    "healthPoints": "≈6226"
+  },
+  {
+    "id": "17f6982dbf7l0i1v1r3i4p5cy7kvcs",
+    "name": "Soldado de Godrick",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6982dbf7l0i1v1r3i4p5cy7kvcs.png",
+    "region": "Limgrave",
+    "description": "Un estimado soldado de alto rango, que empuña una espada masiva y viste su armadura con orgullo.",
+    "location": "Cementerio Abandonado",
+    "drops": [
+      "400 Runas",
+      "2000 Runas (NG+1)"
+    ],
+    "healthPoints": "≈10,464"
+  },
+  {
+    "id": "17f6987c932l0i1v1t55h6j6fm1l83",
+    "name": "Caracol Invocador de Espíritus",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6987c932l0i1v1t55h6j6fm1l83.png",
+    "region": "Liurnia de los Lagos",
+    "description": "El Invocador de Espíritus definitivo.",
+    "location": "Catacumbas del Fin del Camino, Cueva del Invocador de Espíritus",
+    "drops": [
+      "3000 Runas",
+      "Cenizas de Hechicero de Piedra Refulgente",
+      "170000 Runas",
+      "Esfera de Minero de Piedra de Herrería [4]",
+      "Ceniza de Guerra: Tornado de Llama Negra"
+    ],
+    "healthPoints": "≈2200"
+  },
+  {
+    "id": "17f69dc74fdl0i1v1wz3qrzn19aps8",
+    "name": "Azote de las Estrellas Radahn",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69dc74fdl0i1v1wz3qrzn19aps8.png",
+    "region": "Caelid",
+    "description": "El General Radahn está maldito a vagar para siempre. Comido por dentro, por la podredumbre escarlata de Malenia, su ingenio se ha ido hace mucho. Ahora reúne los cadáveres de antiguos amigos y enemigos por igual, atiborrándose de ellos, como un perro.",
+    "location": "Caelid",
+    "drops": [
+      "70,000 Runas",
+      "Recuerdo del Azote de las Estrellas, Gran Runa de Radahn"
+    ],
+    "healthPoints": "≈25,856"
+  },
+  {
+    "id": "17f6968dcfal0i1v1y8dnaop27j5qg",
+    "name": "Barquero Tibial",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6968dcfal0i1v1y8dnaop27j5qg.png",
+    "region": "Liurnia de los Lagos",
+    "description": "El Barquero Tibial es un marinero espectral capaz de invocar la ayuda de criaturas esqueléticas no muertas y se encuentra principalmente en el noreste de la Aldea de Aguainvocante en Limgrave, cerca de los límites con Caelid. Este es un jefe opcional ya que los jugadores no deben derrotarlo para avanzar a la Mazmorra de Legado.",
+    "location": "Aldea de Aguainvocante, Liurnia de los Lagos, Ruinas de Wyndham",
+    "drops": [
+      "2400 Runas",
+      "Raíz Mortuoria",
+      "Cenizas de Miliciano Esquelético",
+      "4700 Runas",
+      "Raíz Mortuoria",
+      "Cenizas de Bandido Esquelético",
+      "Raíz Mortuoria",
+      "Invocaciones de Tibia"
+    ],
+    "healthPoints": "≈2750"
+  },
+  {
+    "id": "17f69621aadl0i1v2f5fkvee5z6719",
+    "name": "Espíritu de Árbol Ulcerado",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f69621aadl0i1v2f5fkvee5z6719.png",
+    "region": "Monte Gelmir",
+    "description": "Un árbol corrupto y deforme que acecha en el Monte Gelmir.",
+    "location": "Monte Gelmir",
+    "drops": [
+      "18,000 Runas",
+      "Lágrima de Plomo Endurecida",
+      "Lágrima de Cristal Cerúlea Oculta"
+    ],
+    "healthPoints": "≈17,428"
+  },
+  {
+    "id": "17f697500cal0i1v2hh14qewvbrwrn",
+    "name": "Gárgola Valiente",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697500cal0i1v2hh14qewvbrwrn.png",
+    "region": "Limgrave",
+    "description": "Al igual que el portador, las partes faltantes han sido reparadas con cera de cadáver; un mosaico de campeones.",
+    "location": "Acueducto de Siofra",
+    "drops": [
+      "30000 Runas",
+      "32000 Runas",
+      "Espadón de Gárgola",
+      "Espada Gemela de Gárgola"
+    ],
+    "healthPoints": "≈9,120"
+  },
+  {
+    "id": "17f696a35c3l0i1v2k2s30hlu2y50j",
+    "name": "Cara de Gusano",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f697500cal0i1v2hh14qewvbrwrn.png",
+    "region": "Meseta de Altus",
+    "description": "Un espantoso árbol podrido de sangre con la cara de cien gusanos.",
+    "location": "Árbol Áureo Menor (Meseta de Altus)",
+    "drops": [
+      "10000 Runas",
+      "Lágrima de Cristal de Derrame Carmesí",
+      "Lágrima Endurecida Moteada"
+    ],
+    "healthPoints": "???"
+  },
+  {
+    "id": "17f6992d42bl0i1v2mmti9t0qkl5yj",
+    "name": "Centinela del Árbol",
+    "image": "https://eldenring.fanapis.com/images/bosses/17f6992d42bl0i1v2mmti9t0qkl5yj.png",
+    "region": "Limgrave",
+    "description": "El centinela fuertemente acorazado y altamente condecorado protege el árbol. ¿Quién se atrevería a oponerse a él?",
+    "location": "Camino de Limgrave",
+    "drops": [
+      "3200 Runas",
+      "16000 Runas (NG+1)",
+      "Alabarda Dorada",
+      "Gran Escudo del Árbol Áureo",
+      "Runa de Héroe [1]"
+    ],
+    "healthPoints": "≈1954"
+  }
+]

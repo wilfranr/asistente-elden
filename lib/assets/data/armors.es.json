@@ -1,0 +1,2003 @@
+[
+    {
+        "id": "17f696e0685l0i0nblzy58h0qvewk",
+        "name": "Grebas de Omnisciente",
+        "image": "https://eldenring.fanapis.com/images/armors/17f696e0685l0i0nblzy58h0qvewk.png",
+        "description": "Grebas con innumerables ojos y oídos. Usadas por Gideon Ofnir, el Omnisciente. El conocimiento comienza con el reconocimiento de la propia ignorancia. La comprensión de que la búsqueda del conocimiento es interminable. Pero cuando Gideon vislumbró la voluntad de la Reina Márika, se estremeció de miedo. Ante el final que no debería ser.",
+        "category": "Leg Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 7
+            },
+            {
+                "name": "Strike",
+                "amount": 6
+            },
+            {
+                "name": "Slash",
+                "amount": 7
+            },
+            {
+                "name": "Pierce",
+                "amount": 6
+            },
+            {
+                "name": "Magic",
+                "amount": 7
+            },
+            {
+                "name": "Fire",
+                "amount": 5
+            },
+            {
+                "name": "Ligt",
+                "amount": 5
+            },
+            {
+                "name": "Holy",
+                "amount": 5
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 17
+            },
+            {
+                "name": "Robustness",
+                "amount": 29
+            },
+            {
+                "name": "Focus",
+                "amount": 13
+            },
+            {
+                "name": "Vitality",
+                "amount": 13
+            },
+            {
+                "name": "Poise",
+                "amount": 10
+            }
+        ],
+        "weight": 6.6
+    },
+    {
+        "id": "17f69515b49l0i0nbno079cqzlskebf",
+        "name": "Armadura de Omnisciente",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69515b49l0i0nbno079cqzlskebf.png",
+        "description": "Conjunto de armadura con innumerables ojos y oídos. Usado por Gideon Ofnir, el Omnisciente. El conocimiento comienza con el reconocimiento de la propia ignorancia. La comprensión de que la búsqueda del conocimiento es interminable. Pero cuando Gideon vislumbró la voluntad de la Reina Márika, se estremeció de miedo. Ante el final que no debería ser.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 11
+            },
+            {
+                "name": "Slash",
+                "amount": 13
+            },
+            {
+                "name": "Pierce",
+                "amount": 11
+            },
+            {
+                "name": "Magic",
+                "amount": 12
+            },
+            {
+                "name": "Fire",
+                "amount": 9
+            },
+            {
+                "name": "Ligt",
+                "amount": 10
+            },
+            {
+                "name": "Holy",
+                "amount": 8
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 28
+            },
+            {
+                "name": "Robustness",
+                "amount": 46
+            },
+            {
+                "name": "Focus",
+                "amount": 21
+            },
+            {
+                "name": "Vitality",
+                "amount": 21
+            },
+            {
+                "name": "Poise",
+                "amount": 16
+            }
+        ],
+        "weight": 10.6
+    },
+    {
+        "id": "17f69751613l0i0nbp9nsdqjza4rxf",
+        "name": "Yelmo de Omnisciente",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69751613l0i0nbp9nsdqjza4rxf.png",
+        "description": "Yelmo con innumerables ojos y oídos. Usado por Gideon Ofnir, el Omnisciente. El conocimiento comienza con el reconocimiento de la propia ignorancia. La comprensión de que la búsqueda del conocimiento es interminable. Pero cuando Gideon vislumbró la voluntad de la Reina Márika, se estremeció de miedo. Ante el final que no debería ser.",
+        "category": "Helm",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 4
+            },
+            {
+                "name": "Strike",
+                "amount": 4
+            },
+            {
+                "name": "Slash",
+                "amount": 4
+            },
+            {
+                "name": "Pierce",
+                "amount": 4
+            },
+            {
+                "name": "Magic",
+                "amount": 4
+            },
+            {
+                "name": "Fire",
+                "amount": 3
+            },
+            {
+                "name": "Ligt",
+                "amount": 3
+            },
+            {
+                "name": "Holy",
+                "amount": 3
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 12
+            },
+            {
+                "name": "Robustness",
+                "amount": 20
+            },
+            {
+                "name": "Focus",
+                "amount": 9
+            },
+            {
+                "name": "Vitality",
+                "amount": 9
+            },
+            {
+                "name": "Poise",
+                "amount": 5
+            }
+        ],
+        "weight": 4.6
+    },
+    {
+        "id": "17f696221c3l0i0nbrxr4gcdi7uag",
+        "name": "Túnica de Alberich (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f696221c3l0i0nbrxr4gcdi7uag.png",
+        "description": "Versión más ligera de la túnica de Alberich, el Lengua Demente.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 4
+            },
+            {
+                "name": "Strike",
+                "amount": 2
+            },
+            {
+                "name": "Slash",
+                "amount": 4
+            },
+            {
+                "name": "Pierce",
+                "amount": 4
+            },
+            {
+                "name": "Magic",
+                "amount": 12
+            },
+            {
+                "name": "Fire",
+                "amount": 11
+            },
+            {
+                "name": "Ligt",
+                "amount": 11
+            },
+            {
+                "name": "Holy",
+                "amount": 12
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 32
+            },
+            {
+                "name": "Robustness",
+                "amount": 19
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 61
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 3.2
+    },
+    {
+        "id": "17f69b8efedl0i0nbtfdfkxtl7iqc",
+        "name": "Armadura de Omnisciente (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69b8efedl0i0nbtfdfkxtl7iqc.png",
+        "description": "Versión más ligera de la Armadura de Omnisciente.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 10
+            },
+            {
+                "name": "Slash",
+                "amount": 12
+            },
+            {
+                "name": "Pierce",
+                "amount": 11
+            },
+            {
+                "name": "Magic",
+                "amount": 11
+            },
+            {
+                "name": "Fire",
+                "amount": 8
+            },
+            {
+                "name": "Ligt",
+                "amount": 9
+            },
+            {
+                "name": "Holy",
+                "amount": 8
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 22
+            },
+            {
+                "name": "Robustness",
+                "amount": 38
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 16
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 9.3
+    },
+    {
+        "id": "17f69623cf1l0i0nbutr05ucarsvt",
+        "name": "Abrigo de Aristócrata",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69623cf1l0i0nbutr05ucarsvt.png",
+        "description": "Abrigo de cuero curtido adornado con finos bordados de oro. Atuendo de viaje usado por los nobles en la capital, y la pertenencia de una familia que reclama a un caballero como antepasado. Abandonando su lugar de nacimiento después de la Devastación, estos vagabundos no muertos son el producto lamentable de una vida sin fin.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 8
+            },
+            {
+                "name": "Strike",
+                "amount": 8
+            },
+            {
+                "name": "Slash",
+                "amount": 8
+            },
+            {
+                "name": "Pierce",
+                "amount": 8
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 11
+            },
+            {
+                "name": "Ligt",
+                "amount": 10
+            },
+            {
+                "name": "Holy",
+                "amount": 8
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 50
+            },
+            {
+                "name": "Robustness",
+                "amount": 32
+            },
+            {
+                "name": "Focus",
+                "amount": 42
+            },
+            {
+                "name": "Vitality",
+                "amount": 46
+            },
+            {
+                "name": "Poise",
+                "amount": 3
+            }
+        ],
+        "weight": 7.1
+    },
+    {
+        "id": "17f692d6b5al0i0nbvb3a2bhklmel9",
+        "name": "Atuendo de Aristócrata",
+        "image": "https://eldenring.fanapis.com/images/armors/17f692d6b5al0i0nbvb3a2bhklmel9.png",
+        "description": "Atuendo de alta calidad adornado con finos bordados de oro. Atuendo de viaje usado por los nobles en la capital. Terriblemente desvaído y andrajoso. Abandonando su lugar de nacimiento después de la Devastación, estos vagabundos no muertos son el producto lamentable de una vida sin fin.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 7
+            },
+            {
+                "name": "Strike",
+                "amount": 8
+            },
+            {
+                "name": "Slash",
+                "amount": 7
+            },
+            {
+                "name": "Pierce",
+                "amount": 7
+            },
+            {
+                "name": "Magic",
+                "amount": 6
+            },
+            {
+                "name": "Fire",
+                "amount": 6
+            },
+            {
+                "name": "Ligt",
+                "amount": 7
+            },
+            {
+                "name": "Holy",
+                "amount": 6
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 47
+            },
+            {
+                "name": "Robustness",
+                "amount": 33
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 30
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 4.9
+    },
+    {
+        "id": "17f697ac6cal0i0nbwibax7uqbwu4d",
+        "name": "Atuendo de Aristócrata (Alterado)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f697ac6cal0i0nbwibax7uqbwu4d.png",
+        "description": "Versión más ligera del Atuendo de Aristócrata.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 7
+            },
+            {
+                "name": "Strike",
+                "amount": 8
+            },
+            {
+                "name": "Slash",
+                "amount": 7
+            },
+            {
+                "name": "Pierce",
+                "amount": 7
+            },
+            {
+                "name": "Magic",
+                "amount": 6
+            },
+            {
+                "name": "Fire",
+                "amount": 6
+            },
+            {
+                "name": "Ligt",
+                "amount": 7
+            },
+            {
+                "name": "Holy",
+                "amount": 6
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 42
+            },
+            {
+                "name": "Robustness",
+                "amount": 29
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 25
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 4.1
+    },
+    {
+        "id": "17f6984f152l0i0nc38cztqhxqc6rw",
+        "name": "Guanteletes de Omnisciente",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6984f152l0i0nc38cztqhxqc6rw.png",
+        "description": "Guanteletes con innumerables ojos y oídos. Usados por Gideon Ofnir, el Omnisciente. El conocimiento comienza con el reconocimiento de la propia ignorancia. La comprensión de que la búsqueda del conocimiento es interminable. Pero cuando Gideon vislumbró la voluntad de la Reina Márika, se estremeció de miedo. Ante el final que no debería ser.",
+        "category": "Gauntlets",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 3
+            },
+            {
+                "name": "Strike",
+                "amount": 2
+            },
+            {
+                "name": "Slash",
+                "amount": 3
+            },
+            {
+                "name": "Pierce",
+                "amount": 2
+            },
+            {
+                "name": "Magic",
+                "amount": 3
+            },
+            {
+                "name": "Fire",
+                "amount": 2
+            },
+            {
+                "name": "Ligt",
+                "amount": 2
+            },
+            {
+                "name": "Holy",
+                "amount": 2
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 9
+            },
+            {
+                "name": "Robustness",
+                "amount": 15
+            },
+            {
+                "name": "Focus",
+                "amount": 7
+            },
+            {
+                "name": "Vitality",
+                "amount": 7
+            },
+            {
+                "name": "Poise",
+                "amount": 4
+            }
+        ],
+        "weight": 3.5
+    },
+    {
+        "id": "17f6995f6eal0i0nc3hn7d7pl7mx",
+        "name": "Túnica de Alberich",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6995f6eal0i0nc3hn7d7pl7mx.png",
+        "description": "Túnica de Alberich, el Lengua Demente.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 5
+            },
+            {
+                "name": "Strike",
+                "amount": 4
+            },
+            {
+                "name": "Slash",
+                "amount": 5
+            },
+            {
+                "name": "Pierce",
+                "amount": 5
+            },
+            {
+                "name": "Magic",
+                "amount": 12
+            },
+            {
+                "name": "Fire",
+                "amount": 11
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 12
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 38
+            },
+            {
+                "name": "Robustness",
+                "amount": 23
+            },
+            {
+                "name": "Focus",
+                "amount": 67
+            },
+            {
+                "name": "Vitality",
+                "amount": 71
+            },
+            {
+                "name": "Poise",
+                "amount": 1
+            }
+        ],
+        "weight": 4.1
+    },
+    {
+        "id": "17f694ffd2el0i0ndf0zrwzni9hv1",
+        "name": "Túnica de Piedra Refulgente de Azur",
+        "image": "https://eldenring.fanapis.com/images/armors/17f694ffd2el0i0ndf0zrwzni9hv1.png",
+        "description": "Una túnica reservada para los grandes maestros de la Academia de Raya Lucaria. Corroída por piedras refulgentes de color azul verdoso.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 7
+            },
+            {
+                "name": "Strike",
+                "amount": 6
+            },
+            {
+                "name": "Slash",
+                "amount": 6
+            },
+            {
+                "name": "Pierce",
+                "amount": 6
+            },
+            {
+                "name": "Magic",
+                "amount": 15
+            },
+            {
+                "name": "Fire",
+                "amount": 12
+            },
+            {
+                "name": "Light",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 50
+            },
+            {
+                "name": "Robustness",
+                "amount": 28
+            },
+            {
+                "name": "Focus",
+                "amount": 99
+            },
+            {
+                "name": "Vitality",
+                "amount": 83
+            },
+            {
+                "name": "Poise",
+                "amount": 3
+            }
+        ],
+        "weight": 7.1
+    },
+    {
+        "id": "17f69965516l0i0ndhqx8pi2kbhe8d",
+        "name": "Túnica de Mago de Batalla",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69965516l0i0ndhqx8pi2kbhe8d.png",
+        "description": "Túnica usada por los eruditos de la Academia de Raya Lucaria, hecha jirones por haber sido usada en el campo de batalla.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 5
+            },
+            {
+                "name": "Strike",
+                "amount": 6
+            },
+            {
+                "name": "Slash",
+                "amount": 4
+            },
+            {
+                "name": "Pierce",
+                "amount": 5
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 11
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 12
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 42
+            },
+            {
+                "name": "Robustness",
+                "amount": 23
+            },
+            {
+                "name": "Focus",
+                "amount": 63
+            },
+            {
+                "name": "Vitality",
+                "amount": 71
+            },
+            {
+                "name": "Poise",
+                "amount": 2
+            }
+        ],
+        "weight": 4.1
+    },
+    {
+        "id": "17f69ba0a8al0i0ndi7y4hl33hny4",
+        "name": "Armadura de Caballero Desterrado (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69ba0a8al0i0ndi7y4hl33hny4.png",
+        "description": "Versión más ligera de la Armadura de Caballero Desterrado.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 18
+            },
+            {
+                "name": "Strike",
+                "amount": 14
+            },
+            {
+                "name": "Slash",
+                "amount": 18
+            },
+            {
+                "name": "Pierce",
+                "amount": 17
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 52
+            },
+            {
+                "name": "Robustness",
+                "amount": 69
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 34
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 16.5
+    },
+    {
+        "id": "17f696dc24el0i0ndj4er6v25jkwqd",
+        "name": "Túnica de Astrólogo",
+        "image": "https://eldenring.fanapis.com/images/armors/17f696dc24el0i0ndj4er6v25jkwqd.png",
+        "description": "Túnica confeccionada con tela flexible. Usada por aquellos que miran al cosmos. Leen el destino en las estrellas y se dice que son herederos de los hechiceros de piedra refulgente. Pero, ay, el cielo nocturno ya no acuna el destino.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 6
+            },
+            {
+                "name": "Strike",
+                "amount": 6
+            },
+            {
+                "name": "Slash",
+                "amount": 6
+            },
+            {
+                "name": "Pierce",
+                "amount": 6
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 50
+            },
+            {
+                "name": "Robustness",
+                "amount": 24
+            },
+            {
+                "name": "Focus",
+                "amount": 90
+            },
+            {
+                "name": "Vitality",
+                "amount": 76
+            },
+            {
+                "name": "Poise",
+                "amount": 5
+            }
+        ],
+        "weight": 6.3
+    },
+    {
+        "id": "17f69989b5bl0i0ndk23xuv2wasv77",
+        "name": "Atuendo de Bandido",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69989b5bl0i0ndk23xuv2wasv77.png",
+        "description": "Atuendo de cuero usado por los bandidos.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 8
+            },
+            {
+                "name": "Strike",
+                "amount": 8
+            },
+            {
+                "name": "Slash",
+                "amount": 9
+            },
+            {
+                "name": "Pierce",
+                "amount": 9
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 10
+            },
+            {
+                "name": "Ligt",
+                "amount": 10
+            },
+            {
+                "name": "Holy",
+                "amount": 9
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 57
+            },
+            {
+                "name": "Robustness",
+                "amount": 35
+            },
+            {
+                "name": "Focus",
+                "amount": 60
+            },
+            {
+                "name": "Vitality",
+                "amount": 60
+            },
+            {
+                "name": "Poise",
+                "amount": 5
+            }
+        ],
+        "weight": 7.7
+    },
+    {
+        "id": "17f694e487fl0i0ndlkf15nkhfpgah",
+        "name": "Túnica de Astrólogo (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f694e487fl0i0ndlkf15nkhfpgah.png",
+        "description": "Versión más ligera de la Túnica de Astrólogo",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 6
+            },
+            {
+                "name": "Strike",
+                "amount": 5
+            },
+            {
+                "name": "Slash",
+                "amount": 5
+            },
+            {
+                "name": "Pierce",
+                "amount": 5
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 12
+            },
+            {
+                "name": "Ligt",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 12
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 42
+            },
+            {
+                "name": "Robustness",
+                "amount": 21
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 64
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 5.3
+    },
+    {
+        "id": "17f694178c9l0i0ndn4e10pcg63tee",
+        "name": "Armadura de Campeón Bestial",
+        "image": "https://eldenring.fanapis.com/images/armors/17f694178c9l0i0ndn4e10pcg63tee.png",
+        "description": "Armadura de plata grabada con pequeñas bestias. Usada por Bernahl el Recusante. Las bestias se sienten atraídas por los campeones y los señores. Y esta armadura es digna de un campeón digno de convertirse en señor. Y eso es lo que era Bernahl. Hasta que su doncella se arrojó al fuego.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 16
+            },
+            {
+                "name": "Strike",
+                "amount": 15
+            },
+            {
+                "name": "Slash",
+                "amount": 18
+            },
+            {
+                "name": "Pierce",
+                "amount": 18
+            },
+            {
+                "name": "Magic",
+                "amount": 12
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 55
+            },
+            {
+                "name": "Robustness",
+                "amount": 83
+            },
+            {
+                "name": "Focus",
+                "amount": 38
+            },
+            {
+                "name": "Vitality",
+                "amount": 35
+            },
+            {
+                "name": "Poise",
+                "amount": 28
+            }
+        ],
+        "weight": 16
+    },
+    {
+        "id": "17f696d739fl0i0ndpwqkk3g89lpk",
+        "name": "Armadura de Cuchillo Negro",
+        "image": "https://eldenring.fanapis.com/images/armors/17f696d739fl0i0ndpwqkk3g89lpk.png",
+        "description": "Armadura de escamas utilizada por los Asesinos del Cuchillo Negro, forjada para no hacer ruido. Aún quedan rastros de poder en su velo oculto, que amortigua el sonido de los pasos. Las asesinas que llevaron a cabo los actos de la Noche de los Cuchillos Negros eran todas mujeres, y se rumorea que eran Numen que tenían estrechos lazos con la propia Márika.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 11
+            },
+            {
+                "name": "Strike",
+                "amount": 10
+            },
+            {
+                "name": "Slash",
+                "amount": 12
+            },
+            {
+                "name": "Pierce",
+                "amount": 12
+            },
+            {
+                "name": "Magic",
+                "amount": 8
+            },
+            {
+                "name": "Fire",
+                "amount": 9
+            },
+            {
+                "name": "Ligt",
+                "amount": 6
+            },
+            {
+                "name": "Holy",
+                "amount": 11
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 28
+            },
+            {
+                "name": "Robustness",
+                "amount": 46
+            },
+            {
+                "name": "Focus",
+                "amount": 23
+            },
+            {
+                "name": "Vitality",
+                "amount": 23
+            },
+            {
+                "name": "Poise",
+                "amount": 14
+            }
+        ],
+        "weight": 9.2
+    },
+    {
+        "id": "17f69391b3bl0i0ndt4c0it6kwlyag",
+        "name": "Armadura de Campeón Bestial (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69391b3bl0i0ndt4c0it6kwlyag.png",
+        "description": "Versión más ligera de la Armadura de Campeón Bestial",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 17
+            },
+            {
+                "name": "Strike",
+                "amount": 16
+            },
+            {
+                "name": "Slash",
+                "amount": 18
+            },
+            {
+                "name": "Pierce",
+                "amount": 18
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 50
+            },
+            {
+                "name": "Robustness",
+                "amount": 75
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 32
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 16.4
+    },
+    {
+        "id": "17f6935585fl0i0ne8s2gcl84asvoi",
+        "name": "Armadura de Caballero Desterrado",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6935585fl0i0ne8s2gcl84asvoi.png",
+        "description": "Conjunto de armadura gruesa y completa que cubre todo el cuerpo. Esta armadura fue usada por caballeros que, ya sea por desgracia o por fechoría, se vieron obligados a abandonar sus hogares. Estos feroces guerreros eran todos y cada uno consumados. Quizás por eso, a pesar de sus pérdidas territoriales, todavía se les llamaba caballeros.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 17
+            },
+            {
+                "name": "Strike",
+                "amount": 16
+            },
+            {
+                "name": "Slash",
+                "amount": 18
+            },
+            {
+                "name": "Pierce",
+                "amount": 18
+            },
+            {
+                "name": "Magic",
+                "amount": 13
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 63
+            },
+            {
+                "name": "Robustness",
+                "amount": 90
+            },
+            {
+                "name": "Focus",
+                "amount": 42
+            },
+            {
+                "name": "Vitality",
+                "amount": 42
+            },
+            {
+                "name": "Poise",
+                "amount": 28
+            }
+        ],
+        "weight": 17.5
+    },
+    {
+        "id": "17f6937143al0i0neejcyw9x5dlcff",
+        "name": "Armadura de Cuchillo Negro (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6937143al0i0neejcyw9x5dlcff.png",
+        "description": "Versión más ligera de la Armadura de Cuchillo Negro",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 11
+            },
+            {
+                "name": "Strike",
+                "amount": 10
+            },
+            {
+                "name": "Slash",
+                "amount": 12
+            },
+            {
+                "name": "Pierce",
+                "amount": 12
+            },
+            {
+                "name": "Magic",
+                "amount": 8
+            },
+            {
+                "name": "Fire",
+                "amount": 9
+            },
+            {
+                "name": "Ligt",
+                "amount": 6
+            },
+            {
+                "name": "Holy",
+                "amount": 11
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 25
+            },
+            {
+                "name": "Robustness",
+                "amount": 42
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 21
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 9
+    },
+    {
+        "id": "17f694aa574l0i0nfrfjfovdfsmoob",
+        "name": "Tabardo Empapado de Sangre",
+        "image": "https://eldenring.fanapis.com/images/armors/17f694aa574l0i0nfrfjfovdfsmoob.png",
+        "description": "Armadura de tela acolchada con manchas de sangre indelebles alrededor del cuello. Usada por los soldados de a pie sin cabeza que custodian sin cesar el Mausoleo Errante.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 9
+            },
+            {
+                "name": "Strike",
+                "amount": 9
+            },
+            {
+                "name": "Slash",
+                "amount": 10
+            },
+            {
+                "name": "Pierce",
+                "amount": 9
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 10
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 11
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 63
+            },
+            {
+                "name": "Robustness",
+                "amount": 38
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 50
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 8.3
+    },
+    {
+        "id": "17f6930b5f4l0i0nfs4e48erx5y37e",
+        "name": "Armadura de Caballero Sabueso (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6930b5f4l0i0nfs4e48erx5y37e.png",
+        "description": "Versión más ligera de la Armadura de Caballero Sabueso",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 11
+            },
+            {
+                "name": "Slash",
+                "amount": 13
+            },
+            {
+                "name": "Pierce",
+                "amount": 13
+            },
+            {
+                "name": "Magic",
+                "amount": 9
+            },
+            {
+                "name": "Fire",
+                "amount": 9
+            },
+            {
+                "name": "Ligt",
+                "amount": 6
+            },
+            {
+                "name": "Holy",
+                "amount": 9
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 29
+            },
+            {
+                "name": "Robustness",
+                "amount": 45
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 21
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 9.6
+    },
+    {
+        "id": "17f695d4d39l0i0nfv30z1i34pnvzqf",
+        "name": "Armadura de Blaidd (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f695d4d39l0i0nfv30z1i34pnvzqf.png",
+        "description": "Versión más ligera de la Armadura de Blaidd",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 14
+            },
+            {
+                "name": "Strike",
+                "amount": 12
+            },
+            {
+                "name": "Slash",
+                "amount": 14
+            },
+            {
+                "name": "Pierce",
+                "amount": 14
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 12
+            },
+            {
+                "name": "Ligt",
+                "amount": 9
+            },
+            {
+                "name": "Holy",
+                "amount": 11
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 32
+            },
+            {
+                "name": "Robustness",
+                "amount": 57
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 21
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 12.5
+    },
+    {
+        "id": "17f69756830l0i0nfv30b2rsq1b3p5",
+        "name": "Armadura de Caballero Sabueso",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69756830l0i0nfv30b2rsq1b3p5.png",
+        "description": "Armadura de metal con un peto que sobresale. Usada por los Caballeros Sabueso.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 11
+            },
+            {
+                "name": "Slash",
+                "amount": 14
+            },
+            {
+                "name": "Pierce",
+                "amount": 13
+            },
+            {
+                "name": "Magic",
+                "amount": 9
+            },
+            {
+                "name": "Fire",
+                "amount": 10
+            },
+            {
+                "name": "Ligt",
+                "amount": 7
+            },
+            {
+                "name": "Holy",
+                "amount": 10
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 32
+            },
+            {
+                "name": "Robustness",
+                "amount": 50
+            },
+            {
+                "name": "Focus",
+                "amount": 23
+            },
+            {
+                "name": "Vitality",
+                "amount": 23
+            },
+            {
+                "name": "Poise",
+                "amount": 14
+            }
+        ],
+        "weight": 10.6
+    },
+    {
+        "id": "17f6978a0d3l0i0nfv5cv59797t18",
+        "name": "Armadura de Monje de la Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6978a0d3l0i0nfv5cv59797t18.png",
+        "description": "Armadura de hierro negro adornada con tela cenicienta.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 13
+            },
+            {
+                "name": "Strike",
+                "amount": 11
+            },
+            {
+                "name": "Slash",
+                "amount": 14
+            },
+            {
+                "name": "Pierce",
+                "amount": 12
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 13
+            },
+            {
+                "name": "Ligt",
+                "amount": 8
+            },
+            {
+                "name": "Holy",
+                "amount": 10
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 32
+            },
+            {
+                "name": "Robustness",
+                "amount": 55
+            },
+            {
+                "name": "Focus",
+                "amount": 21
+            },
+            {
+                "name": "Vitality",
+                "amount": 32
+            },
+            {
+                "name": "Poise",
+                "amount": 19
+            }
+        ],
+        "weight": 11.8
+    },
+    {
+        "id": "17f6960eae6l0i0nfy8iinlzz27",
+        "name": "Armadura de Blaidd",
+        "image": "https://eldenring.fanapis.com/images/armors/17f6960eae6l0i0nfy8iinlzz27.png",
+        "description": "Armadura negra bien gastada del hombre-lobo Blaidd",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 14
+            },
+            {
+                "name": "Strike",
+                "amount": 12
+            },
+            {
+                "name": "Slash",
+                "amount": 14
+            },
+            {
+                "name": "Pierce",
+                "amount": 15
+            },
+            {
+                "name": "Magic",
+                "amount": 11
+            },
+            {
+                "name": "Fire",
+                "amount": 12
+            },
+            {
+                "name": "Ligt",
+                "amount": 10
+            },
+            {
+                "name": "Holy",
+                "amount": 11
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 38
+            },
+            {
+                "name": "Robustness",
+                "amount": 76
+            },
+            {
+                "name": "Focus",
+                "amount": 25
+            },
+            {
+                "name": "Vitality",
+                "amount": 25
+            },
+            {
+                "name": "Poise",
+                "amount": 24
+            }
+        ],
+        "weight": 13.7
+    },
+    {
+        "id": "17f69b8ac34l0i0ng1cl9m395exm9",
+        "name": "Armadura de Malla de Plata Azul (Alterada)",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69b8ac34l0i0ng1cl9m395exm9.png",
+        "description": "Versión más ligera de la Armadura de Malla de Plata Azul",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 9
+            },
+            {
+                "name": "Slash",
+                "amount": 12
+            },
+            {
+                "name": "Pierce",
+                "amount": 11
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 9
+            },
+            {
+                "name": "Ligt",
+                "amount": 7
+            },
+            {
+                "name": "Holy",
+                "amount": 7
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 21
+            },
+            {
+                "name": "Robustness",
+                "amount": 52
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 10
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 8.5
+    },
+    {
+        "id": "17f697cd43al0i0ng1v05yt93pykiy",
+        "name": "Atuendo Festivo Azul",
+        "image": "https://eldenring.fanapis.com/images/armors/17f697cd43al0i0ng1v05yt93pykiy.png",
+        "description": "Atuendo ceremonial usado por las bailarinas en las festividades de Dominula, el pueblo de los molinos de viento. El uso de este atuendo, teñido de un impresionante azul, solo está permitido para las jóvenes doncellas que desempeñan el papel central en el festival.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 4
+            },
+            {
+                "name": "Strike",
+                "amount": 4
+            },
+            {
+                "name": "Slash",
+                "amount": 6
+            },
+            {
+                "name": "Pierce",
+                "amount": 5
+            },
+            {
+                "name": "Magic",
+                "amount": 12
+            },
+            {
+                "name": "Fire",
+                "amount": 11
+            },
+            {
+                "name": "Ligt",
+                "amount": 12
+            },
+            {
+                "name": "Holy",
+                "amount": 13
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 46
+            },
+            {
+                "name": "Robustness",
+                "amount": 21
+            },
+            {
+                "name": "Focus",
+                "amount": 0
+            },
+            {
+                "name": "Vitality",
+                "amount": 63
+            },
+            {
+                "name": "Poise",
+                "amount": 0
+            }
+        ],
+        "weight": 4.1
+    },
+    {
+        "id": "17f692f8268l0i0ng2x7ww9rwst8uv",
+        "name": "Chaleco de Tela Azul",
+        "image": "https://eldenring.fanapis.com/images/armors/17f692f8268l0i0ng2x7ww9rwst8uv.png",
+        "description": "Chaleco de un guerrero nómada. El color azul de su tela simboliza las aguas vivas, tan fluidas y corrientes como la espada en la mano de su portador. Así como las aguas estancadas se corrompen, el estancamiento conduce a la decadencia. Los guerreros deben permanecer siempre a la deriva.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 9
+            },
+            {
+                "name": "Strike",
+                "amount": 9
+            },
+            {
+                "name": "Slash",
+                "amount": 8
+            },
+            {
+                "name": "Pierce",
+                "amount": 8
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 10
+            },
+            {
+                "name": "Ligt",
+                "amount": 11
+            },
+            {
+                "name": "Holy",
+                "amount": 9
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 63
+            },
+            {
+                "name": "Robustness",
+                "amount": 42
+            },
+            {
+                "name": "Focus",
+                "amount": 50
+            },
+            {
+                "name": "Vitality",
+                "amount": 50
+            },
+            {
+                "name": "Pose",
+                "amount": 6
+            }
+        ],
+        "weight": 7.7
+    },
+    {
+        "id": "17f69470de4l0i0ng3qcwe0r963svq",
+        "name": "Armadura de Malla de Plata Azul",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69470de4l0i0ng3qcwe0r963svq.png",
+        "description": "Armadura de cota de malla fabricada con plata azul. Usada por los arqueros Albinaúricos que montan lobos. La plata azul es un metal nacido de la misma madre que los propios arqueros, y proporciona protección contra la magia y la escarcha.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 12
+            },
+            {
+                "name": "Strike",
+                "amount": 9
+            },
+            {
+                "name": "Slash",
+                "amount": 12
+            },
+            {
+                "name": "Pierce",
+                "amount": 11
+            },
+            {
+                "name": "Magic",
+                "amount": 10
+            },
+            {
+                "name": "Fire",
+                "amount": 10
+            },
+            {
+                "name": "Ligt",
+                "amount": 8
+            },
+            {
+                "name": "Holy",
+                "amount": 8
+            }
+        ],
+        "resistance": [
+            {
+                "name": "Immunity",
+                "amount": 25
+            },
+            {
+                "name": "Robustness",
+                "amount": 60
+            },
+            {
+                "name": "Focus",
+                "amount": 18
+            },
+            {
+                "name": "Vitality",
+                "amount": 18
+            },
+            {
+                "name": "Poise",
+                "amount": 14
+            }
+        ],
+        "weight": 9.2
+    },
+    {
+        "id": "17f69afe5b2l0i0nhch0j37nxu532xb",
+        "name": "Atuendo de Batalla de Valiente",
+        "image": "https://eldenring.fanapis.com/images/armors/17f69afe5b2l0i0nhch0j37nxu532xb.png",
+        "description": "Atuendo de batalla confeccionado con armadura de cuero adornada con una gran tela. Atuendo usado por los guerreros de las tierras altas frígidas. La tela roja significa la participación en la Larga Marcha hace mucho, mucho tiempo, y este atuendo ceremonial implora el favor del Rey Guerrero que los guió.",
+        "category": "Chest Armor",
+        "dmgNegation": [
+            {
+                "name": "Phy",
+                "amount": 5
+            },
+            {
+                "name": "Strike",
+                "amount": 5
+            }
+        ]
+    }
+]

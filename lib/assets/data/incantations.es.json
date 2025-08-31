@@ -1,0 +1,2005 @@
+[
+    {
+        "id": "17f696c7ce7l0hynrwmh6d0r0rwk2",
+        "name": "Golpe de rayo de dragón antiguo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f696c7ce7l0hynrwmh6d0r0rwk2.png",
+        "description": "Un encantamiento secreto del antiguo culto al dragón de la capital.",
+        "type": "Encantamientos",
+        "cost": 27,
+        "slots": 1,
+        "effects": "Invoca un rayo rojo que se extiende desde el punto de impacto",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 26
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695ad891l0hynrxcposdnx7gy9h",
+        "name": "Aspectos del Crisol: Cuernos",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695ad891l0hynrxcposdnx7gy9h.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Crea un cuerno en el hombro para acornear a los enemigos desde una postura baja.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 27
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690dc5ael0hynrxf3lq1w3xcjpr",
+        "name": "Llama de Agheel",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f690dc5ael0hynrxf3lq1w3xcjpr.png",
+        "description": "Encantamiento superior de la Comunión del Dragón. Canaliza el poder del dragón volador Agheel.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Lanza el aliento de llamas de Agheel desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f693bd4f8l0hynrzaixs0xzre1q",
+        "name": "Aspectos del Crisol: Cola",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693bd4f8l0hynrzaixs0xzre1q.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Crea una cola flexible para barrer el área frente al lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 27
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698483c9l0hyns2v5nt60a29sd",
+        "name": "Barrera de oro",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f698483c9l0hyns2v5nt60a29sd.png",
+        "description": "Uno de los encantamientos de la Adoración del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta en gran medida la negación de daño mágico para uno mismo y los aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6911d8c2l0hyns4qd7p9pfucu26",
+        "name": "Lanza de rayo de dragón antiguo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6911d8c2l0hyns4qd7p9pfucu26.png",
+        "description": "Un encantamiento secreto del antiguo culto al dragón de la capital.",
+        "type": "Encantamientos",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Apuñala con una lanza de rayo rojo desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690418f4l0hyns68vsg9zhbc6w",
+        "name": "Garra de bestia",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f690418f4l0hyns68vsg9zhbc6w.png",
+        "description": "Encantamiento enseñado por Gurranq, el Clérigo Bestia.",
+        "type": "Encantamiento",
+        "cost": 10,
+        "slots": 1,
+        "effects": "Crea garras que desgarran la tierra.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 8
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693c22edl0hynsdj8fz0ddz4vni",
+        "name": "Aspecto del Crisol: Aliento",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693c22edl0hynsdj8fz0ddz4vni.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 28,
+        "slots": 1,
+        "effects": "Crea una bolsa en la garganta para escupir fuego mientras se camina",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 27
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69691e79l0hyntbidbq75lrrjb7",
+        "name": "Constitución bestial",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69691e79l0hyntbidbq75lrrjb7.png",
+        "description": "Encantamiento enseñado por Gurranq, el Clérigo Bestia.",
+        "type": "Encantamientos",
+        "cost": 10,
+        "slots": 1,
+        "effects": "Alivia la pérdida de sangre y la acumulación de congelación",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 9
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68f98778l0hynteevtb4hr6x90d",
+        "name": "Honda bestial",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68f98778l0hynteevtb4hr6x90d.png",
+        "description": "Encantamiento enseñado por Gurranq, el Clérigo Bestia. Lanza rápidamente una serie de afilados fragmentos de roca. Este encantamiento se puede lanzar sin demora después de realizar otra acción. Se dice que en la época anterior al Árbol Áureo, las piedras eran las primeras armas de las bestias que habían adquirido inteligencia.",
+        "type": "Encantamientos",
+        "cost": 7,
+        "slots": 1,
+        "effects": "Lanza rápidamente numerosos fragmentos de roca afilados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69160ac9l0hynthagycs7dr7gq7",
+        "name": "Hoja negra",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69160ac9l0hynthagycs7dr7gq7.png",
+        "description": "Poder obtenido del recuerdo de Maliketh.",
+        "type": "Encantamientos",
+        "cost": 26,
+        "slots": 2,
+        "effects": "Cuchillada giratoria de hoja negra que emite una onda de luz.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 46
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69860befl0hyntmsoo0kq76fsvd",
+        "name": "Ritual de la Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69860befl0hyntmsoo0kq76fsvd.png",
+        "description": "Encantamiento superior de llama negra de los Apóstoles de la Piel de Dios.",
+        "type": "Encantamientos",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Invoca un círculo de pilares de llama negra alrededor del lanzador.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 42
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6982c810l0hyntn0pvua05sv3w",
+        "name": "Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6982c810l0hyntn0pvua05sv3w.png",
+        "description": "Un encantamiento de llama negra de los Apóstoles de la Piel de Dios.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": "Lanza una bola de fuego negro embravecido",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 20
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692ee649l0hyntu1vu7cu8wxah",
+        "name": "Hoja de Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f692ee649l0hyntu1vu7cu8wxah.png",
+        "description": "Un encantamiento de llama negra de los Apóstoles de la Piel de Dios.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con llama negra",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 17
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6955e547l0hyntv29oe95w4kpxj",
+        "name": "Vitalidad bestial",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6955e547l0hyntv29oe95w4kpxj.png",
+        "description": "Encantamiento enseñado por Gurranq, el Clérigo Bestia.",
+        "type": "Encantamientos",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Cura HP durante un período de tiempo",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694f1c32l0hynu33qh2e3un2g1",
+        "name": "Protección de la Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f694f1c32l0hynu33qh2e3un2g1.png",
+        "description": "Un encantamiento de llama negra de los Apóstoles de la Piel de Dios.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño físico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 30
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69801f77l0hynudtg36sba9k5lr",
+        "name": "Bendición de la Bendición",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69801f77l0hynudtg36sba9k5lr.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 23,
+        "slots": 1,
+        "effects": "Otorga bendición a uno mismo y a los aliados cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690ba6e1l0hynuyuvb7sle1w35",
+        "name": "Bendición del Árbol Áureo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f690ba6e1l0hynuyuvb7sle1w35.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo",
+        "type": "Encantamientos",
+        "cost": 60,
+        "slots": 2,
+        "effects": "Otorga una mayor bendición a uno mismo y a los aliados cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 38
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697aaf25l0hynv3bmpsnp4lpnd",
+        "name": "Hoja de Llama de Sangre",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f697aaf25l0hynv3bmpsnp4lpnd.png",
+        "description": "Un encantamiento del Juramento de Sangre, otorgado por el Señor de la Sangre. Envuelve el armamento de la mano derecha con llama de sangre. Este encantamiento se puede lanzar mientras se está en movimiento. Después de infligir daño, la llama de sangre continúa acumulando la aparición de pérdida de sangre durante un tiempo muy corto.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con llama de sangre",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": "17f6973c98fl0hynv5gnjf09yvy8y",
+        "name": "Garras de Llama de Sangre",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6973c98fl0hynv5gnjf09yvy8y.png",
+        "description": "Un encantamiento del Juramento de Sangre, otorgado por el Señor de la Sangre.",
+        "type": "Encantamientos",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Crea laceraciones de llama de sangre que luego explotan",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 13
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f68fd9537l0hynv7q0d210i53bym9",
+        "name": "Don de Sangre",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68fd9537l0hynv7q0d210i53bym9.png",
+        "description": "Encantamiento sagrado de Mohg, Señor de la Sangre.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": "Esparce llama de sangre ante el lanzador para incendiar el área.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 14
+            },
+            {
+                "name": "Arcano",
+                "amount": 17
+            }
+        ]
+    },
+    {
+        "id": "17f695324del0hynv9a91iu7h3knff",
+        "name": "Niebla de Borealis",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695324del0hynv9a91iu7h3knff.png",
+        "description": "Encantamiento superior de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 48,
+        "slots": 1,
+        "effects": "Lanza el aliento helado de Borealis desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f694bc935l0hynvcwx4oahz00k48",
+        "name": "Curar Veneno",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f694bc935l0hynvcwx4oahz00k48.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamiento",
+        "cost": 7,
+        "slots": 1,
+        "effects": "Cura la dolencia de Veneno y reduce la acumulación de veneno.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696d3fddl0hynve32uy42tb6pip",
+        "name": "¡Arde, oh, Llama!",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f696d3fddl0hynve32uy42tb6pip.png",
+        "description": "Uno de los encantamientos que extrae directamente el poder de los",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Levanta una serie de pilares de llamas alrededor del lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 27
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690b63a9l0hynvpzqrouoa3uwo",
+        "name": "Oscuridad",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f690b63a9l0hynvpzqrouoa3uwo.png",
+        "description": "Encantamiento de los sirvientes de los Dos Dedos, que una vez sirvieron como los",
+        "type": "Encantamientos",
+        "cost": 26,
+        "slots": 1,
+        "effects": "Crea un área de oscuridad que oculta al lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 18
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6907b527l0hynw9qj9bgu0iu0x",
+        "name": "Rayo de la Muerte",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6907b527l0hynw9qj9bgu0iu0x.png",
+        "description": "Encantamiento que canaliza el poder del antiguo dragón",
+        "type": "Encantamiento",
+        "cost": 46,
+        "slots": 2,
+        "effects": "Golpea los alrededores con una tormenta de rayos de la muerte",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 47
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69836ab4l0hynwcix7z37ngspv",
+        "name": "Disco de Luz",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69836ab4l0hynwcix7z37ngspv.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 11,
+        "slots": 1,
+        "effects": "Dispara un anillo de luz ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 13
+            },
+            {
+                "name": "Fe",
+                "amount": 13
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695c512fl0hynwmn3k7xy8866e",
+        "name": "Fortificación Divina",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695c512fl0hynwmn3k7xy8866e.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño sagrado.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69850e86l0hynws5vlzzny9q7y",
+        "name": "Bendición del Rayo de Dragón",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69850e86l0hynws5vlzzny9q7y.png",
+        "description": "Encantamiento superior del antiguo culto al dragón de la capital. Invoca un rayo para reforzar el cuerpo del lanzador. Los ataques se vuelven más fáciles de desviar y la resistencia a todas las dolencias aumenta. Sin embargo, la negación del daño por rayo se reducirá. Solo aquellos amados por los dragones pueden sobrevivir a la prueba de revestir sus cuerpos con rayos.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Refuerza el cuerpo del lanzador con un rayo",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 21
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695ddd2cl0hynwt4kcvu1t0jpbh",
+        "name": "Hielo de Dragón",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695ddd2cl0hynwt4kcvu1t0jpbh.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Canaliza al dragón para que lance un aliento helado",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 12
+            }
+        ]
+    },
+    {
+        "id": "17f695ee05cl0hynwvuh9iqspb3fmk",
+        "name": "Garra de Dragón",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695ee05cl0hynwvuh9iqspb3fmk.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 42,
+        "slots": 1,
+        "effects": "Canaliza al dragón para desgarrar a los enemigos con garras de dragón",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 17
+            },
+            {
+                "name": "Arcano",
+                "amount": 13
+            }
+        ]
+    },
+    {
+        "id": "17f6919abe5l0hynwx7opzx5u5zvs",
+        "name": "Fuego de Dragón",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6919abe5l0hynwx7opzx5u5zvs.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamiento",
+        "cost": 28,
+        "slots": 1,
+        "effects": "Canaliza al dragón para que lance un aliento de llamas",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 12
+            }
+        ]
+    },
+    {
+        "id": "17f68f9d130l0hynx3f1brjxtzdk9j",
+        "name": "Fauces de Dragón",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68f9d130l0hynx3f1brjxtzdk9j.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 62,
+        "slots": 1,
+        "effects": "Canaliza al dragón para morder a los enemigos ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 16
+            }
+        ]
+    },
+    {
+        "id": "17f6909836cl0hynxdbh1rpx4s4xfb",
+        "name": "Decadencia de Ekzyke",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6909836cl0hynxdbh1rpx4s4xfb.png",
+        "description": "Encantamiento superior de la Comunión del Dragón. Canaliza el poder de Ekzykes, el Decadente.",
+        "type": "Encantamientos",
+        "cost": 48,
+        "slots": 1,
+        "effects": "Lanza el aliento de podredumbre escarlata de Ekzykes desde arriba.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f693fa72dl0hynxecsuhc2twylv",
+        "name": "Decadencia de Ekzykes",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693fa72dl0hynxecsuhc2twylv.png",
+        "description": "Encantamiento superior de la Comunión del Dragón. Canaliza el poder de Ekzykes, el Decadente.",
+        "type": "Encantamientos",
+        "cost": 48,
+        "slots": 1,
+        "effects": "Lanza el aliento de podredumbre escarlata de Ekzykes desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f694fc4c1l0hynyj2kcaruicejdh",
+        "name": "Pecado Mortal del Fuego",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f694fc4c1l0hynyj2kcaruicejdh.png",
+        "description": "Encantamiento que se origina en una profecía profundamente ominosa.",
+        "type": "Encantamientos",
+        "cost": 26,
+        "slots": 1,
+        "effects": "Incendia el área y a uno mismo con llamas embravecidas",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 19
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698775c6l0hynyj6kv53b13zexj",
+        "name": "Curación del Árbol Áureo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f698775c6l0hynyj6kv53b13zexj.png",
+        "description": "Uno de los antiguos encantamientos del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 65,
+        "slots": 1,
+        "effects": "Cura enormemente el HP para uno mismo y los aliados cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 42
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6908edd1l0hynyjh9vrt6fwxg9g",
+        "name": "Llama, Cae Sobre Ellos",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6908edd1l0hynyjh9vrt6fwxg9g.png",
+        "description": "Uno de los encantamientos que extrae directamente el poder de los",
+        "type": "Encantamientos",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Lanza varias bolas de fuego a la vez",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 28
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692cd88cl0hynyo45u48tb1tyn",
+        "name": "Decadencia de Ezykes",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f692cd88cl0hynyo45u48tb1tyn.png",
+        "description": "Lanza el aliento de podredumbre escarlata de Ekzykes desde arriba",
+        "type": "Encantamientos",
+        "cost": 48,
+        "slots": 1,
+        "effects": "???",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f691a5912l0hynyooe4izs5zxh3t",
+        "name": "Electrificar Armamento",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f691a5912l0hynyooe4izs5zxh3t.png",
+        "description": "Uno de los encantamientos del antiguo culto al dragón de la capital.",
+        "type": "Encantamientos",
+        "cost": 21,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con daño de rayo",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6985c468l0hynypycnlfmwjdzds",
+        "name": "Fortificación de la Llama",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6985c468l0hynypycnlfmwjdzds.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño de fuego.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6964ed65l0hynyrzn67dmtv89e",
+        "name": "Llama del Dios Caído",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6964ed65l0hynyrzn67dmtv89e.png",
+        "description": "Este encantamiento legendario es uno de varios que extrae directamente el poder de los Gigantes de Fuego. Libera una bola de fuego embravecido que se dice que está habitada por un dios caído. La bola de fuego flota hacia los enemigos y explota, incendiando el área. Arghanthy, el guardián principal de la Llama, había mantenido este encantamiento en secreto hasta que fue robado por Adan. El dios caído todavía acecha dentro de los Gigantes de Fuego.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 2,
+        "effects": "Invoca una bola de fuego embravecido que explota e incendia el área",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 41
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69225db6l0hynyujjw6qxgtrbk",
+        "name": "Estrellas de Elden",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69225db6l0hynyujjw6qxgtrbk.png",
+        "description": "Este encantamiento legendario es el más antiguo de los que derivan del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 47,
+        "slots": 2,
+        "effects": "Crea una corriente de estrellas fugaces doradas que asaltan el área.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 50
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692f5b38l0hynzsnci8jsfgasx6",
+        "name": "Llama, Protégeme",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f692f5b38l0hynzsnci8jsfgasx6.png",
+        "description": "El más antiguo de los encantamientos de los Monjes de Fuego.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta en gran medida la negación de daño de fuego",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693ad486l0hynztvo8jus81t2uf",
+        "name": "Lanza de Rayo de Fortissax",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693ad486l0hynztvo8jus81t2uf.png",
+        "description": "Encantamiento que canaliza el poder del antiguo dragón Fortissax.",
+        "type": "Encantamientos",
+        "cost": 64,
+        "slots": 1,
+        "effects": "Apuñala desde arriba con dos lanzas de rayo rojo en tándem",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 46
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6939dc0dl0hyo003ig3i03oy5eh",
+        "name": "Lanza de Rayo Congelado",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6939dc0dl0hyo003ig3i03oy5eh.png",
+        "description": "Encantamiento que canaliza el poder de los Soldados Dragonkin. Crea una lanza de rayo de hielo y la clava en el suelo desde arriba. Al impactar, la lanza estallará en rastros de rayos que avanzan. Los Dragonkin nacieron en la Ciudad Eterna, donde no conocían un cielo verdadero, ni un rayo verdadero. En cambio, el rayo de hielo era su arma.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Apuñala con una lanza de rayo de hielo desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 34
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695939cbl0hyo0116aw3hbaoca",
+        "name": "Aliento de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695939cbl0hyo0116aw3hbaoca.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Canaliza al dragón para que lance un aliento helado.",
+        "requires": null
+    },
+    {
+        "id": "17f68ff32f6l0hyo035frl5ld6347k",
+        "name": "Fortificación de Rayo Dorado",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68ff32f6l0hyo035frl5ld6347k.png",
+        "description": "Un encantamiento de la Adoración del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta en gran medida la resistencia al rayo para uno mismo y los aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690e9092l0hyo03nyw25bgiu4hs",
+        "name": "Explosión Frenética",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f690e9092l0hyo03nyw25bgiu4hs.png",
+        "description": "Encantamientos que se originan en los enloquecedores Tres Dedos.",
+        "type": "Encantamientos",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Emite una explosión concentrada de la llama amarilla del frenesí desde los ojos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 22
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695e7bcdl0hyo059aa6ajju2es",
+        "name": "Llama de los Gigantes, Tómate",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695e7bcdl0hyo059aa6ajju2es.png",
+        "description": "Uno de los encantamientos que extrae directamente el poder de los",
+        "type": "Encantamientos",
+        "cost": 32,
+        "slots": 2,
+        "effects": "Lanza una enorme bola de fuego embravecido",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 30
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69510ee3l0hyo0f0mccaj31dwhq",
+        "name": "Voto Dorado (hechizo)",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69510ee3l0hyo0f0mccaj31dwhq.png",
+        "description": "Un encantamiento de la Adoración del Árbol Áureo.",
+        "type": "Encantamientos",
+        "cost": 47,
+        "slots": 1,
+        "effects": "Aumenta el ataque y la defensa para uno mismo y los aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 25
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69535c25l0hyo1gmmkqtdazls9",
+        "name": "Garra de Bestia de Gurrang",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69535c25l0hyo1gmmkqtdazls9.png",
+        "description": "Encantamiento superior enseñado por Gurranq, el Clérigo Bestia.",
+        "type": "Encantamientos",
+        "cost": 21,
+        "slots": 1,
+        "effects": "Crea garras de bestia para desgarrar los alrededores con ondas de choque",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69822dd3l0hyo1hzk48p9uymlan",
+        "name": "Escudo Inmutable",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69822dd3l0hyo1hzk48p9uymlan.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": "Aumenta la afinidad/resistencia a dolencias del escudo de la mano izquierda",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 19
+            },
+            {
+                "name": "Fe",
+                "amount": 19
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692dbdc9l0hyo1jah0ket283h6d",
+        "name": "Curar",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f692dbdc9l0hyo1jah0ket283h6d.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamiento",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Cura el HP para ti y los aliados cercanos.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69430705l0hyo1jpd17zxxmmdyl",
+        "name": "Aullido de Shabriri",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69430705l0hyo1jpd17zxxmmdyl.png",
+        "description": "Encantamiento que se origina en los enloquecedores Tres Dedos.",
+        "type": "Encantamientos",
+        "cost": 21,
+        "slots": 1,
+        "effects": "Chilla, acumulando locura en los enemigos cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 33
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6926bc7dl0hyo1ku9wh0qz4eyh6",
+        "name": "Gran Curación",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6926bc7dl0hyo1ku9wh0qz4eyh6.png",
+        "description": "Encantamiento superior de los fieles de los Dos Dedos.",
+        "type": "Encantamientos",
+        "cost": 45,
+        "slots": 1,
+        "effects": "Cura enormemente el HP para uno mismo y los aliados cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693e76abl0hyo1mzypokk5gvlz",
+        "name": "Rugido de Greyoll",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693e76abl0hyo1mzypokk5gvlz.png",
+        "description": "Encantamiento superior de la Comunión del Dragón. Canaliza el poder de Greyoll, el Dragón Anciano. Un encantamiento de estatus legendario.",
+        "type": "Encantamiento",
+        "cost": 75,
+        "slots": 2,
+        "effects": "Emite el rugido del Dragón Anciano Greyoll.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 28
+            },
+            {
+                "name": "Arcano",
+                "amount": 17
+            }
+        ]
+    },
+    {
+        "id": "17f68fa0c30l0hyo1qasgyir08s9kb",
+        "name": "Frenesí Ineludible",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68fa0c30l0hyo1qasgyir08s9kb.png",
+        "description": "Encantamiento que se origina en los enloquecedores Tres Dedos.",
+        "type": "Encantamientos",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Se aferra a los enemigos para propagar la locura",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 21
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6904f3b2l0hyo1u5sqdw9zxr0g",
+        "name": "Virote Afilado",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6904f3b2l0hyo1u5sqdw9zxr0g.png",
+        "description": "Uno de los encantamientos del antiguo culto al dragón de la capital.",
+        "type": "Encantamientos",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Golpea al enemigo con un rayo desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69773db5l0hyo3532itzerrsdj",
+        "name": "Guja de Lansseax",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69773db5l0hyo3532itzerrsdj.png",
+        "description": "Encantamiento que canaliza el poder del antiguo dragón Lansseax.",
+        "type": "Encantamientos",
+        "cost": 35,
+        "slots": 1,
+        "effects": "Barre desde arriba con una guja de rayo rojo.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 40
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696de88al0hyo39vlr771is6fv",
+        "name": "Fortificación de Rayo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f696de88al0hyo39vlr771is6fv.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño por rayo",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69602ae3l0hyo3a6ruzolnobp3o",
+        "name": "Ayuda del Señor",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69602ae3l0hyo3a6ruzolnobp3o.png",
+        "description": "Encantamiento otorgado por los Dos Dedos a los Sinluz",
+        "type": "Encantamientos",
+        "cost": 9,
+        "slots": 1,
+        "effects": "Alivia la acumulación de veneno / pérdida de sangre / sueño para uno mismo / aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6908485dl0hyo3bkdtot70uk3p4",
+        "name": "Lanza de Rayo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6908485dl0hyo3bkdtot70uk3p4.png",
+        "description": "Uno de los encantamientos del antiguo culto al dragón de la capital. Invoca una lanza de rayo y la lanza ante el lanzador. Cargar hace que un rayo golpee el punto de impacto. Hace mucho tiempo, Godwyn el Dorado derrotó al antiguo dragón Fortissax, y se hizo amigo de su enemigo caído, un evento que dio origen al antiguo culto al dragón en la capital.",
+        "type": "Encantamientos",
+        "cost": 14,
+        "slots": 1,
+        "effects": "Lanza una lanza de rayo ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 17
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6933b1fdl0hyo3bz9d9loqhf9qh",
+        "name": "Ley de Causalidad",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6933b1fdl0hyo3bz9d9loqhf9qh.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 22,
+        "slots": 1,
+        "effects": "Contraataca al recibir una serie de golpes",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6908f509l0hyo3cd6br7iexs0ys",
+        "name": "Letanía de la Muerte Adecuada",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6908f509l0hyo3cd6br7iexs0ys.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamiento",
+        "cost": 17,
+        "slots": 1,
+        "effects": "Crea una imagen de la Orden para infligir daño sagrado",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 17
+            },
+            {
+                "name": "Fe",
+                "amount": 17
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693addcel0hyo3dh93zpcxbralt",
+        "name": "Ley de Regresión",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f693addcel0hyo3dh93zpcxbralt.png",
+        "description": "Encantamiento de los fundamentalistas de la Orden Dorada. Uno de los fundamentos clave. Cura todos los estados negativos, disipa los efectos especiales y revela la mímica en todas sus formas. Los fundamentalistas describen la Orden Dorada a través de los poderes de la regresión y la causalidad. La regresión es la atracción del significado; que todas las cosas anhelan eternamente converger.",
+        "type": "Encantamientos",
+        "cost": 55,
+        "slots": 1,
+        "effects": "Cura todas las dolencias y disipa todos los efectos especiales",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 37
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69522233l0hyo3e7aqun8itt9a",
+        "name": "Golpe de Rayo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69522233l0hyo3e7aqun8itt9a.png",
+        "description": "Uno de los encantamientos del antiguo culto al dragón de la capital.",
+        "type": "Encantamientos",
+        "cost": 17,
+        "slots": 1,
+        "effects": "Invoca un rayo que se extiende desde el punto de impacto.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 28
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6988869dl0hyo4qsblr2lchs3q7",
+        "name": "Fortificación Divina del Señor",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6988869dl0hyo4qsblr2lchs3q7.png",
+        "description": "Encantamiento enseñado a Gideon el Omnisciente por los Dos",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta en gran medida la negación de daño sagrado incl. aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 27
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69634f78l0hyo4s4zggpkf72qsp",
+        "name": "Curación del Señor",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69634f78l0hyo4s4zggpkf72qsp.png",
+        "description": "Encantamiento otorgado por los Dos Dedos a los Sinluz",
+        "type": "Encantamientos",
+        "cost": 42,
+        "slots": 1,
+        "effects": "Cura masivamente el HP para uno mismo y los aliados cercanos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 20
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68fdec40l0hyo4sbk8kjcr4p6lp",
+        "name": "Curación de la Orden",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f68fdec40l0hyo4sbk8kjcr4p6lp.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": "Alivia la acumulación de la plaga de la muerte",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6962911el0hyo4s02nf0ie24nvc",
+        "name": "Presencia Noble",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6962911el0hyo4s02nf0ie24nvc.png",
+        "description": "Antiguo poder de los Nobles de la Piel de Dios.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Saca la barriga con entusiasmo para desatar una onda de choque repelente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 26
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692fa4d2l0hyo4uc4mjru3qoaee",
+        "name": "Hoja de la Orden",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f692fa4d2l0hyo4uc4mjru3qoaee.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada. Usado por los cazadores de Aquellos que Viven en la Muerte. Encanta el armamento de la mano derecha con ataques de afinidad sagrada. Este encantamiento es especialmente dañino para Aquellos que Viven en la Muerte. Cualquiera que caiga por este encantamiento no puede ser revivido. El papel de los cazadores es erradicar la razón profanada, todo por la perfección de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 22,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con daño sagrado",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 13
+            },
+            {
+                "name": "Fe",
+                "amount": 13
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69295d83l0hyo4wyff4k2r6tkno",
+        "name": "Fortificación Mágica",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69295d83l0hyo4wyff4k2r6tkno.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos. Aumenta la negación de daño mágico. Este encantamiento se puede lanzar mientras se está en movimiento. Sigue el camino que se te ha trazado y te harás enemigo de todos los demás: los monjes, los hechiceros, los antiguos caballeros dragón y los vástagos de oro. Escúchame: las Tierras Intermedias no ofrecen bienvenida a los Sinluz.",
+        "type": "Encantamientos",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño mágico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6946750bl0hyo4yckgppsbgjyai",
+        "name": "¡Oh, Llama!",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6946750bl0hyo4yckgppsbgjyai.png",
+        "description": "Encantamiento de los Monjes de Fuego.",
+        "type": "Encantamientos",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Enciende momentáneamente una llama rugiente de la mano",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 16
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6917092dl0hyo511p1ard3b4xwm",
+        "name": "Aliento de Magma",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6917092dl0hyo511p1ard3b4xwm.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Canaliza al wyrm para que lance un aliento de magma",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 14
+            },
+            {
+                "name": "Arcano",
+                "amount": 10
+            }
+        ]
+    },
+    {
+        "id": "17f6971f6b6l0hyo69cly6crooe39",
+        "name": "Hilos de la Peste",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6971f6b6l0hyo69cly6crooe39.png",
+        "description": "Encantamiento de los sirvientes de la podredumbre.",
+        "type": "Encantamientos",
+        "cost": 19,
+        "slots": 1,
+        "effects": "Lanza innumerables hilos pegajosos ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 11
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697ae98fl0hyo6a7rwr36m0lrsr",
+        "name": "Protección del Árbol Áureo",
+        "image": null,
+        "description": "Un encantamiento superior de la Adoración del Árbol Áureo. Aumenta la negación de daño para todas las afinidades excepto la física, tanto para el lanzador como para los aliados cercanos. Mantén presionado para continuar orando y retrasar la activación. Al principio, todo estaba en oposición al Árbol Áureo. Pero a través de innumerables victorias en la guerra, se convirtió en la encarnación del Orden.",
+        "type": "Encantamientos",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Aumenta la negación de daño de afinidad para uno mismo y los aliados",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 35
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6922607fl0hyo6c1nfqul6hljpg",
+        "name": "Armamento Venenoso",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6922607fl0hyo6c1nfqul6hljpg.png",
+        "description": "Encantamiento de los sirvientes de la podredumbre. Encanta el armamento de la mano derecha con veneno. Este encantamiento se puede lanzar mientras se está en movimiento. Aquellos que moran en el veneno conocen muy bien la podredumbre. La muerte que engendra la vida, que llega a todos por igual. Es decir: es el ciclo del renacimiento puesto en práctica.",
+        "type": "Encantamientos",
+        "cost": 15,
+        "slots": 1,
+        "effects": null,
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6958b760l0hyo6c41h81a4ao9ihh",
+        "name": "Ruina de Placidusax",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6958b760l0hyo6c41h81a4ao9ihh.png",
+        "description": "Poder obtenido del recuerdo del Señor Dragón Placidusax.",
+        "type": "Encantamientos",
+        "cost": 80,
+        "slots": 3,
+        "effects": "Lanza el aliento dorado del Señor Dragón Placidusax",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 36
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695abe1dl0hyo6ddrxsg47tz9j9",
+        "name": "Niebla Venenosa",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695abe1dl0hyo6ddrxsg47tz9j9.png",
+        "description": "Encantamiento de los sirvientes de la podredumbre.",
+        "type": "Encantamientos",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Libera una niebla venenosa ante el lanzador.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69215aafl0hyo6fnokhkxl7dq4p",
+        "name": "Anillos de Luz de Radagon",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f69215aafl0hyo6fnokhkxl7dq4p.png",
+        "description": "Uno de los encantamientos de los fundamentalistas de la Orden Dorada.",
+        "type": "Encantamientos",
+        "cost": 29,
+        "slots": 1,
+        "effects": "Crea un anillo de luz dorado para atacar un área amplia",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 31
+            },
+            {
+                "name": "Fe",
+                "amount": 31
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6968b28dl0hyo6loaay43jahfcp",
+        "name": "Aliento Podrido",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f6968b28dl0hyo6loaay43jahfcp.png",
+        "description": "Uno de los encantamientos de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Canaliza al dragón para que lance un aliento de podredumbre escarlata",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 12
+            }
+        ]
+    },
+    {
+        "id": "17f695dd7d9l0hyo6nbzipolrbtuxg",
+        "name": "Rechazo",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f695dd7d9l0hyo6nbzipolrbtuxg.png",
+        "description": "Encantamiento de los fieles de los Dos Dedos.",
+        "type": "Encantamiento",
+        "cost": 9,
+        "slots": 1,
+        "effects": "Produce una onda de choque que empuja a los enemigos.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694d5050l0hyo7rhkcg4j0qaii",
+        "name": "Aliento de Piedra Refulgente de Smarag",
+        "image": "https://eldenring.fanapis.com/images/incantations/17f694d5050l0hyo7rhkcg4j0qaii.png",
+        "description": "Encantamiento superior de la Comunión del Dragón.",
+        "type": "Encantamientos",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Lanza el aliento mágico del Dragón de Piedra Refulgente Smarag desde arriba",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 23
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    }
+]

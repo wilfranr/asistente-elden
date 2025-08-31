@@ -1,0 +1,1804 @@
+[
+    {
+        "id": "17f69448ceel0i0a57bokoqz409yb",
+        "name": "Flecha de Hueso de Fuego",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69448ceel0i0a57bokoqz409yb.png",
+        "description": "Flecha tallada en huesos de animales. La punta se enciende antes de disparar",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 90
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f695dc715l0i0a59pf1x5fb5112r",
+        "name": "Flecha de Hueso de Sangre (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f695dc715l0i0a59pf1x5fb5112r.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura dorada. Inflige daño sagrado. Objeto fabricable. El emplumado añade distancia al vuelo de la flecha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de pérdida de sangre (55)"
+    },
+    {
+        "id": "17f6955e0efl0i0a5a8q72a9vip51",
+        "name": "Virote",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6955e0efl0i0a5a8q72a9vip51.png",
+        "description": "Munición utilizada para ballestas. Un tipo de virote común y extendido.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 50
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f699c4de5l0i0a5a69f9ja6l52sm",
+        "name": "Virote de Hueso de Sangre",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f699c4de5l0i0a5a69f9ja6l52sm.png",
+        "description": "Virote tallado en hueso de animal. La punta está embadurnada con una tintura de sangre. Aflige a los objetivos con pérdida de sangre. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de pérdida de sangre (50)"
+    },
+    {
+        "id": "17f69af93d3l0i0a5b5c6u7e58dev5",
+        "name": "Virote de Balista",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69af93d3l0i0a5b5c6u7e58dev5.png",
+        "description": "Gran virote del tamaño de una pera para usar con la Balista de Mano",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 160
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6924048dl0i0a5bddy4vjs3e5s",
+        "name": "Virote de Llave Negra",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6924048dl0i0a5bddy4vjs3e5s.png",
+        "description": "Virotes utilizados en la Ballesta de Llave Negra de Crepus, una herramienta de asesino de exquisita artesanía.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 30
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de putrefacción escarlata (60)"
+    },
+    {
+        "id": "17f6973ce6al0i0a5g8kku0ago9dtr",
+        "name": "Flecha de Hueso de Sangre",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6973ce6al0i0a5g8kku0ago9dtr.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura de sangre. Aflige a los objetivos con pérdida de sangre.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de pérdida de sangre (55)"
+    },
+    {
+        "id": "17f6994469al0i0a5kro3q7srgm3ic",
+        "name": "Flecha",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6994469al0i0a5kro3q7srgm3ic.png",
+        "description": "Flechas utilizadas con arcos pequeños y largos. Sin nada destacable en ningún aspecto.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 45
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f699f2bf9l0i0a62bo1pm64y13t",
+        "name": "Flecha de Hueso",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f699f2bf9l0i0a62bo1pm64y13t.png",
+        "description": "Flecha tallada en huesos finos de animales. Aunque la punta de flecha es ciertamente afilada, no vuela particularmente recta.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 35
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6988c728l0i0a6dz732w8pes2a5",
+        "name": "Flecha de Hueso (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6988c728l0i0a6dz732w8pes2a5.png",
+        "description": "Flecha tallada en huesos finos de animales. Las plumas del emplumado añaden distancia y precisión a la flecha de hueso estándar.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 35
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f697685ffl0i0a6ejx68qb20d9e",
+        "name": "Virote de Hueso",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f697685ffl0i0a6ejx68qb20d9e.png",
+        "description": "Virote tallado en un hueso fino de animal. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 40
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f693d91c2l0i0a6evjmmx3oa7qf",
+        "name": "Virote de Balista de Hueso",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f693d91c2l0i0a6evjmmx3oa7qf.png",
+        "description": "Gran virote del tamaño de una lanza tallado en robustos huesos de animales. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 150
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "- "
+    },
+    {
+        "id": "17f6956b383l0i0a6hqo084990dji",
+        "name": "Virote con Púas",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6956b383l0i0a6hqo084990dji.png",
+        "description": "Virote cubierto de espinas. Una de las armas más horribles utilizadas en la Devastación. Aflige con pérdida de sangre.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 30
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de pérdida de sangre (65)"
+    },
+    {
+        "id": "17f6997ebfel0i0a6idqxeuva67nsk",
+        "name": "Flecha Moradora",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6997ebfel0i0a6idqxeuva67nsk.png",
+        "description": "Flecha en la que se cree que habitan los espíritus de pequeños animales.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 95
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6935eb21l0i0a6ntkl0li8p6xkg",
+        "name": "Gran Virote Explosivo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6935eb21l0i0a6ntkl0li8p6xkg.png",
+        "description": "Gran virote con la punta cubierta de un cúmulo de fragmentos de Piedra Explosiva.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 50
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 150
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f697796f8l0i0a6nunhop3qk25xg",
+        "name": "Virote Explosivo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f697796f8l0i0a6nunhop3qk25xg.png",
+        "description": "Virote con la punta cubierta de un fragmento de Piedra Explosiva. Explota al impactar, infligiendo daño de fuego.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 70
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Nada"
+    },
+    {
+        "id": "17f693d14cfl0i0a6xwx7n1y3jowc9",
+        "name": "Flecha de Fuego",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f693d14cfl0i0a6xwx7n1y3jowc9.png",
+        "description": "Flecha con la punta encendida. Inflige daño de fuego.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 95
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f699870acl0i0a73wa3jmaf1ax4j",
+        "name": "Flecha de Hueso de Fuego (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f699870acl0i0a73wa3jmaf1ax4j.png",
+        "description": "Flecha tallada en huesos de animales. La punta se enciende antes de disparar. Inflige daño de fuego a los enemigos.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 90
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6992419cl0i0a7gx5d666jdb9q7",
+        "name": "Virote de Hueso de Fuego",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6992419cl0i0a7gx5d666jdb9q7.png",
+        "description": "Virote tallado en hueso de animal. La punta se enciende antes de disparar. Inflige daño de fuego.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 75
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f697bf804l0i0a7j8awlq1z4g9u6",
+        "name": "Virote Flamígero",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f697bf804l0i0a7j8awlq1z4g9u6.png",
+        "description": "Virote con la punta ferozmente quemada. Inflige un potente daño de fuego.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 20
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 80
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69914f7dl0i0a7oebu55m1twr75",
+        "name": "Virote Dorado",
+        "image": null,
+        "description": "Virote bendecido con un encantamiento del Árbol Áureo. Inflige un potente daño sagrado",
+        "type": null,
+        "attackPower": [
+            {
+                "name": "Phy20",
+                "amount": null
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 80
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69992e40l0i0a7oo1s1bq93kal7",
+        "name": "Flecha Dorada",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69992e40l0i0a7oo1s1bq93kal7.png",
+        "description": "Flechas talladas hechas en conjunto con el Arco del Árbol Áureo. Inflige daño sagrado.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 95
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f696b53c0l0i0a7qtqyrwtbtoq7",
+        "name": "Gran Flecha Dorada",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f696b53c0l0i0a7qtqyrwtbtoq7.png",
+        "description": "Grandes flechas talladas hechas junto con el Gran Arco del Árbol Áureo. Inflige daño sagrado.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "Phy40",
+                "amount": null
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 110
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69469b06l0i0a7sg2a8ces4w9x",
+        "name": "Gran Flecha de Gólem",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69469b06l0i0a7sg2a8ces4w9x.png",
+        "description": "Gran flecha de piedra negra fabricada por una civilización ahora en ruinas. Usada por el Gólem Guardián. Esta pesada flecha está envuelta en vientos tempestuosos, lo que le permite romper las posturas y guardias enemigas con facilidad.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 105
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69af00fal0i0a7uu2qhpuftxzv",
+        "name": "Gran Flecha",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69af00fal0i0a7uu2qhpuftxzv.png",
+        "description": "Una gran flecha del tamaño de una lanza para usar con grandes arcos. Usada por arqueros de fuerza monstruosa empleados por el ejército de un señor.",
+        "type": null,
+        "attackPower": [
+            {
+                "name": "Phy100",
+                "amount": null
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69b8ce34l0i0a7zih8qfea4dvka",
+        "name": "Flecha de Hueso Sacro",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69b8ce34l0i0a7zih8qfea4dvka.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura dorada. Inflige daño sagrado. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 90
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69b16cb6l0i0a8r058km513nvw7",
+        "name": "Flecha de Hueso Sacro (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69b16cb6l0i0a8r058km513nvw7.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura dorada. Inflige daño sagrado. Objeto fabricable. El emplumado añade distancia al vuelo de la flecha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 90
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6945f9cal0i0a8wtc9cmxtd7rnn",
+        "name": "Gran Virote de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6945f9cal0i0a8wtc9cmxtd7rnn.png",
+        "description": "Gran virote con la punta cubierta de un cúmulo de fragmentos de Piedra de Grava.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 50
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 150
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f693c3e3el0i0a8wy8f2xnxro75k",
+        "name": "Virote de Hueso Sacro",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f693c3e3el0i0a8wy8f2xnxro75k.png",
+        "description": "Virote tallado en hueso de animal. La punta está embadurnada con una tintura dorada. Inflige daño sagrado. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": null
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 75
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69b0f8ebl0i0a8xtaw8i78q9o",
+        "name": "Gran Virote de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69b0f8ebl0i0a8xtaw8i78q9o.png",
+        "description": "Gran virote con la punta cubierta de un cúmulo de fragmentos de Piedra de Grava. Inflige un potente daño de rayo.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 50
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 150
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69789d70l0i0a8zc8rtag3dspv4",
+        "name": "Flecha de Hueso de Rayo (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69789d70l0i0a8zc8rtag3dspv4.png",
+        "description": "Flecha tallada en huesos de animales con una punta infundida de rayos. Inflige daño de rayo. Objeto fabricable. El emplumado añade distancia al vuelo de la flecha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 90
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69635263l0i0a8ze3afj4nohfva",
+        "name": "Flecha de Hueso de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69635263l0i0a8ze3afj4nohfva.png",
+        "description": "Flecha tallada en huesos de animales con una punta infundida de rayos. Inflige daño de rayo. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 90
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6994982el0i0a92geml5aal9gy6",
+        "name": "Virote de Hueso de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6994982el0i0a92geml5aal9gy6.png",
+        "description": "Virote fabricado con hueso de animal con una punta infundida de rayos. Inflige daño de rayo. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 75
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69b5a80el0i0a93rl97dubpwddn",
+        "name": "Virote de Señor",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69b5a80el0i0a93rl97dubpwddn.png",
+        "description": "Virote bien elaborado con un diseño ilustre, empuñado por los regulares del ejército de un señor.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 65
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6937df3bl0i0a9qwoh0sfdx9ih",
+        "name": "Virote de Hueso Mágico",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6937df3bl0i0a9qwoh0sfdx9ih.png",
+        "description": "Virote tallado en hueso de animal. La punta está embadurnada con una tintura de piedra refulgente. Inflige daño mágico. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 75
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6977d26el0i0a9t6xhw1vwy7z5e",
+        "name": "Flecha de Hueso Venenoso",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6977d26el0i0a9t6xhw1vwy7z5e.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con veneno. Aflige a los objetivos con veneno. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Confiere el estado de Veneno"
+    },
+    {
+        "id": "17f696e5e94l0i0aa0jso6bhzrwcsg",
+        "name": "Virote de Hueso Venenoso",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f696e5e94l0i0aa0jso6bhzrwcsg.png",
+        "description": "Virote tallado en hueso de animal. La punta está embadurnada con veneno. Aflige a los objetivos con veneno. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de veneno (66)"
+    },
+    {
+        "id": "17f69541e1el0i0aa1v5xyb7xygmaa",
+        "name": "Flecha de Hueso Venenoso (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69541e1el0i0aa1v5xyb7xygmaa.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con veneno. Aflige a los objetivos con veneno. Objeto fabricable. La adición de emplumado permite disparos más precisos que pueden viajar más lejos.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Confiere el estado de Veneno"
+    },
+    {
+        "id": "17f69251e6al0i0aa1x6q566kjp786",
+        "name": "Virote de Perfumista",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69251e6al0i0aa1x6q566kjp786.png",
+        "description": "Virote creado con técnicas de perfumista. Usado por los guardias de los nobles y similares.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 15
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 65
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f699a2487l0i0aa4vpxysfgpaem",
+        "name": "Flecha de Hueso Mágico (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f699a2487l0i0aa4vpxysfgpaem.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura de piedra refulgente. Inflige daño mágico. Objeto fabricable. El emplumado añade distancia al vuelo de la flecha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 90
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f695efd8fl0i0aa79m4cnuhuw36g",
+        "name": "Virote de Meteoro",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f695efd8fl0i0aa79m4cnuhuw36g.png",
+        "description": "Obra de artesanía encantada hecha en conjunto con la Ballesta de Luna Llena. La punta está incrustada con piedra refulgente.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 80
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f697e9935l0i0aa7wy8c60t8z11",
+        "name": "Flecha de Hueso Mágico",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f697e9935l0i0aa7wy8c60t8z11.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura de piedra refulgente. Inflige daño mágico. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 10
+            },
+            {
+                "name": "magic",
+                "amount": 90
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69681f23l0i0aahxnk8hmk4asl",
+        "name": "Lanza de Radahn",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69681f23l0i0aahxnk8hmk4asl.png",
+        "description": "Grandes flechas utilizadas por el General Radahn durante el festival de combate. Estas son, de hecho, las muchas lanzas con las que fue apuñalado por los Caballeros de la Putrefacción Limpia. Imbuidas con el poder gravitacional de Radahn.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 100
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f6948e462l0i0aajv98butqkk57r",
+        "name": "Flecha de Piedra Arcoíris",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6948e462l0i0aajv98butqkk57r.png",
+        "description": "Flecha tallada en huesos de animales con la punta cubierta de esquirlas de Piedra Arcoíris. Luces de colores brillan en el punto de impacto.",
+        "type": null,
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f696f613bl0i0ab2gzfybs6xv4m",
+        "name": "Flecha de Hueso de Podredumbre",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f696f613bl0i0ab2gzfybs6xv4m.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con podredumbre. Aflige a los objetivos con podredumbre escarlata. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de putrefacción escarlata (50)"
+    },
+    {
+        "id": "17f6999ab25l0i0ab4wbrb3l2bbiwn",
+        "name": "Flecha de Hueso de Podredumbre (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f6999ab25l0i0ab4wbrb3l2bbiwn.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con podredumbre. Aflige a los objetivos con podredumbre escarlata. Objeto fabricable. El emplumado añade distancia al vuelo de la flecha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de putrefacción escarlata (50)"
+    },
+    {
+        "id": "17f698609f1l0i0ab5qhcgdj349ejv",
+        "name": "Flecha de Fragmento de Cristal (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f698609f1l0i0ab5qhcgdj349ejv.png",
+        "description": "Flecha tallada en huesos de animales con la punta cubierta de un fragmento de cristal. Crea un ruido resonante en el punto de impacto.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f69aaa491l0i0ab7upr3t0arnja",
+        "name": "Flecha de Serpiente",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69aaa491l0i0ab7upr3t0arnja.png",
+        "description": "Flecha tallada para parecerse a una serpiente voladora. Se usa en conjunto con el Arco de Serpiente.",
+        "type": null,
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 30
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa una fuerte acumulación de veneno (78)"
+    },
+    {
+        "id": "17f69657954l0i0ab817nv558hszgs",
+        "name": "Flecha de Fragmento de Cristal",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69657954l0i0ab817nv558hszgs.png",
+        "description": "Flechas talladas en huesos de animales con la punta cubierta de un fragmento de cristal. Crea un ruido resonante en el punto de impacto.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "-"
+    },
+    {
+        "id": "17f695c24afl0i0ab8ndzenywdxan",
+        "name": "Virote de Hueso de Podredumbre",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f695c24afl0i0ab8ndzenywdxan.png",
+        "description": "Virote tallado en hueso de animal. La punta está embadurnada con podredumbre. Aflige a los objetivos con podredumbre escarlata. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 25
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de putrefacción escarlata (55)"
+    },
+    {
+        "id": "17f69558d42l0i0abcowa3xytt0hzd",
+        "name": "Flecha de Hueso de Sueño (Emplumada)",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69558d42l0i0abcowa3xytt0hzd.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura de nenúfar. Aflige a los objetivos con somnolencia. Objeto fabricable. La adición de emplumado permite disparos más precisos que pueden viajar más lejos.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 20
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Confiere el estado de Sueño"
+    },
+    {
+        "id": "17f696a05b4l0i0abdatq6y5puk5v",
+        "name": "Flecha de Hueso de Sueño",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f696a05b4l0i0abdatq6y5puk5v.png",
+        "description": "Flecha tallada en huesos de animales. La punta está embadurnada con una tintura de nenúfar. Aflige a los objetivos con somnolencia. Objeto fabricable.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 20
+            },
+            {
+                "name": "magic",
+                "amount": 0
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Confiere el estado de Sueño"
+    },
+    {
+        "id": "17f69b10b35l0i0abn77r17fy19pon",
+        "name": "Flecha de Llama Espiritual",
+        "image": "https://eldenring.fanapis.com/images/ammos/17f69b10b35l0i0abn77r17fy19pon.png",
+        "description": "Flecha encendida con llama fantasma antes de disparar. Inflige daño mágico y también aflige a los enemigos con escarcha.",
+        "type": "Perforante",
+        "attackPower": [
+            {
+                "name": "physical",
+                "amount": 30
+            },
+            {
+                "name": "magic",
+                "amount": 40
+            },
+            {
+                "name": "fire",
+                "amount": 0
+            },
+            {
+                "name": "lightning",
+                "amount": 0
+            },
+            {
+                "name": "holy",
+                "amount": 0
+            },
+            {
+                "name": "critical",
+                "amount": 100
+            }
+        ],
+        "passive": "Causa acumulación de escarcha (65)"
+    }
+]

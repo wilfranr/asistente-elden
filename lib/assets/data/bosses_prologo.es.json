@@ -1,0 +1,115 @@
+[
+  {
+    "id": "prologo_vastago_injertado",
+    "name": "Vástago Injertado",
+    "image": null,
+    "region": "Prólogo",
+    "description": "Es el primer jefe que aparece en la Capilla de la Espera. La guía indica que el juego está diseñado para que este enemigo te derrote al principio.",
+    "location": "Capilla de la Espera",
+    "drops": [
+      "3.200 Runas",
+      "Espada recta ornamental",
+      "Escudo dorado con blasón de bestia"
+    ],
+    "healthPoints": "??",
+    "difficulty": 1,
+    "type": "Jefe Tutorial",
+    "weaknesses": [],
+    "strengths": [],
+    "immunities": [],
+    "recommendations": [
+      "El juego está diseñado para que te derrote",
+      "Sirve como introducción al combate",
+      "No te preocupes por perder",
+      "La guía no especifica vulnerabilidades o resistencias"
+    ]
+  },
+  {
+    "id": "prologo_miniboss_sin_nombre",
+    "name": "Miniboss Sin Nombre",
+    "image": null,
+    "region": "Prólogo",
+    "description": "Se encuentra en la zona del tutorial después de saltar por el agujero frente al fantasma en la silla.",
+    "location": "Zona del Tutorial",
+    "drops": [
+      "Sin botines específicos",
+      "Experiencia de combate"
+    ],
+    "healthPoints": "??",
+    "difficulty": 1,
+    "type": "Miniboss Tutorial",
+    "weaknesses": [],
+    "strengths": [],
+    "immunities": [],
+    "recommendations": [
+      "Parte del tutorial del juego",
+      "Practica los controles básicos",
+      "No es necesario vencerlo para continuar"
+    ]
+  },
+  {
+    "id": "prologo_centinela_agreste",
+    "name": "Centinela Agreste",
+    "image": null,
+    "region": "Prólogo",
+    "description": "Un caballero a caballo que se encuentra en el camino hacia la Iglesia de Elleh. La guía recomienda esquivarlo al principio.",
+    "location": "Camino hacia la Iglesia de Elleh",
+    "drops": [
+      "3.200 Runas",
+      "Alabarda Dorada"
+    ],
+    "healthPoints": "??",
+    "difficulty": 2,
+    "type": "Enemigo Opcional",
+    "weaknesses": [
+      "Daño Físico (Golpe)",
+      "Fuego",
+      "Congelación"
+    ],
+    "strengths": [
+      "Daño Sagrado",
+      "Putrefacción roja",
+      "Veneno"
+    ],
+    "immunities": [
+      "Hemorragia"
+    ],
+    "recommendations": [
+      "Recomendado esquivarlo al principio",
+      "Vulnerable a daño físico de golpe",
+      "Usa fuego o congelación para ventaja",
+      "Evita daño sagrado, putrefacción y veneno"
+    ]
+  },
+  {
+    "id": "prologo_margit_augurio_caido",
+    "name": "Margit, el Augurio Caído",
+    "image": null,
+    "region": "Prólogo",
+    "description": "Es el jefe principal al final de esta sección de la guía, ubicado en el Túnel de la guardia del castillo. La victoria sobre él otorga una Bolsa para talismán.",
+    "location": "Túnel de la guardia del castillo",
+    "drops": [
+      "12.000 Runas",
+      "Bolsa para talismán"
+    ],
+    "healthPoints": "??",
+    "difficulty": 3,
+    "type": "Jefe Principal",
+    "weaknesses": [
+      "Daño Físico (Tajo)"
+    ],
+    "strengths": [
+      "Fuego",
+      "Rayo",
+      "Daño Sagrado"
+    ],
+    "immunities": [],
+    "recommendations": [
+      "Jefe principal del prólogo",
+      "Usa armas de tajo para mayor daño",
+      "Evita fuego, rayo y daño sagrado",
+      "Otorga bolsa para talismán adicional",
+      "Requiere práctica y estrategia"
+    ]
+  }
+]

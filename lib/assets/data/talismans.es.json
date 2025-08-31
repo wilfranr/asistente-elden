@@ -1,0 +1,611 @@
+[
+    {
+        "id": "17f69f4f7a3l0i2soioqe3qysjxaw",
+        "name": "Talismán de Aguijón de Flecha",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69f4f7a3l0i2soioqe3qysjxaw.png",
+        "description": "Un talismán que representa tres flechas de hierro. Llevado por los soldados hace mucho tiempo.",
+        "effect": "Aumenta el poder de ataque de las flechas y los virotes"
+    },
+    {
+        "id": "17f69659e33l0i2soj4uhpxf54ncje",
+        "name": "Amuleto del Arsenal",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69659e33l0i2soj4uhpxf54ncje.png",
+        "description": "Un amuleto de hierro que se asemeja a una masa de armamento. Aumenta la carga máxima de equipo. Este talismán se derivó de un espadón inusual, una vez empuñado por un héroe hambriento de venganza.",
+        "effect": "Aumenta la carga máxima de equipo"
+    },
+    {
+        "id": "17f69d47ea5l0i2sokp40249x3da4f",
+        "name": "Daga Cerúlea de Asesino",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d47ea5l0i2sokp40249x3da4f.png",
+        "description": "Una daga de asesino, deforme y manchada de cerúleo. Los golpes críticos restauran los PC.",
+        "effect": "Los golpes críticos restauran los PC"
+    },
+    {
+        "id": "17f697e45b3l0i2sol3u2c1y0ja11",
+        "name": "Daga Carmesí de Asesino",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697e45b3l0i2sol3u2c1y0ja11.png",
+        "description": "Una daga de asesino, deforme y manchada de carmesí. Los golpes críticos restauran los PS.",
+        "effect": "Los golpes críticos restauran los PS"
+    },
+    {
+        "id": "17f69dfff40l0i2soo71h481xlxzx8i",
+        "name": "Talismán de Alcance de Flecha",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69dfff40l0i2soo71h481xlxzx8i.png",
+        "description": "Un talismán que representa tres flechas. Llevado por los cazadores de bestias.",
+        "effect": "Aumenta el alcance efectivo del arco."
+    },
+    {
+        "id": "17f69c74ab1l0i2sp8u8ehul0cxenh",
+        "name": "Talismán de Hacha",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c74ab1l0i2sp8u8ehul0cxenh.png",
+        "description": "Un talismán que representa un hacha y un guerrero. Mejora los ataques de carga.",
+        "effect": "Mejora los ataques de carga."
+    },
+    {
+        "id": "17f697718ffl0i2sp9dowe0oahaam",
+        "name": "Talismán de Dragón de Rayo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697718ffl0i2sp9dowe0oahaam.png",
+        "description": "Talismán que representa un antiguo dragón amarillo. Aumenta la negación de daño por rayo.",
+        "effect": "Aumenta la negación de daño por rayo."
+    },
+    {
+        "id": "17f69811f79l0i2spa5kavq1z95u5i",
+        "name": "Amuleto de Bailarina Azul",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69811f79l0i2spa5kavq1z95u5i.png",
+        "description": "Una muñeca de tela que representa a una bailarina vestida de azul. Una antigua reliquia de algún tipo.",
+        "effect": "Aumenta el poder de ataque con menor carga de equipo"
+    },
+    {
+        "id": "17f69977289l0i2spaggtt1hdtxhk4",
+        "name": "Talismán de Rocío Bendito",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69977289l0i2spaggtt1hdtxhk4.png",
+        "description": "Talismán que representa una gota de la savia del Árbol Áureo, una bendición.",
+        "effect": "Restaura lentamente los PS."
+    },
+    {
+        "id": "17f69659808l0i2sphoobyfsfvku2i",
+        "name": "Talismán de Macho Cabrío",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69659808l0i2sphoobyfsfvku2i.png",
+        "description": "Un talismán que representa los cuernos de un macho cabrío. Aumenta el equilibrio.",
+        "effect": "Aumenta el Equilibrio"
+    },
+    {
+        "id": "17f69ed62a2l0i2sq0x8kqy5oe9mwn",
+        "name": "Medallón de Ámbar Cerúleo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ed62a2l0i2sq0x8kqy5oe9mwn.png",
+        "description": "Un medallón con ámbar cerúleo incrustado. Aumenta los PC máximos.",
+        "effect": "Aumenta los PC máximos"
+    },
+    {
+        "id": "17f69e97eaal0i2sq1lvpkd5cfq2q",
+        "name": "Cresta de Filigrana Cariana",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e97eaal0i2sq1lvpkd5cfq2q.png",
+        "description": "Un talismán adornado con el escudo real.",
+        "effect": "Reduce los PC consumidos por las habilidades"
+    },
+    {
+        "id": "17f69dc1892l0i2sq1oh9i2x6tlarj",
+        "name": "Talismán de Semilla Cerúlea",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69dc1892l0i2sq1oh9i2x6tlarj.png",
+        "description": "Un talismán de color cerúleo con el patrón de una semilla del Árbol Áureo. Aumenta la restauración de PC del Frasco de Lágrimas Cerúleas.",
+        "effect": "Aumenta la restauración de PC del Frasco de Lágrimas Cerúleas"
+    },
+    {
+        "id": "17f69942443l0i2sq2zl2bttnq08hp",
+        "name": "Amuleto de Cuerno Clarificante",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69942443l0i2sq2zl2bttnq08hp.png",
+        "description": "Un adorno usado por los seguidores ancestrales. Aumenta el foco. (El foco gobierna la resistencia al sueño y la locura).",
+        "effect": "Aumenta el Foco"
+    },
+    {
+        "id": "17f69ba1d62l0i2sq92f4o8t2tlzp7",
+        "name": "Talismán de Garra",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ba1d62l0i2sq92f4o8t2tlzp7.png",
+        "description": "Un talismán que representa una garra y un asesino. Mejora los ataques de salto.",
+        "effect": "Mejora los ataques de salto."
+    },
+    {
+        "id": "17f69d61012l0i2sqr9dmioj7dxngi",
+        "name": "Talismán de Nudo del Crisol",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d61012l0i2sqr9dmioj7dxngi.png",
+        "description": "Un talismán hecho de un nudo huesudo que encarna los aspectos de varias criaturas. Se dice que creció en el cuerpo humano hace mucho tiempo.",
+        "effect": "Reduce el daño y el impacto de los disparos a la cabeza"
+    },
+    {
+        "id": "17f699e5a9dl0i2sqsk8mpabyj9mm4",
+        "name": "Medallón de Ámbar Carmesí",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699e5a9dl0i2sqsk8mpabyj9mm4.png",
+        "description": "Un medallón con ámbar carmesí incrustado. Aumenta los PS máximos. La savia vieja del Árbol Áureo se convierte en ámbar, atesorado como la más preciosa de las joyas en la era de Godfrey, el primer Señor de Elden. Una energía vital primordial reside en su interior",
+        "effect": "Aumenta los PS máximos"
+    },
+    {
+        "id": "17f6993bc1fl0i2sqt5xscysq45rce",
+        "name": "Talismán de Escama del Crisol",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6993bc1fl0i2sqt5xscysq45rce.png",
+        "description": "Un talismán hecho de una escama que encarna los aspectos de varias criaturas. Se dice que creció en el cuerpo humano hace mucho tiempo.",
+        "effect": "Reduce el daño recibido de los golpes críticos"
+    },
+    {
+        "id": "17f69b7aec7l0i2sqw1x7ajlmzguyi",
+        "name": "Vial de Crepus",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69b7aec7l0i2sqw1x7ajlmzguyi.png",
+        "description": "Pequeña botella misteriosa con una niebla oscura sellada en su interior.",
+        "effect": "Elimina todo el sonido que hace el portador durante el movimiento"
+    },
+    {
+        "id": "17f69ed2edfl0i2sqxgpadu0gprbn",
+        "name": "Talismán de Espada Curva",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ed2edfl0i2sqxgpadu0gprbn.png",
+        "description": "Un talismán que representa una espada curva y un espadachín. Mejora los contraataques de guardia.",
+        "effect": "Mejora los contraataques de guardia."
+    },
+    {
+        "id": "17f69d584c8l0i2srfem3zhei7qek",
+        "name": "Talismán de Escudo de Dragón",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d584c8l0i2srfem3zhei7qek.png",
+        "description": "Talismán de hierro forjado que representa un trío de dragones antiguos. Aumenta la negación de daño físico.",
+        "effect": "Aumenta la negación de daño físico"
+    },
+    {
+        "id": "17f6969e375l0i2srh8fpkcyede0z",
+        "name": "Talismán de Dragón de Fuego",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6969e375l0i2srh8fpkcyede0z.png",
+        "description": "Talismán que representa un antiguo dragón rojo. Aumenta la negación de daño por fuego.",
+        "effect": "Aumenta la negación de daño por fuego."
+    },
+    {
+        "id": "17f697b6373l0i2srhja32ffmg9v7s",
+        "name": "Amuleto de Escorpión de Fuego",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697b6373l0i2srhja32ffmg9v7s.png",
+        "description": "Un talismán que llevan los asesinos que atacan sin ser vistos. Con el patrón de un escorpión recién mudado de su exoesqueleto, sus garras apresan un corazón que arde con fuego.",
+        "effect": "Aumenta el ataque de fuego, pero reduce la negación de daño"
+    },
+    {
+        "id": "17f69c7f897l0i2srkhjmyvn5rfnva",
+        "name": "Paño Envolvente de la Piel de Dios",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c7f897l0i2srkhjmyvn5rfnva.png",
+        "description": "Tela sagrada de los Apóstoles de la Piel de Dios, hecha de piel flexible cosida.",
+        "effect": "Los ataques sucesivos restauran los PS"
+    },
+    {
+        "id": "17f696b2a8el0i2srkijjgnyeo45ic",
+        "name": "Talismán de Lienzo de los Fieles",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f696b2a8el0i2srkijjgnyeo45ic.png",
+        "description": "Un talismán con un icono que representa a un grupo de figuras enmascaradas. Aumenta la potencia de los encantamientos.",
+        "effect": "Aumenta la potencia de los Encantamientos"
+    },
+    {
+        "id": "17f69882e78l0i2ss2r6zb3cbd6h3k",
+        "name": "Arsenal de la Gran Jarra",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69882e78l0i2ss2r6zb3cbd6h3k.png",
+        "description": "Un amuleto que se asemeja a una gran jarra rebosante de armamento. Aumenta enormemente la carga máxima de equipo.",
+        "effect": "Aumenta enormemente la carga máxima de equipo (~19%)"
+    },
+    {
+        "id": "17f69854ae6l0i2ss4quq0gikz8cw",
+        "name": "Talismán de Dragón Sacro",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69854ae6l0i2ss4quq0gikz8cw.png",
+        "description": "Talismán que representa un antiguo dragón dorado. Aumenta la negación de daño sagrado.",
+        "effect": "Aumenta la negación de daño sagrado."
+    },
+    {
+        "id": "17f69ecd4bdl0i2ss5cnven5hobw5d",
+        "name": "Talismán de Tortuga Verde",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ecd4bdl0i2ss5cnven5hobw5d.png",
+        "description": "Un talismán con forma de tortuga verde. Aumenta la velocidad de recuperación de la resistencia.",
+        "effect": "Aumenta la velocidad de recuperación de la resistencia."
+    },
+    {
+        "id": "17f696fc245l0i2ss7f2pzn3xdhj6n",
+        "name": "Talismán de Martillo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f696fc245l0i2ss7f2pzn3xdhj6n.png",
+        "description": "Un talismán que representa un martillo y un caballero. Mejora los ataques que reducen la resistencia contra un oponente que bloquea.",
+        "effect": "Mejora los ataques que reducen la resistencia contra los bloqueadores."
+    },
+    {
+        "id": "17f69a7ec34l0i2ss898co9a2xz8uv",
+        "name": "Amuleto de Cuerno Inmunizante",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69a7ec34l0i2ss898co9a2xz8uv.png",
+        "description": "Un adorno usado por los seguidores ancestrales. Aumenta la inmunidad. (La inmunidad gobierna la resistencia al veneno y la podredumbre).",
+        "effect": "Aumenta la Inmunidad"
+    },
+    {
+        "id": "17f69cd1ed6l0i2ssohaju8uk3qvro",
+        "name": "Exultación del Vástago de la Putrefacción",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69cd1ed6l0i2ssohaju8uk3qvro.png",
+        "description": "Un talismán que representa la exultación de las plagas.",
+        "effect": "El envenenamiento o la podredumbre en las cercanías aumenta el poder de ataque"
+    },
+    {
+        "id": "17f69e2a905l0i2ssrfz1ym5wgjvc",
+        "name": "Amuleto de Escorpión de Rayo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e2a905l0i2ssrfz1ym5wgjvc.png",
+        "description": "Un talismán que llevan los asesinos que atacan sin ser vistos. Con el patrón de un escorpión recién mudado de su exoesqueleto, sus garras apresan un corazón que chispea con rayos.",
+        "effect": "Aumenta el ataque de rayo, pero reduce la negación de daño"
+    },
+    {
+        "id": "17f69ca952al0i2ssu6yw9l5kfw6q",
+        "name": "Talismán de Gato de Cola Larga",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ca952al0i2ssu6yw9l5kfw6q.png",
+        "description": "Un broche que representa a Lacrima, el gato de cola larga.",
+        "effect": "Hace que el portador sea inmune al daño por caída"
+    },
+    {
+        "id": "17f69bdcd53l0i2ssvjmuvkx73w1bo",
+        "name": "Cicatriz de Márika",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69bdcd53l0i2ssvjmuvkx73w1bo.png",
+        "description": "Un ojo grabado con una Runa de Elden. Se dice que es el sello de la Reina Márika.",
+        "effect": "Aumenta los atributos, pero también aumenta el daño recibido"
+    },
+    {
+        "id": "17f69c66a45l0i2sswom5whqqzshn",
+        "name": "Exultación del Señor de la Sangre",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c66a45l0i2sswom5whqqzshn.png",
+        "description": "Un talismán que representa la exultación del Señor de la Sangre.",
+        "effect": "Mejora los golpes críticos"
+    },
+    {
+        "id": "17f69b9af92l0i2st8bt7bg2grdb1h",
+        "name": "Collar Moteado",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69b9af92l0i2st8bt7bg2grdb1h.png",
+        "description": "Un adorno de colores vivos, precioso para los seguidores ancestrales.",
+        "effect": "Aumenta la Robustez, la Inmunidad y el Foco"
+    },
+    {
+        "id": "17f6980d220l0i2stavhe03m4ms2yf",
+        "name": "Luna de Nokstella",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6980d220l0i2stavhe03m4ms2yf.png",
+        "description": "Este legendario talismán es un tesoro de Nokstella, la Ciudad Eterna.",
+        "effect": "Aumenta las ranuras de memoria en 2"
+    },
+    {
+        "id": "17f6967fb2dl0i2ste8y2pomb9gcj9",
+        "name": "Talismán del Señor Antiguo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6967fb2dl0i2ste8y2pomb9gcj9.png",
+        "description": "Un talismán legendario que representa al antiguo rey cuyo trono se encuentra en el corazón de la tormenta más allá del tiempo.",
+        "effect": "Extiende la duración del efecto del hechizo"
+    },
+    {
+        "id": "17f699f5086l0i2stgzl85bqm2vvy",
+        "name": "Talismán de Dragón de Perla",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699f5086l0i2stgzl85bqm2vvy.png",
+        "description": "Talismán que representa un antiguo dragón perlado. Aumenta la negación de daño no físico.",
+        "effect": "Aumenta la negación de daño no físico."
+    },
+    {
+        "id": "17f69e4e872l0i2strgtb0bn8sior8",
+        "name": "Hoja de Piedra Refulgente Primigenia",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e4e872l0i2strgtb0bn8sior8.png",
+        "description": "Una vieja hoja de piedra refulgente que ha sido manchada de sangre.",
+        "effect": "Los hechizos consumen menos PC, pero los PS máximos se reducen"
+    },
+    {
+        "id": "17f697a330el0i2stvssvzrmkqvrx",
+        "name": "Pústula del Príncipe de la Muerte",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697a330el0i2stvssvzrmkqvrx.png",
+        "description": "Una pústula fétida extraída de la carne facial. Aumenta la vitalidad. (La vitalidad gobierna la resistencia a los efectos de la Muerte).",
+        "effect": "Aumenta la Vitalidad"
+    },
+    {
+        "id": "17f69db3ddfl0i2stxpa5we7cuil2",
+        "name": "Icono de Radagon",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69db3ddfl0i2stxpa5we7cuil2.png",
+        "description": "Un talismán legendario que representa al Señor de Elden Radagon. Acorta el tiempo de lanzamiento de las hechicerías y los encantamientos.",
+        "effect": "Acorta el tiempo de lanzamiento de hechizos"
+    },
+    {
+        "id": "17f69f6b0d2l0i2su0uxibci7qzsn",
+        "name": "Cicatriz de Radagon",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69f6b0d2l0i2su0uxibci7qzsn.png",
+        "description": "Un ojo grabado con una Runa de Elden. Se dice que es el sello del Rey Consorte Radagon.",
+        "effect": "Aumenta los atributos, pero también aumenta el daño recibido."
+    },
+    {
+        "id": "17f696a52c1l0i2su2ddt9cbw3bnog",
+        "name": "Ulcerado de Radagon",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f696a52c1l0i2su2ddt9cbw3bnog.png",
+        "description": "Este legendario talismán es un ojo grabado con una Runa de Elden, que se dice que es el sello del Rey Consorte Radagon.",
+        "effect": "Aumenta enormemente los atributos, pero también aumenta el daño recibido"
+    },
+    {
+        "id": "17f69e49085l0i2sudupmymnf7is0e",
+        "name": "Amuleto de Escorpión Sagrado",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e49085l0i2sudupmymnf7is0e.png",
+        "description": "Un talismán que llevan los asesinos que atacan sin ser vistos. Con el patrón de un escorpión recién mudado de su exoesqueleto, sus garras apresan un corazón con un brillo bendito.",
+        "effect": "Aumenta el ataque sagrado, pero reduce la negación de daño."
+    },
+    {
+        "id": "17f6966d3a9l0i2suh41ayrux3telz",
+        "name": "Rama Sacrificial",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6966d3a9l0i2suh41ayrux3telz.png",
+        "description": "Un talismán hecho de una ramita seca, tan delgada que podría romperse al menor contacto.",
+        "effect": "Se perderá al morir en lugar de las runas."
+    },
+    {
+        "id": "17f697d1dacl0i2sui3ut73lui72f",
+        "name": "Aflicción de Shabriri",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697d1dacl0i2sui3ut73lui72f.png",
+        "description": "Inquietante parecido a un hombre al que le han arrancado los ojos. Las comisuras de su boca están levantadas de una manera casi coqueta.",
+        "effect": "Atrae constantemente la agresión de los enemigos"
+    },
+    {
+        "id": "17f69b80630l0i2sum3q22drl273qe",
+        "name": "Talismán de Dragón Mágico",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69b80630l0i2sum3q22drl273qe.png",
+        "description": "Talismán que representa un antiguo dragón azul. Aumenta la negación de daño mágico.",
+        "effect": "Aumenta la negación de daño mágico."
+    },
+    {
+        "id": "17f69726e74l0i2sunvmav2rtqj9e",
+        "name": "Reliquia del Observador de Estrellas",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69726e74l0i2sunvmav2rtqj9e.png",
+        "description": "Un talismán grabado con la leyenda de una reina. Aumenta la inteligencia.",
+        "effect": "Aumenta la inteligencia en 5."
+    },
+    {
+        "id": "17f6964b6cbl0i2suzpeqzc8p0p31a",
+        "name": "Talismán de Espada Gemela",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6964b6cbl0i2suzpeqzc8p0p31a.png",
+        "description": "Un talismán que representa una espada gemela y un confesor. Mejora el golpe final que termina una cadena de ataques.",
+        "effect": "Mejora el golpe final de las cadenas de ataques."
+    },
+    {
+        "id": "17f69ebbca4l0i2suzy77ydy8c49x",
+        "name": "Camafeo del Tomador",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ebbca4l0i2suzy77ydy8c49x.png",
+        "description": "Un talismán grabado con una severa efigie del Pretor Rykard, maestro de la Mansión del Volcán.",
+        "effect": "Restaura los PS al derrotar a los enemigos"
+    },
+    {
+        "id": "17f697e6e60l0i2sv6zgblnfuco5k5",
+        "name": "Reliquia del Azote de las Estrellas",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697e6e60l0i2sv6zgblnfuco5k5.png",
+        "description": "Un talismán grabado con una escena de una historia heroica. Aumenta la fuerza.",
+        "effect": "Aumenta la fuerza"
+    },
+    {
+        "id": "17f697609cfl0i2sv7ve0yxa2u67ps",
+        "name": "Medallón de Ámbar Viridiano",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f697609cfl0i2sv7ve0yxa2u67ps.png",
+        "description": "Un medallón con ámbar viridiano incrustado. Aumenta la resistencia máxima. La savia vieja del Árbol Áureo se convierte en ámbar, atesorado como la más preciosa de las joyas en la era de Godfrey, el primer Señor de Elden. Una energía vital primordial reside en su interior",
+        "effect": "Aumenta la resistencia máxima"
+    },
+    {
+        "id": "17f69b8ff63l0i2svfsqagao13n1q",
+        "name": "Reliquia de los Dos Dedos",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69b8ff63l0i2svfsqagao13n1q.png",
+        "description": "Un talismán grabado con la leyenda de los Dos Dedos. Aumenta la fe.",
+        "effect": "Aumenta la fe en 5."
+    },
+    {
+        "id": "17f69a2445bl0i2svl6l9dei5cxhbd",
+        "name": "Insignia de Espada Alada",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69a2445bl0i2svl6l9dei5cxhbd.png",
+        "description": "Un talismán que representa una hoja protésica levantada. Un honor otorgado a los caballeros que lucharon junto a Malenia la Cercenada.",
+        "effect": "Aumenta el poder de ataque con ataques sucesivos"
+    },
+    {
+        "id": "17f69f205a0l0i2svmo2djg04dhvj4",
+        "name": "Favor del Árbol Áureo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69f205a0l0i2svmo2djg04dhvj4.png",
+        "description": "Un talismán que representa una bendición especial del Árbol Áureo. Aumenta ligeramente los PS máximos, la resistencia y la carga de equipo.",
+        "effect": "Aumenta los PS máximos, la resistencia y la carga de equipo"
+    },
+    {
+        "id": "17f699b6e58l0i2svqah8qxabssa6s",
+        "name": "Talismán de Semilla Carmesí",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699b6e58l0i2svqah8qxabssa6s.png",
+        "description": "Un talismán de color carmesí con el patrón de una semilla del Árbol Áureo. Aumenta la restauración de PS del Frasco de Lágrimas Carmesí.",
+        "effect": "Aumenta la regeneración de PS del Frasco de Lágrimas Carmesí"
+    },
+    {
+        "id": "17f69d7c380l0i2sw0rxwfk68fidwr",
+        "name": "Talismán de la Escuela de Graven",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d7c380l0i2sw0rxwfk68fidwr.png",
+        "description": "Un talismán que representa una escuela de magos de graven, la pesadilla de la academia.",
+        "effect": "Aumenta la potencia de las hechicerías"
+    },
+    {
+        "id": "17f69c0c973l0i2sw8w6uvbwqiqfmy",
+        "name": "Icono de Godfrey",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c0c973l0i2sw8w6uvbwqiqfmy.png",
+        "description": "Un talismán legendario que representa al Señor de Elden Godfrey. Aumenta el poder de ataque de carga de las hechicerías, los encantamientos y las habilidades.",
+        "effect": "Mejora los hechizos y habilidades cargados."
+    },
+    {
+        "id": "17f69858252l0i2swaqtyccdf5kihk",
+        "name": "Talismán de Lanza",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69858252l0i2swaqtyccdf5kihk.png",
+        "description": "Un talismán que representa una lanza y un soldado. Mejora los contraataques que son únicos de las armas de estoque.",
+        "effect": "Mejora los contraataques únicos de las armas de estoque"
+    },
+    {
+        "id": "17f69ee87e3l0i2swe4iei5nanxbr",
+        "name": "Talismán de Masa de Graven",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ee87e3l0i2swe4iei5nanxbr.png",
+        "description": "Un talismán que representa la primera escuela de magos de graven, una pesadilla que seguiría atormentando a la academia. Aumenta enormemente la potencia de las hechicerías. La corriente primigenia es una tradición prohibida de la hechicería de piedra refulgente. Para aquellos que se aferran a sus enseñanzas, el acto de recolectar hechiceros para convertirlos en las semillas de las estrellas no es más que otro camino de investigación científica.",
+        "effect": "Aumenta enormemente la potencia de las hechicerías."
+    },
+    {
+        "id": "17f6967466bl0i2swi5et1ibv4rc6r",
+        "name": "Cuerno del Espíritu Ancestral",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6967466bl0i2swi5et1ibv4rc6r.png",
+        "description": "Objeto cortado de los cuernos del Espíritu del Ancestro Real.",
+        "effect": "Restaura los PC al derrotar a los enemigos"
+    },
+    {
+        "id": "17f69990291l0i2swl19cw8v99d5tk",
+        "name": "Amuleto de Cuerno Vigoroso",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69990291l0i2swl19cw8v99d5tk.png",
+        "description": "Un adorno usado por los seguidores ancestrales. Aumenta enormemente la robustez. (La robustez gobierna la resistencia a la pérdida de sangre y la escarcha). Se dice que es un cuerno en ciernes. Los seguidores ancestrales creen que los cuernos de una bestia longeva continúan brotando como astas, una y otra vez, hasta que la bestia un día se convierte en un espíritu ancestral.",
+        "effect": "Aumenta enormemente la robustez"
+    },
+    {
+        "id": "17f696b90dbl0i2sws9twxdvi39xzf",
+        "name": "Talismán de Gran Escudo de Dragón",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f696b90dbl0i2sws9twxdvi39xzf.png",
+        "description": "Talismán legendario de hierro forjado que representa un enorme dragón antiguo. Aumenta enormemente la negación de daño físico.",
+        "effect": "Aumenta enormemente la negación de daño físico"
+    },
+    {
+        "id": "17f69c504f2l0i2swunxt9oun5dn9",
+        "name": "Ulcerado de Márika",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c504f2l0i2swunxt9oun5dn9.png",
+        "description": "Este legendario talismán es un ojo grabado con una Runa de Elden, que se dice que es el sello de la Reina Márika.",
+        "effect": "Aumenta enormemente los atributos, pero también aumenta el daño recibido."
+    },
+    {
+        "id": "17f69d1b2c0l0i2sx1e2ftbrqshztb",
+        "name": "Escarabajo de Oro",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d1b2c0l0i2sx1e2ftbrqshztb.png",
+        "description": "Un facsímil de talismán de un escarabajo, el portador de tesoros y cosas preciosas.",
+        "effect": "Aumenta las runas obtenidas de"
+    },
+    {
+        "id": "17f699ae959l0i2sx3bloupcziqiz",
+        "name": "Talismán de Espada Ritual",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699ae959l0i2sx3bloupcziqiz.png",
+        "description": "Un talismán con el patrón de espadas utilizadas en el combate ritual que se celebra en honor al Árbol Áureo.",
+        "effect": "Aumenta el poder de ataque cuando los PS están al máximo."
+    },
+    {
+        "id": "17f699e1a3al0i2sxkv62fi32hab4",
+        "name": "Talismán de Escudo Ritual",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699e1a3al0i2sxkv62fi32hab4.png",
+        "description": "Un talismán con el patrón de escudos utilizados en el combate ritual que se celebra en honor al Árbol Áureo.",
+        "effect": "Aumenta la defensa cuando los PS están al máximo."
+    },
+    {
+        "id": "17f69e92d45l0i2sxmogqn2tdfna89",
+        "name": "Talismán de Perfumista",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e92d45l0i2sxmogqn2tdfna89.png",
+        "description": "Un talismán que representa un juego de frascos de perfume. Aumenta la potencia de los objetos de perfume.",
+        "effect": "Aumenta la potencia de los objetos de perfume"
+    },
+    {
+        "id": "17f69b3ce89l0i2sxo7j01c9t4v2b",
+        "name": "Rama Emplumada Azul",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69b3ce89l0i2sxo7j01c9t4v2b.png",
+        "description": "Un talismán adornado con plumas azules, una vez utilizado en antiguos rituales de muerte.",
+        "effect": "Aumenta la defensa cuando los PS están bajos."
+    },
+    {
+        "id": "17f69747fbcl0i2sxow29iyn6fm75v",
+        "name": "Amuleto de Escorpión Mágico",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69747fbcl0i2sxow29iyn6fm75v.png",
+        "description": "Un talismán que llevan los asesinos que atacan sin ser vistos. Con el patrón de un escorpión recién mudado de su exoesqueleto, sus garras apresan un corazón que brilla con magia.",
+        "effect": "Aumenta el ataque mágico, pero reduce la negación de daño"
+    },
+    {
+        "id": "17f69c86334l0i2sy3lip14s6g9qa",
+        "name": "Quiste del Príncipe de la Muerte",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c86334l0i2sy3lip14s6g9qa.png",
+        "description": "Un quiste fétido y cubierto de maleza extraído de la carne facial. Aumenta enormemente la vitalidad. (La vitalidad gobierna la resistencia a los efectos de la Muerte).",
+        "effect": "Aumenta enormemente la vitalidad"
+    },
+    {
+        "id": "17f69f4710al0i2sy6gpkd85ki28",
+        "name": "Fragmento de Jarra Guerrera",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69f4710al0i2sy6gpkd85ki28.png",
+        "description": "Fragmento de una jarra guerrera destrozada.",
+        "effect": "Aumenta el poder de ataque de las habilidades."
+    },
+    {
+        "id": "17f698e1ea9l0i2sy8csbpc3y128lo",
+        "name": "Fragmento de Alexander",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f698e1ea9l0i2sy8csbpc3y128lo.png",
+        "description": "Fragmento del difunto Alexander, una jarra guerrera destrozada.",
+        "effect": "Aumenta enormemente el poder de ataque de las habilidades."
+    },
+    {
+        "id": "17f69ba2ff0l0i2sye3sdb94vc6u6j",
+        "name": "Talismán de Gran Escudo",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ba2ff0l0i2sye3sdb94vc6u6j.png",
+        "description": "Talismán que representa a un caballero sosteniendo un gran escudo. Aumenta la capacidad de guardia.",
+        "effect": "Aumenta la capacidad de guardia."
+    },
+    {
+        "id": "17f69afb835l0i2sykg6ynuw6wl9b",
+        "name": "Prótesis de Millicent",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69afb835l0i2sykg6ynuw6wl9b.png",
+        "description": "Parte de la prótesis dorada utilizada por Millicent. La mano está cerrada en un puño que una vez levantó una espada.",
+        "effect": "Aumenta la destreza, aumenta el poder de ataque con ataques sucesivos"
+    },
+    {
+        "id": "17f69e13918l0i2syr0vvb0gg1l8xg",
+        "name": "Talismán de Lanza",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e13918l0i2syr0vvb0gg1l8xg.png",
+        "description": "Un talismán que representa una lanza y un soldado. Mejora los contraataques que son únicos de las armas de estoque.",
+        "effect": "Mejora los contraataques únicos de las armas de estoque"
+    },
+    {
+        "id": "17f6991130cl0i2sywsfxyysl6tz7h",
+        "name": "Talismán de Daga",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6991130cl0i2sywsfxyysl6tz7h.png",
+        "description": "Un talismán que representa una daga y un cirujano. Mejora los golpes críticos.",
+        "effect": "Mejora los golpes críticos."
+    },
+    {
+        "id": "17f69ad7529l0i2syzo9ji7wrucoq5",
+        "name": "Rama Emplumada Roja",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69ad7529l0i2syzo9ji7wrucoq5.png",
+        "description": "Un talismán adornado con plumas rojas, una vez utilizado en antiguos rituales de muerte.",
+        "effect": "Aumenta el poder de ataque cuando los PS están bajos."
+    },
+    {
+        "id": "17f69eaed7fl0i2sz3buubfj570rq",
+        "name": "Jarra Compañera",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69eaed7fl0i2sz3buubfj570rq.png",
+        "description": "Un talismán entregado por las jarras a sus amigos. Aumenta la potencia de las jarras arrojadizas.",
+        "effect": "Aumenta la potencia de las ollas arrojadizas"
+    },
+    {
+        "id": "17f6976f6b0l0i2szav175mw9xww9x",
+        "name": "Talismán de Lienzo del Rebaño",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f6976f6b0l0i2szav175mw9xww9x.png",
+        "description": "Un talismán con un icono que representa una masa de figuras enmascaradas. Aumenta enormemente la potencia de los encantamientos.",
+        "effect": "Aumenta enormemente la potencia de los Encantamientos."
+    },
+    {
+        "id": "17f69c9bfc8l0i2sze3h5gawcr577p",
+        "name": "Velo Ocultador",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69c9bfc8l0i2sze3h5gawcr577p.png",
+        "description": "Talismán hecho de tela oscura con un brillo lustroso",
+        "effect": "Oculta al portador mientras se agacha lejos de los enemigos"
+    },
+    {
+        "id": "17f69cdc905l0i2szmkk79ces1m9ea",
+        "name": "Espejo Tramposo del Dedo Doblado",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69cdc905l0i2szmkk79ces1m9ea.png",
+        "description": "Un pequeño espejo nublado que refleja una figura de carne y hueso. Hace que el portador adopte la apariencia de un Anfitrión de los Dedos. Uno de los implementos rituales creados por los Sinluz para engañar a los invasores.",
+        "effect": "Adopta la apariencia de un Anfitrión de los Dedos"
+    },
+    {
+        "id": "17f69d33e2dl0i2szt872otxd3taua",
+        "name": "Talismán de Pluma del Crisol",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69d33e2dl0i2szt872otxd3taua.png",
+        "description": "Un talismán hecho de plumas que encarna los aspectos de varias criaturas. Se dice que creció en el cuerpo humano hace mucho tiempo.",
+        "effect": "Mejora la rodada de esquivar pero aumenta el daño recibido"
+    },
+    {
+        "id": "17f699d64d5l0i2szu3wjjkmeqklc",
+        "name": "Aflicción de Daedicar",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f699d64d5l0i2szu3wjjkmeqklc.png",
+        "description": "Inquietante parecido a una mujer cuya piel fue desollada. Sonríe con una ternura serena.",
+        "effect": "Aumenta el daño recibido"
+    },
+    {
+        "id": "17f69e0bce6l0i2szv2ltfxx820p4e",
+        "name": "Espejo Tramposo del Anfitrión",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f69e0bce6l0i2szv2ltfxx820p4e.png",
+        "description": "Un pequeño espejo nublado que refleja una figura de carne y hueso.",
+        "effect": "Adopta la apariencia de un cooperador"
+    },
+    {
+        "id": "17f696c4991l0i2szwm52zrw4bgso4",
+        "name": "Cordón Umbilical Entrelazado",
+        "image": "https://eldenring.fanapis.com/images/talismans/17f696c4991l0i2szwm52zrw4bgso4.png",
+        "description": "Misterioso objeto circular que está extrañamente deformado. Cambia el comportamiento de las acciones del portador.",
+        "effect": "Cambia el comportamiento de las acciones del portador"
+    }
+]

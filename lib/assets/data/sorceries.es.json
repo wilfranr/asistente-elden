@@ -1,0 +1,1698 @@
+[
+    {
+        "id": "17f69323f35l0hykrc6d1g3vajyc0n",
+        "name": "Espinas del Castigo",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69323f35l0hykrc6d1g3vajyc0n.png",
+        "description": "Una hechicería aberrante descubierta por criminales exiliados. Las suyas son las hechicerías más denostadas por la academia. Hiere al lanzador con espinas de pecado, enviando un rastro de espinas de sangre que corren por el suelo para empalar a los enemigos desde abajo. Esta hechicería se puede lanzar repetidamente. Los culpables, con los ojos arrancados por las espinas, vivían en la oscuridad eterna. Allí descubrieron la estrella de sangre.",
+        "type": "Hechicerías",
+        "cost": 13,
+        "slots": 1,
+        "effects": "Hiere al lanzador para desatar un rastro de espinas de sangre",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 21
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697cbb96l0hykre66weonnfh81y",
+        "name": "Rencor de la Muerte Antigua",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f697cbb96l0hykre66weonnfh81y.png",
+        "description": "Hechicería de los sirvientes de la Muerte.",
+        "type": "Hechicerías",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Invoca una horda de espíritus vengativos que persiguen a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 34
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694c4b51l0hykrh5ekspavmcdh",
+        "name": "Espinas del Pecado",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f694c4b51l0hykrh5ekspavmcdh.png",
+        "description": "Una hechicería aberrante, descubierta junto con la piedra refulgente roja por aquellos exiliados al norte por sus crímenes. Invoca grandes espinas de un remolino de sangre derramada por la propia mano en penitencia por los pecados. Esta hechicería se puede lanzar repetidamente. La Academia denuesta esta hechicería, que extrae su poder de la fe.",
+        "type": "Hechicería",
+        "cost": 9,
+        "slots": 1,
+        "effects": "Invoca espinas de un remolino de tu propia sangre.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 0
+            },
+            {
+                "name": "Fe",
+                "amount": 24
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697763ffl0hykrjb9eqis858fj9",
+        "name": "Cañón de Haima",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f697763ffl0hykrjb9eqis858fj9.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Lanza un proyectil mágico explosivo que vuela en arco. La carga aumenta la potencia. Extraída del conspecto de Haima, el adjudicador de la academia, esta hechicería emplea la fuerza como medio para sofocar el conflicto.",
+        "type": "Hechicerías",
+        "cost": 45,
+        "slots": 1,
+        "effects": "Lanza un proyectil mágico explosivo en arco",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 25
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69548207l0hykrjxtjpw45plt0o",
+        "name": "Fragmento de Emboscada",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69548207l0hykrjxtjpw45plt0o.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería. Lanza un proyectil desde una distancia alejada del lanzador, para golpear al enemigo por la espalda. Esta hechicería se puede lanzar repetidamente. Los hechiceros sellianos eran asesinos, y se dice que a menudo cazaban a sus compañeros.",
+        "type": "Hechicerías",
+        "cost": 16,
+        "slots": 1,
+        "effects": "Golpea desde atrás con un proyectil disparado desde la distancia",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 23
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69526092l0hykrkfqubdcrri5ri",
+        "name": "Falange Cariana",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69526092l0hykrkfqubdcrri5ri.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 26,
+        "slots": 1,
+        "effects": "Forma un arco defensivo de numerosas cuchillas refulgentes mágicas",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 34
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69501669l0hykrly1hkzqhsjkgf",
+        "name": "Hoja Lunar de Adula",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69501669l0hykrly1hkzqhsjkgf.png",
+        "description": "Hechicería de Adula, el Dragón de Piedra Refulgente. Conjura una gran espada mágica fría, luego realiza un golpe de barrido que lanza un proyectil con forma de hoja de escarcha. Esta hechicería se puede lanzar repetidamente. Adula, un devorador de hechiceros, fue vencido por Ranni y posteriormente le juró un juramento de caballero a su Luna Oscura.",
+        "type": "Hechicerías",
+        "cost": 26,
+        "slots": 1,
+        "effects": "Cuchillada de barrido seguida de un proyectil de hoja fría",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 32
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698158cbl0hykro1lrfmqwblslj",
+        "name": "Gran Espada Cariana",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f698158cbl0hykro1lrfmqwblslj.png",
+        "description": "Una de las hechicerías de la familia real cariana. Conjura una gran espada mágica y luego realiza un golpe de barrido. Esta hechicería se puede lanzar repetidamente. Armados con este hechizo, los hechiceros ganan la fuerza de los caballeros, su lealtad jurada a la luna.",
+        "type": "Hechicerías",
+        "cost": 16,
+        "slots": 1,
+        "effects": "Realiza una cuchillada de barrido usando una gran espada mágica",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 24
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68f67eeal0hyksqja69pmxoh3yh",
+        "name": "Perforador Cariano",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f68f67eeal0hyksqja69pmxoh3yh.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicería",
+        "cost": 23,
+        "slots": 1,
+        "effects": "Empala a los enemigos con una gran espada mágica",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 27
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f691dc847l0hyksqn4eqkjcjls",
+        "name": "Represalia Cariana",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f691dc847l0hyksqn4eqkjcjls.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 8,
+        "slots": 1,
+        "effects": "Disipa los hechizos enemigos y contraataca con cuchillas refulgentes",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 17
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69526839l0hykt29wlkzjaekmfp",
+        "name": "Rebanador Cariano",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69526839l0hykt29wlkzjaekmfp.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 4,
+        "slots": 1,
+        "effects": "Realiza una rápida cuchillada de barrido usando una espada mágica",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 14
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697a3cebl0hykt5z1wd5xboo99x",
+        "name": "Aluvión de Cristal",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f697a3cebl0hykt5z1wd5xboo99x.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 14,
+        "slots": 1,
+        "effects": "Dispara una andanada de fragmentos de cristal de piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 23
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6935c00al0hykt61d5dex7ibki",
+        "name": "Estrellas Colapsantes",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6935c00al0hykt61d5dex7ibki.png",
+        "description": "Una de las hechicerías de piedra refulgente que manipula las fuerzas gravitacionales.",
+        "type": "Hechicerías",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Atrae a los enemigos hacia el lanzador con una andanada de proyectiles de gravedad",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 36
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69383db4l0hykt8reipbquz8e6t",
+        "name": "Cometa de Azur",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69383db4l0hykt8reipbquz8e6t.png",
+        "description": "Hechicería legendaria ideada por Azur, hechicero primigenio. Dispara un tremendo cometa en un torrente similar a la lejana expansión estrellada, el lugar que se dice que es el origen de la piedra refulgente. Mantén presionado para continuar liberando el poder de la hechicería. Cuando Azur vislumbró la corriente primigenia, vio la oscuridad. Quedó hechizado y temeroso del abismo.",
+        "type": "Hechicerías",
+        "cost": 40,
+        "slots": 3,
+        "effects": "Dispara un tremendo cometa dentro de un torrente estrellado",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 60
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69246033l0hykt9k2ifr73lab5s",
+        "name": "Explosión de Cristal",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69246033l0hykt9k2ifr73lab5s.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Dispara una explosión de fragmentos de cristal de piedra refulgente. Esta hechicería se puede lanzar repetidamente y mientras se está en movimiento. Cargar aumenta la potencia. Una hechicería del Cuadro de Cristal, un grupo de hechiceros que buscaban la sabiduría de la piedra, los secretos encerrados en la débil cogitación de los Cristalianos.",
+        "type": "Hechicerías",
+        "cost": 14,
+        "slots": 1,
+        "effects": "Dispara una explosión de fragmentos de cristal de piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 18
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69173b9bl0hyktcuppfyv71lx3",
+        "name": "Cometa",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69173b9bl0hyktcuppfyv71lx3.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Dispara un gran cometa mágico. Esta hechicería se puede lanzar repetidamente y mientras se está en movimiento. Cargar aumenta la potencia. La más grande de las hechicerías del Conspectus de Karolos, que solo unos pocos hechiceros han logrado dominar.",
+        "type": "Hechicerías",
+        "cost": 38,
+        "slots": 1,
+        "effects": "Dispara un gran cometa mágico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 52
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68f97095l0hykuc91iv4akp5w4i",
+        "name": "Torrente de Cristal",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f68f97095l0hykuc91iv4akp5w4i.png",
+        "description": "Hechicería de los misteriosos Cristalianos.",
+        "type": "Hechicerías",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Crea una masa de cristal que dispara una corriente de fragmentos de cristal",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 47
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69346f84l0hykudkkqg6v1lwpk",
+        "name": "Liberación de Cristal",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69346f84l0hykudkkqg6v1lwpk.png",
+        "description": "Hechicería de los misteriosos Cristalianos. Crea una masa de cristal, luego la rompe para barrer un área amplia con una lluvia violenta de fragmentos de cristal. Esta hechicería es utilizada por adeptos de alto rango entre los Cristalianos. Algunos también llaman a esta hechicería \"el Sol de Cristal.\"",
+        "type": "Hechicerías",
+        "cost": 38,
+        "slots": 1,
+        "effects": "Barre el área con una lluvia violenta de fragmentos de cristal",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 41
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69402fafl0hykuks706v0mkdjbd",
+        "name": "Niebla de Fia",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69402fafl0hykuks706v0mkdjbd.png",
+        "description": "Hechicería de Fia, la Compañera de Lecho de Muerte. Crea una niebla mortal ante el lanzador, que inflige la plaga de la Muerte a quienes entran. Esta hechicería se puede lanzar mientras se está en movimiento. Cargar aumenta el alcance de la niebla. Esta hechicería fue desarrollada para oponerse a la Mesa Redonda, y solo es efectiva contra los Sinluz.",
+        "type": "Hechicerías",
+        "cost": 25,
+        "slots": 1,
+        "effects": "Libera una niebla de muerte ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 23
+            },
+            {
+                "name": "Fe",
+                "amount": 18
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696b6eael0hykuqvnuxlujdx0r9",
+        "name": "Oscuridad Eterna",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f696b6eael0hykuqvnuxlujdx0r9.png",
+        "description": "Hechicería prohibida de Sellia, Ciudad de la Hechicería.",
+        "type": "Hechicerías",
+        "cost": 25,
+        "slots": 1,
+        "effects": "Crea un espacio oscuro que atrae los hechizos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 35
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698816aal0hykuwweto12afmr3",
+        "name": "Armamento Congelado",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f698816aal0hykuwweto12afmr3.png",
+        "description": "Hechicería que se dice que fue utilizada por la vieja bruja de las nieves. Encanta el armamento de la mano derecha con escarcha. Esta hechicería se puede lanzar mientras se está en movimiento. La bruja de las nieves enseñó a la joven Ranni a temer a la luna oscura mientras le impartía su hechicería fría.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con escarcha",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 15
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69206fd7l0hykuyci822nhe618p",
+        "name": "Lluvia de Estrellas Fundadora",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69206fd7l0hykuyci822nhe618p.png",
+        "description": "La más antigua de las hechicerías primigenias, que se dice que fue descubierta por un",
+        "type": "Hechicerías",
+        "cost": 46,
+        "slots": 2,
+        "effects": "Libera un aguacero de lluvia de estrellas por un tiempo",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 52
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6989bf92l0hykv0ugfsrr1nuyy6",
+        "name": "Llama Fantasma Explosiva",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6989bf92l0hykv0ugfsrr1nuyy6.png",
+        "description": "Hechicería de los sirvientes de la Muerte.",
+        "type": "Hechicerías",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Causa una explosión de llama fantasma que quema un área amplia",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 42
+            },
+            {
+                "name": "Fe",
+                "amount": 30
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698eaeabl0hykv0y1tsef3d740n",
+        "name": "Niebla Gélida",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f698eaeabl0hykv0y1tsef3d740n.png",
+        "description": "Hechicería que se dice que fue utilizada por la vieja bruja de las nieves.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Libera una niebla fría ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 21
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6970b6del0hykw6jbvxlnultl",
+        "name": "Furia de Gelmir",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6970b6del0hykw6jbvxlnultl.png",
+        "description": "Una de las hechicerías desarrolladas a partir del magma del Monte Gelmir.",
+        "type": "Hechicerías",
+        "cost": 27,
+        "slots": 1,
+        "effects": "Cubre el área con una oleada de magma de la tierra",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 28
+            },
+            {
+                "name": "Fe",
+                "amount": 15
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697a11c6l0hykw8gs7a4bj2bzi",
+        "name": "Mazo de Haima",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f697a11c6l0hykw8gs7a4bj2bzi.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Crea un gran martillo mágico y lo golpea. Permite un ataque de seguimiento. Extraída del conspecto erudito de Haima, el adjudicador de la academia, esta hechicería emplea la fuerza como medio para sofocar el conflicto.",
+        "type": "Hechicerías",
+        "cost": 37,
+        "slots": 1,
+        "effects": "Ataca usando un gran martillo mágico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 25
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6923b831l0hykweqyar0a2aerzn",
+        "name": "Arco de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6923b831l0hykweqyar0a2aerzn.png",
+        "description": "Dispara un arco horizontal de magia que se extiende hacia afuera. Esta hechicería se puede lanzar repetidamente y mientras se está en movimiento.",
+        "type": "Hechicería",
+        "cost": 10,
+        "slots": 1,
+        "effects": "Dispara un arco mágico que se ensancha horizontalmente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 13
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6933356el0hykwkb5c4f5eue05g",
+        "name": "Fragmento de Cometa de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6933356el0hykwkb5c4f5eue05g.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Dispara un cometa mágico con una cola. Esta hechicería se puede lanzar repetidamente y mientras se está en movimiento. Cargar aumenta la potencia. Una hechicería del Conspectus de Karolos, el más venerable de la academia.",
+        "type": "Hechicerías",
+        "cost": 25,
+        "slots": 1,
+        "effects": "Dispara un cometa mágico con una cola",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 36
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692eb5c4l0hykwkentckpz3y24a",
+        "name": "Guijarro de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f692eb5c4l0hykwkentckpz3y24a.png",
+        "description": "La hechicería de piedra refulgente más básica de la Academia de Raya Lucaria.",
+        "type": "Hechicería",
+        "cost": 7,
+        "slots": 1,
+        "effects": "Dispara proyectiles mágicos de piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 10
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6944ddfel0hykwkrvbsv9aa4yv",
+        "name": "Estrellas de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6944ddfel0hykwkrvbsv9aa4yv.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicería",
+        "cost": 14,
+        "slots": 1,
+        "effects": "Dispara tres estrellas fugaces que persiguen a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 12
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6964e156l0hykwlsm0jw2254jkf",
+        "name": "Fragmento de Hielo de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6964e156l0hykwlsm0jw2254jkf.png",
+        "description": "Hechicería que se dice que fue utilizada por la vieja bruja de las nieves.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Dispara una masa de magia fría de la piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 15
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694aa956l0hykwnt8t2s7k2ohg8",
+        "name": "Falange de Cuchillas Refulgentes",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f694aa956l0hykwnt8t2s7k2ohg8.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Forma un arco defensivo de cuchillas refulgentes mágicas",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 22
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68fa1c72l0hykxlbrlhvbrbbyqn",
+        "name": "Pozo de Gravedad",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f68fa1c72l0hykxlbrlhvbrbbyqn.png",
+        "description": "Una de las hechicerías de piedra refulgente que manipula las fuerzas gravitacionales. Dispara un proyectil de fuerza gravitacional condensada. Aquellos golpeados por él serán atraídos hacia el lanzador. Cargar aumenta la potencia. Una técnica gravitacional estudiada por el joven Radahn. Su maestro fue un Señor de Alabastro con piel de piedra.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Atrae a los enemigos hacia el lanzador con un proyectil de gravedad",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 17
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696ff8b3l0hyky03xbsyxdc6ybe",
+        "name": "Gran Fragmento de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f696ff8b3l0hyky03xbsyxdc6ybe.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. La piedra refulgente sirve como un conducto, lanzando grandes proyectiles mágicos a los enemigos. Esta hechicería se puede lanzar repetidamente y mientras se está en movimiento. Aquellos indignos de la corona de piedra suelen terminar aquí su breve viaje a la hechicería.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Dispara proyectiles mágicos más grandes de la piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 16
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6916d3a1l0hyky82ck5l071k7zt",
+        "name": "Lucidez",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6916d3a1l0hyky82ck5l071k7zt.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 10,
+        "slots": 1,
+        "effects": "Alivia la acumulación de sueño y locura",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 17
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69580940l0hyky9z5ebz67i2kvd",
+        "name": "Falange de Gran Hoja",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69580940l0hyky9z5ebz67i2kvd.png",
+        "description": "Una de las hechicerías de la familia real cariana. Crea un arco defensivo de cuchillas refulgentes mágicas más grandes sobre la cabeza, que atacan automáticamente a los enemigos cercanos. Usado por los caballeros trol encantados. Eran los camaradas de la joven Rennala, unidos por un juramento.",
+        "type": "Hechicerías",
+        "cost": 43,
+        "slots": 1,
+        "effects": "Forma un arco defensivo de cuchillas refulgentes mágicas más grandes",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 29
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695ccb66l0hykyaen5y0w0khkll",
+        "name": "Gran Burbuja Oracular",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f695ccb66l0hykyaen5y0w0khkll.png",
+        "description": "Hechicería de los hombres de arcilla que sirvieron como sacerdotes en la antigua",
+        "type": "Hechicerías",
+        "cost": 16,
+        "slots": 1,
+        "effects": "Lanza una gran burbuja mágica",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 25
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 18
+            }
+        ]
+    },
+    {
+        "id": "17f6971b61dl0hykyaiiyblbxaeim",
+        "name": "Burbuja Oracular",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6971b61dl0hykyaiiyblbxaeim.png",
+        "description": "Hechicería de los hombres de arcilla que sirvieron como sacerdotes en la antigua dinastía.",
+        "type": "Hechicería",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Lanza varias burbujas de magia.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 10
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6921c90fl0hykycr9xzxlra3r57",
+        "name": "Gran Arco de Loretta",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6921c90fl0hykycr9xzxlra3r57.png",
+        "description": "Hechicería utilizada por la Caballera Real Loretta. Crea un gran arco mágico y dispara una gran flecha. Cargar aumenta la potencia. Mantén presionado para mantener la gran flecha tensada. Se dice que el arco era el arma favorita de Loretta.",
+        "type": "Hechicerías",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Dispara una gran flecha desde un gran arco mágico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 26
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696d8893l0hykyj6qhbawvh09t",
+        "name": "Maestría de Loretta",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f696d8893l0hykyj6qhbawvh09t.png",
+        "description": "Hechicería utilizada por Loretta, Caballera del Árbol Hierático. Crea un gran arco mágico y dispara cuatro grandes flechas simultáneamente. Cargar aumenta la potencia. Mantén presionado para mantener las grandes flechas tensadas. Desarrollado por Loretta después de su largo y sangriento viaje para buscar un lugar donde los Albinaúricos pudieran vivir en paz.",
+        "type": "Hechicerías",
+        "cost": 50,
+        "slots": 1,
+        "effects": "Dispara cuatro grandes flechas desde un gran arco mágico a la vez",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 46
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69330670l0hykywaqrpmwdbzpyj",
+        "name": "Aguacero Mágico",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69330670l0hykywaqrpmwdbzpyj.png",
+        "description": "Una de las hechicerías de la familia real cariana.",
+        "type": "Hechicerías",
+        "cost": 25,
+        "slots": 1,
+        "effects": "Invoca una masa mágica que rocía proyectiles sobre el área",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 15
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69818087l0hykz26ox2vtdp84yq",
+        "name": "Cuchilla Refulgente Mágica",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69818087l0hykz26ox2vtdp84yq.png",
+        "description": "Una antigua hechicería de la Familia Real Cariana.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Crea un sello que forma una cuchilla refulgente proyectil después de un retraso",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 14
+            }
+        ]
+    },
+    {
+        "id": "17f6985da4cl0hykzwl2ly1lk18kxg",
+        "name": "Disparo de Magma",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6985da4cl0hykzwl2ly1lk18kxg.png",
+        "description": "Una de las hechicerías desarrolladas a partir del magma del Monte Gelmir.",
+        "type": "Hechicerías",
+        "cost": 24,
+        "slots": 1,
+        "effects": "Dispara un trozo de magma que explota al contacto",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 19
+            },
+            {
+                "name": "Fe",
+                "amount": 10
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6979d7f4l0hyl01q26suhho4xsd",
+        "name": "Meteorito",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6979d7f4l0hyl01q26suhho4xsd.png",
+        "description": "Una hechicería de piedra refulgente que se basa en la fuerza gravitacional, utilizada por un gran rey blanco con piel de piedra. Llama a pequeños meteoritos del cielo. La lluvia de meteoritos continúa mientras la hechicería esté en efecto. Se dice que, en la Ciudad Eterna, ahora perdida en ruinas bajo tierra, los meteoritos tenían la misma importancia que las estrellas.",
+        "type": "Hechicería",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Llama a pequeños meteoros del cielo.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 30
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69763b5dl0hyl03j39aq843i4li",
+        "name": "Cometa Nocturno",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69763b5dl0hyl03j39aq843i4li.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería.",
+        "type": "Hechicerías",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Dispara un cometa mágico semi-invisible",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 38
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f68fe64del0hyl068olsfxrrts7",
+        "name": "Meteorito de Astel",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f68fe64del0hyl068olsfxrrts7.png",
+        "description": "Una de las hechicerías de piedra refulgente que manipula las fuerzas gravitacionales. Invoca un vacío que emite una lluvia de meteoritos. Mantén presionado para continuar el efecto. Una manifestación del poder con el que Astel arrasó la Ciudad Eterna.",
+        "type": "Hechicerías",
+        "cost": 60,
+        "slots": 2,
+        "effects": "Llama a una lluvia de pequeños meteoritos del vacío.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 55
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69717eddl0hyl0exs9l0a0sdw6s",
+        "name": "Fragmento Nocturno",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69717eddl0hyl0exs9l0a0sdw6s.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería.",
+        "type": "Hechicerías",
+        "cost": 7,
+        "slots": 1,
+        "effects": "Dispara rápidamente un semi-invisible",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 18
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f690350b7l0hyl0i9t31pb2ahyzj",
+        "name": "Niebla de la Doncella Nocturna",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f690350b7l0hyl0i9t31pb2ahyzj.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Libera una niebla plateada que absorbe la vida ante el lanzador",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 14
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69062ddbl0hyl0j0sh5cueid15m",
+        "name": "Llamada del Rencor",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69062ddbl0hyl0j0sh5cueid15m.png",
+        "description": "Hechicería de los sirvientes de la Muerte.",
+        "type": "Hechicerías",
+        "cost": 14,
+        "slots": 1,
+        "effects": "Invoca espíritus vengativos que persiguen a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 16
+            },
+            {
+                "name": "Fe",
+                "amount": 14
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698db556l0hyl0jjihm0vl3xdwh",
+        "name": "Burbujas Oraculares",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f698db556l0hyl0jjihm0vl3xdwh.png",
+        "description": "Hechicería de los hombres de arcilla que sirvieron como sacerdotes en la antigua",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Lanza varias burbujas pequeñas de magia.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 19
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 15
+            }
+        ]
+    },
+    {
+        "id": "17f696ded8bl0hyl1chm38nbkimwj9",
+        "name": "Luna Llena de Rennala",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f696ded8bl0hyl1chm38nbkimwj9.png",
+        "description": "Hechicería asociada con la reina cariana. Usa al lanzador como un recipiente para encarnar una luna llena, luego la envía flotando hacia los enemigos. La luna llena disipa toda la hechicería que la toca y reduce temporalmente la negación de daño mágico para aquellos a quienes golpea. La reina Rennala se encontró con esta luna encantadora cuando era joven y, más tarde, embrujaría a la academia.",
+        "type": "Hechicerías",
+        "cost": 55,
+        "slots": 2,
+        "effects": "Encarna una luna llena y lánzala a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 70
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6933fcffl0hyl1h3yit07w1s9ta",
+        "name": "Luna Oscura de Ranni",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6933fcffl0hyl1h3yit07w1s9ta.png",
+        "description": "Hechicería legendaria asociada con la reina cariana.",
+        "type": "Hechicerías",
+        "cost": 62,
+        "slots": 2,
+        "effects": "Encarna una luna fría y oscura y lánzala a los enemigos.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 68
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6960508el0hyl1nhkrxurxy1oqd",
+        "name": "Explosión de Roca",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6960508el0hyl1nhkrxurxy1oqd.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Clava el bastón en el suelo para emitir una onda de choque masiva",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 21
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f695b8eb1l0hyl1wwn8bq4hod2yh",
+        "name": "Magma Hirviente",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f695b8eb1l0hyl1wwn8bq4hod2yh.png",
+        "description": "Una de las hechicerías desarrolladas a partir del magma del Monte Gelmir. Dispara un trozo de magma condensado que explota poco después de golpear al objetivo. Cargar aumenta la potencia y retrasa aún más la explosión. Después de descubrir los antiguos maleficios de Gelmir, Rykard, hijo de la reina Rennala, los volvió a poner en práctica como nuevas formas de hechicería.",
+        "type": "Hechicerías",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Dispara un trozo de magma que explota después de un retraso",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 21
+            },
+            {
+                "name": "Fe",
+                "amount": 12
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6956b602l0hyl1xzxdrjbidynzq",
+        "name": "Rencor de Rykard",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6956b602l0hyl1xzxdrjbidynzq.png",
+        "description": "El terrible poder de Rykard, Señor de la Blasfemia.",
+        "type": "Hechicerías",
+        "cost": 35,
+        "slots": 2,
+        "effects": "Libera espíritus abrasadores que explotan repetidamente después de un retraso",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 40
+            },
+            {
+                "name": "Fe",
+                "amount": 18
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f697513fdl0hyl1yp7y0bcj3si6i",
+        "name": "Lanzarrocas",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f697513fdl0hyl1yp7y0bcj3si6i.png",
+        "description": "Una de las hechicerías de piedra refulgente que manipula las fuerzas gravitacionales.",
+        "type": "Hechicerías",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Invoca rocas de la tierra y las envía volando",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 18
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694eec4fl0hyl27r5xh06ckw1so",
+        "name": "Armamento de Erudito",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f694eec4fl0hyl27r5xh06ckw1so.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 25,
+        "slots": 1,
+        "effects": "Encanta el armamento de la mano derecha con daño mágico",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 12
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69379d7el0hyl27xfguetq35bni",
+        "name": "Escudo de Erudito",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69379d7el0hyl27xfguetq35bni.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 30,
+        "slots": 1,
+        "effects": "Mejora la negación de daño del escudo de la mano izquierda",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 12
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69233f99l0hyl32ixqa8cf501y",
+        "name": "Espiral de Fragmentos",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69233f99l0hyl32ixqa8cf501y.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 16,
+        "slots": 1,
+        "effects": "Dispara proyectiles gemelos en espiral",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 27
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69240fcdl0hyl38ber0x0u7bv3d",
+        "name": "Romper Tierra",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69240fcdl0hyl38ber0x0u7bv3d.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Imbuye la férula del bastón del lanzador con magia, luego la clava en el suelo para crear una onda de choque mágica. Permite un ataque de seguimiento. Una hechicería de cavador de piedras utilizada por los mineros de piedra refulgente del túnel de cristal. En la academia, el uso de esta hechicería era un estigma que marcaba a los eruditos fracasados.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Clava el bastón en el suelo para emitir una onda de choque",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 15
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6902b989l0hyl3f6iorcnaeypi",
+        "name": "Luz Estelar",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6902b989l0hyl3f6iorcnaeypi.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria.",
+        "type": "Hechicerías",
+        "cost": 12,
+        "slots": 1,
+        "effects": "Crea luz estelar para iluminar los alrededores",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 15
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693402e5l0hyl3gzhtqb01yjf3k",
+        "name": "Lluvia de Estrellas",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f693402e5l0hyl3gzhtqb01yjf3k.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Dispara seis estrellas fugaces mágicas que persiguen al objetivo. Esta hechicería se puede lanzar mientras se está en movimiento. Cargar aumenta la potencia. La más difícil de dominar de las hechicerías del Conspectus de Olivinus.",
+        "type": "Hechicerías",
+        "cost": 36,
+        "slots": 1,
+        "effects": "Dispara seis estrellas fugaces que persiguen a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 24
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f6974051al0hyl3kcvhpy2j6smf",
+        "name": "Estrellas de la Ruina",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f6974051al0hyl3kcvhpy2j6smf.png",
+        "description": "Hechicería legendaria ideada por Lusat, hechiceros primigenios.",
+        "type": "Hechicerías",
+        "cost": 50,
+        "slots": 1,
+        "effects": "Dispara doce estrellas fugaces oscuras que persiguen a los enemigos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 43
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f696ec037l0hyl3ngvf00twpbcg",
+        "name": "Cristal Fragmentado",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f696ec037l0hyl3ngvf00twpbcg.png",
+        "description": "Hechicería de los misteriosos Cristalianos. Crea una masa de cristal, luego la rompe en una explosión hacia adelante. Cargar aumenta la potencia. Los Cristalianos son seres inorgánicos, pero viven. Se aferran a los ideales de la corriente primigenia y, como tales, son invitados venerados de los hechiceros.",
+        "type": "Hechicerías",
+        "cost": 32,
+        "slots": 1,
+        "effects": "Crea una masa de cristal que se rompe en una explosión hacia adelante",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 38
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69183747l0hyl3o1tnkgev3q3qs",
+        "name": "Fragmento de Piedra Refulgente Rápido",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69183747l0hyl3o1tnkgev3q3qs.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. La piedra refulgente sirve como un conducto, lanzando rápidos proyectiles mágicos a los enemigos. Esta hechicería se puede usar sin demora después de realizar otra acción. Aquellos indignos de la corona de piedra suelen terminar aquí su breve viaje a la hechicería.",
+        "type": "Hechicerías",
+        "cost": 5,
+        "slots": 1,
+        "effects": "Dispara rápidamente proyectiles mágicos de la piedra refulgente",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 12
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f694f65f4l0hyl3qlnj0oepap3pg",
+        "name": "Terra Magicus",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f694f65f4l0hyl3qlnj0oepap3pg.png",
+        "description": "Una de las hechicerías de piedra refulgente de la Academia de Raya Lucaria. Dibuja un sello de la academia en el suelo, aumentando la fuerza mágica de quienes están dentro. Antiguamente, el sello se lanzaba desde el campanario más alto de la academia, cubriendo todo el recinto de la institución. Este hechizo permite una experiencia tan vívida del lanzamiento de hechizos exitoso que convierte a muchos novatos en verdaderos hechiceros en un instante de nueva comprensión.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Aumenta la fuerza mágica de quienes están dentro del sello",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 20
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69321284l0hyl4lnndsfcv2un9k",
+        "name": "Hoja Invisible",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69321284l0hyl4lnndsfcv2un9k.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería. Encanta el armamento de la mano derecha, haciéndolo completamente invisible. Esta hechicería se puede lanzar mientras se está en movimiento. Usada por los asesinos sellianos para presentarse como hechiceros desarmados.",
+        "type": "Hechicerías",
+        "cost": 18,
+        "slots": 1,
+        "effects": "Hace que el armamento de la mano derecha sea completamente invisible",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 12
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f698ec32bl0hyl4ouriysbeaoqvp",
+        "name": "Forma Invisible",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f698ec32bl0hyl4ouriysbeaoqvp.png",
+        "description": "Una de las hechicerías nocturnas de Sellia, Ciudad de la Hechicería. Hace que el lanzador sea semi-invisible. A caballo, el efecto se extiende para cubrir la montura. Esta hechicería se puede lanzar mientras se está en movimiento. Los asesinos sellianos consideraron todas las opciones que ayudaron en su sucio trabajo.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Hace que el lanzador sea semi-invisible",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 16
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f69332a7cl0hyl4q0ahq1rhl510s",
+        "name": "Barrera de Thops",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f69332a7cl0hyl4q0ahq1rhl510s.png",
+        "description": "La búsqueda de toda la vida de Thops el de la Piedra Roma.",
+        "type": "Hechicerías",
+        "cost": 7,
+        "slots": 1,
+        "effects": "Erige un campo de fuerza mágico para desviar hechizos",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 18
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f693b4e3cl0hyl4rjaph3b2vbtk5",
+        "name": "Tormenta de Hielo de Zamor",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f693b4e3cl0hyl4rjaph3b2vbtk5.png",
+        "description": "Hechicería de hielo de la Ciudad de Zamor.",
+        "type": "Hechicerías",
+        "cost": 22,
+        "slots": 1,
+        "effects": "Clava el bastón en el suelo para crear un tornado helado.",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 36
+            },
+            {
+                "name": "Fe",
+                "amount": 0
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "id": "17f692e03b8l0hyl4rlgts2b9n06wj",
+        "name": "Invocaciones de Tibia",
+        "image": "https://eldenring.fanapis.com/images/sorceries/17f692e03b8l0hyl4rlgts2b9n06wj.png",
+        "description": "Hechicería de los sirvientes de la Muerte. Invoca a un grupo de Aquellos Perdidos en la Muerte. Tres esqueletos aparecerán a cierta distancia del lanzador y atacarán a los enemigos antes de desaparecer. Los muertos han sido dejados a vagar durante mucho tiempo; lo que necesitan es liderazgo.",
+        "type": "Hechicerías",
+        "cost": 20,
+        "slots": 1,
+        "effects": "Invoca a Aquellos que Viven en la Muerte",
+        "requires": [
+            {
+                "name": "Inteligencia",
+                "amount": 28
+            },
+            {
+                "name": "Fe",
+                "amount": 20
+            },
+            {
+                "name": "Arcano",
+                "amount": 0
+            }
+        ]
+    }
+]

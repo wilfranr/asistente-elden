@@ -1,0 +1,578 @@
+[
+    {
+        "id": "17f698bf108l0i2rc1o532xfaytwzl",
+        "name": "Cenizas de Albinaúrico",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f698bf108l0i2rc1o532xfaytwzl.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos Albinaúricos.",
+        "fpCost": "53",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de Albinaúrico"
+    },
+    {
+        "id": "17f69c5e05fl0i2rc2ni1ozwjqbtm",
+        "name": "Cenizas de Seguidor Ancestral",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c5e05fl0i2rc2ni1ozwjqbtm.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un seguidor ancestral.",
+        "fpCost": "63",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un seguidor ancestral"
+    },
+    {
+        "id": "17f69857498l0i2rc3b57qyly3sydo",
+        "name": "Cenizas de Arquero",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69857498l0i2rc3b57qyly3sydo.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar tres espíritus de arquero.",
+        "fpCost": "57",
+        "hpCost": "0",
+        "effect": "Invoca tres espíritus de arquero"
+    },
+    {
+        "id": "17f69962123l0i2rc3wxphqaa3codo",
+        "name": "Cenizas de Soldado Avioneta",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69962123l0i2rc3wxphqaa3codo.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos soldados avioneta. Espíritus de soldados marioneta con rasgos aviares que fueron creados para servir a un hechicero. Equipados con guadañas de mango largo, también atacan desde los cielos lanzando ollas de fuego. A veces pueden funcionar mal cuando se dañan.",
+        "fpCost": "67",
+        "hpCost": "0",
+        "effect": "Invoca los espíritus de dos soldados avioneta"
+    },
+    {
+        "id": "17f69ac4bd0l0i2rc618tsrggfp3kh",
+        "name": "Oleg, el Caballero Desterrado",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ac4bd0l0i2rc618tsrggfp3kh.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Oleg, el Caballero Desterrado.",
+        "fpCost": "100",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu del Caballero Desterrado Oleg"
+    },
+    {
+        "id": "17f69beb243l0i2rcptdnjy0wl2nxj",
+        "name": "Cenizas de Semihumano",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69beb243l0i2rcptdnjy0wl2nxj.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cinco semihumanos.",
+        "fpCost": "69",
+        "hpCost": "0",
+        "effect": "Invoca cinco espíritus de semihumanos"
+    },
+    {
+        "id": "17f6984b305l0i2rcqq95m4bqpnb0t",
+        "name": "Cenizas de Diablillo con Colmillos",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f6984b305l0i2rcqq95m4bqpnb0t.png",
+        "description": "Restos de cenizas en los que aún moran espíritus. Úsalas para invocar dos espíritus de diablillo con colmillos.",
+        "fpCost": "50",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de diablillo con colmillos"
+    },
+    {
+        "id": "17f69776c1dl0i2rcsqvsjrwpwre1p",
+        "name": "Marioneta de la Doncella de los Dedos Therolina",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69776c1dl0i2rcsqvsjrwpwre1p.png",
+        "description": "Una de las marionetas de Seluvis.",
+        "fpCost": "82",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de la Doncella de los Dedos Therolina"
+    },
+    {
+        "id": "17f69f4e16bl0i2rctgy4eba6y1dq",
+        "name": "Cenizas de Rata Gigante",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69f4e16bl0i2rctgy4eba6y1dq.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres ratas gigantes.",
+        "fpCost": "0",
+        "hpCost": "0",
+        "effect": "Invoca tres espíritus de rata gigante"
+    },
+    {
+        "id": "17f6970a4e0l0i2rcxy5mhe8469uy7",
+        "name": "Tiche, la del Cuchillo Negro",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f6970a4e0l0i2rcxy5mhe8469uy7.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de Tiche, la del Cuchillo Negro.",
+        "fpCost": "132",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Tiche, la del Cuchillo Negro"
+    },
+    {
+        "id": "17f69e84114l0i2rdbhn73i6cz73tm",
+        "name": "Cenizas de Hechicero de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69e84114l0i2rdbhn73i6cz73tm.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un hechicero de piedra refulgente.",
+        "fpCost": "49",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un hechicero de piedra refulgente"
+    },
+    {
+        "id": "17f69d490f4l0i2rdevcj5cyogvhec",
+        "name": "Cenizas de Soldado de Godrick",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69d490f4l0i2rdevcj5cyogvhec.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos de los soldados de Godrick.",
+        "fpCost": "54",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de soldado de Godrick"
+    },
+    {
+        "id": "17f69b77adbl0i2rdg8c9ycaad36y5",
+        "name": "Marioneta de Jarra de Combate",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b77adbl0i2rdg8c9ycaad36y5.png",
+        "description": "Una de las marionetas de Seluvis. Úsala para invocar el espíritu de una jarra de combate.",
+        "fpCost": "60",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de una Jarra de Combate"
+    },
+    {
+        "id": "17f69dc6c64l0i2rdkqrx6suz8t4k",
+        "name": "Cenizas de Mercenario de Kaiden",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69dc6c64l0i2rdkqrx6suz8t4k.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un mercenario de Kaiden.",
+        "fpCost": "88",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un Mercenario de Kaiden."
+    },
+    {
+        "id": "17f69f56843l0i2rdofm9tav197rzq",
+        "name": "Cenizas de Soldado con Gran Escudo",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69f56843l0i2rdofm9tav197rzq.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cinco soldados con gran escudo.",
+        "fpCost": "74",
+        "hpCost": "0",
+        "effect": "Invoca cinco espíritus de soldado con gran escudo"
+    },
+    {
+        "id": "17f696cd1c3l0i2rdwfiwxjblacnad",
+        "name": "Lhutel la Sin Cabeza",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f696cd1c3l0i2rdwfiwxjblacnad.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de Lhutel la Sin Cabeza.",
+        "fpCost": "104",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Lhutel la Sin Cabeza"
+    },
+    {
+        "id": "17f698ab785l0i2re2gfjekyqwlm8j",
+        "name": "Cenizas de Cabeza de Calabaza Demente",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f698ab785l0i2re2gfjekyqwlm8j.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de una cabeza de calabaza demente. Espíritu de un soldado loco con un físico grande y musculoso. Aunque ha reprimido su pánico dentro de los oscuros confines de su casco, se enfurece como si estuviera loco cuando se agita por el derramamiento de sangre o el zumbido de los insectos. Este soldado loco es todo lo que queda de un gladiador roto.",
+        "fpCost": "110",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de una cabeza de calabaza demente"
+    },
+    {
+        "id": "17f69c24d62l0i2re6lrc9a3zopybr",
+        "name": "Cenizas de Soldado Marioneta",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c24d62l0i2re6lrc9a3zopybr.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos soldados marioneta.",
+        "fpCost": "67",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de soldado marioneta"
+    },
+    {
+        "id": "17f69718dccl0i2rebxuwsfendz6e",
+        "name": "Cenizas de Lobo Solitario",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69718dccl0i2rebxuwsfendz6e.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres lobos solitarios.",
+        "fpCost": "55",
+        "hpCost": "0",
+        "effect": "Invoca tres espíritus de lobo solitario."
+    },
+    {
+        "id": "17f69b5bc8dl0i2redg5p2ojmuksvu",
+        "name": "Cenizas de Lágrima Imitadora",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b5bc8dl0i2redg5p2ojmuksvu.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de una lágrima imitadora. La invocación consume HP en lugar de FP.",
+        "fpCost": "0",
+        "hpCost": "660",
+        "effect": "Invoca el espíritu de una lágrima imitadora"
+    },
+    {
+        "id": "17f69a3cc86l0i2rej3i1ddya1oiq9",
+        "name": "Marionetas de Doncella Nocturna y Maestra de la Espada",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69a3cc86l0i2rej3i1ddya1oiq9.png",
+        "description": "Una vieja marioneta fabricada en la Ciudad Eterna.",
+        "fpCost": "97",
+        "hpCost": "0",
+        "effect": "Invoca los espíritus de una doncella nocturna y una maestra de la espada"
+    },
+    {
+        "id": "17f69a2890el0i2renh0xht1xcqkfe",
+        "name": "Cenizas de Hechicero Noble",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69a2890el0i2renh0xht1xcqkfe.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un hechicero noble. Espíritu de un noble que una vez pidió un lugar en Raya Lucaria para aprender hechicerías de piedra refulgente. Sin embargo, sus talentos no fueron suficientes para ser digno de ponerse la corona de piedra, y solo es capaz de usar la hechicería más rudimentaria.",
+        "fpCost": "11",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un hechicero noble."
+    },
+    {
+        "id": "17f69cba9a9l0i2reprf9ja1xfjpg",
+        "name": "Cenizas de Nómada",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69cba9a9l0i2reprf9ja1xfjpg.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un nómada.",
+        "fpCost": "61",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un nómada"
+    },
+    {
+        "id": "17f69b8b45cl0i2revtxehcf0mla2c",
+        "name": "Rollo, el Matador de Augurios",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b8b45cl0i2revtxehcf0mla2c.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Rollo, el Matador de Augurios.",
+        "fpCost": "113",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Rollo, el Matador de Augurios"
+    },
+    {
+        "id": "17f69adba9el0i2rf0sm2c9jcpc2m",
+        "name": "Cenizas de Soldado de Raya Lucaria",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69adba9el0i2rf0sm2c9jcpc2m.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres soldados de Raya Lucaria.",
+        "fpCost": "59",
+        "hpCost": "1",
+        "effect": "Invoca tres espíritus de soldado de Raya Lucaria"
+    },
+    {
+        "id": "17f69f00316l0i2rf7rq3l4lzz67b",
+        "name": "Cenizas de Paje",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69f00316l0i2rf7rq3l4lzz67b.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un paje.",
+        "fpCost": "81",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un paje"
+    },
+    {
+        "id": "17f69a1eaddl0i2rfd40p6zlanz41sf",
+        "name": "Cenizas de Miliciano Esquelético",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69a1eaddl0i2rfd40p6zlanz41sf.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos milicianos esqueléticos.",
+        "fpCost": "44",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de miliciano esquelético"
+    },
+    {
+        "id": "17f697066c0l0i2rfjc7ykblsby5ox",
+        "name": "Cenizas de Medusa Espiritual",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f697066c0l0i2rfjc7ykblsby5ox.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar una medusa espiritual.",
+        "fpCost": "31",
+        "hpCost": "0",
+        "effect": "Invoca una medusa espiritual."
+    },
+    {
+        "id": "17f69c7c032l0i2rfjqjylurrvvo1l",
+        "name": "Cenizas de Bandido Esquelético",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c7c032l0i2rfjqjylurrvvo1l.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de un bandido esquelético.",
+        "fpCost": "22",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un bandido esquelético"
+    },
+    {
+        "id": "17f69ecd388l0i2rfmox0cljjuuri",
+        "name": "Deenh, el Halcón de la Tormenta",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ecd388l0i2rfmox0cljjuuri.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Deenh, el Halcón de la Tormenta.",
+        "fpCost": "47",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Deenh, el Halcón de la Tormenta"
+    },
+    {
+        "id": "17f69bf3136l0i2rfs0407qepaxpho",
+        "name": "Cenizas de Hechicero de Dos Sabios",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69bf3136l0i2rfs0407qepaxpho.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un hechicero de Dos Sabios.",
+        "fpCost": "89",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un hechicero de Dos Sabios"
+    },
+    {
+        "id": "17f69871c91l0i2rfwnjft8senytx",
+        "name": "Cenizas de Noble Errante",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69871c91l0i2rfwnjft8senytx.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cinco nobles errantes.",
+        "fpCost": "28",
+        "hpCost": "0",
+        "effect": "Invoca cinco espíritus de nobles errantes."
+    },
+    {
+        "id": "17f69732716l0i2rg3m2el64hvaq0m",
+        "name": "Cenizas de Perro Callejero Podrido",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69732716l0i2rg3m2el64hvaq0m.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un perro callejero podrido. Espíritu de un perro callejero corrompido por la podredumbre escarlata. Aunque es solo una criatura pequeña, es tan violenta como ágil, y sus colmillos están infectados de podredumbre venenosa",
+        "fpCost": "35",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un perro callejero podrido"
+    },
+    {
+        "id": "17f69e64c4al0i2rg6ksmiwxmcgad",
+        "name": "Cenizas de Halcón de Guerra",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69e64c4al0i2rg6ksmiwxmcgad.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un halcón de guerra. Espíritu de un halcón de guerra de Velo Tormentoso, al que le han cortado las garras para poder injertarle espadas afiladas como navajas en su lugar. Con su señor vencido y sus alas heridas, el halcón pereció mientras contemplaba solemnemente su antiguo hogar. La tormenta es la cuna de un halcón de guerra.",
+        "fpCost": "52",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un halcón de guerra"
+    },
+    {
+        "id": "17f6978cd87l0i2rgbupusbrmdqmhl",
+        "name": "Latenna la Albinaúrica",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f6978cd87l0i2rgbupusbrmdqmhl.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Latenna la Albinaúrica.",
+        "fpCost": "74",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Latenna la Albinaúrica"
+    },
+    {
+        "id": "17f69ba4ffal0i2rgd5rdlvueh3v0q",
+        "name": "Cenizas de Malnacido Alado",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ba4ffal0i2rgd5rdlvueh3v0q.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un malnacido alado.",
+        "fpCost": "37",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un malnacido alado"
+    },
+    {
+        "id": "17f69c882dal0i2rgmqlt6en3tjlqm",
+        "name": "Floh, el Caballero Sabueso",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c882dal0i2rgmqlt6en3tjlqm.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Floh, el Caballero Sabueso.",
+        "fpCost": "95",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Floh, el Caballero Sabueso"
+    },
+    {
+        "id": "17f69b927b9l0i2rgoqeiknjm21fba",
+        "name": "Tricia, la Perfumista",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b927b9l0i2rgoqeiknjm21fba.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Tricia, la perfumista.",
+        "fpCost": "78",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Tricia, la Perfumista"
+    },
+    {
+        "id": "17f69d471b4l0i2rgvwohtrk19bpy",
+        "name": "Cenizas de Soldado de Leyndell",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69d471b4l0i2rgvwohtrk19bpy.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos soldados de Leyndell. Espíritus de soldados equipados cada uno con una lanza y un gran escudo. Los soldados de Leyndell luchan sus batallas a la defensiva. Durante la Devastación, fueron las murallas que fortificaron la capital real.",
+        "fpCost": "64",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de soldado de Leyndell"
+    },
+    {
+        "id": "17f69c6b7d1l0i2rgxuyvekun2pas",
+        "name": "Cenizas de Brote de Miranda",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c6b7d1l0i2rgxuyvekun2pas.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cinco brotes de miranda. La invocación consume HP en lugar de FP. Espíritus de pequeñas y dulces flores de miranda, flores carnívoras que se alimentan de carne humana. Se arrastran lentamente, esparciendo polen tóxico. Vulnerables al fuego, cuida bien de las pequeñas queridas",
+        "fpCost": "0",
+        "hpCost": "185",
+        "effect": "Invoca cinco brotes de miranda"
+    },
+    {
+        "id": "17f6987842cl0i2rh0v17nw2hyrdslh",
+        "name": "Cenizas de Milicia Vulgar",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f6987842cl0i2rh0v17nw2hyrdslh.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres milicianos vulgares. Espíritus de la milicia vulgar que empuñan hachas dentadas de mango largo. Estas armas brutales son particularmente efectivas para causar pérdida de sangre a los oponentes. En las Tierras Intermedias, los pequeños eran despreciados, por lo que formaron su milicia vulgar como un medio para ganarse la vida, aunque en la ignominia.",
+        "fpCost": "70",
+        "hpCost": "0",
+        "effect": "Invoca tres espíritus de la Milicia Vulgar"
+    },
+    {
+        "id": "17f69be5a2fl0i2rh6qmlpa2s0tpao",
+        "name": "Cenizas de Chorro de Tierra",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69be5a2fl0i2rh6qmlpa2s0tpao.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres chorros de tierra. La invocación consume HP en lugar de FP. Estos espíritus aparecen a cierta distancia del invocador. Los tubos firmes y carnosos de las criaturas permanecen arraigados en el lugar, rociando líquido venenoso sobre sus alrededores",
+        "fpCost": "0",
+        "hpCost": "240",
+        "effect": "Invoca tres chorros de tierra"
+    },
+    {
+        "id": "17f69a4c036l0i2rhgqvv4avdj310g",
+        "name": "Cenizas de Vástago de la Putrefacción",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69a4c036l0i2rhgqvv4avdj310g.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar un espíritu del Vástago de la Putrefacción. Este espíritu toma la forma de una plaga rastrera, su cuerpo quitinoso hace un sonido seco y crujiente. Ataca a los enemigos secretando hilos pegajosos. Los Vástagos de la Putrefacción son los sirvientes de la Diosa de la Putrefacción, sirvientes que han sido abandonados.",
+        "fpCost": "73",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un Vástago de la Putrefacción"
+    },
+    {
+        "id": "17f69f84b01l0i2rhicosayr42hna",
+        "name": "Cenizas de Kristoff, el Caballero del Dragón Antiguo",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69f84b01l0i2rhicosayr42hna.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de Kristoff, el Caballero del Dragón Antiguo. Espíritu de Kristoff, un honorable caballero de Leyndell que también era un devoto adorador de los dragones antiguos. Sus habilidades derriban a los enemigos con rayos, el arma preferida de los dragones. Después de la Primera Defensa de Leyndell, Kristoff se ganó el honor de héroe del Entierro del Árbol Áureo por la hazaña de capturar a Godefroy el Injertado.",
+        "fpCost": "108",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Kristoff, el Caballero del Dragón Antiguo"
+    },
+    {
+        "id": "17f69c1b5ebl0i2rhm76pm5x3fs02f",
+        "name": "Cenizas de Hombre Bestia de Azula",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c1b5ebl0i2rhm76pm5x3fs02f.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos hombres bestia de Azula. Espíritus de hombres bestia de la condenada Farum Azula, las ruinas que se desmoronan lentamente en los cielos. Se dice que estas ruinas son los restos de un mausoleo gigante que consagra a un dragón antiguo, custodiado por hombres bestia elegidos que empuñan armas revestidas de rayos.",
+        "fpCost": "102",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de hombre bestia de Azula"
+    },
+    {
+        "id": "17f69bc440el0i2rho6izbci2my7fi",
+        "name": "Cenizas de Engvall, el Caballero Desterrado",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69bc440el0i2rho6izbci2my7fi.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Engvall, el Caballero Desterrado. Uno de los dos caballeros apodados las Alas de la Tormenta. A pesar de su destierro, rechazó la invitación del Señor Dado por la Gracia, y en su lugar vigiló un castillo sin señor durante muchos años, ganando renombre como un héroe de los márgenes.",
+        "fpCost": "100",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Engvall, el Caballero Desterrado"
+    },
+    {
+        "id": "17f698e5162l0i2rhsg27fvvcchhh8",
+        "name": "Cenizas de Hugues, el Mago de Batalla",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f698e5162l0i2rhsg27fvvcchhh8.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Hugues, el Mago de Batalla. Hugues vino de Sellia para estudiar el Conspecto de Haima en la academia, donde se convirtió en un mago de batalla. Los eruditos de Haima buscan sofocar el conflicto con fuego de cañón y el mazo, pero Hugues desarrolló un anhelo por él.",
+        "fpCost": "122",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Hugues, el Mago de Batalla"
+    },
+    {
+        "id": "17f69de3343l0i2ri02qpv643ynu3",
+        "name": "Cenizas de Amon, el Monje de la Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69de3343l0i2ri02qpv643ynu3.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Amon, el Monje de la Llama Negra. Amon juró lealtad a la llama negra que mata a los dioses, y así se convirtió en el primer monje de fuego en traicionar. O quizás sea mejor decir que huyó de la Llama de los Gigantes, por cobardía.",
+        "fpCost": "115",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Amon, el Monje de la Llama Negra"
+    },
+    {
+        "id": "17f69cb98c7l0i2ri0lmguxpofwvp",
+        "name": "Cenizas de Hombre de Arcilla",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69cb98c7l0i2ri0lmguxpofwvp.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos hombres de arcilla. Inclinados por la edad, estos espíritus son lentos pero difíciles de desequilibrar. Los restos deformados de los sacerdotes que buscaron la revelación al servicio de la antigua dinastía, emplean dos hechicerías que producen burbujas más pequeñas y más grandes.",
+        "fpCost": "77",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de hombre de arcilla"
+    },
+    {
+        "id": "17f69c7c8b5l0i2ri969yh285riaw5",
+        "name": "Cenizas de Cristaliano",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c7c8b5l0i2ri969yh285riaw5.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un Cristaliano. Espíritu que empuña hojas cristalinas redondas, tanto grandes como pequeñas. Su cuerpo robusto, él mismo tallado en cristal hace mucho tiempo, es lo suficientemente duro como para desafilar las hojas de su oponente, pero los golpes de las armas contundentes pueden romperlo fácilmente.",
+        "fpCost": "101",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un Cristaliano"
+    },
+    {
+        "id": "17f69c971e5l0i2ricvamdlfi9hd4e",
+        "name": "Cenizas de Carmaan, el Perfumista Depravado",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69c971e5l0i2ricvamdlfi9hd4e.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de Carmaan, el perfumista depravado. Los perfumistas depravados practican su arte solo para ellos mismos. Carmaan era un perfumista notablemente formidable cuya fuerza rivalizaba con la de los héroes, y se dice que estaba en busca de un físico secreto de revivificación.",
+        "fpCost": "124",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Carmaan, el Perfumista Depravado"
+    },
+    {
+        "id": "17f699877aal0i2rifkvslfle9b9ha",
+        "name": "Cenizas de Finlay, la Caballera de la Putrefacción Limpia",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f699877aal0i2rifkvslfle9b9ha.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de Finlay, la Caballera de la Putrefacción Limpia. Finlay fue una de las pocas supervivientes de la Batalla de Aeonia, quien en un acto de heroísmo inimaginable llevó a la semidiosa durmiente Malenia hasta el Árbol Hierático. Logró la hazaña sola, defendiéndose de todo tipo de enemigos en el camino.",
+        "fpCost": "127",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Finlay, la Caballera de la Putrefacción Limpia"
+    },
+    {
+        "id": "17f699d3e8fl0i2rijbhqroryzjjtm",
+        "name": "Marioneta del Coprófago",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f699d3e8fl0i2rijbhqroryzjjtm.png",
+        "description": "Una de las marionetas de Seluvis. Úsala para invocar el espíritu del Coprófago. Espíritu de un hombre que asesinó a miles y profanó sus cadáveres con la Maldición del Semillero. Empuña un espadón de espinas y lanza maldiciones. El Coprófago se desesperó por cómo encontró su fin. Qué horrible y siniestra es esta marioneta y, sin embargo, su absoluta desesperación invita a cuidarla.",
+        "fpCost": "118",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu del Coprófago"
+    },
+    {
+        "id": "17f69bd2cd3l0i2riv19z68urypaam",
+        "name": "Cenizas de Monje de Fuego",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69bd2cd3l0i2riv19z68urypaam.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un Monje de Fuego. Espíritu de un monje robusto que vigilaba la Llama de los Gigantes. Versado en encantamientos de fuego, y él mismo endurecido contra el fuego. Aunque se le encargó vigilar la Llama, después de muchos años de solemne deber, ha sucumbido a su encanto.",
+        "fpCost": "85",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un Monje de Fuego"
+    },
+    {
+        "id": "17f69f7b11fl0i2rix87eagayvg5or",
+        "name": "Marioneta de Dolores, la Flecha Durmiente",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69f7b11fl0i2rix87eagayvg5or.png",
+        "description": "Una de las marionetas favoritas de Seluvis. Úsala para invocar el espíritu de Dolores, la Flecha Durmiente. Espíritu de una hermosa arquera que se vestía al estilo de un hombre. Llamada la Cazadora Silenciosa por algunos, dispara flechas de Santa Trina desde su arco corto. Dolores una vez perteneció a la Mesa Redonda, donde fue tanto una crítica como una amiga de Gideon el Omnisciente. Fue por ella que él y Seluvis tomaron caminos separados.",
+        "fpCost": "87",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Dolores, la Flecha Durmiente"
+    },
+    {
+        "id": "17f69b464d7l0i2riyiocraa9z2guc",
+        "name": "Cenizas de Soldado del Árbol Hierático",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b464d7l0i2riyiocraa9z2guc.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cuatro soldados del Árbol Hierático. Espíritus de soldados comunes que portan la luz sagrada. Cuando se debilitan, explotan para lanzar un último ataque desesperado. Esta fue la amarga revelación descubierta por los soldados desesperados que esperaban el regreso de su señor al podrido Árbol Hierático. Que el destello de nuestras muertes guíe el regreso de Miquella.",
+        "fpCost": "66",
+        "hpCost": "0",
+        "effect": "Invoca cuatro espíritus de soldado del Árbol Hierático"
+    },
+    {
+        "id": "17f69bda110l0i2rj2fpyaeegsbkdn",
+        "name": "Cenizas de Hombre-Serpiente",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69bda110l0i2rj2fpyaeegsbkdn.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar el espíritu de un hombre-serpiente. Espíritu de un hombre-serpiente deforme que empuña un látigo de magma. Se dice que hace mucho tiempo, la serpiente anciana que moraba en el Monte Gelmir devoró a un semidiós, y el nacimiento de los hombres-serpiente siguió.",
+        "fpCost": "62",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de un hombre-serpiente"
+    },
+    {
+        "id": "17f69ab4977l0i2rj50c2ffeu71unu",
+        "name": "Cenizas de Soldado del Mausoleo",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ab4977l0i2rj50c2ffeu71unu.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cinco soldados del mausoleo. Espíritus de cinco soldados sin cabeza que confunden a los enemigos desapareciendo y reapareciendo a voluntad. El mausoleo es donde se depositan los cuerpos de los semidioses sin alma, y estos soldados siguieron a sus amos a la Muerte cortándose sus propias cabezas de sus cuerpos.",
+        "fpCost": "75",
+        "hpCost": "0",
+        "effect": "Invoca cinco espíritus de soldado del mausoleo"
+    },
+    {
+        "id": "17f69663925l0i2rjhexap3mp9otq",
+        "name": "Cenizas de Enviado del Oráculo",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69663925l0i2rjhexap3mp9otq.png",
+        "description": "Restos cenicientos en los que aún moran espíritus.",
+        "fpCost": "72",
+        "hpCost": "0",
+        "effect": "Invoca cuatro espíritus de Enviado del Oráculo"
+    },
+    {
+        "id": "17f69b254ffl0i2rjlmj6dtmbbwve",
+        "name": "Cenizas de Cadáver Putrefacto",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69b254ffl0i2rjlmj6dtmbbwve.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de cuatro cadáveres putrefactos.",
+        "fpCost": "40",
+        "hpCost": "0",
+        "effect": "Invoca cuatro espíritus de cadáver putrefacto"
+    },
+    {
+        "id": "17f69ce3ebfl0i2rjo4bbtu73ia5tu",
+        "name": "Cenizas de Soldado de Radahn",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ce3ebfl0i2rjo4bbtu73ia5tu.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de dos de los soldados de Radahn.",
+        "fpCost": "71",
+        "hpCost": "0",
+        "effect": "Invoca dos espíritus de Soldado de Radahn"
+    },
+    {
+        "id": "17f69eb8a3dl0i2rjqdm5kzaa1sd9k",
+        "name": "Ogha, el Caballero de la Melena Roja",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69eb8a3dl0i2rjqdm5kzaa1sd9k.png",
+        "description": "Restos cenicientos legendarios. Úsalas para invocar el espíritu de Ogha, el Caballero de la Melena Roja. Espíritu de un poderoso caballero versado en el uso de un gran arco. Un valiente guerrero que atacará inmediatamente después de ser invocado. El miembro más antiguo de los Caballeros de la Melena Roja, Ogha estudió técnicas para manipular la gravedad junto a Radahn. Puede usar una lluvia de flechas gravitacionales en respuesta a un grito de guerra, pero solo una vez.",
+        "fpCost": "106",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Ogha, el Caballero de la Melena Roja"
+    },
+    {
+        "id": "17f69abc3b9l0i2rjr6m5bbrtexdp",
+        "name": "Marioneta de Nepheli Loux",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69abc3b9l0i2rjr6m5bbrtexdp.png",
+        "description": "Una de las marionetas favoritas de Seluvis. Úsala para invocar el espíritu de Nepheli Loux. Marioneta de una guerrera que fue traicionada por su corazón puro. Empuña un Hacha de Halcón de la Tormenta en ambas manos y usa la habilidad Tormenta de Truenos. Un diamante en bruto, que merece un cuidado especial para que no se desperdicie su potencial. Nepheli Loux era verdaderamente una guerrera.",
+        "fpCost": "90",
+        "hpCost": "0",
+        "effect": "Invoca el espíritu de Nepheli Loux"
+    },
+    {
+        "id": "17f69ddaf0fl0i2rjyrykqzpcxfre",
+        "name": "Cenizas de Soldados de Jarra de la Fortuna",
+        "image": "https://eldenring.fanapis.com/images/spirits/17f69ddaf0fl0i2rjyrykqzpcxfre.png",
+        "description": "Restos cenicientos en los que aún moran espíritus. Úsalas para invocar los espíritus de tres pequeñas jarras vivientes. La invocación consume HP en lugar de FP. Estos espíritus temerarios se sacrifican para vencer a los enemigos de su invocador, y explotan al morir. Aunque su valentía es admirable, sus explosiones pueden dañar tanto a amigos como a enemigos, y también explotarán inmediatamente al contacto con el fuego. \"Dile a los demás, diles cuán brillantemente arde una jarra de fuego.\"",
+        "fpCost": "0",
+        "hpCost": "135",
+        "effect": "Invoca tres espíritus de pequeñas jarras vivientes"
+    }
+]

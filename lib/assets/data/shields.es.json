@@ -1,0 +1,2002 @@
+[
+    {
+        "id": "17f69c62fe8l0i124u8fi4nc7dbfbf",
+        "name": "Broquel",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69c62fe8l0i124u8fi4nc7dbfbf.png",
+        "description": "Un pequeño escudo redondo de metal. La protuberancia en el centro permite técnicas de parada. Una parada bien sincronizada puede romper la postura de un enemigo, permitiendo un golpe crítico. Más adecuado para aquellos preparados para correr el riesgo de cosechar su recompensa.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 68
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 58
+            },
+            {
+                "name": "Mag",
+                "amount": 28
+            },
+            {
+                "name": "Fire",
+                "amount": 28
+            },
+            {
+                "name": "Ligt",
+                "amount": 14
+            },
+            {
+                "name": "Holy",
+                "amount": 28
+            },
+            {
+                "name": "Boost",
+                "amount": 30
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            },
+            {
+                "name": "Dex",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            },
+            {
+                "name": "Dex",
+                "amount": 13
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1.5
+    },
+    {
+        "id": "17f694b8615l0i124uyj41jnmpvitp",
+        "name": "Escudo de Perfumista",
+        "image": "https://eldenring.fanapis.com/images/shields/17f694b8615l0i124uyj41jnmpvitp.png",
+        "description": "Escudo dorado utilizado por los perfumistas de Leyndell durante el servicio militar. Hecho para ser delgado y ligero, incluso aquellos que carecen de fuerza pueden emplear este escudo que aumenta la inmunidad.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 67
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 61
+            },
+            {
+                "name": "Mag",
+                "amount": 33
+            },
+            {
+                "name": "Fire",
+                "amount": 33
+            },
+            {
+                "name": "Ligt",
+                "amount": 14
+            },
+            {
+                "name": "Holy",
+                "amount": 33
+            },
+            {
+                "name": "Boost",
+                "amount": 30
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": ""
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1.5
+    },
+    {
+        "id": "17f69b5141al0i124v8pxr1ks1ekij",
+        "name": "Escudo de Hombre-Serpiente",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69b5141al0i124v8pxr1ks1ekij.png",
+        "description": "Pequeño escudo redondo de cobre con forma de cúpula portado por los hombres-serpiente del Monte Gelmir. Se dice que fue templado en lava, y presume de una gran resistencia al fuego.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 65
+            },
+            {
+                "name": "Mag",
+                "amount": 30
+            },
+            {
+                "name": "Fire",
+                "amount": 45
+            },
+            {
+                "name": "Ligt",
+                "amount": 15
+            },
+            {
+                "name": "Holy",
+                "amount": 30
+            },
+            {
+                "name": "Boost",
+                "amount": 32
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 2
+    },
+    {
+        "id": "17f69a7085fl0i124y1772hsc2fore",
+        "name": "Escudo de Picota",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69a7085fl0i124y1772hsc2fore.png",
+        "description": "Picota hecha para castigar a los delincuentes graves, utilizada como escudo. Aunque está hecha de buena y robusta madera, es solo una herramienta improvisada y funciona como tal. Quizás debido a su uso como un dispositivo con el que se hacía que los culpables soportaran un sufrimiento prolongado, aumenta la vitalidad.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 71
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 60
+            },
+            {
+                "name": "Mag",
+                "amount": 42
+            },
+            {
+                "name": "Fire",
+                "amount": 21
+            },
+            {
+                "name": "Ligt",
+                "amount": 36
+            },
+            {
+                "name": "Holy",
+                "amount": 42
+            },
+            {
+                "name": "Boost",
+                "amount": 33
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 10
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 3.5
+    },
+    {
+        "id": "17f6976985el0i124znputjytfizsr",
+        "name": "Escudo Endeble",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6976985el0i124znputjytfizsr.png",
+        "description": "Un viejo y crujiente escudo de madera, de forma circular. Reforzado toscamente con enredaderas o algo así. Hay innumerables otros escudos disponibles de mejor fabricación. Este trozo de chatarra no vale la pena el esfuerzo de equiparlo.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 50
+            },
+            {
+                "name": "Mag",
+                "amount": 25
+            },
+            {
+                "name": "Fire",
+                "amount": 20
+            },
+            {
+                "name": "Ligt",
+                "amount": 30
+            },
+            {
+                "name": "Holy",
+                "amount": 30
+            },
+            {
+                "name": "Boost",
+                "amount": 25
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1
+    },
+    {
+        "id": "17f693d58ael0i125pgfsn2zo4078i",
+        "name": "Escudo-Jarra de Hombre Bestia",
+        "image": "https://eldenring.fanapis.com/images/shields/17f693d58ael0i125pgfsn2zo4078i.png",
+        "description": "Escudo hecho de una jarra alta y rota que llevan los hombres bestia de Farum Azula. Hay una habilidad particular para empuñarlo. Los hombres bestia siempre han cocido jarras de barro con el propósito expreso de hacer escudos. Así son sus costumbres, por extrañas que sean.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 71
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 95
+            },
+            {
+                "name": "Mag",
+                "amount": 30
+            },
+            {
+                "name": "Fire",
+                "amount": 55
+            },
+            {
+                "name": "Ligt",
+                "amount": 60
+            },
+            {
+                "name": "Holy",
+                "amount": 55
+            },
+            {
+                "name": "Boost",
+                "amount": 48
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": ""
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 10
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 5
+    },
+    {
+        "id": "17f69c6b08dl0i125phehezloe6mgp",
+        "name": "Escudo Redondo de Espinas Rojas",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69c6b08dl0i125phehezloe6mgp.png",
+        "description": "Un pequeño escudo redondo de madera. Es ligero y fácil de usar, pero no puede ofrecer la negación de daño de un escudo de metal. Su emblema es un antiguo diseño de espinas rojas. Aunque no es mucho, aumenta la negación de daño de fuego.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 58
+            },
+            {
+                "name": "Mag",
+                "amount": 30
+            },
+            {
+                "name": "Fire",
+                "amount": 40
+            },
+            {
+                "name": "Ligt",
+                "amount": 35
+            },
+            {
+                "name": "Holy",
+                "amount": 35
+            },
+            {
+                "name": "Boost",
+                "amount": 32
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1.5
+    },
+    {
+        "id": "17f6976f39fl0i125rvey7g31uyix",
+        "name": "Escudo de Madera Remachado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6976f39fl0i125rvey7g31uyix.png",
+        "description": "Pequeño escudo redondo de madera que ha sido reforzado con metal. Es ligero y fácil de manejar, pero no puede ofrecer la negación de daño de un verdadero escudo de metal. El diseño remachado en el centro representa tanto la espada como el árbol.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 72
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 64
+            },
+            {
+                "name": "Mag",
+                "amount": 38
+            },
+            {
+                "name": "Fire",
+                "amount": 29
+            },
+            {
+                "name": "Ligt",
+                "amount": 22
+            },
+            {
+                "name": "Holy",
+                "amount": 42
+            },
+            {
+                "name": "Boost",
+                "amount": 35
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 2
+    },
+    {
+        "id": "17f69cbb4afl0i125s3vg05tmg3h9",
+        "name": "Escudo de Madera de las Escrituras",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69cbb4afl0i125s3vg05tmg3h9.png",
+        "description": "Un pequeño escudo redondo de madera. Es ligero y fácil de manejar, pero no puede ofrecer la negación de daño de un escudo de metal. Un antiguo grabado cifrado recorre la circunferencia. Aunque no es mucho, aumenta la negación de daño sagrado.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 58
+            },
+            {
+                "name": "Mag",
+                "amount": 38
+            },
+            {
+                "name": "Fire",
+                "amount": 20
+            },
+            {
+                "name": "Ligt",
+                "amount": 35
+            },
+            {
+                "name": "Holy",
+                "amount": 43
+            },
+            {
+                "name": "Boost",
+                "amount": 32
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1.5
+    },
+    {
+        "id": "17f69652424l0i125urgh9o09mhavm",
+        "name": "Escudo de Madera Azul y Blanco",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69652424l0i125urgh9o09mhavm.png",
+        "description": "Pequeño escudo redondo de madera que ha sido reforzado con metal. Es ligero y fácil de manejar, pero no puede ofrecer la negación de daño de un verdadero escudo de metal. Se dice que el diseño representa las estrellas del cielo nocturno, presagiando el destino.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 72
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 63
+            },
+            {
+                "name": "Mag",
+                "amount": 42
+            },
+            {
+                "name": "Fire",
+                "amount": 33
+            },
+            {
+                "name": "Ligt",
+                "amount": 19
+            },
+            {
+                "name": "Holy",
+                "amount": 38
+            },
+            {
+                "name": "Boost",
+                "amount": 35
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 2
+    },
+    {
+        "id": "17f69c01371l0i126fsrmmhmt78m7",
+        "name": "Escudo de la Grieta",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69c01371l0i126fsrmmhmt78m7.png",
+        "description": "Pequeño escudo redondo de metal que representa una grieta siniestra. Un amuleto anticuado que devuelve la mirada a un enemigo, aumenta el foco.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 66
+            },
+            {
+                "name": "Mag",
+                "amount": 30
+            },
+            {
+                "name": "Fire",
+                "amount": 35
+            },
+            {
+                "name": "Ligt",
+                "amount": 15
+            },
+            {
+                "name": "Holy",
+                "amount": 35
+            },
+            {
+                "name": "Boost",
+                "amount": 37
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 2
+    },
+    {
+        "id": "17f69b10c2el0i126k1rlvenfih79r",
+        "name": "Escudo Redondo de Hierro",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69b10c2el0i126k1rlvenfih79r.png",
+        "description": "Un pequeño escudo redondo ordinario hecho de metal. Más pesado que un escudo de madera, pero presume de una mayor negación de daño. Finamente equilibrado, este escudo es fácil de usar.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 74
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 71
+            },
+            {
+                "name": "Mag",
+                "amount": 38
+            },
+            {
+                "name": "Fire",
+                "amount": 38
+            },
+            {
+                "name": "Ligt",
+                "amount": 16
+            },
+            {
+                "name": "Holy",
+                "amount": 38
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 3
+    },
+    {
+        "id": "17f69bd6428l0i126mo49q97n1both",
+        "name": "Escudo Humeante",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69bd6428l0i126mo49q97n1both.png",
+        "description": "Pequeño escudo hecho en el Monte Gelmir forjado con lava que no se enfría. Resiste la escarcha con su calor, e incluso se puede usar para infligir daño de fuego si se empuña como un arma.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 58
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 37
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 69
+            },
+            {
+                "name": "Mag",
+                "amount": 36
+            },
+            {
+                "name": "Fire",
+                "amount": 49
+            },
+            {
+                "name": "Ligt",
+                "amount": 13
+            },
+            {
+                "name": "Holy",
+                "amount": 36
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str"
+            },
+            {
+                "name": "Dex"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 10
+            },
+            {
+                "name": "Dex",
+                "amount": 9
+            }
+        ],
+        "category": "Escudos Pequeños",
+        "weight": 3
+    },
+    {
+        "id": "17f698a4b7bl0i126nb4s0xsp2lnfw",
+        "name": "Escudo de Hierro Dorado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f698a4b7bl0i126nb4s0xsp2lnfw.png",
+        "description": "Pequeño escudo redondo de metal. Más pesado que un escudo de madera, pero presume de una mayor negación de daño. Aunque la hoja de oro se está pelando y el efecto es leve, todavía aumenta la negación de daño sagrado.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 74
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 69
+            },
+            {
+                "name": "Mag",
+                "amount": 38
+            },
+            {
+                "name": "Fire",
+                "amount": 35
+            },
+            {
+                "name": "Ligt",
+                "amount": 14
+            },
+            {
+                "name": "Holy",
+                "amount": 49
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 3
+    },
+    {
+        "id": "17f69b12e1bl0i126nysn2v09nsd3",
+        "name": "Escudo de Cresta de Hielo",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69b12e1bl0i126nysn2v09nsd3.png",
+        "description": "Pequeño escudo redondo de metal. Más pesado que un escudo de madera, pero presume de una mayor negación de daño. La cresta de hielo se origina en una princesa cariana. Aunque el efecto es leve, aumenta la negación de daño mágico y la resistencia a la escarcha.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 74
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 68
+            },
+            {
+                "name": "Mag",
+                "amount": 49
+            },
+            {
+                "name": "Fire",
+                "amount": 39
+            },
+            {
+                "name": "Ligt",
+                "amount": 16
+            },
+            {
+                "name": "Holy",
+                "amount": 33
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 9
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 3
+    },
+    {
+        "id": "17f6942deffl0i1271bdbp91snfovh",
+        "name": "Escudo de Cuerno Espiral",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6942deffl0i1271bdbp91snfovh.png",
+        "description": "Pequeño escudo de astas dispuestas en un patrón similar a un remolino. Si se usa para atacar a un enemigo, las astas del escudo infligen pérdida de sangre. Una vez entregado a un guerrero Sinluz que cultivó estrechos lazos con los seguidores ancestrales. Aunque el efecto es solo leve, aumenta la inmunidad, la robustez y el foco.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 75
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 59
+            },
+            {
+                "name": "Mag",
+                "amount": 33
+            },
+            {
+                "name": "Fire",
+                "amount": 37
+            },
+            {
+                "name": "Ligt",
+                "amount": 38
+            },
+            {
+                "name": "Holy",
+                "amount": 30
+            },
+            {
+                "name": "Boost",
+                "amount": 29
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str"
+            },
+            {
+                "name": "Dex"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            },
+            {
+                "name": "Dex",
+                "amount": 10
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 2
+    },
+    {
+        "id": "17f6985902bl0i127b1nqhoj9b4nhl",
+        "name": "Escudo de Cuero Estropeado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6985902bl0i127b1nqhoj9b4nhl.png",
+        "description": "Escudo de cuero de los soldados de Velo Tormentoso. Al igual que el castillo, está estropeado por manchas y espinas. Algunos dicen que es la maldición del injerto lo que causa tal aflicción, mientras que otros hablan de que su raíz es algo mucho más siniestro escondido en las profundidades del castillo.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 75
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 76
+            },
+            {
+                "name": "Mag",
+                "amount": 49
+            },
+            {
+                "name": "Fire",
+                "amount": 36
+            },
+            {
+                "name": "Ligt",
+                "amount": 45
+            },
+            {
+                "name": "Holy",
+                "amount": 45
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 3
+    },
+    {
+        "id": "17f696cb3bal0i127cn7tiavj7t1u",
+        "name": "Escudo de Madera Estropeado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f696cb3bal0i127cn7tiavj7t1u.png",
+        "description": "\"Escudo de madera de los soldados de Velo Tormentoso. Al igual que el castillo, está estropeado por manchas y espinas. Algunos dicen que es la maldición del injerto lo que causa tal aflicción, mientras que otros hablan de que su raíz es algo mucho más siniestro escondido en las profundidades del castillo.\"",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 76
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 78
+            },
+            {
+                "name": "Mag",
+                "amount": 52
+            },
+            {
+                "name": "Fire",
+                "amount": 27
+            },
+            {
+                "name": "Ligt",
+                "amount": 50
+            },
+            {
+                "name": "Holy",
+                "amount": 49
+            },
+            {
+                "name": "Boost",
+                "amount": 41
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4
+    },
+    {
+        "id": "17f694927d7l0i127ng35ra4v5k4gn",
+        "name": "Escudo de Bobina",
+        "image": "https://eldenring.fanapis.com/images/shields/17f694927d7l0i127ng35ra4v5k4gn.png",
+        "description": "Un escudo extremadamente extraño adornado con una serpiente de bronce en espiral. Una excelente opción para los que buscan atención. Este escudo proporciona una defensa eficaz contra el veneno; después de todo, ¿cómo se envenena a una serpiente venenosa?",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 92
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 52
+            },
+            {
+                "name": "Mag",
+                "amount": 38
+            },
+            {
+                "name": "Fire",
+                "amount": 28
+            },
+            {
+                "name": "Ligt",
+                "amount": 34
+            },
+            {
+                "name": "Holy",
+                "amount": 35
+            },
+            {
+                "name": "Boost",
+                "amount": 22
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "E"
+            },
+            {
+                "name": "Dex",
+                "scaling": ""
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 10
+            },
+            {
+                "name": "Dex",
+                "amount": 10
+            }
+        ],
+        "category": "Escudo Pequeño",
+        "weight": 1.5
+    },
+    {
+        "id": "17f6967bb2bl0i127q8x98oklbecj",
+        "name": "Escudo de Cometa",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6967bb2bl0i127q8x98oklbecj.png",
+        "description": "Un escudo de metal de tamaño mediano estándar. Los escudos de metal niegan de manera confiable el daño físico al proteger, un rasgo que los hizo muy confiables en el campo de batalla.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 78
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 47
+            },
+            {
+                "name": "Fire",
+                "amount": 47
+            },
+            {
+                "name": "Ligt",
+                "amount": 33
+            },
+            {
+                "name": "Holy",
+                "amount": 47
+            },
+            {
+                "name": "Boost",
+                "amount": 47
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 12
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4.5
+    },
+    {
+        "id": "17f698ac740l0i127wziv2s11fd2c",
+        "name": "Escudo de Caballero Desterrado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f698ac740l0i127wziv2s11fd2c.png",
+        "description": "Un escudo de metal alto de tamaño mediano. Entregado a los caballeros que, ya sea por desgracia o por fechoría, se vieron obligados a abandonar sus hogares. La mayoría de estos caballeros fueron enviados a los márgenes, donde se vieron obligados a empezar de nuevo con solo la desesperación como compañía.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 81
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 49
+            },
+            {
+                "name": "Fire",
+                "amount": 57
+            },
+            {
+                "name": "Ligt",
+                "amount": 31
+            },
+            {
+                "name": "Holy",
+                "amount": 48
+            },
+            {
+                "name": "Boost",
+                "amount": 52
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 14
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 6
+    },
+    {
+        "id": "17f69ce5e4cl0i128b0nivmu8x7jg",
+        "name": "Escudo de Albinaúrico",
+        "image": "https://eldenring.fanapis.com/images/shields/17f69ce5e4cl0i128b0nivmu8x7jg.png",
+        "description": "Escudo alto y ovalado de metal que llevan los jóvenes Albinaúricos. La ornamentación representa la gota primordial de rocío de la que se dice que fueron creados. Presume de una excepcional negación de daño mágico. Los enemigos más formidables de los Albinaúricos eran los hechiceros, después de todo.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 78
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 61
+            },
+            {
+                "name": "Fire",
+                "amount": 42
+            },
+            {
+                "name": "Ligt",
+                "amount": 23
+            },
+            {
+                "name": "Holy",
+                "amount": 47
+            },
+            {
+                "name": "Boost",
+                "amount": 42
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "?"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 11
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4.5
+    },
+    {
+        "id": "17f6987cd26l0i128fmzfvt6grfjsp",
+        "name": "Escudo del Reino del Sol",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6987cd26l0i128fmzfvt6grfjsp.png",
+        "description": "Escudo de honor que representa una ciudad coronada por el sol. Ha visto días mejores. Al igual que el desgaste del escudo, la Sede del Sol se desvaneció hace mucho tiempo.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 74
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 85
+            },
+            {
+                "name": "Mag",
+                "amount": 44
+            },
+            {
+                "name": "Fire",
+                "amount": 27
+            },
+            {
+                "name": "Ligt",
+                "amount": 40
+            },
+            {
+                "name": "Holy",
+                "amount": 56
+            },
+            {
+                "name": "Boost",
+                "amount": 40
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "?"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 3.5
+    },
+    {
+        "id": "17f6970052fl0i128q30d2avtlnbrrf",
+        "name": "Escudo de Espejo de Plata",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6970052fl0i128q30d2avtlnbrrf.png",
+        "description": "Escudo de plata radiante, adornado con ámbar y portado por Loretta, Caballera del Árbol Hierático. Se dice que la forma imita la de una gota sagrada de rocío, lo que inspiró el absurdo rumor de que la propia Loretta era una Albinaúrica.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 70
+            },
+            {
+                "name": "Mag",
+                "amount": 45
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 89
+            },
+            {
+                "name": "Fire",
+                "amount": 31
+            },
+            {
+                "name": "Ligt",
+                "amount": 19
+            },
+            {
+                "name": "Holy",
+                "amount": 27
+            },
+            {
+                "name": "Boost",
+                "amount": 42
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            },
+            {
+                "name": "Dex",
+                "scaling": "?"
+            },
+            {
+                "name": "Int",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 12
+            },
+            {
+                "name": "Dex",
+                "amount": 10
+            },
+            {
+                "name": "Int",
+                "amount": 10
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 3.5
+    },
+    {
+        "id": "17f6988b72dl0i128vmcj5b7a5j1e9",
+        "name": "Escudo Redondo",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6988b72dl0i128vmcj5b7a5j1e9.png",
+        "description": "Un escudo redondo de madera que ha sido reforzado con metal. Comparativamente ligero para su tamaño, este escudo es fácil de manejar pero carece de la capacidad de un verdadero escudo de metal para negar el daño.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 76
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 83
+            },
+            {
+                "name": "Mag",
+                "amount": 50
+            },
+            {
+                "name": "Fire",
+                "amount": 37
+            },
+            {
+                "name": "Ligt",
+                "amount": 43
+            },
+            {
+                "name": "Holy",
+                "amount": 50
+            },
+            {
+                "name": "Boost",
+                "amount": 42
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "D"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 8
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4
+    },
+    {
+        "id": "17f6948dfb1l0i1298n92tg7459mbg",
+        "name": "Escudo de Cometa de Escorpión",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6948dfb1l0i1298n92tg7459mbg.png",
+        "description": "Un escudo de metal de tamaño mediano estándar. Muy reputado por su sólida construcción y fiabilidad. Blasonado con un escorpión amarillo, una advertencia de ataques sorpresa y golpes repentinos.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 78
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 45
+            },
+            {
+                "name": "Fire",
+                "amount": 46
+            },
+            {
+                "name": "Ligt",
+                "amount": 33
+            },
+            {
+                "name": "Holy",
+                "amount": 50
+            },
+            {
+                "name": "Boost",
+                "amount": 47
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "?"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 11
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4.5
+    },
+    {
+        "id": "17f698aad3fl0i129kcpcnkgwlznm",
+        "name": "Escudo de Cometa de Pájaro Gemelo",
+        "image": "https://eldenring.fanapis.com/images/shields/17f698aad3fl0i129kcpcnkgwlznm.png",
+        "description": "Escudo con un pájaro gemelo vívidamente pintado. Se dice que el pájaro gemelo es el enviado de un dios exterior y la madre de las Aves de la Muerte. A niveles de HP menguantes, este escudo aumenta ligeramente tanto el ataque como la defensa.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 78
+            },
+            {
+                "name": "Mag",
+                "amount": 0
+            },
+            {
+                "name": "Fire",
+                "amount": 0
+            },
+            {
+                "name": "Ligt",
+                "amount": 0
+            },
+            {
+                "name": "Holy",
+                "amount": 0
+            },
+            {
+                "name": "Crit",
+                "amount": 100
+            }
+        ],
+        "defence": [
+            {
+                "name": "Phy",
+                "amount": 100
+            },
+            {
+                "name": "Mag",
+                "amount": 49
+            },
+            {
+                "name": "Fire",
+                "amount": 50
+            },
+            {
+                "name": "Ligt",
+                "amount": 28
+            },
+            {
+                "name": "Holy",
+                "amount": 35
+            },
+            {
+                "name": "Boost",
+                "amount": 49
+            }
+        ],
+        "scalesWith": [
+            {
+                "name": "Str",
+                "scaling": "?"
+            }
+        ],
+        "requiredAttributes": [
+            {
+                "name": "Str",
+                "amount": 12
+            }
+        ],
+        "category": "Escudo Mediano",
+        "weight": 4.5
+    },
+    {
+        "id": "17f6966bef4l0i129o1blgktqip69s",
+        "name": "Escudo de Cometa Azul y Dorado",
+        "image": "https://eldenring.fanapis.com/images/shields/17f6966bef4l0i129o1blgktqip69s.png",
+        "description": "Un escudo de tamaño mediano estándar. Muy reputado por su sólida construcción y fiabilidad. El diseño representa el Árbol Áureo en primer plano contra un cielo azul.",
+        "attack": [
+            {
+                "name": "Phy",
+                "amount": 80
+            }
+        ]
+    }
+]

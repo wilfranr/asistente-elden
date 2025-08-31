@@ -1,0 +1,1234 @@
+[
+    {
+        "id": "17f69c5a795l0i2m72bjeqbh713r3o",
+        "name": "Puente del Sacrificio",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c5a795l0i2m72bjeqbh713r3o.png",
+        "region": "Limgrave",
+        "description": "Un puente concurrido y repleto de enemigos con armaduras de hierro. Prepárate para enfrentarte a una gran variedad de ataques cuerpo a cuerpo, a distancia y de artillería, o intenta abrirte paso entre ellos"
+    },
+    {
+        "id": "17f69869a3bl0i2m72p0sbjub568ch",
+        "name": "Iglesia de Elleh",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69869a3bl0i2m72p0sbjub568ch.png",
+        "region": "Limgrave",
+        "description": "La Iglesia de Elleh es un edificio en ruinas que esconde un Lugar de Gracia. El tejado se ha derrumbado y no ofrece protección contra los elementos, y las malas hierbas están invadiendo las paredes, pero esto no impide que los mercaderes busquen el poco refugio que se ofrece"
+    },
+    {
+        "id": "17f69886115l0i2m7307w4njyfhwt5",
+        "name": "Catacumbas de la Muerte",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69886115l0i2m7307w4njyfhwt5.png",
+        "region": "Limgrave",
+        "description": "Catacumbas llenas del hedor de la muerte, los esqueletos moran en las sombras"
+    },
+    {
+        "id": "17f697ae5eel0i2m74j1houvhsid9m",
+        "name": "Iglesia de la Comunión del Dragón",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697ae5eel0i2m74j1houvhsid9m.png",
+        "region": "Limgrave",
+        "description": "Los restos dilapidados de la Iglesia de la Comunión del Dragón muestran la ruina que llegó a la tierra. ¿Pero podría una llama aún persistir en su altar??"
+    },
+    {
+        "id": "17f697edfb9l0i2m79bx2q2xwbbjtl",
+        "name": "Cueva de la Costa",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697edfb9l0i2m79bx2q2xwbbjtl.png",
+        "region": "Limgrave",
+        "description": "La Cueva de la Costa es una abertura oscura en la ladera de un acantilado. Sus profundidades cubiertas de musgo están invadidas por criaturas humanoides hostiles, pero aquellos que se atrevan a entrar pueden encontrar un pasaje a nuevas tierras"
+    },
+    {
+        "id": "17f6986ad2el0i2m7q7y6gl2myxkh8",
+        "name": "Ruinas Quemadas por el Dragón",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6986ad2el0i2m7q7y6gl2myxkh8.png",
+        "region": "Limgrave",
+        "description": "Las Ruinas Quemadas por el Dragón son lo que queda de la zona de viviendas entre el Lago Agheel, perdida hace mucho tiempo por los ataques mortales del feroz Dragón Agheel"
+    },
+    {
+        "id": "17f69d3927cl0i2m7rak61iym4ek",
+        "name": "Cárcel Eterna del Sabueso Desolado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d3927cl0i2m7rak61iym4ek.png",
+        "region": "Limgrave",
+        "description": "La Cárcel Eterna del sur de Limgrave, antes de la entrada a la Península del Llanto"
+    },
+    {
+        "id": "17f699ae4a0l0i2m7xeop7sxh8y65e",
+        "name": "Tumba del Héroe de los Margenes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699ae4a0l0i2m7xeop7sxh8y65e.png",
+        "region": "Limgrave",
+        "description": "La Tumba del Héroe de los Margenes es un lugar oscuro y apartado dentro de la Cueva del Conocimiento. Los confusos y sin rumbo moran dentro"
+    },
+    {
+        "id": "17f6981bb8al0i2m7z49o4mk7lid3",
+        "name": "Fuerte Haight",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6981bb8al0i2m7z49o4mk7lid3.png",
+        "region": "Limgrave",
+        "description": "El fuerte invadido de Kenneth Haith, el supuesto próximo gobernante de Limgrave"
+    },
+    {
+        "id": "17f699007d5l0i2m80jyrpycbrgzml",
+        "name": "Torre Divina de Limgrave",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699007d5l0i2m80jyrpycbrgzml.png",
+        "region": "Limgrave",
+        "description": "Cerrada con un conjunto de puertas gigantes. Parece que necesitas algunas piezas para interactuar con la torre."
+    },
+    {
+        "id": "17f6961933bl0i2m880lere7qq0dqn",
+        "name": "Ruinas del Portal",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6961933bl0i2m880lere7qq0dqn.png",
+        "region": "Limgrave",
+        "description": "Las Ruinas del Portal es lo que queda de los cuarteles ahora destruidos cerca de la fortificación. A pesar de su mal estado, es un lugar fuertemente custodiado por los leales a Velo Tormentoso"
+    },
+    {
+        "id": "17f698e05eel0i2m8lxtk1iuo5pp3",
+        "name": "Túneles de Limgrave",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698e05eel0i2m8lxtk1iuo5pp3.png",
+        "region": "Limgrave",
+        "description": "Los Túneles de Limgrave son una mina explotada para obtener Piedra Refulgente. Sus celosos mineros no se atreven a aventurarse en sus cámaras ocultas, por temor al Trol acaparador que hay dentro"
+    },
+    {
+        "id": "17f69bc29c9l0i2m8mjnl6ac43o3sa",
+        "name": "Cueva de la Arboleda",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bc29c9l0i2m8mjnl6ac43o3sa.png",
+        "region": "Limgrave",
+        "description": "La Cueva de la Arboleda es un pequeño refugio para la vida silvestre en Limgrave. Su proximidad al agua y su fácil acceso la convierten en un refugio muy solicitado contra el mal tiempo, pero los que se aventuran a entrar no parecen regresar"
+    },
+    {
+        "id": "17f69c40d99l0i2m8n9bf756iumzy9",
+        "name": "Árbol Áureo Menor (Bosque Neblinoso)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c40d99l0i2m8n9bf756iumzy9.png",
+        "region": "Limgrave",
+        "description": "Fácilmente distinguible del resto de los árboles en el Bosque Neblinoso."
+    },
+    {
+        "id": "17f699b601fl0i2m8statevuowxrrb",
+        "name": "Cueva del Camino Principal",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699b601fl0i2m8statevuowxrrb.png",
+        "region": "Limgrave",
+        "description": "Una cueva que alberga una tumba, en lo más profundo. Está situada en la parte más septentrional de Limgrave. Ha sido habitada por una manada de Lobos, Pulpos Terrestres y Murciélagos Gigantes"
+    },
+    {
+        "id": "17f69d83e6bl0i2m8v6af0i4h94ltb",
+        "name": "Bosque Neblinoso",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d83e6bl0i2m8v6af0i4h94ltb.png",
+        "region": "Limgrave",
+        "description": "El Bosque Neblinoso es una Ubicación en Elden Ring. La región del Bosque Neblinoso se encuentra en la parte oriental de Limgrave. Terreno escalonado, pequeñas playas y frondosos bosques ocupados por Osos Rúnicos Menores son las características definitorias de esta región."
+    },
+    {
+        "id": "17f69a3ca6bl0i2m99b111ivu2aamcc",
+        "name": "Ruinas del Bosque Neblinoso",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a3ca6bl0i2m99b111ivu2aamcc.png",
+        "region": "Limgrave",
+        "description": "Ocultas por el próspero crecimiento de la vegetación, estas ruinas se mantienen fuera de la vista por el velo de la propia naturaleza. Pero hay más de lo que se ve"
+    },
+    {
+        "id": "17f69dedf7al0i2m9b4pz1v8jipl5",
+        "name": "Catacumbas de Aguas Negras",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69dedf7al0i2m9b4pz1v8jipl5.png",
+        "region": "Limgrave",
+        "description": "Un cementerio subterráneo que se encuentra en el lado noreste del Lago Agheel en Limgrave. Una vez fue un lugar de descanso pacífico para los héroes caídos, ahora está infestado de duendes."
+    },
+    {
+        "id": "17f69e79661l0i2m9c3uzzwon60ru",
+        "name": "Cueva de Aguas Negras",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e79661l0i2m9c3uzzwon60ru.png",
+        "region": "Limgrave",
+        "description": "Una cueva oscura a mitad del Río de Aguas Negras"
+    },
+    {
+        "id": "17f69f08b12l0i2m9h4uay98lftdb",
+        "name": "Pozo del Río Siofra",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f08b12l0i2m9h4uay98lftdb.png",
+        "region": "Limgrave",
+        "description": "Una región subterránea mística llena de sus propios cielos y estrellas. Cuidado, está repleta de criaturas grandes y pequeñas por igual"
+    },
+    {
+        "id": "17f69f46160l0i2m9j5wvl4iyb5vv",
+        "name": "Iglesia Ardiente",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f46160l0i2m9j5wvl4iyb5vv.png",
+        "region": "Caelid",
+        "description": "La última iglesia en Limgrave antes de llegar a Caelid"
+    },
+    {
+        "id": "17f69755f06l0i2m9ygrrte15vxjjn",
+        "name": "Puerta de la Tormenta",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69755f06l0i2m9ygrrte15vxjjn.png",
+        "region": "Limgrave",
+        "description": "La Puerta de la Tormenta es un área fuertemente custodiada que marca la frontera entre Limgrave y Colina Tormentosa. Solo los temerarios se lanzarían contra tales probabilidades"
+    },
+    {
+        "id": "17f69c93d09l0i2m9yixlupxvwoc7r",
+        "name": "Catacumbas de la Tormenta",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c93d09l0i2m9yixlupxvwoc7r.png",
+        "region": "Limgrave",
+        "description": "Las Catacumbas de la Tormenta estaban destinadas a ser un lugar de descanso para los difuntos, pero ahora están invadidas por Duendes. Sus secretos más profundos están protegidos por el Guardián del Árbol del Entierro"
+    },
+    {
+        "id": "17f69a317f4l0i2m9zw0s2ceqss32f",
+        "name": "Colina Tormentosa",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a317f4l0i2m9zw0s2ceqss32f.png",
+        "region": "Limgrave",
+        "description": "Colina Tormentosa es una Ubicación en Elden Ring. Colina Tormentosa es la zona superior de Limgrave, entre su río central y Velo Tormentoso."
+    },
+    {
+        "id": "17f6973afc2l0i2ma51e7fflgwsv2m",
+        "name": "Cárcel Eterna de Colina Tormentosa",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6973afc2l0i2ma51e7fflgwsv2m.png",
+        "region": "Limgrave",
+        "description": "Los valientes y los necios por igual se atreven a aventurarse en la Cárcel Eterna de Colina Tormentosa y enfrentarse a su implacable caballero en la batalla"
+    },
+    {
+        "id": "17f69ad0772l0i2ma7gusqx8w2s1ao",
+        "name": "Choza de Colina Tormentosa",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ad0772l0i2ma7gusqx8w2s1ao.png",
+        "region": "Limgrave",
+        "description": "La Choza de Colina Tormentosa es un refugio en ruinas que antes se usaba para albergar a los cazadores de la zona. Un Lugar de Gracia ofrece un momento de descanso necesario para los que viajan cerca"
+    },
+    {
+        "id": "17f69e77e65l0i2mam30d45d317ze1a",
+        "name": "Cementerio Abandonado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e77e65l0i2mam30d45d317ze1a.png",
+        "region": "Limgrave",
+        "description": "El Cementerio Abandonado es un lugar oscuro y apartado dentro de la Cueva del Conocimiento. Los confusos y sin rumbo moran dentro"
+    },
+    {
+        "id": "17f69c37b1fl0i2manq5puf8m7lj6",
+        "name": "Aldea de Aguainvocante",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c37b1fl0i2manq5puf8m7lj6.png",
+        "region": "Limgrave",
+        "description": "D, Cazador de los Muertos, te advierte de esta aldea cercana tomada por la muerte, conocida como la Aldea de Aguainvocante"
+    },
+    {
+        "id": "17f696f8b63l0i2maq3fi94tgr4s4t",
+        "name": "Tercera Iglesia de Marika",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696f8b63l0i2maq3fi94tgr4s4t.png",
+        "region": "Limgrave",
+        "description": "Las ruinas de una antigua iglesia encontradas en el Bosque Neblinoso. La vista más prominente aquí es una estatua de una dama con los brazos extendidos"
+    },
+    {
+        "id": "17f69d5a094l0i2mata8cfyj4ci55t",
+        "name": "Choza del Señor de la Guerra",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d5a094l0i2mata8cfyj4ci55t.png",
+        "region": "Limgrave",
+        "description": "Pequeña choza en una zona remota cerca del centro-norte de Colina Tormentosa."
+    },
+    {
+        "id": "17f69d6cc12l0i2maurcz3u35zq1e6",
+        "name": "Ruinas del Puesto de la Calzada",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d6cc12l0i2maurcz3u35zq1e6.png",
+        "region": "Limgrave",
+        "description": "Las Ruinas del Puesto de la Calzada consisten en un grupo de edificios rotos y campamentos abandonados, ahora invadidos por flores venenosas y su cuidador enloquecido"
+    },
+    {
+        "id": "17f699556dcl0i2mb8hu2t8gym49k9",
+        "name": "Aldea Enferma",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699556dcl0i2mb8hu2t8gym49k9.png",
+        "region": "Península del Llanto",
+        "description": "Un pequeño pueblo abandonado enclavado en una zona boscosa al norte de la Muralla del Castillo de Morne. Este pueblo alberga viviendas largamente dilapidadas, habitadas únicamente por Semihumanos hostiles."
+    },
+    {
+        "id": "17f69a08d1al0i2mbb18pbuvaqj0nv",
+        "name": "Puente del Sacrificio",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a08d1al0i2mbb18pbuvaqj0nv.png",
+        "region": "Limgrave",
+        "description": "Un puente concurrido y repleto de enemigos con armaduras de hierro. Prepárate para enfrentarte a una gran variedad de ataques cuerpo a cuerpo, a distancia y de artillería, o intenta abrirte paso entre ellos"
+    },
+    {
+        "id": "17f6966a9acl0i2mbedz4xx9r4lz4h",
+        "name": "Iglesia Bautismal de Callu",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6966a9acl0i2mbedz4xx9r4lz4h.png",
+        "region": "Península del Llanto",
+        "description": "Una iglesia en ruinas, presumiblemente frecuentada por los antiguos residentes de la Aldea Enferma. Ahora yace en ruinas, su congregación reemplazada por una familia de alimañas mutantes que se dan un festín con los restos de los viajeros desafortunados"
+    },
+    {
+        "id": "17f698b669el0i2mbhazm5831nokpp",
+        "name": "Iglesia del Peregrinaje",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698b669el0i2mbhazm5831nokpp.png",
+        "region": "Península del Llanto",
+        "description": "La Iglesia del Peregrinaje es un edificio roto situado en la cima del acantilado en el norte de la Península del Llanto. Incluso con las paredes y el techo destruidos, los peregrinos todavía hacen el viaje para visitar esta iglesia"
+    },
+    {
+        "id": "17f69a8e6e3l0i2mbkue80sw8q9e9m",
+        "name": "Castillo de Morne",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a8e6e3l0i2mbkue80sw8q9e9m.png",
+        "region": "Limgrave",
+        "description": "Restos de un castillo barrido por el caos, repleto de enemigos con armaduras de hierro, ahora envuelto en fuego, montones de restos y ruinas."
+    },
+    {
+        "id": "17f698f0b5cl0i2mbvii8p3ju2s8p",
+        "name": "Ruinas del Bosque de los Semihumanos",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698f0b5cl0i2mbvii8p3ju2s8p.png",
+        "region": "Península del Llanto",
+        "description": "Los Semihumanos se congregan aquí para adorar a su reina. Derrotarla recompensará a los jugadores con el Bastón de la Reina Semihumana, que es excelente para los magos principiantes."
+    },
+    {
+        "id": "17f69a6e7bal0i2mbxtdxxdlkbn228",
+        "name": "Cueva Terrenal",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a6e7bal0i2mbxtdxxdlkbn228.png",
+        "region": "Limgrave",
+        "description": "La Cueva Terrenal es una pequeña cueva oscura en la ladera del acantilado entre Limgrave y la Península del Llanto. Uno podría escuchar los chillidos de las ratas y los ronquidos de una gran bestia en lo profundo si escucha con atención"
+    },
+    {
+        "id": "17f69beb214l0i2mc1tu4e1udh50bg",
+        "name": "Torre de Vigía del Bosque",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69beb214l0i2mc1tu4e1udh50bg.png",
+        "region": "Península del Llanto",
+        "description": "Una torre en ruinas construida en el borde de los acantilados de la Península del Llanto, ubicada al oeste del Puente del Sacrificio."
+    },
+    {
+        "id": "17f69eb484al0i2mc6wcx3of77ezpi",
+        "name": "Catacumbas del Empalador",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69eb484al0i2mc6wcx3of77ezpi.png",
+        "region": "Península del Llanto",
+        "description": "Las Catacumbas del Empalador se encuentran en el lado este de la Península del Llanto. Una vez utilizadas para almacenar los cuerpos de los muertos, ahora están repletas de Diablillos."
+    },
+    {
+        "id": "17f699e2f56l0i2mcc0rz6jdgrnd4b",
+        "name": "Cuarta Iglesia de Marika",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699e2f56l0i2mcc0rz6jdgrnd4b.png",
+        "region": "Península del Llanto",
+        "description": "Las ruinas de una iglesia solitaria, sentada sobre una meseta al oeste de la península. A pesar de su estado actual, el altar permanece intacto y los caballeros fantasmales todavía deambulan por los campos cercanos, quizás inquietos y obligados por el deber a proteger el área..."
+    },
+    {
+        "id": "17f6967f4a6l0i2mcivef17883vmx4",
+        "name": "Árbol Áureo Menor (Península del Llanto)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6967f4a6l0i2mcivef17883vmx4.png",
+        "region": "Península del Llanto",
+        "description": "Uno de los grandes Árboles Áureos que se encuentran en la Península del Llanto. Un Avatar del Árbol Áureo carga contra los que se acercan"
+    },
+    {
+        "id": "17f69e439b6l0i2mcjzcnj6kp3he1",
+        "name": "Choza del Mercader Aislado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e439b6l0i2mcjzcnj6kp3he1.png",
+        "region": "Península del Llanto",
+        "description": "Encontrada en el extremo occidental de la Península del Llanto, esta cabaña solitaria es el hogar de una sola persona que se ha adaptado durante mucho tiempo a una vida de reclusión"
+    },
+    {
+        "id": "17f69ef93ffl0i2mcqpdy7v0jp2w4t",
+        "name": "Torre de Oridys",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ef93ffl0i2mcqpdy7v0jp2w4t.png",
+        "region": "Península del Llanto",
+        "description": "Una torre de observación solitaria sobre una meseta en el este de la Península del Llanto. Abandonada hace mucho tiempo, la entrada está bloqueada por un sello, presentando a los viajeros un pequeño desafío"
+    },
+    {
+        "id": "17f6981a517l0i2mcvl2m9zjgmsg8q",
+        "name": "Túnel de Morne",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6981a517l0i2mcvl2m9zjgmsg8q.png",
+        "region": "Península del Llanto",
+        "description": "Un túnel oscuro y oculto que está habitado por Malnacidos y Mineros."
+    },
+    {
+        "id": "17f69d80346l0i2md4i5cedghtnq25",
+        "name": "Cueva de la Tumba",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d80346l0i2md4i5cedghtnq25.png",
+        "region": "Península del Llanto",
+        "description": "Cueva oculta en el bosque repleta de criaturas llenas de veneno."
+    },
+    {
+        "id": "17f69f4ffe5l0i2md88ra4eyn71p2h",
+        "name": "Ruinas de la Tumba",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f4ffe5l0i2md88ra4eyn71p2h.png",
+        "region": "Península del Llanto",
+        "description": "Las ruinas de un antiguo cementerio. No queda casi nada aquí, pero los escuderos todavía deambulan por los oscuros túneles de abajo. Quizás protegiendo las tumbas de sus antiguos amos nobles.."
+    },
+    {
+        "id": "17f69e49901l0i2mdbbaoshgf9r6xb",
+        "name": "Catacumbas de la Tumba",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e49901l0i2mdbbaoshgf9r6xb.png",
+        "region": "Península del Llanto",
+        "description": "Las Catacumbas de la Tumba están ocultas dentro de la montaña cerca del Árbol Áureo Menor en la Península del Llanto. Una vez llenas de los cuerpos de los muertos, ahora se levantan esqueletos armados para ahuyentar a aquellos que desean explorar sus profundidades."
+    },
+    {
+        "id": "17f69f66bd4l0i2mddees047dl1w3",
+        "name": "Torre del Retorno",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f66bd4l0i2mddees047dl1w3.png",
+        "region": "Península del Llanto",
+        "description": "Una torre en ruinas custodiada por soldados de a pie y caballería montada. Plataformas de madera improvisadas y escaleras recubren el interior de la torre, lo que le permite conservar alguna función como punto de observación y montaje para balistas"
+    },
+    {
+        "id": "17f698df3ebl0i2mdikdnz45fhyrc7",
+        "name": "Cárcel Eterna del Llanto",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698df3ebl0i2mdikdnz45fhyrc7.png",
+        "region": "Península del Llanto",
+        "description": "Una cárcel eterna ubicada en la masa de tierra occidental de la Península del Llanto. Un oponente formidable está encarcelado dentro"
+    },
+    {
+        "id": "17f69aac157l0i2mdq7xv2njkwl739",
+        "name": "Ruinas de la Perdición de la Bruja",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69aac157l0i2mdq7xv2njkwl739.png",
+        "region": "Península del Llanto",
+        "description": "Un conjunto de ruinas que se encuentran en el oeste de la Península del Llanto. Cubierto de espesos arbustos y flores venenosas, este hito decrépito solo invita a la miseria y el pavor."
+    },
+    {
+        "id": "17f69eea151l0i2mdvyoq9hes3awih",
+        "name": "Cueva de Cristal de la Academia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69eea151l0i2mdvyoq9hes3awih.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Las profundidades de la Academia de Raya Lucaria son ricas en cristales de tonos rosados, imbuidos de la magia natural de la zona"
+    },
+    {
+        "id": "17f69ca396cl0i2mdysgmasljm2zkm",
+        "name": "Ciudad del Portal de la Academia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ca396cl0i2mdysgmasljm2zkm.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Los restos hundidos de la ciudad de la academia"
+    },
+    {
+        "id": "17f69810cebl0i2mdzlqf85vs5362m",
+        "name": "Pozo del Río Ainsel",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69810cebl0i2mdzlqf85vs5362m.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una pequeña estructura que alberga un ascensor que te lleva al Río Ainsel."
+    },
+    {
+        "id": "17f69f1bf17l0i2me5lh0rinbjahod",
+        "name": "Choza del Artista",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f1bf17l0i2me5lh0rinbjahod.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una pequeña cabaña en el norte de Liurnia de los Lagos. Su tranquilidad fuertemente percibida parece eclipsada por el olvido."
+    },
+    {
+        "id": "17f69f3a31bl0i2meai1xfwcvclxod",
+        "name": "Iglesia de Bellum",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f3a31bl0i2meai1xfwcvclxod.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Ubicada más allá de las ruinas y la zona boscosa custodiada por Caballeros Montados."
+    },
+    {
+        "id": "17f69c7e27al0i2meh9ln3g7iucc9m",
+        "name": "Carretera de Bellum",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c7e27al0i2meh9ln3g7iucc9m.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Fuera de la Puerta Este de Raya Lucaria"
+    },
+    {
+        "id": "17f699441c2l0i2men3bc9smd0h3jp",
+        "name": "Catacumbas del Cuchillo Negro",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699441c2l0i2men3bc9smd0h3jp.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Las Catacumbas del Cuchillo Negro albergan muchos esqueletos y cangrejos en sus profundidades, encuentra y derrota al Asesino del Cuchillo Negro para obtener su daga."
+    },
+    {
+        "id": "17f696fcc61l0i2mesvptc01pvt2k",
+        "name": "Mansión de Caria",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696fcc61l0i2mesvptc01pvt2k.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una gran propiedad situada muy al norte de Liurnia."
+    },
+    {
+        "id": "17f69671b3cl0i2meu31aoc55gpu6w",
+        "name": "Choza del Langostinero",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69671b3cl0i2meu31aoc55gpu6w.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Pequeña y acogedora choza donde reside Blackguard Big Boggart."
+    },
+    {
+        "id": "17f69ebf5c7l0i2mf0jf9uvcbi972",
+        "name": "Salón de Estudio Cariano",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ebf5c7l0i2mf0jf9uvcbi972.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una gran ubicación tipo biblioteca llena de espectros"
+    },
+    {
+        "id": "17f69b84b61l0i2mfc7u9mll6xzntq",
+        "name": "Capilla de la Anticipación",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b84b61l0i2mfc7u9mll6xzntq.png",
+        "region": "Limgrave",
+        "description": "Un pequeño edificio de inicio con un sendero que conduce a un área ocupada por un retorcido Vástago Injertado"
+    },
+    {
+        "id": "17f698ad77al0i2mfezbdn6jgn0o9",
+        "name": "Torre de Chelona",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698ad77al0i2mfezbdn6jgn0o9.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre con vistas al extremo más meridional de Liurnia de los lagos"
+    },
+    {
+        "id": "17f698e5adfl0i2mffrxjg7ruc39w",
+        "name": "Iglesia de la Inhibición",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698e5adfl0i2mffrxjg7ruc39w.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Los restos de una antigua iglesia en el norte de Liurnia, justo antes de la Meseta de Altus."
+    },
+    {
+        "id": "17f69cce4d4l0i2mfhyp49jkapcfro",
+        "name": "Catedral de Manus Celes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69cce4d4l0i2mfhyp49jkapcfro.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una gran iglesia en lo alto de la meseta sur de Liurnia."
+    },
+    {
+        "id": "17f69eb0b5al0i2mfvs8tpdxql60r",
+        "name": "Iglesia de Irith",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69eb0b5al0i2mfvs8tpdxql60r.png",
+        "region": "Limgrave",
+        "Liurnia of the Lakes": "Una iglesia pacífica en la parte trasera del Castillo de Velo Tormentoso."
+    },
+    {
+        "id": "17f69c9c269l0i2mfxzgqbh7ffwoxe",
+        "name": "Iglesia de los Juramentos",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c9c269l0i2mfxzgqbh7ffwoxe.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Es aquí, en la Iglesia de los Juramentos, donde las grandes casas del Árbol Áureo y la Luna se unieron por el vínculo matrimonial entre el pelirrojo Radagon y Rennala de la Luna Llena. Por eso tiene a la vista los monumentos de ambas casas, el Árbol Áureo de la Capital y la Academia de Raya Lucaria."
+    },
+    {
+        "id": "17f69da1bd4l0i2mg2rzb8btkku3w",
+        "name": "Torre Marginal Convertida",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69da1bd4l0i2mg2rzb8btkku3w.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre que se encuentra en el margen en el extremo noreste de Liurnia."
+    },
+    {
+        "id": "17f69d1362al0i2mg4cjo2nkqwii0c",
+        "name": "Torre Convertida",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d1362al0i2mg4cjo2nkqwii0c.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre abandonada"
+    },
+    {
+        "id": "17f698f564bl0i2mgkgv52gb259rpo",
+        "name": "Cárcel Eterna del Cuco",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698f564bl0i2mgkgv52gb259rpo.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Cárcel Eterna ubicada en la masa de tierra occidental de Liurnia. Una fuerza poderosa se agita en su interior."
+    },
+    {
+        "id": "17f699e76bfl0i2mgmm6ms7zuiygi4",
+        "name": "Pozo Profundo de Ainsel",
+        "image": null,
+        "region": "Liurnia de los Lagos",
+        "description": "Un pozo profundo que conduce al Altar de la Luz de la Luna desde el Gran Claustro subterráneo."
+    },
+    {
+        "id": "17f69a9bb63l0i2mgrk6uq0c1hc2ce",
+        "name": "Torre Divina de Liurnia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a9bb63l0i2mgrk6uq0c1hc2ce.png",
+        "region": "Liurnia de los Lagos",
+        "description": "La Torre Divina de Liurnia es una Ubicación en Elden Ring. La Torre Divina de Liurnia se encuentra en Liurnia de los Lagos y se llega tomando el ascensor en el área secreta del Salón de Estudio Cariano."
+    },
+    {
+        "id": "17f69b8ac92l0i2mgtov87be1r2nqe",
+        "name": "Aldea de la Llama Frenética",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b8ac92l0i2mgtov87be1r2nqe.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Un pueblo en Liurnia atrapado en la locura de los Tres Dedos. Sus habitantes no conocen más que el frenesí ardiente que arde dentro de ellos"
+    },
+    {
+        "id": "17f699dd1c8l0i2mgue4joyaqx4gkf",
+        "name": "Gran Elevador de Dectus",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699dd1c8l0i2mgue4joyaqx4gkf.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una enorme plataforma elevadora que se encuentra entre Liurnia y la Meseta de Altus. El mecanismo que opera el elevador está bloqueado por cuatro Estatuas Guardianas, que requieren el blandir de un artefacto especial para que liberen su agarre"
+    },
+    {
+        "id": "17f6999ba4dl0i2mh3xyke5xw6a3",
+        "name": "Torre de Vigía de la Carretera",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6999ba4dl0i2mh3xyke5xw6a3.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre solitaria con vistas a la carretera principal de Liurnia en la masa de tierra oriental"
+    },
+    {
+        "id": "17f69c4fae0l0i2mh89ctxbtq3mamf",
+        "name": "Jarburg",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c4fae0l0i2mh89ctxbtq3mamf.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Jarburg era un pueblo pacífico, pero los efectos de la Devastación afectaron incluso a la por lo demás amigable Jarra Viviente"
+    },
+    {
+        "id": "17f696bd5cdl0i2mhe4ogfvk5y4fnk",
+        "name": "Ruinas del Reino de los Reyes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696bd5cdl0i2mhe4ogfvk5y4fnk.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Un área en ruinas, solo aparentemente desnuda."
+    },
+    {
+        "id": "17f69a91598l0i2mhgmal00xkh3qlq",
+        "name": "Cueva de Cristal del Lago",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a91598l0i2mhgmal00xkh3qlq.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Oculta en los acantilados del suroeste de Liurnia de los Lagos, una cueva sinuosa tallada por grandes cristales"
+    },
+    {
+        "id": "17f6998e8c0l0i2mhji8anu11st2mt",
+        "name": "Ruinas de Laskyar",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6998e8c0l0i2mhji8anu11st2mt.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Ruinas de una estructura hundida acosada por la niebla, encontradas en medio de las marismas del sur de Liurnia."
+    },
+    {
+        "id": "17f69755ab0l0i2mhph4nhezda1u7a",
+        "name": "Ruinas de la Finca Lunar",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69755ab0l0i2mhph4nhezda1u7a.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Las ruinas de una gran finca que se encuentran en lo alto de la meseta suroeste de Liurnia."
+    },
+    {
+        "id": "17f69dacb4bl0i2mhubpixrap5onq",
+        "name": "Cárcel Eterna del Malhechor",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69dacb4bl0i2mhubpixrap5onq.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una cárcel eterna con vistas a los vastos lagos. Una llama siempre ardiente reside en su interior"
+    },
+    {
+        "id": "17f69f56f55l0i2mhypmucze7mfrzc",
+        "name": "Árbol Áureo Menor (suroeste de Liurnia)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f56f55l0i2mhypmucze7mfrzc.png",
+        "region": "Limgrave",
+        "Liurnia of the Lakes": "Este antiguo Árbol Áureo domina los lagos desde el suroeste"
+    },
+    {
+        "id": "17f699944del0i2mi3slb26ih47ryg",
+        "name": "Ruinas de los Hombres de la Luna",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699944del0i2mi3slb26ih47ryg.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Ruinas encontradas en el suroeste de la región de Liurnia de los Lagos"
+    },
+    {
+        "id": "17f69d966bel0i2mi4tvwhnn8vetm",
+        "name": "Ruinas Purificadas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d966bel0i2mi4tvwhnn8vetm.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Los restos sagrados ahora yacen en ruinas"
+    },
+    {
+        "id": "17f698099f7l0i2miaetoao4rp6xtb",
+        "name": "Torre de Ranni",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698099f7l0i2miaetoao4rp6xtb.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre acosada por grandes trozos de piedra refulgente que emergen del suelo y penetran en sus interiores. Hogar de una figura misteriosa que observa las Tierras Intermedias"
+    },
+    {
+        "id": "17f69c399c9l0i2mil0mh3d0ps7e7",
+        "name": "Túnel de Cristal de Raya Lucaria",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c399c9l0i2mil0mh3d0ps7e7.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una de las vastas redes de túneles utilizadas prominentemente para la operación de minería de cristal de la academia."
+    },
+    {
+        "id": "17f698a28ecl0i2mipyyaypw22zid",
+        "name": "Torre de Renna",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698a28ecl0i2mipyyaypw22zid.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una Torre de las Tres Hermanas, perteneciente a Renna. Alberga el Set de Armadura de Bruja de las Nieves de Ranni"
+    },
+    {
+        "id": "17f69bb1acal0i2mitcppzloop1zos",
+        "name": "Choza del Vengador",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bb1acal0i2mitcppzloop1zos.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una choza aislada al norte del Árbol Áureo Menor. Los cuerpos ensucian el suelo dentro de la choza, posiblemente pertenecientes a aquellos de los que uno se ha vengado"
+    },
+    {
+        "id": "17f6960e4ffl0i2mixrjbqp5ikjrdf",
+        "name": "Cárcel Eterna del Cabecilla",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6960e4ffl0i2mixrjbqp5ikjrdf.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una cárcel eterna donde está encarcelado un notorio asesino"
+    },
+    {
+        "id": "17f69cc10e6l0i2mj6tb3yh7hepkwb",
+        "name": "Catacumbas del Fin del Camino",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69cc10e6l0i2mj6tb3yh7hepkwb.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Catacumbas en el fin del mundo.."
+    },
+    {
+        "id": "17f69993058l0i2mjc4gismv720o76",
+        "name": "Iglesia de la Rosa",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69993058l0i2mjc4gismv720o76.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Las ruinas de una antigua iglesia acertadamente llamada Iglesia de la Rosa, ya que sus paredes ahora están infectadas de podredumbre escarlata y cubiertas de rosas de sangre."
+    },
+    {
+        "id": "17f69bb8933l0i2mjfr92f3f404f5",
+        "name": "Cárcel Eterna de la Tumba Real",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bb8933l0i2mjfr92f3f404f5.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una cárcel eterna construida para la familia real cariana en las llanuras al este de la finca real"
+    },
+    {
+        "id": "17f699ac779l0i2mjk3m8nufj4z7fe",
+        "name": "Precipicio Lleno de Ruinas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699ac779l0i2mjk3m8nufj4z7fe.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Un precipicio empinado con abundantes cuevas en el interior hasta el final"
+    },
+    {
+        "id": "17f6973267cl0i2mjmwm9vdpxj72u",
+        "name": "Torre de Seluvis",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6973267cl0i2mjmwm9vdpxj72u.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre legada al Preceptor Seluvis. Sirve como su estudio personal mientras se adentra en las artes de la hechicería."
+    },
+    {
+        "id": "17f69c6be62l0i2mjs3roacssjuxza",
+        "name": "Choza del Lobo Durmiente",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c6be62l0i2mjs3roacssjuxza.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una pequeña choza enclavada en la ladera de un acantilado, solo accesible a través de un largo y sinuoso sistema de cuevas. Una mujer y su compañero lobo descansan aquí."
+    },
+    {
+        "id": "17f69bc3adbl0i2mjzcn0qc9u6t9bk",
+        "name": "Cueva de Aguas Tranquilas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bc3adbl0i2mjzcn0qc9u6t9bk.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una cueva oscura y turbia acosada por un miasma venenoso. Hogar de los sirvientes de la podredumbre, que se deleitan en la presencia de las gigantescas flores venenosas endémicas de la cueva"
+    },
+    {
+        "id": "17f69e1147dl0i2mk2ygww3qoin7ba",
+        "name": "Barrio del Templo",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e1147dl0i2mk2ygww3qoin7ba.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Arruinado por la ruptura, el Barrio del Templo ahora está invadido por criaturas peligrosas, listas para atacar a cualquiera que se acerque"
+    },
+    {
+        "id": "17f69d3b50fl0i2mk6p38tb210zrrj",
+        "name": "Torre de Testu",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d3b50fl0i2mk6p38tb210zrrj.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Una torre de observación que se encuentra en medio de una isla solitaria en Liurnia. La entrada está sellada por magia de diablillos y presenta un desafío para los posibles visitantes"
+    },
+    {
+        "id": "17f69d66ba9l0i2mkaapoatsule3ab",
+        "name": "Los Cuatro Campanarios",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d66ba9l0i2mkaapoatsule3ab.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Como su nombre indica, Los Cuatro Campanarios es una colina con cuatro grandes campanarios con vistas a Liurnia desde el oeste. Cada campanario alberga un portal que transporta a los viajeros a varios lugares"
+    },
+    {
+        "id": "17f696874a9l0i2mkds3uzk8ol689w",
+        "name": "Aldea de los Albinaúricos",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696874a9l0i2mkds3uzk8ol689w.png",
+        "region": "Liurnia de los Lagos",
+        "description": "Los traficantes de maldiciones han destruido la Aldea de los Albinaúricos, pero quizás su esperanza de llegar a la ciudad prometida aún no se ha perdido"
+    },
+    {
+        "id": "17f69a76b08l0i2mkixrtbvunct38",
+        "name": "Cueva Abandonada",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a76b08l0i2mkixrtbvunct38.png",
+        "region": "Caelid",
+        "description": "Cueva abandonada hace mucho tiempo."
+    },
+    {
+        "id": "17f69935509l0i2mkr8vjb9f4f94v",
+        "name": "Ruinas de Caelem",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69935509l0i2mkr8vjb9f4f94v.png",
+        "region": "Caelid",
+        "description": "Un conjunto de ruinas perpetuamente en llamas en el oeste de Caelid. La Carretera de Caelid atraviesa estas ruinas, que están fuertemente custodiadas por lanzallamas móviles y repletas de cadáveres reanimados en llamas"
+    },
+    {
+        "id": "17f696635c6l0i2mkuc7ifimqdqkmw",
+        "name": "Catacumbas de Caelid",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696635c6l0i2mkuc7ifimqdqkmw.png",
+        "region": "Caelid",
+        "description": "Un laberinto de suelos y túneles empapados de Podredumbre Escarlata."
+    },
+    {
+        "id": "17f69759442l0i2mkz2ozy780lp1ia",
+        "name": "Ruinas del Puesto de la Calzada de Caelid",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69759442l0i2mkz2ozy780lp1ia.png",
+        "region": "Caelid",
+        "description": "Un conjunto de ruinas que se encuentran en el suroeste de Caelid, a lo largo de la carretera. Abandonadas hace mucho tiempo, las ruinas se han convertido en el hogar de todo tipo de criaturas que se deleitan con la descomposición y la putrefacción provocadas por la podredumbre escarlata"
+    },
+    {
+        "id": "17f699bc4c7l0i2ml02kvmdi9fv2a",
+        "name": "Pantano de Aeonia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699bc4c7l0i2ml02kvmdi9fv2a.png",
+        "region": "Caelid",
+        "description": "El Pantano de Aeonia se encuentra en el centro de la región de Caelid. Lo que una vez fueron llanuras florecientes llenas de rica flora y fauna ahora se reduce a un pozo negro de muerte y descomposición. Una alta concentración de la temida podredumbre escarlata ha mutado la tierra misma, retorciendo a las criaturas y la vida vegetal que una vez llamaron a este lugar su hogar."
+    },
+    {
+        "id": "17f69a15b4al0i2ml8g7pe7tcjmzqk",
+        "name": "Catedral de la Comunión del Dragón (Caelid)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a15b4al0i2ml8g7pe7tcjmzqk.png",
+        "region": "Caelid",
+        "description": "La Catedral de la Comunión del Dragón ha sido destruida durante mucho tiempo, pero aquellos que buscan comulgar con el poder dracónico aún pueden acceder a su poder"
+    },
+    {
+        "id": "17f69922e0fl0i2mlawpo9eps0kqe",
+        "name": "Iglesia de la Plaga",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69922e0fl0i2mlawpo9eps0kqe.png",
+        "region": "Caelid",
+        "description": "Una iglesia en ruinas que se encuentra en los acantilados al este de Sellia, Ciudad de la Hechicería"
+    },
+    {
+        "id": "17f69dbb012l0i2mlliso8pvrpw4an",
+        "name": "Fuerte Gael",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69dbb012l0i2mlliso8pvrpw4an.png",
+        "region": "Caelid",
+        "description": "Un fuerte en ruinas en una tierra en ruinas,"
+    },
+    {
+        "id": "17f69b4d520l0i2mln0ngtae6zndll",
+        "name": "Túnel de Gael",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b4d520l0i2mln0ngtae6zndll.png",
+        "region": "Caelid",
+        "description": "Un conjunto de túneles que se encuentran en el borde occidental de Caelid, a lo largo de la frontera con Limgrave"
+    },
+    {
+        "id": "17f69a84cf2l0i2mlr7qukgvew5dt",
+        "name": "Ruinas Abandonadas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a84cf2l0i2mlr7qukgvew5dt.png",
+        "region": "Caelid",
+        "description": "Las Ruinas Abandonadas consisten en un grupo de edificios rotos y campamentos abandonados. Se encuentra en Caelid y está custodiada por un Cuervo Gigante"
+    },
+    {
+        "id": "17f69d11b53l0i2mlurz5othyaw2yn",
+        "name": "Cueva de la Cárcel",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d11b53l0i2mlurz5othyaw2yn.png",
+        "region": "Caelid",
+        "description": "Encontrada al oeste de Caelid."
+    },
+    {
+        "id": "17f6981d80cl0i2mlvehfutqz69f7c",
+        "name": "Choza de Gowry",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6981d80cl0i2mlvehfutqz69f7c.png",
+        "region": "Caelid",
+        "description": "Una choza solitaria que se encuentra debajo de las colinas orientales cerca de Sellia, Ciudad de la Hechicería."
+    },
+    {
+        "id": "17f69d11915l0i2mm7w192hcoirxvu",
+        "name": "Catacumbas del Árbol Áureo Menor",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d11915l0i2mm7w192hcoirxvu.png",
+        "region": "Caelid",
+        "description": "Las Catacumbas del Árbol Áureo Menor es una Ubicación en Elden Ring. Las Catacumbas del Árbol Áureo Menor se encuentran en Caelid, debajo del Árbol Áureo Menor. Los jugadores pueden llegar a esta ubicación viajando hacia el este desde donde la región se encuentra con Limgrave y luego buscando la entrada detrás del árbol, en el norte."
+    },
+    {
+        "id": "17f69c84fbal0i2mmf3h8h45isx18a",
+        "name": "Castillo de la Melena Roja",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c84fbal0i2mmf3h8h45isx18a.png",
+        "region": "Caelid",
+        "description": "Un pequeño castillo que está fuertemente custodiado en las afueras del castillo por Caballeros y Soldados de Radahn. El Castillo de la Melena Roja sirve como punto de encuentro para guerreros por igual que desean participar en el Festival de Radahn"
+    },
+    {
+        "id": "17f69654a3dl0i2mmit9ec0mmxu749",
+        "name": "Árbol Áureo Menor (Caelid)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69654a3dl0i2mmit9ec0mmxu749.png",
+        "region": "Caelid",
+        "description": "El Árbol Áureo Menor de Caelid, que se encuentra en el noroeste, cerca de la frontera con Limgrave."
+    },
+    {
+        "id": "17f69e4cd2al0i2mmjf7o5gwy7nhbg",
+        "name": "Túnel de Cristal de Sellia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e4cd2al0i2mmjf7o5gwy7nhbg.png",
+        "region": "Caelid",
+        "description": "La operación de minería de cristal de Sellia es supervisada por insectoides codiciosos y agresivos"
+    },
+    {
+        "id": "17f69866cf7l0i2mmw8ziuo0llo4l8",
+        "name": "Cárcel Eterna de Sellia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69866cf7l0i2mmw8ziuo0llo4l8.png",
+        "region": "Dragonbarrow",
+        "description": "Fuera de la Cárcel Eterna de Sellia"
+    },
+    {
+        "id": "17f69f5508fl0i2mmwfbgtc9rn3v1n",
+        "name": "Portal de Sellia",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f5508fl0i2mmwfbgtc9rn3v1n.png",
+        "region": "Caelid",
+        "description": "El portal que conduce a Sellia, Ciudad de la Hechicería"
+    },
+    {
+        "id": "17f69f1cb3fl0i2mn4dwszk6ivxz2",
+        "name": "Sellia, Ciudad de la Hechicería",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f1cb3fl0i2mn4dwszk6ivxz2.png",
+        "region": "Caelid",
+        "description": "Una ciudad que alguna vez fue grande, famosa por su estudio de las artes de la hechicería. Ahora en ruinas, los fantasmas de sus antiguos eruditos todavía deambulan por las calles."
+    },
+    {
+        "id": "17f69d93dd7l0i2mn5cuabfm8gwktg",
+        "name": "Iglesia Ardiente",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d93dd7l0i2mn5cuabfm8gwktg.png",
+        "region": "Limgrave",
+        "description": "La última iglesia en Limgrave antes de llegar a Caelid"
+    },
+    {
+        "id": "17f69ae9c57l0i2mn6m3td3uzlk5s5",
+        "name": "Choza de los Podridos",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ae9c57l0i2mn6m3td3uzlk5s5.png",
+        "region": "Caelid",
+        "description": "Una vieja choza en ruinas con vistas a un largo tramo de acantilados en el oeste de Caelid."
+    },
+    {
+        "id": "17f697a0d02l0i2mnesx1dup5pg1u9",
+        "name": "Ruinas de la Calle de los Sabios",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697a0d02l0i2mnesx1dup5pg1u9.png",
+        "region": "Caelid",
+        "description": "Los sabios de Caelid ya no existen, y su antiguo distrito es ahora la morada de los perfumistas y sus flores venenosas"
+    },
+    {
+        "id": "17f699e1038l0i2mnmh37d1nfbes3b",
+        "name": "Catacumbas de los Muertos en la Guerra",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699e1038l0i2mnmh37d1nfbes3b.png",
+        "region": "Caelid",
+        "description": "Catacumbas para aquellos que han muerto una gloriosa muerte en batalla"
+    },
+    {
+        "id": "17f69625085l0i2mnshaufkjhe4gok",
+        "name": "Afueras de la Capital",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69625085l0i2mnshaufkjhe4gok.png",
+        "region": "Meseta de Altus",
+        "description": "Las Afueras de la Capital es una Ubicación en Elden Ring. La subregión de las Afueras de la Capital se encuentra en la zona oriental de la Meseta de Altus y es la región justo fuera de Leyndell, Capital Real, pero todavía dentro de las murallas exteriores de la capital. Ten cuidado con los esqueletos que se levantan de sus tumbas y las rocas que vuelan desde la capital hacia los campos de batalla al explorar la zona."
+    },
+    {
+        "id": "17f6993b974l0i2mnzpvp1ultcqrm",
+        "name": "Túnel de Altus",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6993b974l0i2mnzpvp1ultcqrm.png",
+        "region": "Meseta de Altus",
+        "description": "Los túneles de Altus se usaban una vez para suministrar a las tierras cristales de calidad"
+    },
+    {
+        "id": "17f697ef5f2l0i2mo0qi9n0ri0imyd",
+        "name": "Dominula, Aldea del Molino",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697ef5f2l0i2mo0qi9n0ri0imyd.png",
+        "region": "Meseta de Altus",
+        "description": "Dominula, Aldea del Molino es una Ubicación en Elden Ring. La Aldea del Molino de Dominula se encuentra en la Meseta de Altus. Al este del lugar de gracia \"Camino Lateral de la Iniquidad\". Sigue el camino principal hacia el sureste y luego gira hacia el este."
+    },
+    {
+        "id": "17f69bbcfcal0i2mo7s8f4xhwr53ms",
+        "name": "Pasto del Molino del Este",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bbcfcal0i2mo7s8f4xhwr53ms.png",
+        "region": "Meseta de Altus",
+        "description": "Afueras del Pasto del Este de la Aldea del Molino. Fiel a su nombre, se puede identificar por el molino de viento que aún funciona y que se encuentra en el centro del pasto."
+    },
+    {
+        "id": "17f698e4311l0i2mo8fibxu670d50f",
+        "name": "Cárcel Eterna del Linaje Dorado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698e4311l0i2mo8fibxu670d50f.png",
+        "region": "Meseta de Altus",
+        "description": "Una cárcel eterna ubicada dentro de la Meseta de Altus."
+    },
+    {
+        "id": "17f696d8354l0i2mogg6n9e7genjdc",
+        "name": "Choza del Mercader Ermitaño",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696d8354l0i2mogg6n9e7genjdc.png",
+        "region": "Meseta de Altus",
+        "description": "Enclavada en un acantilado dentro de los confines de la Capital Real, esta choza es el hogar de un humilde mercader, que ha elegido una vida de reclusión"
+    },
+    {
+        "id": "17f697f9642l0i2molzde5v6dex4io",
+        "name": "Túnel de Altus",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697f9642l0i2molzde5v6dex4io.png",
+        "region": "Meseta de Altus",
+        "description": "Los túneles de Altus se usaban una vez para suministrar a las tierras cristales de calidad"
+    },
+    {
+        "id": "17f69a8e034l0i2moqhosmm855zzp",
+        "name": "Leyndell, Capital Real",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a8e034l0i2moqhosmm855zzp.png",
+        "region": "Meseta de Altus",
+        "description": "Leyndell, Capital Real es una Ubicación en Elden Ring. La región de Leyndell, Capital Real solo es accesible para los jugadores que han reunido dos Grandes Runas o siguiendo la línea de misiones de Ranni la Bruja y derrotando a los Campeones de Fia cerca del Lugar de Gracia de la Cresta de la Gran Cascada en las Profundidades de Raíz Profunda, y tiene contenido para un juego de alto nivel. Para un recorrido detallado, visita la página de recorrido de la Mazmorra de Legado de Leyndell, Capital Real aquí."
+    },
+    {
+        "id": "17f69b88577l0i2moruy4cidw6hrmb",
+        "name": "Ruinas de Lux",
+        "image": null,
+        "region": "Meseta de Altus",
+        "description": "Ruinas olvidadas hace mucho tiempo entre árboles dorados, repletas de semihumanos que protegen la cámara subterránea."
+    },
+    {
+        "id": "17f697666c6l0i2mozt3d41gvlk4j8",
+        "name": "Túnel Antiguo de Altus",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697666c6l0i2mozt3d41gvlk4j8.png",
+        "region": "Meseta de Altus",
+        "description": "Un antiguo sitio minero, todavía activo hasta el día de hoy. Sus túneles resuenan con los gruñidos y gemidos de los plebeyos, trabajando incansablemente, moliendo el rico yacimiento de cristales en las profundidades"
+    },
+    {
+        "id": "17f698ef5fbl0i2mp1l1tslwuty9kl",
+        "name": "Iglesia del Árbol Áureo Menor",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698ef5fbl0i2mp1l1tslwuty9kl.png",
+        "region": "Meseta de Altus",
+        "description": "Lo que queda de la Iglesia del Árbol Áureo Menor"
+    },
+    {
+        "id": "17f698984e2l0i2mpau822kzbjamiq",
+        "name": "Túnel Sellado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698984e2l0i2mpau822kzbjamiq.png",
+        "region": "Meseta de Altus",
+        "description": "No es tan pequeño ni está tan abandonado como parece."
+    },
+    {
+        "id": "17f69b9d414l0i2mpdus3zy2at76rr",
+        "name": "Iglesia del Invocatormentas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b9d414l0i2mpdus3zy2at76rr.png",
+        "region": "Meseta de Altus",
+        "description": "Una iglesia solitaria en una estepa"
+    },
+    {
+        "id": "17f6981f5f9l0i2mpl63u29r5fa3te",
+        "name": "El Castillo Sombrío",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6981f5f9l0i2mpl63u29r5fa3te.png",
+        "region": "Meseta de Altus",
+        "description": "Un castillo abandonado y decrépito que se encuentra en la región norte entre las regiones del Monte Gelmir y la Meseta de Altus. El castillo está medio hundido en un pantano venenoso, con el aire teñido de amarillo por los humos."
+    },
+    {
+        "id": "17f69af90afl0i2mpmxqabln2xz5gc",
+        "name": "Ruinas de los Hombres de Madera",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69af90afl0i2mpmxqabln2xz5gc.png",
+        "region": "Meseta de Altus",
+        "description": "Las Ruinas de los Hombres de Madera, custodiadas por las criaturas de Limgrave, se pueden encontrar cerca del Árbol Áureo Menor dentro de la Meseta de Altus."
+    },
+    {
+        "id": "17f69b068c5l0i2mpzgw13xb7y8df",
+        "name": "Choza del Hedor a Cadáver",
+        "image": null,
+        "region": "Meseta de Altus",
+        "description": "Una choza en ruinas en medio de cadáveres en llamas más allá del lugar de una batalla reciente."
+    },
+    {
+        "id": "17f69d9b8fel0i2mq0i7c25oc8ud27",
+        "name": "Ruinas de Sangre Retorcida",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d9b8fel0i2mq0i7c25oc8ud27.png",
+        "region": "Meseta de Altus",
+        "description": "Ruinas de Sangre Retorcida, con el árbol áureo menor más cercano al fondo"
+    },
+    {
+        "id": "17f69d1692bl0i2mq82mmh96k9rqih",
+        "name": "Choza del Artesano",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d1692bl0i2mq82mmh96k9rqih.png",
+        "region": "Meseta de Altus",
+        "description": "Una serie de cabañas abandonadas hace mucho tiempo que se encuentran directamente al sur del volcán"
+    },
+    {
+        "id": "17f69b3cf18l0i2mqdndclk0p7tmvv",
+        "name": "Tumba del Héroe de Gelmir",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b3cf18l0i2mqdndclk0p7tmvv.png",
+        "region": "Meseta de Altus",
+        "description": "Grandes catacumbas que albergan a un antiguo héroe del Monte Gelmir."
+    },
+    {
+        "id": "17f69a0735el0i2mqkr50k38bz166b",
+        "name": "Choza del Ermitaño",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a0735el0i2mqkr50k38bz166b.png",
+        "region": "Meseta de Altus",
+        "description": "Una choza abandonada a lo largo del borde occidental del Monte Gelmir"
+    },
+    {
+        "id": "17f69b78aa3l0i2mqmnrfo05lqjj3",
+        "name": "Fuerte Laiedd",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b78aa3l0i2mqmnrfo05lqjj3.png",
+        "region": "Meseta de Altus",
+        "description": "El Fuerte Laiedd se encuentra en el borde occidental del Monte Gelmir. Un fuerte roto, todavía ocupado por los que ganaron la batalla"
+    },
+    {
+        "id": "17f69f41641l0i2mqtyu5zlb9bg8xc",
+        "name": "Ruinas del Perfumista",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f41641l0i2mqtyu5zlb9bg8xc.png",
+        "region": "Meseta de Altus",
+        "description": "Un conjunto de ruinas que se encuentran en la Meseta de Altus, muy al oeste y debajo del Monte Gelmir."
+    },
+    {
+        "id": "17f69630438l0i2mqvzhowrb84vyy",
+        "name": "Aldea del Ermitaño",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69630438l0i2mqvzhowrb84vyy.png",
+        "region": "Meseta de Altus",
+        "description": "Un pueblo en ruinas al sureste del Monte Gelmir. Ahora hogar de Semihumanos."
+    },
+    {
+        "id": "17f69a39644l0i2mr10gkkf9agp8m7",
+        "name": "Cueva del Sabio",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a39644l0i2mr10gkkf9agp8m7.png",
+        "region": "Meseta de Altus",
+        "description": "La Cueva del Sabio es una abertura oscura en la ladera de una montaña. Sus oscuras profundidades están invadidas por muertos vivientes hostiles, pero aquellos que se atrevan a entrar pueden encontrar tesoros incomparables"
+    },
+    {
+        "id": "17f69a7a523l0i2mr4q3lyuakdiubr",
+        "name": "Segunda Iglesia de Marika",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a7a523l0i2mr4q3lyuakdiubr.png",
+        "region": "Meseta de Altus",
+        "description": "Segunda de las cuatro Iglesias de Marika donde los jugadores pueden recoger una Lágrima Sagrada para su frasco."
+    },
+    {
+        "id": "17f69c28019l0i2mrdirn1c1brqcqj",
+        "name": "Catacumbas Repugnantes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69c28019l0i2mrdirn1c1brqcqj.png",
+        "region": "Meseta de Altus",
+        "description": "Un cementerio repleto de criaturas Malnacidas que se encuentra en las profundidades de las Ruinas del Perfumista. A pesar de su estado decrépito, las catacumbas desprenden un rastro de aromas fragantes yuxtapuestos por el olor de los antiguos muertos"
+    },
+    {
+        "id": "17f6967952el0i2mrr461qyqfe46y6",
+        "name": "Catacumbas de Wyndham",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6967952el0i2mrr461qyqfe46y6.png",
+        "region": "Meseta de Altus",
+        "description": "Cementerio ubicado debajo de las Ruinas de Wyndham."
+    },
+    {
+        "id": "17f69e3f410l0i2mrtcr66ff1g9p4h",
+        "name": "Cueva del Volcán",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69e3f410l0i2mrtcr66ff1g9p4h.png",
+        "region": "Meseta de Altus",
+        "description": "Un sistema de cuevas en el punto más alto del Monte Gelmir, convertido en un hogar por una familia de Semihumanos que esconden a su Reina enloquecida."
+    },
+    {
+        "id": "17f697f4526l0i2mrynoucp5w0m96s",
+        "name": "Ruinas de Wyndham",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697f4526l0i2mrynoucp5w0m96s.png",
+        "region": "Meseta de Altus",
+        "description": "Un gran conjunto de ruinas sobre un cementerio. Los muertos reanimados todavía deambulan por la zona"
+    },
+    {
+        "id": "17f69b97ce8l0i2ms4ikyh4h5oxhve",
+        "name": "Santuario Bestial",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b97ce8l0i2ms4ikyh4h5oxhve.png",
+        "region": "Caelid",
+        "description": "El Santuario Bestial es un refugio para aquellos que se alimentan de los muertos. Bestial y deforme, el clérigo aquí enseñará los caminos de la bestia a aquellos que la alimentan"
+    },
+    {
+        "id": "17f69a52fdal0i2mscdgudt5b894m5",
+        "name": "Cueva de la Sepultura del Dragón",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a52fdal0i2mscdgudt5b894m5.png",
+        "region": "Dragonbarrow",
+        "description": "Una pequeña mazmorra que se encuentra debajo del Árbol Áureo Menor en la Sepultura del Dragón"
+    },
+    {
+        "id": "17f69bd98abl0i2msf1hgi0pk8vssd",
+        "name": "Torre Divina de Caelid",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bd98abl0i2msf1hgi0pk8vssd.png",
+        "region": "Caelid",
+        "description": "Una enorme torre que se encuentra en el centro de la Sepultura del Dragón, al norte de Caelid. Los lados de la torre se están desmoronando por el enorme crecimiento excesivo que sobresale de la meseta"
+    },
+    {
+        "id": "17f69bc1846l0i2msgjjzgo3z9kwjh",
+        "name": "Pozo Profundo de Siofra",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69bc1846l0i2msgjjzgo3z9kwjh.png",
+        "region": "Dragonbarrow",
+        "description": "Un segundo ascensor al Río Siofra."
+    },
+    {
+        "id": "17f69f6581cl0i2msjrduyrq5lzcub",
+        "name": "Fuerte Faroth",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69f6581cl0i2msjrduyrq5lzcub.png",
+        "region": "Dragonbarrow",
+        "description": "El Fuerte Faroth solía albergar a los guardianes de Caelid, but sus defensores han caído hace mucho tiempo, ahora atados a la tierra como espíritus hostiles"
+    },
+    {
+        "id": "17f696f226dl0i2msytg87r3uaqkyd",
+        "name": "Torre de Lenne",
+        "image": "https://eldenring.fanapis.com/images/locations/17f696f226dl0i2msytg87r3uaqkyd.png",
+        "region": "Dragonbarrow",
+        "description": "Una torre de observación en el noreste de la Sepultura del Dragón, fuera del camino hacia el Santuario Bestial"
+    },
+    {
+        "id": "17f69dd1443l0i2mt2e1wsljt8hffr",
+        "name": "Choza del Mercader Aislado (Sepultura del Dragón)",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69dd1443l0i2mt2e1wsljt8hffr.png",
+        "region": "Dragonbarrow",
+        "description": "Una cabaña solitaria que se encuentra en lo alto de una meseta en el oeste de la Sepultura del Dragón. Hogar de un ermitaño que busca desprenderse de varios objetos... por un precio"
+    },
+    {
+        "id": "17f697b13fal0i2mt2gmldy864m2zj",
+        "name": "Castillo de Sol",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697b13fal0i2mt2gmldy864m2zj.png",
+        "region": "Picos de los Gigantes",
+        "description": "Un castillo que se encuentra en el noreste de los Picos de los Gigantes. Fortaleza del Comandante Niall y sus caballeros espectrales"
+    },
+    {
+        "id": "17f6986804dl0i2mt48ydii28an8a",
+        "name": "Iglesia del Reposo",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6986804dl0i2mt48ydii28an8a.png",
+        "region": "Picos de los Gigantes",
+        "description": "Una pequeña iglesia derrumbada en lo alto de las montañas"
+    },
+    {
+        "id": "17f69d071acl0i2mtig4ni1eefzjg",
+        "name": "Forja de los Gigantes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69d071acl0i2mtig4ni1eefzjg.png",
+        "region": "Picos de los Gigantes",
+        "description": "La forja del gigante podría contener un volcán."
+    },
+    {
+        "id": "17f697bdfffl0i2mtpen4salledwa",
+        "name": "Gran Elevador de Rold",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697bdfffl0i2mtpen4salledwa.png",
+        "region": "Picos de los Gigantes",
+        "description": "El impresionante Elevador de Rold transporta a aquellos que empuñan la llave correcta. ¿Pero podría haber más de un destino??"
+    },
+    {
+        "id": "17f698657ecl0i2mtswf7rb3f7u2l7",
+        "name": "Guarnición de los Guardianes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f698657ecl0i2mtswf7rb3f7u2l7.png",
+        "region": "Picos de los Gigantes",
+        "description": "La Guarnición de los Guardianes está compuesta por Sacerdotes de Fuego, que vigilan celosamente el camino que conduce a la Forja de los Gigantes"
+    },
+    {
+        "id": "17f697036fbl0i2mtt1y66q5foxdq",
+        "name": "Tumba del Héroe Conquistador de Gigantes",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697036fbl0i2mtt1y66q5foxdq.png",
+        "region": "Picos de los Gigantes",
+        "description": "Una mazmorra compleja llena de enemigos invulnerables y extraños sellos dorados en el suelo."
+    },
+    {
+        "id": "17f6986c248l0i2mud577bnmdfh8w",
+        "name": "Choza de los Altos",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6986c248l0i2mud577bnmdfh8w.png",
+        "region": "Picos de los Gigantes",
+        "description": "Una choza solitaria que se encuentra en los Picos de los Gigantes. Esta choza fue visitada una vez por una doncella viajera, pero hace mucho que pereció bajo los elementos"
+    },
+    {
+        "id": "17f69a25d31l0i2muhzfvabyqxiv2v",
+        "name": "Cueva del Invocador de Espíritus",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a25d31l0i2muhzfvabyqxiv2v.png",
+        "region": "Picos de los Gigantes",
+        "description": "Una cueva que se encuentra junto al Lago Helado, fuertemente azotada por los elementos"
+    },
+    {
+        "id": "17f695f2681l0i2muinpxbngca38up",
+        "name": "Ruinas del Observador de Estrellas",
+        "image": "https://eldenring.fanapis.com/images/locations/17f695f2681l0i2muinpxbngca38up.png",
+        "region": "Picos de los Gigantes",
+        "description": "Un conjunto de ruinas que se encuentran en el centro de los Picos de los Gigantes. La meseta en la que se asienta se encuentra entre dos puentes."
+    },
+    {
+        "id": "17f69efba83l0i2mv5car0cnamiotl",
+        "name": "Ruinas de Zamor",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69efba83l0i2mv5car0cnamiotl.png",
+        "region": "Picos de los Gigantes",
+        "description": "La antigua Ciudad de Zamor, ahora caída en ruinas. Su antigua orden de caballeros todavía deambula por las calles cubiertas de nieve"
+    },
+    {
+        "id": "17f69b5132al0i2mvbu1p0fqlhzbjb",
+        "name": "Catacumbas del Campo Sacroníveo",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69b5132al0i2mvbu1p0fqlhzbjb.png",
+        "region": "Picos de los Gigantes",
+        "description": "Las Catacumbas de los campos que conducen al Árbol Hierático de Miquella esconden poderosos secretos, pero están celosamente guardadas"
+    },
+    {
+        "id": "17f697fe6e2l0i2mvhwmvjnk9ek1hb",
+        "name": "Apostadero Abandonado",
+        "image": "https://eldenring.fanapis.com/images/locations/17f697fe6e2l0i2mvhwmvjnk9ek1hb.png",
+        "region": "Picos de los Gigantes",
+        "description": "Una iglesia en ruinas que yace en el noroeste helado de los Campos Sacroníveos"
+    },
+    {
+        "id": "17f6994064fl0i2mvrzl0ze8veus3",
+        "name": "Torre Herética",
+        "image": "https://eldenring.fanapis.com/images/locations/17f6994064fl0i2mvrzl0ze8veus3.png",
+        "region": "Picos de los Gigantes",
+        "description": "Los secretos de la Torre Herética están estrechamente guardados por magia oculta, pero la torre está invadida por Soldados Avioneta hostiles"
+    },
+    {
+        "id": "17f69a00a08l0i2mvsxha1qmkpwnqb",
+        "name": "Camino Oculto al Árbol Hierático",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69a00a08l0i2mvsxha1qmkpwnqb.png",
+        "region": "Picos de los Gigantes",
+        "description": "El pasaje secreto que conduce al Árbol Hierático de Miquella ha sido contaminado por Aquellos que Viven en la Muerte"
+    },
+    {
+        "id": "17f69ea8ac4l0i2mw3htuchm8ubrxk",
+        "name": "Ruinas de Yelough Anix",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69ea8ac4l0i2mw3htuchm8ubrxk.png",
+        "region": "Picos de los Gigantes",
+        "description": "Un conjunto de ruinas que se encuentran en el noroeste del Campo Sacroníveo"
+    },
+    {
+        "id": "17f699f31b0l0i2mw5av5ayol4jqjn",
+        "name": "Ordina, Ciudad Litúrgica",
+        "image": "https://eldenring.fanapis.com/images/locations/17f699f31b0l0i2mw5av5ayol4jqjn.png",
+        "region": "Picos de los Gigantes",
+        "description": "Pueblo fantasma habitado en la cárcel eterna"
+    },
+    {
+        "id": "17f69dfae57l0i2mwa08uny35m2uqf",
+        "name": "Túnel de Yelough Anix",
+        "image": "https://eldenring.fanapis.com/images/locations/17f69dfae57l0i2mwa08uny35m2uqf.png",
+        "region": "Picos de los Gigantes",
+        "description": "Un túnel helado en el borde sur de las Ruinas de Yelough Anix"
+    }
+]

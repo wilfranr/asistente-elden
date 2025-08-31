@@ -1,0 +1,449 @@
+[
+    {
+        "id": "17f699db6b0l0hzn9xsxxwtgyfky3",
+        "name": "Ceniza de Guerra: Carga del Prelado",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f699db6b0l0hzn9xsxxwtgyfky3.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Llama y la siguiente habilidad: \"Carga del Prelado: Golpea el armamento contra el suelo para crear una oleada de llamas, luego carga. Mantén presionado para continuar la carga.\" Utilizable en hachas y martillos grandes y colosales.",
+        "affinity": "Llama",
+        "skill": "Carga del Prelado"
+    },
+    {
+        "id": "17f69632311l0hzna19sl4rzmmvk4",
+        "name": "Ceniza de Guerra: Aluvión",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69632311l0hzna19sl4rzmmvk4.png",
+        "description": "Esta Ceniza de Guerra no otorga ninguna afinidad a un armamento, pero imparte la siguiente habilidad: \"Aluvión: Habilidad de arquería usando un arco sostenido horizontalmente. Prepara el arco, luego dispara una rápida sucesión de tiros más rápido de lo que el ojo puede ver.\" Utilizable en arcos ligeros.",
+        "affinity": "Estándar",
+        "skill": "Aluvión"
+    },
+    {
+        "id": "17f6983255fl0hzna1ak272zmag8w",
+        "name": "Ceniza de Guerra: Rugido Barbárico",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Rugido Barbárico: Suelta un rugido bestial para animar el espíritu y aumentar el poder de ataque. Mientras está activo, los ataques fuertes cambian a combos de ataques salvajes.\" Utilizable en armamentos cuerpo a cuerpo (excepto dagas, espadas de estoque y látigos).",
+        "affinity": "Pesada",
+        "skill": "Rugido Barbárico"
+    },
+    {
+        "id": "17f6999bbdcl0hzna471b3xeg6cjip",
+        "name": "Ceniza de Guerra: Hoja de Sangre",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Sangre y la siguiente habilidad: \"Hoja de Sangre: Hiérete para cubrir el armamento con sangre, luego desata una hoja de sangre en el aire que causa hemorragia. Se puede disparar en rápida sucesión.\" Utilizable en espadas pequeñas y medianas.",
+        "affinity": "Sangre",
+        "skill": "Hoja de Sangre"
+    },
+    {
+        "id": "17f6959211al0hzna508db0yt3kk1k",
+        "name": "Ceniza de Guerra: Gambito del Asesino",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6959211al0hzna508db0yt3kk1k.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Oculta y la siguiente habilidad: \"Gambito del Asesino: Habilidad que enmascara la presencia del usuario a costa de una herida autoinfligida. Otorga casi invisibilidad y silencia los pasos.\" Utilizable en espadas rectas y de estoque pequeñas y medianas.",
+        "affinity": "Oculta",
+        "skill": "Gambito del Asesino"
+    },
+    {
+        "id": "17f693ca8bfl0hzna7sr5dyvlqs7s",
+        "name": "Ceniza de Guerra: Tornado de Llama Negra",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f693ca8bfl0hzna7sr5dyvlqs7s.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Llama y la siguiente habilidad: \"Tornado de Llama Negra: Gira el armamento sobre la cabeza y luego húndelo en el suelo para invocar un vórtice embravecido de llamas negras. Mantén presionado para crear un tornado de llamas inicial mientras giras el armamento.\" Utilizable en armas de asta y espadas gemelas.",
+        "affinity": "Arte de Llama",
+        "skill": "Tornado de Llama Negra"
+    },
+    {
+        "id": "17f6930b2bbl0hznaexvxdlscgaiq",
+        "name": "Ceniza de Guerra: Escudo de Barricada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6930b2bbl0hznaexvxdlscgaiq.png",
+        "description": "Esta Ceniza de Guerra no otorga ninguna afinidad a un armamento, pero imparte la siguiente habilidad: \"Escudo de Barricada: Habilidad que hizo famosa Sir Neidhardt. Concentra tu energía en el escudo, endureciéndolo temporalmente para desviar golpes mayores.\" Utilizable en todos los escudos.",
+        "affinity": "Estándar",
+        "skill": "Escudo de Barricada"
+    },
+    {
+        "id": "17f694892c5l0hznah6w4ltudpzuj",
+        "name": "Ceniza de Guerra: Rugido de la Bestia",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f694892c5l0hznah6w4ltudpzuj.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Rugido de la Bestia: Desata un rugido bestial, rasgando el aire como un proyectil que viaja hacia adelante.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Sagaz",
+        "skill": "Rugido de la Bestia"
+    },
+    {
+        "id": "17f69558c5el0hznater26nv2f3sgh",
+        "name": "Ceniza de Guerra: Paso del Sabueso",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69558c5el0hznater26nv2f3sgh.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Paso del Sabueso: Habilidad que permite al usuario volverse temporalmente invisible mientras esquiva a gran velocidad. Se mueve más rápido y viaja más lejos que un paso rápido normal. Esta habilidad se puede usar para rodear a los objetivos fijados.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Sagaz",
+        "skill": "Paso del Sabueso"
+    },
+    {
+        "id": "17f6957156al0hznayepq0xs5o00l",
+        "name": "Ceniza de Guerra: Rugido del Fanfarrón",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Rugido del Fanfarrón: Declara tu presencia con un rugido jactancioso. Aumenta el poder de ataque, la defensa y la velocidad de recuperación de la resistencia.\" Utilizable en armamentos cuerpo a cuerpo (excepto dagas, espadas de estoque y látigos).",
+        "affinity": "Pesada",
+        "skill": "Rugido del Fanfarrón"
+    },
+    {
+        "id": "17f69748b38l0hznb7t11snt2v6e5to",
+        "name": "Ceniza de Guerra: Cuchillada Sangrienta",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69748b38l0hznb7t11snt2v6e5to.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Sangre y la siguiente habilidad: \"Cuchillada Sangrienta: Habilidad del Juramento de Sangre otorgada por el Señor de la Sangre. Desde una postura baja, cubre la hoja con tu propia sangre para desatar una cuchillada sangrienta desgarradora en un amplio arco.\" Utilizable en espadas (excepto armas colosales)",
+        "affinity": "Sangre",
+        "skill": "Cuchillada Sangrienta"
+    },
+    {
+        "id": "17f69972a78l0hznb8uihn419g6mja",
+        "name": "Ceniza de Guerra: Gran Espada Cariana",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69972a78l0hznb8uihn419g6mja.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Gran Espada Cariana: Prestigio real cariano encarnado en una habilidad. Transforma la hoja en una gran espada mágica y lánzala hacia abajo. Se puede cargar para aumentar su poder.\" Utilizable en espadas (excepto armas colosales).",
+        "affinity": "Mágica",
+        "skill": "Gran Espada Cariana"
+    },
+    {
+        "id": "17f6920fe70l0hznbb7s5p9luh70kn",
+        "name": "Ceniza de Guerra: Grandeza Cariana",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6920fe70l0hznbb7s5p9luh70kn.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Grandeza Cariana: Prestigio real cariano encarnado en una habilidad. Transforma la hoja en una gran espada mágica y lánzala hacia abajo. Se puede cargar para aumentar su poder hasta en dos niveles.\" Utilizable en espadas (excepto armas colosales).",
+        "affinity": "Mágica",
+        "skill": "Grandeza Cariana"
+    },
+    {
+        "id": "17f691ce52el0hznbb8jlg0tc6t0dm",
+        "name": "Ceniza de Guerra: Represalia Cariana",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f691ce52el0hznbb8jlg0tc6t0dm.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Represalia Cariana: Balancea el escudo para disipar las hechicerías y encantamientos entrantes, transformando la magia en hojas refulgentes de represalia. También se puede usar de la misma manera que una parada normal.\" Utilizable en escudos pequeños y medianos.",
+        "affinity": "Mágica",
+        "skill": "Represalia Cariana"
+    },
+    {
+        "id": "17f69877351l0hznbcbt6uafsjw6at",
+        "name": "Ceniza de Guerra: Impuesto de Sangre",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69877351l0hznbcbt6uafsjw6at.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Sangre y la siguiente habilidad: \"Impuesto de Sangre: Habilidad del Juramento de Sangre otorgada por el Señor de la Sangre. Gira para acumular poder, luego desata una ráfaga de estocadas que roban al objetivo tanto su sangre como su HP.\" Utilizable en armamentos capaces de estoquear (excepto armas colosales).",
+        "affinity": "Sangre",
+        "skill": "Impuesto de Sangre"
+    },
+    {
+        "id": "17f6997d2f3l0hznbknjad2nj3vw6",
+        "name": "Ceniza de Guerra: Carga Frontal",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6997d2f3l0hznbknjad2nj3vw6.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Calidad y la siguiente habilidad: \"Carga Frontal: Carga rápidamente hacia adelante con el armamento en la cadera, llevando el impulso a una estocada. Mantén presionado para cubrir una mayor distancia.\" Utilizable en armas de asta capaces de estoquear, espadas de estoque pesadas y espadas gemelas.",
+        "affinity": "Calidad",
+        "skill": "Carga Frontal"
+    },
+    {
+        "id": "17f69632b47l0hznbo20nfz1jomqp0m",
+        "name": "Ceniza de Guerra: Niebla Gélida",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69632b47l0hznbo20nfz1jomqp0m.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Fría y la siguiente habilidad: \"Niebla Gélida: Cubre el armamento con escarcha y luego corta, esparciendo una niebla gélida hacia adelante. El armamento conserva su escarcha por un tiempo.\" Utilizable en armamentos cuerpo a cuerpo (excepto látigos, puños y garras).",
+        "affinity": "Fría",
+        "skill": "Niebla Gélida"
+    },
+    {
+        "id": "17f699c39abl0hznbvtaua60bridg",
+        "name": "Ceniza de Guerra: Hoja de Peñasco",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Hoja de Peñasco: Habilidad que manipula la gravedad. Entierra el armamento en el suelo, extrayendo rocas de la tierra para reforzarlo. Aumenta el poder de ataque y facilita romper la postura del enemigo.\" Utilizable en armamentos cuerpo a cuerpo (excepto látigos).",
+        "affinity": "Pesada",
+        "skill": "Hoja de Peñasco"
+    },
+    {
+        "id": "17f69718726l0hznc4a52929rfg1aw",
+        "name": "Ceniza de Guerra: Doble Cuchillada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69718726l0hznc4a52929rfg1aw.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Doble Cuchillada: Habilidad de espadachines superiores. Realiza un ataque de cuchillada cruzada desde una postura baja. Las entradas repetidas permiten hasta dos ataques de seguimiento.\" Utilizable en espadas y armas de asta capaces de cortar (excepto armas colosales).",
+        "affinity": "Sagaz",
+        "skill": "Doble Cuchillada"
+    },
+    {
+        "id": "17f69473c75l0hznc4u7wv3mae45bn",
+        "name": "Ceniza de Guerra: Determinación",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69473c75l0hznc4u7wv3mae45bn.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Calidad y la siguiente habilidad: \"Determinación: Una habilidad de caballero. Sostén la parte plana del armamento frente a tu cara y jura tu resolución, potenciando tu próximo ataque.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Calidad",
+        "skill": "Determinación"
+    },
+    {
+        "id": "17f69a8f14bl0hznc9h9qokr7i72zg",
+        "name": "Ceniza de Guerra: Sacudetierra",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Sacudetierra: Clava el armamento en el suelo, luego reúne fuerza para desatar una onda de choque que sacude la tierra. Sigue con un ataque fuerte para balancear el armamento en un golpe de barrido.\" Utilizable en grandes hachas, martillos de guerra y armas colosales.",
+        "affinity": "Pesada",
+        "skill": "Sacudetierra"
+    },
+    {
+        "id": "17f6920c27el0hzncahvte5m3xhhws",
+        "name": "Ceniza de Guerra: Disparo Encantado",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6920c27el0hzncahvte5m3xhhws.png",
+        "description": "Esta ceniza de guerra no otorga ninguna afinidad a un armamento, pero imparte la siguiente habilidad: \"Disparo Encantado: Habilidad de arquería que aviva la flecha con esencia espiritual. El disparo resultante volará más rápido que los disparos regulares y cambiará su trayectoria para seguir al objetivo.\" Utilizable en arcos ligeros y arcos largos.",
+        "affinity": "Estándar",
+        "skill": "Disparo Encantado"
+    },
+    {
+        "id": "17f69a074b6l0hzncbpisvienjm7",
+        "name": "Ceniza de Guerra: Resistencia",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a074b6l0hzncbpisvienjm7.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Resistencia: Asume una postura anclada para prepararte para los ataques entrantes, aumentando brevemente el equilibrio. El daño recibido mientras se usa esta habilidad se reduce.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Pesada",
+        "skill": "Resistencia"
+    },
+    {
+        "id": "17f69a3b29al0hzncgekzv3o1qoaml",
+        "name": "Ceniza de Guerra: Erupción",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a3b29al0hzncgekzv3o1qoaml.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Fuego y la siguiente habilidad: \"Erupción: Habilidad de los caballeros que sirven en la Mansión del Volcán. Golpea el armamento contra el suelo, generando lava hirviente que brota al soltarlo.\" Utilizable en espadas, hachas y martillos grandes y colosales.",
+        "affinity": "Fuego",
+        "skill": "Erupción"
+    },
+    {
+        "id": "17f696f88b7l0hzncoms7ors9s5xn8",
+        "name": "Ceniza de Guerra: Llama de los Melena Roja",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Fuego y la siguiente habilidad: \"Llama de los Melena Roja: Habilidad de los Melena Roja, que lucharon junto al General Radahn. Produce una poderosa explosión de llamas en un amplio arco frontal.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Fuego",
+        "skill": "Llama de los Melena Roja"
+    },
+    {
+        "id": "17f69717cc3l0hzncvopzfk4mhxexm",
+        "name": "Ceniza de Guerra: Golpe Flamígero",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69717cc3l0hzncvopzfk4mhxexm.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Fuego y la siguiente habilidad: \"Golpe Flamígero: Habilidad que emite llamas en un amplio arco frontal. Sigue con un ataque fuerte para realizar un golpe de barrido y embestida. Esto también cubrirá el armamento en fuego.\" Utilizable en armamentos cuerpo a cuerpo (excepto armas colosales y látigos).",
+        "affinity": "Fuego",
+        "skill": "Golpe Flamígero"
+    },
+    {
+        "id": "17f696839ebl0hznd4efk9q3sfn90t",
+        "name": "Ceniza de Guerra: Tierra Dorada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f696839ebl0hznd4efk9q3sfn90t.png",
+        "description": "Clava el armamento en el suelo, luego reúne fuerza para desatar una explosión de energía sagrada que se une en dardos dorados. Sigue con un ataque fuerte para balancear el armamento en un golpe de barrido",
+        "affinity": "Sagrada",
+        "skill": "Tierra Dorada"
+    },
+    {
+        "id": "17f69124253l0hznd58kalvsnumdfs",
+        "name": "Ceniza de Guerra: Falange de Cuchillas Refulgentes",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69124253l0hznd58kalvsnumdfs.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Falange de Cuchillas Refulgentes: Habilidad utilizada por los caballeros encantados que sirvieron a la familia real cariana. Forma un arco de cuchillas refulgentes mágicas sobre la cabeza, que atacarán a los enemigos automáticamente. Sigue con un ataque fuerte para encadenar esta habilidad en una estocada de embestida.\" Utilizable en espadas y armas de asta capaces de estoquear (excepto armas colosales).",
+        "affinity": "Mágica",
+        "skill": "Falange de Cuchillas Refulgentes"
+    },
+    {
+        "id": "17f69318912l0hzndcxhadx37qie0d",
+        "name": "Ceniza de Guerra: Guijarro de Piedra Refulgente",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69318912l0hzndcxhadx37qie0d.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Guijarro de Piedra Refulgente: Habilidad que emplea la hechicería de piedra refulgente del mismo nombre. Sigue con un ataque fuerte para encadenar esta habilidad en una estocada de embestida, realizada mientras el armamento todavía está imbuido de piedra refulgente.\" Utilizable en espadas y armas de asta capaces de estoquear (excepto armas colosales).",
+        "affinity": "Mágica",
+        "skill": "Habilidad de Guijarro de Piedra Refulgente"
+    },
+    {
+        "id": "17f69350c54l0hzndgv6rnmsmeuovl",
+        "name": "Ceniza de Guerra: Caza de Gigantes",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69350c54l0hzndgv6rnmsmeuovl.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Calidad y la siguiente habilidad: \"Caza de Gigantes: Habilidad desarrollada para enfrentar a enemigos gigantescos. Da un paso adelante desde una postura baja, llevando el impulso a una repentina estocada ascendente.\" Utilizable en armas grandes y colosales capaces de estoquear, lanzas y espadas gemelas.",
+        "affinity": "Calidad",
+        "skill": "Caza de Gigantes"
+    },
+    {
+        "id": "17f698a21ael0hznah6w4ltudpzuj",
+        "name": "Ceniza de Guerra: Parada Dorada",
+        "image": null,
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagrada y la siguiente habilidad: \"Parada Dorada: Realiza un encantamiento del Árbol Áureo y balancea el escudo para desviar los ataques enemigos y romper su postura. Efectivo incluso a una ligera distancia.\" Utilizable en escudos pequeños y medianos.",
+        "affinity": "Sagrada",
+        "skill": "Parada Dorada"
+    },
+    {
+        "id": "17f697fa0abl0hznk8ckmkt1uwa8c",
+        "name": "Ceniza de Guerra: Golpe Dorado",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f697fa0abl0hznk8ckmkt1uwa8c.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagrada y la siguiente habilidad: \"Golpe Dorado: Habilidad de los avatares que protegen los Árboles Áureos Menores. Salta alto en el aire y cae sobre el suelo. La caída resultante envía ondas de choque doradas en todas las direcciones.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Sagrada",
+        "skill": "Golpe Dorado"
+    },
+    {
+        "id": "17f69351ab5l0hzndrisc8jnkt6cio",
+        "name": "Cenizas de Guerra: Voto Dorado",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69351ab5l0hzndrisc8jnkt6cio.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagrada y la siguiente habilidad: \"Voto Dorado: Habilidad transmitida desde la antigüedad entre los caballeros de la capital. Levanta el armamento en alto y jura honrar al Árbol Áureo en la batalla, otorgando a uno mismo y a los aliados cercanos un mayor poder de ataque y defensa.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Sagrada",
+        "skill": "Voto Dorado"
+    },
+    {
+        "id": "17f691ddaael0hzndtkuqlxj0gi37d",
+        "name": "Ceniza de Guerra: Gravitas",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f691ddaael0hzndtkuqlxj0gi37d.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente Habilidad:Gravitas Una Habilidad de un gran rey blanco con piel de piedra. Atraviesa el suelo con tu armamento para dañar a los enemigos mientras una oleada de gravedad los atrae. Se puede usar en armamentos cuerpo a cuerpo que no sean pequeños.",
+        "affinity": "Mágica",
+        "skill": "Gravitas"
+    },
+    {
+        "id": "17f694e769dl0hznwdwlq2qilmdrv3j",
+        "name": "Ceniza de Guerra: Golpe al Suelo",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f694e769dl0hznwdwlq2qilmdrv3j.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Golpe al Suelo: Salta alto en el aire y cae sobre el suelo. La caída resultante envía una poderosa onda de choque en todas las direcciones.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Pesada",
+        "skill": "Golpe al Suelo"
+    },
+    {
+        "id": "17f693bc341l0hzndy1cxubyy4g0bq",
+        "name": "Ceniza de Guerra: Sacudetierra de Hoarah Loux",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f693bc341l0hzndy1cxubyy4g0bq.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Sacudetierra de Hoarah Loux: Golpea ambas manos contra el suelo para sacudir violentamente la tierra y desatar una onda de choque. Sigue con una entrada adicional para golpear el suelo de nuevo.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Pesada",
+        "skill": "Sacudetierra de Hoarah Loux"
+    },
+    {
+        "id": "17f698e1b7fl0hznea0kg0jfvuo96",
+        "name": "Ceniza de Guerra: Tierra Sagrada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f698e1b7fl0hznea0kg0jfvuo96.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagrada y la siguiente habilidad: \"Tierra Sagrada: Levanta el escudo para crear un área consagrada por el Árbol Áureo que restaura continuamente el HP y aumenta la defensa para uno mismo y los aliados dentro de ella.\" Utilizable en todos los escudos.",
+        "affinity": "Sagrada",
+        "skill": "Tierra Sagrada"
+    },
+    {
+        "id": "17f692fc3aal0hzneh25vt285rpane",
+        "name": "Ceniza de Guerra: Pisotón de Escarcha",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f692fc3aal0hzneh25vt285rpane.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Fría y la siguiente habilidad: \"Pisotón de Escarcha: Pisotea con fuerza para esparcir un rastro de niebla helada en el suelo. La niebla aplica el efecto de estado de escarcha.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Fría",
+        "skill": "Pisotón de Escarcha"
+    },
+    {
+        "id": "17f69609053l0hzneinqfv4xxlqvhj",
+        "name": "Ceniza de Guerra: Lanza de Hielo",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69609053l0hzneinqfv4xxlqvhj.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Fría y la siguiente habilidad: \"Lanza de Hielo: Habilidad de los guerreros que sirvieron a la Princesa Lunar Ranni. Gira el armamento para liberar magia fría, luego canalízala en una lanza de hielo penetrante.",
+        "affinity": "Fría",
+        "skill": "Lanza de Hielo"
+    },
+    {
+        "id": "17f69a64ff1l0hzneows1ewhajkkgh",
+        "name": "Ceniza de Guerra: Estocada Empaladora",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a64ff1l0hzneows1ewhajkkgh.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Estocada Empaladora: Habilidad que permite a los armamentos perforantes superar los escudos enemigos. Acumula poder, luego lánzate hacia adelante para una fuerte estocada que atraviesa la guardia de un enemigo.\" Utilizable en armamentos capaces de estoquear (excepto armas colosales).",
+        "affinity": "Sagaz",
+        "skill": "Estocada Empaladora"
+    },
+    {
+        "id": "17f69700932l0hznetfa5h21htw70m",
+        "name": "Ceniza de Guerra: Patada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69700932l0hznetfa5h21htw70m.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Patada: Empuja a un enemigo hacia atrás con una patada alta. Eficaz contra los enemigos que están en guardia, y puede romper la postura de un enemigo. A veces, una herramienta simple es la más eficaz.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Pesada",
+        "skill": "Patada"
+    },
+    {
+        "id": "17f69a62d88l0hzneyzvq5fyjnottm",
+        "name": "Ceniza de Guerra: Ariete de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a62d88l0hzneyzvq5fyjnottm.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Rayo y la siguiente habilidad: \"Ariete de Rayo: Habilidad inspirada en los carneros que ruedan. Suelta un balido, luego rueda hacia adelante, revestido de rayos. Los tumbos se pueden repetir en rápida sucesión.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Rayo",
+        "skill": "Ariete de Rayo"
+    },
+    {
+        "id": "17f692df771l0hznf03p274erwk98h",
+        "name": "Ceniza de Guerra: Cuchillada de Rayo",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f692df771l0hznf03p274erwk98h.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Rayo y la siguiente habilidad: \"Cuchillada de Rayo: Invoca un rayo en el armamento, luego lánzalo hacia abajo para crear un choque explosivo. El armamento conserva el encantamiento de rayo por un tiempo.\" Utilizable en espadas, hachas y martillos.",
+        "affinity": "Rayo",
+        "skill": "Cuchillada de Rayo"
+    },
+    {
+        "id": "17f696bfa3bl0hznf6k0etmzqb06tl9",
+        "name": "Ceniza de Guerra: Puño Robavida",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f696bfa3bl0hznf6k0etmzqb06tl9.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Oculta y la siguiente habilidad: \"Puño Robavida: Habilidad que demuestra el dominio del arte de controlar las energías vitales. Un puñetazo lento y controlado con un puño infundido de energía que deja inconscientes a los enemigos y les roba su HP. Solo es efectivo contra enemigos de complexión humana.\" Utilizable en puños y garras.",
+        "affinity": "Oculta",
+        "skill": "Puño Robavida"
+    },
+    {
+        "id": "17f69a31a8al0hznf908v1nxqoxy0e",
+        "name": "Ceniza de Guerra: Garra de León",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a31a8al0hznf908v1nxqoxy0e.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Pesada y la siguiente habilidad: \"Garra de León: Habilidad de los Melena Roja, que lucharon junto al General Radahn. Salta hacia adelante, golpeando a los enemigos con el armamento.\" Utilizable en espadas, hachas y martillos (excepto armas pequeñas y espadas de estoque).",
+        "affinity": "Pesada",
+        "skill": "Garra de León"
+    },
+    {
+        "id": "17f69a32673l0hznfbappm2n51jcv",
+        "name": "Ceniza de Guerra: Cuchillada de Loretta",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a32673l0hznfbappm2n51jcv.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Mágica y la siguiente habilidad: \"Cuchillada de Loretta: Habilidad de Loretta la Caballera Real. Salta hacia adelante, imbuyendo la hoja con piedra refulgente, luego desciende, acelerando en una cuchillada de barrido.\" Utilizable en armas de asta y espadas gemelas.",
+        "affinity": "Mágica",
+        "skill": "Cuchillada de Loretta"
+    },
+    {
+        "id": "17f69325755l0hznfv4s2ciqdltjtq",
+        "name": "Ceniza de Guerra: Disparo Poderoso",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69325755l0hznfv4s2ciqdltjtq.png",
+        "description": "Esta Ceniza de Guerra no otorga ninguna afinidad a un armamento, pero imparte la siguiente habilidad: \"Disparo Poderoso: Habilidad de arquería realizada desde una postura oblicua. Prepara el arco, luego tira de la cuerda al límite para mejorar el poder del disparo, penetrando la guardia del enemigo.\" Utilizable en arcos ligeros y arcos largos.",
+        "affinity": "Estándar",
+        "skill": "Disparo Poderoso"
+    },
+    {
+        "id": "17f697ede6el0hzng0czebz0gl42f",
+        "name": "Ceniza de Guerra: Sin Habilidad",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f697ede6el0hzng0czebz0gl42f.png",
+        "description": "Esta Ceniza de Guerra no otorga ninguna afinidad a un armamento y reemplaza cualquier habilidad presente con la siguiente: \"Sin habilidad: Este armamento no tiene habilidad. Si el armamento en la otra mano tiene una habilidad, se usará esa habilidad en su lugar.\" Utilizable en escudos y antorchas.",
+        "affinity": "Estándar",
+        "skill": null
+    },
+    {
+        "id": "17f69a087c2l0hzng49rzvczvag1p",
+        "name": "Ceniza de Guerra: Colmillo Perforador",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69a087c2l0hzng49rzvczvag1p.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Colmillo Perforador: Habilidad utilizada por Yura, el Cazador de Dedos Sangrientos. Comenzando con la hoja sostenida horizontalmente, realiza una poderosa estocada que no se puede bloquear.\" Utilizable en armamentos medianos y grandes capaces de estoquear.",
+        "affinity": "Sagaz",
+        "skill": "Colmillo Perforador"
+    },
+    {
+        "id": "17f6992b87dl0hzng4xdj3kj5y9j56",
+        "name": "Ceniza de Guerra: Parada",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6992b87dl0hzng4xdj3kj5y9j56.png",
+        "description": "Esta Ceniza de Guerra no otorga ninguna afinidad a un armamento, pero imparte la siguiente habilidad: \"Parada: Usa esta habilidad a tiempo con el ataque cuerpo a cuerpo de un enemigo para desviarlo y romper la postura de ese enemigo. Esto proporciona una oportunidad para realizar un golpe crítico.\" Utilizable en dagas, espadas curvas, espadas de estoque, puños, garras y escudos pequeños y medianos.",
+        "affinity": "Estándar",
+        "skill": "Habilidad de Parada"
+    },
+    {
+        "id": "17f69449189l0hzng7hu2ig878ohic",
+        "name": "Ceniza de Guerra: Niebla Venenosa",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69449189l0hzng7hu2ig878ohic.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Veneno y la siguiente habilidad: \"Niebla Venenosa: Baña el armamento en veneno y luego corta, esparciendo una niebla tóxica hacia adelante. El armamento conserva su veneno por un tiempo.\" Utilizable en armamentos cuerpo a cuerpo (excepto látigos, puños y garras).",
+        "affinity": "Veneno",
+        "skill": "Niebla Venenosa"
+    },
+    {
+        "id": "17f697b4d33l0hzng9g0bop6lam24gp",
+        "name": "Ceniza de Guerra: Golpe de Oración",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f697b4d33l0hzng9g0bop6lam24gp.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagrada y la siguiente habilidad: \"Golpe de Oración: Levanta el armamento en oración, luego golpéalo contra el suelo. Este golpe inspirado restaura el HP a uno mismo y a los aliados cercanos si golpea con éxito.\" Utilizable en hachas y martillos.",
+        "affinity": "Sagrada",
+        "skill": "Golpe de Oración"
+    },
+    {
+        "id": "17f6932a2d8l0hzngb251bqvfmqy2",
+        "name": "Ceniza de Guerra: Cuchillada Fantasma",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f6932a2d8l0hzngb251bqvfmqy2.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Calidad y la siguiente habilidad: \"Cuchillada Fantasma: Habilidad inspirada en los gratos recuerdos de la Caballería Nocturna. Crea una aparición del antiguo instructor de los caballeros que guía un golpe ascendente de embestida conjunto. Una entrada adicional permite un ataque de seguimiento.\" Utilizable en armas de asta y espadas gemelas (excepto grandes lanzas).",
+        "affinity": "Calidad",
+        "skill": "Cuchillada Fantasma"
+    },
+    {
+        "id": "17f69742e0fl0hzngchtcvdl4bok5h",
+        "name": "Ceniza de Guerra: Vuelo de la Polilla Venenosa",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69742e0fl0hzngchtcvdl4bok5h.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad de Veneno y la siguiente habilidad: \"Vuelo de la Polilla Venenosa: Corta con una hoja infundida de veneno. Si el golpe de seguimiento aterriza en un enemigo envenenado, infligirá un daño significativo.\" Utilizable en espadas pequeñas y medianas (excepto espadas gemelas).",
+        "affinity": "Veneno",
+        "skill": "Vuelo de la Polilla Venenosa"
+    },
+    {
+        "id": "17f692c7232l0hzngn8rlhloj6d81g",
+        "name": "Ceniza de Guerra: Paso Rápido",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f692c7232l0hzngn8rlhloj6d81g.png",
+        "description": "Esta Ceniza de Guerra otorga a un armamento la afinidad Sagaz y la siguiente habilidad: \"Paso Rápido: Habilidad apreciada por los astutos y de pies ligeros. Realiza una maniobra de paso rápido que permite rodear a los objetivos fijados.\" Utilizable en todos los armamentos cuerpo a cuerpo.",
+        "affinity": "Sagaz",
+        "skill": "Paso Rápido"
+    },
+    {
+        "id": "17f69295181l0hznh0xinc6xftw9ba",
+        "name": "Ceniza de Guerra: Raptor de las Nieblas",
+        "image": "https://eldenring.fanapis.com/images/ashes/17f69295181l0hznh0xinc6xftw9ba.png",
+        "affinity": "Sagaz",
+        "skill": "Raptor de las Nieblas"
+    }
+]

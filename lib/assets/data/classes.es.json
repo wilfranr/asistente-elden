@@ -1,0 +1,240 @@
+[
+    {
+        "id": "17f69d71826l0i32gkm3ndn3kywxqj",
+        "name": "Héroe",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69d71826l0i32gkm3ndn3kywxqj.png",
+        "description": "Un Héroe robusto, a gusto con un hacha de guerra, descendiente de un jefe de las tierras yermas.",
+        "stats": {
+            "level": "7",
+            "vigor": "14",
+            "mind": "9",
+            "endurance": "12",
+            "strength": "16",
+            "dexterity": "9",
+            "intelligence": "7",
+            "faith": "8",
+            "arcane": "11"
+        }
+    },
+    {
+        "id": "17f69b2dd76l0i32gljr3f62pkzhjo",
+        "name": "Guerrero",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69b2dd76l0i32gljr3f62pkzhjo.png",
+        "description": "Un guerrero que empuña dos espadas de una tribu nómada. Un origen de técnica excepcional.",
+        "stats": {
+            "level": "8",
+            "vigor": "11",
+            "mind": "12",
+            "endurance": "11",
+            "strength": "10",
+            "dexterity": "16",
+            "intelligence": "10",
+            "faith": "8",
+            "arcane": "9"
+        }
+    },
+    {
+        "id": "17f69874f7bl0i32gmqaffmbfral8f",
+        "name": "Astrólogo",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69874f7bl0i32gmqaffmbfral8f.png",
+        "description": "Un erudito que lee el destino en las estrellas. Heredero de la escuela de hechicería de piedras refulgentes.",
+        "stats": {
+            "level": "6",
+            "vigor": "9",
+            "mind": "15",
+            "endurance": "9",
+            "strength": "8",
+            "dexterity": "12",
+            "intelligence": "16",
+            "faith": "7",
+            "arcane": "9"
+        }
+    },
+    {
+        "id": "17f69d43011l0i32gojnjjs9mcg0k",
+        "name": "Bandido",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69d43011l0i32gojnjjs9mcg0k.png",
+        "description": "Un peligroso bandido que ataca los puntos débiles. Sobresale en el combate a distancia con arcos.",
+        "stats": {
+            "level": "5",
+            "vigor": "10",
+            "mind": "11",
+            "endurance": "10",
+            "strength": "9",
+            "dexterity": "13",
+            "intelligence": "9",
+            "faith": "8",
+            "arcane": "14"
+        }
+    },
+    {
+        "id": "17f69d1f5f1l0i32grxfonsq64huhl",
+        "name": "Prisionero",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69d1f5f1l0i32grxfonsq64huhl.png",
+        "description": "Un prisionero atado con una máscara de hierro. Estudió hechicería de piedras refulgentes, habiendo vivido entre la élite antes de ser sentenciado.",
+        "stats": {
+            "level": "9",
+            "vigor": "11",
+            "mind": "12",
+            "endurance": "11",
+            "strength": "11",
+            "dexterity": "14",
+            "intelligence": "14",
+            "faith": "6",
+            "arcane": "9"
+        }
+    },
+    {
+        "id": "17f69db959fl0i32hhpwdbjko0bj57",
+        "name": "Vagabundo",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69db959fl0i32hhpwdbjko0bj57.png",
+        "description": "Un caballero exiliado de su tierra natal para vagar. Un origen sólido y acorazado.",
+        "stats": {
+            "level": "9",
+            "vigor": "15",
+            "mind": "10",
+            "endurance": "11",
+            "strength": "14",
+            "dexterity": "13",
+            "intelligence": "9",
+            "faith": "9",
+            "arcane": "7"
+        }
+    },
+    {
+        "id": "17f69774a83l0i32hjagb1nwcs1hne",
+        "name": "Confesor",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69774a83l0i32hjagb1nwcs1hne.png",
+        "description": "Un espía de la iglesia experto en operaciones encubiertas. Tan hábil con la espada como con los encantamientos.",
+        "stats": {
+            "level": "10",
+            "vigor": "10",
+            "mind": "13",
+            "endurance": "10",
+            "strength": "12",
+            "dexterity": "12",
+            "intelligence": "9",
+            "faith": "14",
+            "arcane": "9"
+        }
+    },
+    {
+        "id": "17f69d4ac46l0i32hju3peo5nijzbj",
+        "name": "Desdichado",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69d4ac46l0i32hju3peo5nijzbj.png",
+        "description": "Un pobre desdichado sin propósito, desnudo como el día en que nació. Un buen garrote es todo lo que tiene.",
+        "stats": {
+            "level": "1",
+            "vigor": "10",
+            "mind": "10",
+            "endurance": "10",
+            "strength": "10",
+            "dexterity": "10",
+            "intelligence": "10",
+            "faith": "10",
+            "arcane": "10"
+        }
+    },
+    {
+        "id": "17f69932fefl0i32hlnekz682ixnvc",
+        "name": "Profeta",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69932fefl0i32hlnekz682ixnvc.png",
+        "description": "Un vidente condenado al ostracismo por profecías desfavorables. Muy versado in encantamientos curativos.",
+        "stats": {
+            "level": "7",
+            "vigor": "10",
+            "mind": "14",
+            "endurance": "8",
+            "strength": "11",
+            "dexterity": "10",
+            "intelligence": "7",
+            "faith": "16",
+            "arcane": "10"
+        }
+    },
+    {
+        "id": "17f699f7f4cl0i32huaj53vkdxeh7b",
+        "name": "Samurái",
+        "image": "https://eldenring.fanapis.com/images/classes/17f699f7f4cl0i32huaj53vkdxeh7b.png",
+        "description": "Un luchador capaz de la lejana tierra de las cañas. Hábil con la Katana y los arcos largos.",
+        "stats": {
+            "level": "9",
+            "vigor": "12",
+            "mind": "11",
+            "endurance": "13",
+            "strength": "12",
+            "dexterity": "15",
+            "intelligence": "9",
+            "faith": "8",
+            "arcane": "8"
+        }
+    },
+    {
+        "id": "17f69ee8607l0i32idtlwxck1pcnha",
+        "name": "Guerrero",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69ee8607l0i32idtlwxck1pcnha.png",
+        "description": "Un guerrero que empuña dos espadas de una tribu nómada. Un origen de técnica excepcional.",
+        "stats": {
+            "level": "8",
+            "vigor": "11",
+            "mind": "12",
+            "endurance": "11",
+            "strength": "10",
+            "dexterity": "16",
+            "intelligence": "10",
+            "faith": "8",
+            "arcane": "9"
+        }
+    },
+    {
+        "id": "17f699f7b88l0i32igi1s4fq0046de",
+        "name": "Caballero Encantado",
+        "image": "https://eldenring.fanapis.com/images/classes/17f699f7b88l0i32igi1s4fq0046de.png",
+        "description": "Estos Caballeros han abrazado el poder de la Piedra Refulgente, enfrentando a los enemigos en combate cuerpo a cuerpo mientras lanzan hechizos simultáneamente. A menudo buscan y destruyen a aquellos que usan la magia con fines nefastos.",
+        "stats": {
+            "level": "5",
+            "vigor": "10",
+            "mind": "13",
+            "endurance": "11",
+            "strength": "15",
+            "dexterity": "16",
+            "intelligence": "5",
+            "faith": "5",
+            "arcane": "5"
+        }
+    },
+    {
+        "id": "17f696a77e2l0i32ijd9jdi2d0lbe6",
+        "name": "Lobo Sangriento",
+        "image": "https://eldenring.fanapis.com/images/classes/17f696a77e2l0i32ijd9jdi2d0lbe6.png",
+        "description": "El Lobo es astuto, firme y mortal. Estos guerreros no tienen miedo y se enfrentan a la muerte con un vigor y un orgullo inigualables.",
+        "stats": {
+            "level": "5",
+            "vigor": "14",
+            "mind": "11",
+            "endurance": "12",
+            "strength": "16",
+            "dexterity": "7",
+            "intelligence": "9",
+            "faith": "6",
+            "arcane": "6"
+        }
+    },
+    {
+        "id": "17f69a15924l0i32ioiaydv6hkjxhj",
+        "name": "Campeón",
+        "image": "https://eldenring.fanapis.com/images/classes/17f69a15924l0i32ioiaydv6hkjxhj.png",
+        "description": "Equipado con un Sello Sagrado y un Hacha, el Campeón puede quemar a los enemigos a distancia o enfrentarlos de frente en combate cuerpo a cuerpo. Son luchadores feroces, que no temen a la muerte.",
+        "stats": {
+            "level": "5",
+            "vigor": "13",
+            "mind": "9",
+            "endurance": "12",
+            "strength": "14",
+            "dexterity": "5",
+            "intelligence": "15",
+            "faith": "11",
+            "arcane": "11"
+        }
+    }
+]
