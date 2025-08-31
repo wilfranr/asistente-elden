@@ -37,7 +37,7 @@ class _MainScreenState extends State<MainScreen> {
       final gameData = await DataService.loadGameData();
       
       // Verificar que los datos se cargaron correctamente
-      if (gameData['bosses'] == null || gameData['zones'] == null) {
+      if (gameData['bosses'] == null || gameData['zones'] == null || gameData['locations'] == null) {
         throw Exception('Error en la estructura de datos cargados');
       }
 
@@ -52,12 +52,14 @@ class _MainScreenState extends State<MainScreen> {
         final zoneCount = (gameData['zones'] as Map).length;
         final weaponCount = (gameData['weapons'] as List).length;
         final itemCount = (gameData['items'] as List).length;
+        final locationCount = (gameData['locations'] as List).length;
         
         print('✅ Datos cargados exitosamente:');
         print('   🗡️ Jefes: $bossCount');
         print('   🗺️ Zonas: $zoneCount');
         print('   ⚔️ Armas: $weaponCount');
         print('   📦 Objetos: $itemCount');
+        print('   📍 Ubicaciones: $locationCount');
       }
     } catch (e) {
       setState(() {
@@ -89,7 +91,7 @@ class _MainScreenState extends State<MainScreen> {
       weapons: _gameData!['weapons'] as List<Weapon>,
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
-      locations: _gameData!['locations'] as List<Map<String, dynamic>>,
+      locations: _castLocations(_gameData!['locations']),
     );
   }
 
@@ -142,5 +144,29 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
     );
+  }
+
+  // Método helper para hacer cast seguro de ubicaciones
+  List<Map<String, dynamic>> _castLocations(dynamic locations) {
+    if (locations == null) return [];
+    
+    try {
+      if (locations is List) {
+        return locations.map((location) {
+          if (location is Map<String, dynamic>) {
+            return location;
+          } else if (location is Map) {
+            // Convertir Map<dynamic, dynamic> a Map<String, dynamic>
+            return Map<String, dynamic>.from(location);
+          } else {
+            return <String, dynamic>{};
+          }
+        }).where((location) => location.isNotEmpty).toList();
+      }
+      return [];
+    } catch (e) {
+      print('Error haciendo cast de ubicaciones: $e');
+      return [];
+    }
   }
 }
