@@ -188,11 +188,48 @@ class DataService {
             misiones: [],
             armas: [],
             objetos: [],
+            locaciones: [],
             difficulty: difficulty,
           );
         }
         
         zones[regionId]!.jefes.add(boss.id);
+      }
+    }
+
+    // Agregar locaciones a las zonas correspondientes
+    if (locations is List) {
+      for (final location in locations) {
+        if (location['region'] != null) {
+          final regionName = location['region'] as String;
+          final regionId = regionName.toLowerCase().replaceAll(' ', '-').replaceAll('á', 'a').replaceAll('é', 'e').replaceAll('í', 'i').replaceAll('ó', 'o').replaceAll('ú', 'u').replaceAll('ñ', 'n');
+          
+          if (zones.containsKey(regionId)) {
+            zones[regionId]!.locaciones.add(location['id']);
+          } else {
+            // Crear zona si no existe
+            String? difficulty;
+            if (regionsDifficulty is List) {
+              final regionData = regionsDifficulty.firstWhere(
+                (region) => region['name'] == regionName,
+                orElse: () => {'difficulty': 'Medio'},
+              );
+              difficulty = _getDifficultyText(regionData['difficulty'] ?? 5);
+            }
+
+            zones[regionId] = Zone(
+              id: regionId,
+              name: regionName,
+              description: 'Explora la región de $regionName.',
+              jefes: [],
+              misiones: [],
+              armas: [],
+              objetos: [],
+              locaciones: [location['id']],
+              difficulty: difficulty,
+            );
+          }
+        }
       }
     }
 
@@ -272,6 +309,7 @@ class DataService {
         misiones: [],
         armas: ['sword1'],
         objetos: ['item1'],
+        locaciones: ['iglesia-elleh', 'catacumbas-muerte'],
         difficulty: 'Fácil',
       ),
     };

@@ -17,6 +17,7 @@ class ZonesScreen extends StatefulWidget {
   final List<Weapon> weapons;
   final List<Item> items;
   final List<Mission> missions;
+  final List<Map<String, dynamic>> locations;
 
   const ZonesScreen({
     super.key,
@@ -26,6 +27,7 @@ class ZonesScreen extends StatefulWidget {
     required this.weapons,
     required this.items,
     required this.missions,
+    required this.locations,
   });
 
   @override
@@ -111,8 +113,9 @@ class _ZonesScreenState extends State<ZonesScreen>
     final missionProgress = _calculateProgress(zone.misiones);
     final weaponProgress = _calculateProgress(zone.armas);
     final itemProgress = _calculateProgress(zone.objetos);
+    final locationProgress = _calculateProgress(zone.locaciones);
     
-    return (bossProgress + missionProgress + weaponProgress + itemProgress) / 4;
+    return (bossProgress + missionProgress + weaponProgress + itemProgress + locationProgress) / 5;
   }
 
   double _calculateProgress(List<String> itemIds) {
@@ -382,6 +385,14 @@ class _ZonesScreenState extends State<ZonesScreen>
                               _buildProgressItem('Objetos', zone.objetos.length, _calculateProgress(zone.objetos)),
                             ],
                           ),
+                          const SizedBox(height: 8),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              _buildProgressItem('Ubicaciones', zone.locaciones.length, _calculateProgress(zone.locaciones)),
+                              const Spacer(),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -485,6 +496,7 @@ class _ZonesScreenState extends State<ZonesScreen>
           weapons: widget.weapons,
           items: widget.items,
           missions: widget.missions,
+          locations: widget.locations,
           onProgressChanged: () => _loadProgress(),
         ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {

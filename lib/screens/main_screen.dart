@@ -89,6 +89,7 @@ class _MainScreenState extends State<MainScreen> {
       weapons: _gameData!['weapons'] as List<Weapon>,
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
+      locations: _gameData!['locations'] as List<Map<String, dynamic>>,
     );
   }
 

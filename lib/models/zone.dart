@@ -6,6 +6,7 @@ class Zone {
   final List<String> misiones;
   final List<String> armas;
   final List<String> objetos;
+  final List<String> locaciones;
   final String? difficulty;
 
   Zone({
@@ -16,6 +17,7 @@ class Zone {
     required this.misiones,
     required this.armas,
     required this.objetos,
+    required this.locaciones,
     this.difficulty,
   });
 
@@ -28,6 +30,7 @@ class Zone {
       misiones: json['misiones'] != null ? List<String>.from(json['misiones']) : [],
       armas: json['armas'] != null ? List<String>.from(json['armas']) : [],
       objetos: json['objetos'] != null ? List<String>.from(json['objetos']) : [],
+      locaciones: json['locaciones'] != null ? List<String>.from(json['locaciones']) : [],
       difficulty: json['difficulty'],
     );
   }
@@ -41,6 +44,7 @@ class Zone {
       'misiones': misiones,
       'armas': armas,
       'objetos': objetos,
+      'locaciones': locaciones,
       'difficulty': difficulty,
     };
   }

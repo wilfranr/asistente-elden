@@ -103,9 +103,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 📞 Contacto
 
-- **Desarrollador**: [Tu Nombre]
-- **Email**: [tu-email@ejemplo.com]
-- **GitHub**: [@tu-usuario]
+- **Desarrollador**: [Yoseth Rivera]
+- **Email**: [wilfranr@bytte.com.co]
+- **GitHub**: [@wilfranr]
 
 ---
 

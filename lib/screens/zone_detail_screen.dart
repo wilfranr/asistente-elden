@@ -15,6 +15,7 @@ class ZoneDetailScreen extends StatefulWidget {
   final List<Weapon> weapons;
   final List<Item> items;
   final List<Mission> missions;
+  final List<Map<String, dynamic>> locations;
   final VoidCallback onProgressChanged;
 
   const ZoneDetailScreen({
@@ -24,6 +25,7 @@ class ZoneDetailScreen extends StatefulWidget {
     required this.weapons,
     required this.items,
     required this.missions,
+    required this.locations,
     required this.onProgressChanged,
   });
 
@@ -39,7 +41,7 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 4, vsync: this);
     _loadProgress();
   }
 
@@ -90,6 +92,7 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
               indicatorColor: AppTheme.primaryColor,
               isScrollable: true,
               tabs: [
+                _buildTab('Ubicaciones', widget.zone.locaciones.length, _calculateProgress(widget.zone.locaciones)),
                 _buildTab('Jefes', widget.zone.jefes.length, _calculateProgress(widget.zone.jefes)),
                 _buildTab('Misiones', widget.zone.misiones.length, _calculateProgress(widget.zone.misiones)),
                 _buildTab('Objetos', widget.zone.objetos.length, _calculateProgress(widget.zone.objetos)),
@@ -101,11 +104,12 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
           Expanded(
             child: TabBarView(
               controller: _tabController,
-              children: [
-                _buildBossesTab(),
-                _buildMissionsTab(),
-                _buildItemsTab(),
-              ],
+                          children: [
+              _buildLocationsTab(),
+              _buildBossesTab(),
+              _buildMissionsTab(),
+              _buildItemsTab(),
+            ],
             ),
           ),
           
@@ -439,6 +443,170 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         );
       },
     );
+  }
+
+  Widget _buildLocationsTab() {
+    // Mostrar la información de cada ubicación
+    return _buildLocationsList();
+  }
+
+  Widget _buildLocationsList() {
+    if (widget.zone.locaciones.isEmpty) {
+      return const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.location_on,
+              size: 64,
+              color: AppTheme.textSecondaryColor,
+            ),
+            SizedBox(height: 16),
+            Text(
+              'No hay ubicaciones registradas en esta zona.',
+              style: TextStyle(
+                color: AppTheme.textSecondaryColor,
+                fontSize: 18,
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    return ListView.builder(
+      padding: const EdgeInsets.all(16),
+      itemCount: widget.zone.locaciones.length,
+      itemBuilder: (context, index) {
+        final locationId = widget.zone.locaciones[index];
+        final isCompleted = progressState[locationId] ?? false;
+
+        return Card(
+          margin: const EdgeInsets.only(bottom: 12),
+          child: ListTile(
+            leading: Checkbox(
+              value: isCompleted,
+              onChanged: (value) => _onProgressChanged(locationId, value ?? false),
+            ),
+            title: Text(
+              _getLocationName(locationId),
+              style: TextStyle(
+                decoration: isCompleted ? TextDecoration.lineThrough : null,
+                color: isCompleted ? AppTheme.textSecondaryColor : AppTheme.textColor,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const SizedBox(height: 4),
+                Text(
+                  _getLocationDescription(locationId),
+                  style: const TextStyle(
+                    color: AppTheme.textSecondaryColor,
+                    fontSize: 14,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Row(
+                  children: [
+                    Icon(
+                      Icons.location_on,
+                      size: 16,
+                      color: AppTheme.primaryColor,
+                    ),
+                    const SizedBox(width: 4),
+                    Text(
+                      'Ubicación en ${widget.zone.name}',
+                      style: const TextStyle(
+                        color: AppTheme.primaryColor,
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+            trailing: _getLocationImage(locationId),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _getLocationImage(String locationId) {
+    // Buscar la ubicación en los datos reales
+    final location = widget.locations.firstWhere(
+      (loc) => loc['id'] == locationId,
+      orElse: () => <String, dynamic>{},
+    );
+    
+    if (location.containsKey('image') && location['image'] != null) {
+      return ClipRRect(
+        borderRadius: BorderRadius.circular(8),
+        child: Image.network(
+          location['image'] as String,
+          width: 60,
+          height: 40,
+          fit: BoxFit.cover,
+          errorBuilder: (context, error, stackTrace) => _buildImagePlaceholder(),
+        ),
+      );
+    }
+    
+    return _buildImagePlaceholder();
+  }
+
+  Widget _buildImagePlaceholder() {
+    return Container(
+      width: 60,
+      height: 40,
+      decoration: BoxDecoration(
+        color: AppTheme.backgroundColor,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: AppTheme.primaryColor.withOpacity(0.3)),
+      ),
+      child: const Icon(
+        Icons.image,
+        color: AppTheme.textSecondaryColor,
+        size: 20,
+      ),
+    );
+  }
+
+  String _getLocationName(String locationId) {
+    // Buscar la ubicación en los datos reales
+    final location = widget.locations.firstWhere(
+      (loc) => loc['id'] == locationId,
+      orElse: () => <String, dynamic>{},
+    );
+    
+    if (location.containsKey('name')) {
+      return location['name'] as String;
+    }
+    
+    // Fallback: formatear el ID
+    return locationId.replaceAll('-', ' ').split(' ').map((word) {
+      if (word.isNotEmpty) {
+        return word[0].toUpperCase() + word.substring(1).toLowerCase();
+      }
+      return word;
+    }).join(' ');
+  }
+
+  String _getLocationDescription(String locationId) {
+    // Buscar la ubicación en los datos reales
+    final location = widget.locations.firstWhere(
+      (loc) => loc['id'] == locationId,
+      orElse: () => <String, dynamic>{},
+    );
+    
+    if (location.containsKey('description')) {
+      return location['description'] as String;
+    }
+    
+    // Fallback: descripción genérica
+    return 'Una ubicación interesante en ${widget.zone.name} que merece ser explorada.';
   }
 
   double _calculateProgress(List<String> itemIds) {
