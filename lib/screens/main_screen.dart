@@ -7,6 +7,7 @@ import '../models/mission.dart';
 import '../services/data_service.dart';
 import '../utils/app_theme.dart';
 import 'zones_screen.dart';
+import 'items_screen.dart';
 import 'loading_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -89,7 +90,8 @@ class _MainScreenState extends State<MainScreen> {
       weapons: _gameData!['weapons'] as List<Weapon>,
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
-      locations: _gameData!['locations'] as List<Map<String, dynamic>>,
+      locations: _castLocations(_gameData!['locations']),
+      onNavigateToItems: () => _navigateToItems(),
     );
   }
 
@@ -139,6 +141,41 @@ class _MainScreenState extends State<MainScreen> {
               ),
             ],
           ),
+        ),
+      ),
+    );
+  }
+
+  // Método helper para hacer cast seguro de ubicaciones
+  List<Map<String, dynamic>> _castLocations(dynamic locations) {
+    if (locations == null) return [];
+    
+    try {
+      if (locations is List) {
+        return locations.map((location) {
+          if (location is Map<String, dynamic>) {
+            return location;
+          } else if (location is Map) {
+            // Convertir Map<dynamic, dynamic> a Map<String, dynamic>
+            return Map<String, dynamic>.from(location);
+          } else {
+            return <String, dynamic>{};
+          }
+        }).where((location) => location.isNotEmpty).toList();
+      }
+      return [];
+    } catch (e) {
+      print('Error haciendo cast de ubicaciones: $e');
+      return [];
+    }
+  }
+
+  void _navigateToItems() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ItemsScreen(
+          items: _gameData!['items'] as List<Item>,
         ),
       ),
     );

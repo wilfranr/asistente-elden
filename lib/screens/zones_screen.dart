@@ -18,6 +18,7 @@ class ZonesScreen extends StatefulWidget {
   final List<Item> items;
   final List<Mission> missions;
   final List<Map<String, dynamic>> locations;
+  final VoidCallback? onNavigateToItems;
 
   const ZonesScreen({
     super.key,
@@ -28,6 +29,7 @@ class ZonesScreen extends StatefulWidget {
     required this.items,
     required this.missions,
     required this.locations,
+    this.onNavigateToItems,
   });
 
   @override
@@ -109,17 +111,15 @@ class _ZonesScreenState extends State<ZonesScreen>
   }
 
   double _calculateZoneProgress(Zone zone) {
+    // Solo consideramos el progreso de los jefes por ahora
     final bossProgress = _calculateProgress(zone.jefes);
-    final missionProgress = _calculateProgress(zone.misiones);
-    final weaponProgress = _calculateProgress(zone.armas);
-    final itemProgress = _calculateProgress(zone.objetos);
-    final locationProgress = _calculateProgress(zone.locaciones);
     
-    return (bossProgress + missionProgress + weaponProgress + itemProgress + locationProgress) / 5;
+    // El resto retorna 0% de progreso
+    return bossProgress;
   }
 
   double _calculateProgress(List<String> itemIds) {
-    if (itemIds.isEmpty) return 100.0;
+    if (itemIds.isEmpty) return 0.0; // No hay items = 0% de progreso
     
     int completedCount = 0;
     for (final itemId in itemIds) {
@@ -380,16 +380,16 @@ class _ZonesScreenState extends State<ZonesScreen>
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               _buildProgressItem('Jefes', zone.jefes.length, _calculateProgress(zone.jefes)),
-                              _buildProgressItem('Misiones', zone.misiones.length, _calculateProgress(zone.misiones)),
-                              _buildProgressItem('Armas', zone.armas.length, _calculateProgress(zone.armas)),
-                              _buildProgressItem('Objetos', zone.objetos.length, _calculateProgress(zone.objetos)),
+                              _buildProgressItem('Misiones', zone.misiones.length, 0.0), // Por ahora 0%
+                              _buildProgressItem('Armas', zone.armas.length, 0.0), // Por ahora 0%
+                              _buildProgressItem('Objetos', zone.objetos.length, 0.0), // Por ahora 0%
                             ],
                           ),
                           const SizedBox(height: 8),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              _buildProgressItem('Ubicaciones', zone.locaciones.length, _calculateProgress(zone.locaciones)),
+                              _buildProgressItem('Ubicaciones', zone.locaciones.length, 0.0), // Por ahora 0%
                               const Spacer(),
                             ],
                           ),
@@ -441,6 +441,22 @@ class _ZonesScreenState extends State<ZonesScreen>
                     style: ElevatedButton.styleFrom(
                       backgroundColor: AppTheme.backgroundColor,
                       foregroundColor: AppTheme.textColor,
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: ElevatedButton.icon(
+                    onPressed: widget.onNavigateToItems,
+                    icon: const Icon(Icons.inventory_2),
+                    label: const Text('Inventario'),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppTheme.primaryColor,
+                      foregroundColor: Colors.black,
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
