@@ -97,10 +97,13 @@ class AppTheme {
           if (states.contains(MaterialState.selected)) {
             return primaryColor;
           }
-          return Colors.transparent;
+          return surfaceColor.withOpacity(0.3);
         }),
         checkColor: MaterialStateProperty.all(Colors.black),
-        side: const BorderSide(color: surfaceColor),
+        side: const BorderSide(color: primaryColor, width: 2),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(4),
+        ),
       ),
     );
   }

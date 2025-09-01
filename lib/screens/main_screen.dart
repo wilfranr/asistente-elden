@@ -7,6 +7,7 @@ import '../models/mission.dart';
 import '../services/data_service.dart';
 import '../utils/app_theme.dart';
 import 'zones_screen.dart';
+import 'items_screen.dart';
 import 'loading_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -92,6 +93,7 @@ class _MainScreenState extends State<MainScreen> {
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
       locations: _castLocations(_gameData!['locations']),
+      onNavigateToItems: () => _navigateToItems(),
     );
   }
 
@@ -168,5 +170,16 @@ class _MainScreenState extends State<MainScreen> {
       print('Error haciendo cast de ubicaciones: $e');
       return [];
     }
+  }
+
+  void _navigateToItems() {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ItemsScreen(
+          items: _gameData!['items'] as List<Item>,
+        ),
+      ),
+    );
   }
 }

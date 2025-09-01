@@ -41,7 +41,12 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 4, vsync: this);
+    // Calcular el número de pestañas dinámicamente
+    int tabCount = 1; // Siempre hay jefes
+    if (widget.zone.locaciones.isNotEmpty) tabCount++;
+    // Misiones y Objetos se manejan desde la pantalla principal
+    
+    _tabController = TabController(length: tabCount, vsync: this);
     _loadProgress();
   }
 
@@ -92,10 +97,12 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
               indicatorColor: AppTheme.primaryColor,
               isScrollable: true,
               tabs: [
-                _buildTab('Ubicaciones', widget.zone.locaciones.length, _calculateProgress(widget.zone.locaciones)),
                 _buildTab('Jefes', widget.zone.jefes.length, _calculateProgress(widget.zone.jefes)),
-                _buildTab('Misiones', widget.zone.misiones.length, _calculateProgress(widget.zone.misiones)),
-                _buildTab('Objetos', widget.zone.objetos.length, _calculateProgress(widget.zone.objetos)),
+                if (widget.zone.locaciones.isNotEmpty)
+                  _buildTab('Ubicaciones', widget.zone.locaciones.length, 0.0), // Por ahora 0%
+                // Misiones y Objetos se manejan desde la pantalla principal
+                // _buildTab('Misiones', widget.zone.misiones.length, _calculateProgress(widget.zone.misiones)),
+                // _buildTab('Objetos', widget.zone.objetos.length, _calculateProgress(widget.zone.objetos)),
               ],
             ),
           ),
@@ -105,10 +112,10 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
             child: TabBarView(
               controller: _tabController,
                           children: [
-              _buildLocationsTab(),
               _buildBossesTab(),
-              _buildMissionsTab(),
-              _buildItemsTab(),
+              if (widget.zone.locaciones.isNotEmpty) _buildLocationsTab(),
+              // _buildMissionsTab(), // Se maneja desde la pantalla principal
+              // _buildItemsTab(),   // Se maneja desde la pantalla principal
             ],
             ),
           ),
@@ -387,9 +394,23 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
 
     if (zoneItems.isEmpty) {
       return const Center(
-        child: Text(
-          'No hay objetos registrados en esta zona.',
-          style: TextStyle(color: AppTheme.textSecondaryColor),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              Icons.inventory_2,
+              size: 64,
+              color: AppTheme.textSecondaryColor,
+            ),
+            SizedBox(height: 16),
+            Text(
+              'No hay objetos registrados en esta zona.',
+              style: TextStyle(
+                color: AppTheme.textSecondaryColor,
+                fontSize: 18,
+              ),
+            ),
+          ],
         ),
       );
     }
@@ -420,24 +441,70 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(height: 4),
-                Text(
-                  item.description ?? '',
-                  style: const TextStyle(
-                    color: AppTheme.textSecondaryColor,
-                    fontSize: 14,
-                  ),
-                ),
-                if (item.type != null) ...[
-                  const SizedBox(height: 4),
+                if (item.description != null && item.description!.isNotEmpty) ...[
                   Text(
-                    'Tipo: ${item.type}',
+                    item.description!,
                     style: const TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontSize: 12,
+                      color: AppTheme.textSecondaryColor,
+                      fontSize: 14,
                     ),
+                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis,
                   ),
+                  const SizedBox(height: 8),
                 ],
+                Row(
+                  children: [
+                    if (item.type != null) ...[
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: AppTheme.primaryColor.withOpacity(0.2),
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: AppTheme.primaryColor),
+                        ),
+                        child: Text(
+                          item.type!,
+                          style: const TextStyle(
+                            color: AppTheme.primaryColor,
+                            fontSize: 12,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                    if (item.effect != null && item.effect!.isNotEmpty) ...[
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: AppTheme.surfaceColor,
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(color: AppTheme.textSecondaryColor),
+                          ),
+                          child: Text(
+                            item.effect!,
+                            style: const TextStyle(
+                              color: AppTheme.textSecondaryColor,
+                              fontSize: 12,
+                            ),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
               ],
+            ),
+            trailing: IconButton(
+              icon: Icon(
+                Icons.info_outline,
+                color: AppTheme.primaryColor,
+              ),
+              onPressed: () => _showItemDetails(item),
             ),
           ),
         );
@@ -516,11 +583,14 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
                       color: AppTheme.primaryColor,
                     ),
                     const SizedBox(width: 4),
-                    Text(
-                      'Ubicación en ${widget.zone.name}',
-                      style: const TextStyle(
-                        color: AppTheme.primaryColor,
-                        fontSize: 12,
+                    Expanded(
+                      child: Text(
+                        'Ubicación en ${widget.zone.name}',
+                        style: const TextStyle(
+                          color: AppTheme.primaryColor,
+                          fontSize: 12,
+                        ),
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
                   ],
@@ -610,7 +680,7 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
   }
 
   double _calculateProgress(List<String> itemIds) {
-    if (itemIds.isEmpty) return 100.0;
+    if (itemIds.isEmpty) return 0.0; // No hay items = 0% de progreso
     
     int completedCount = 0;
     for (final itemId in itemIds) {
@@ -659,6 +729,97 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
       MaterialPageRoute(
         builder: (context) => BossDetailScreen(boss: boss),
       ),
+    );
+  }
+
+  void _showItemDetails(Item item) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: AppTheme.surfaceColor,
+          title: Text(
+            item.name,
+            style: const TextStyle(
+              color: AppTheme.textColor,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          content: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                if (item.description != null && item.description!.isNotEmpty) ...[
+                  Text(
+                    'Descripción:',
+                    style: const TextStyle(
+                      color: AppTheme.primaryColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    item.description!,
+                    style: const TextStyle(
+                      color: AppTheme.textColor,
+                      fontSize: 14,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+                if (item.type != null) ...[
+                  Text(
+                    'Tipo:',
+                    style: const TextStyle(
+                      color: AppTheme.primaryColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    item.type!,
+                    style: const TextStyle(
+                      color: AppTheme.textColor,
+                      fontSize: 14,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+                if (item.effect != null && item.effect!.isNotEmpty) ...[
+                  Text(
+                    'Efecto:',
+                    style: const TextStyle(
+                      color: AppTheme.primaryColor,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    item.effect!,
+                    style: const TextStyle(
+                      color: AppTheme.textColor,
+                      fontSize: 14,
+                    ),
+                  ),
+                ],
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.of(context).pop(),
+              child: Text(
+                'Cerrar',
+                style: TextStyle(color: AppTheme.primaryColor),
+              ),
+            ),
+          ],
+        );
+      },
     );
   }
 

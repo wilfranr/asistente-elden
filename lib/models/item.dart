@@ -5,6 +5,7 @@ class Item {
   final String? location;
   final String? type;
   final String? effect;
+  final String? image;
 
   Item({
     required this.id,
@@ -13,6 +14,7 @@ class Item {
     this.location,
     this.type,
     this.effect,
+    this.image,
   });
 
   factory Item.fromJson(Map<String, dynamic> json) {
@@ -23,6 +25,7 @@ class Item {
       location: json['location'],
       type: json['type'],
       effect: json['effect'],
+      image: json['image'],
     );
   }
 
@@ -34,6 +37,7 @@ class Item {
       'location': location,
       'type': type,
       'effect': effect,
+      'image': image,
     };
   }
 }

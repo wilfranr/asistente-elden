@@ -233,6 +233,20 @@ class DataService {
       }
     }
 
+    // Agregar objetos a las zonas correspondientes
+    if (items is List) {
+      for (final item in items) {
+        if (item.location != null) {
+          final regionName = item.location as String;
+          final regionId = regionName.toLowerCase().replaceAll(' ', '-').replaceAll('á', 'a').replaceAll('é', 'e').replaceAll('í', 'i').replaceAll('ó', 'o').replaceAll('ú', 'u').replaceAll('ñ', 'n');
+          
+          if (zones.containsKey(regionId)) {
+            zones[regionId]!.objetos.add(item.id);
+          }
+        }
+      }
+    }
+
     // Si no hay zonas, usar las mock
     if (zones.isEmpty) {
       return _getMockZones();
