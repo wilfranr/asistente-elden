@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/boss.dart';
 import '../models/weapon.dart';
+import '../models/shield.dart';
 import '../models/item.dart';
 import '../models/zone.dart';
 import '../models/mission.dart';
@@ -52,6 +53,7 @@ class _MainScreenState extends State<MainScreen> {
         final bossCount = (gameData['bosses'] as List).length;
         final zoneCount = (gameData['zones'] as Map).length;
         final weaponCount = (gameData['weapons'] as List).length;
+        final shieldCount = (gameData['shields'] as List).length;
         final itemCount = (gameData['items'] as List).length;
         final locationCount = (gameData['locations'] as List).length;
         
@@ -59,6 +61,7 @@ class _MainScreenState extends State<MainScreen> {
         print('   🗡️ Jefes: $bossCount');
         print('   🗺️ Zonas: $zoneCount');
         print('   ⚔️ Armas: $weaponCount');
+        print('   🛡️ Escudos: $shieldCount');
         print('   📦 Objetos: $itemCount');
         print('   📍 Ubicaciones: $locationCount');
       }
@@ -90,6 +93,7 @@ class _MainScreenState extends State<MainScreen> {
       bosses: _gameData!['bosses'] as List<Boss>, // Ahora incluye todos los jefes
       prologoBosses: _gameData!['prologoBosses'] as List<Boss>,
       weapons: _gameData!['weapons'] as List<Weapon>,
+      shields: _gameData!['shields'] as List<Shield>,
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
       locations: _castLocations(_gameData!['locations']),

@@ -1,46 +1,47 @@
 import 'package:flutter/material.dart';
-import '../models/weapon.dart';
+import '../models/shield.dart';
 import '../utils/app_theme.dart';
-import 'weapon_detail_screen.dart';
+import 'shield_detail_screen.dart';
 
-class WeaponsScreen extends StatefulWidget {
-  final List<Weapon> weapons;
+class ShieldsScreen extends StatefulWidget {
+  final List<Shield> shields;
 
-  const WeaponsScreen({
+  const ShieldsScreen({
     super.key,
-    required this.weapons,
+    required this.shields,
   });
 
   @override
-  State<WeaponsScreen> createState() => _WeaponsScreenState();
+  State<ShieldsScreen> createState() => _ShieldsScreenState();
 }
 
-class _WeaponsScreenState extends State<WeaponsScreen> {
-  List<Weapon> _filteredWeapons = [];
+class _ShieldsScreenState extends State<ShieldsScreen> {
+  List<Shield> _filteredShields = [];
   String _searchQuery = '';
   String? _selectedCategory;
-  
+
   @override
   void initState() {
     super.initState();
-    _filteredWeapons = widget.weapons;
+    _filteredShields = widget.shields;
   }
 
-  void _filterWeapons() {
+  void _filterShields() {
     setState(() {
-      _filteredWeapons = widget.weapons.where((weapon) {
-        bool matchesSearch = weapon.name.toLowerCase().contains(_searchQuery.toLowerCase());
-        bool matchesCategory = _selectedCategory == null || weapon.category == _selectedCategory;
+      _filteredShields = widget.shields.where((shield) {
+        bool matchesSearch = shield.name.toLowerCase().contains(_searchQuery.toLowerCase());
+        bool matchesCategory = _selectedCategory == null || shield.category == _selectedCategory;
         return matchesSearch && matchesCategory;
       }).toList();
-      
-      // Ordenar por ataque físico descendente
-      _filteredWeapons.sort((a, b) => b.physicalAttack.compareTo(a.physicalAttack));
+
+      // Ordenar por defensa física descendente
+      _filteredShields.sort((a, b) => (b.defence.firstWhere((element) => element.name == 'Phy').amount as int)
+          .compareTo((a.defence.firstWhere((element) => element.name == 'Phy').amount as int)));
     });
   }
 
   Set<String> get _availableCategories {
-    return widget.weapons.map((weapon) => weapon.category ?? 'Sin categoría').toSet();
+    return widget.shields.map((shield) => shield.category ?? 'Sin categoría').toSet();
   }
 
   @override
@@ -55,7 +56,7 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
               // Barra de búsqueda
               TextField(
                 decoration: InputDecoration(
-                  hintText: 'Buscar armas...',
+                  hintText: 'Buscar escudos...',
                   prefixIcon: const Icon(Icons.search, color: AppTheme.primaryColor),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
@@ -71,7 +72,7 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                 style: const TextStyle(color: AppTheme.textColor),
                 onChanged: (value) {
                   _searchQuery = value;
-                  _filterWeapons();
+                  _filterShields();
                 },
               ),
               const SizedBox(height: 12),
@@ -95,7 +96,7 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                         setState(() {
                           _selectedCategory = value;
                         });
-                        _filterWeapons();
+                        _filterShields();
                       },
                       items: [
                         const DropdownMenuItem<String?>(
@@ -122,14 +123,14 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                '${_filteredWeapons.length} armas encontradas',
+                '${_filteredShields.length} escudos encontrados',
                 style: const TextStyle(
                   color: AppTheme.textSecondaryColor,
                   fontSize: 14,
                 ),
               ),
               Text(
-                'Ordenado por daño',
+                'Ordenado por defensa',
                 style: const TextStyle(
                   color: AppTheme.textSecondaryColor,
                   fontSize: 14,
@@ -141,14 +142,14 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
 
         const SizedBox(height: 8),
 
-        // Lista de armas
+        // Lista de escudos
         Expanded(
           child: ListView.builder(
             padding: const EdgeInsets.all(16),
-            itemCount: _filteredWeapons.length,
+            itemCount: _filteredShields.length,
             itemBuilder: (context, index) {
-              final weapon = _filteredWeapons[index];
-              return _buildWeaponCard(weapon);
+              final shield = _filteredShields[index];
+              return _buildShieldCard(shield);
             },
           ),
         ),
@@ -156,17 +157,17 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
     );
   }
 
-  Widget _buildWeaponCard(Weapon weapon) {
+  Widget _buildShieldCard(Shield shield) {
     return Card(
       margin: const EdgeInsets.only(bottom: 12),
       child: InkWell(
-        onTap: () => _navigateToWeaponDetail(weapon),
+        onTap: () => _navigateToShieldDetail(shield),
         borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Row(
             children: [
-              // Ícono del arma por categoría
+              // Ícono del escudo por categoría
               Container(
                 width: 50,
                 height: 50,
@@ -175,14 +176,14 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Icon(
-                  _getWeaponIcon(weapon.category),
+                  _getShieldIcon(shield.category),
                   color: AppTheme.primaryColor,
                   size: 28,
                 ),
               ),
-              
+
               const SizedBox(width: 16),
-              
+
               // Información principal
               Expanded(
                 child: Column(
@@ -192,7 +193,7 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                       children: [
                         Expanded(
                           child: Text(
-                            weapon.name,
+                            shield.name,
                             style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -204,11 +205,11 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                         Container(
                           padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                           decoration: BoxDecoration(
-                            color: _getCategoryColor(weapon.category),
+                            color: _getCategoryColor(shield.category),
                             borderRadius: BorderRadius.circular(12),
                           ),
                           child: Text(
-                            weapon.category ?? 'Sin categoría',
+                            shield.category ?? 'Sin categoría',
                             style: const TextStyle(
                               color: Colors.white,
                               fontSize: 11,
@@ -219,23 +220,20 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                       ],
                     ),
                     const SizedBox(height: 8),
-                    
+
                     // Stats principales
                     Row(
                       children: [
-                        _buildStatChip('⚔️ ${weapon.physicalAttack}', Colors.red),
+                        _buildStatChip('🛡️ ${shield.defence.firstWhere((stat) => stat.name == 'Phy').amount}', Colors.blue),
                         const SizedBox(width: 8),
-                        _buildStatChip('📊 ${weapon.primaryScaling}', Colors.blue),
-                        const SizedBox(width: 8),
-                        if (weapon.weight != null)
-                          _buildStatChip('⚖️ ${weapon.weight!.toStringAsFixed(1)}', Colors.grey),
+                        _buildStatChip('⚖️ ${shield.weight?.toStringAsFixed(1)}', Colors.grey),
                       ],
                     ),
                     const SizedBox(height: 8),
-                    
+
                     // Requisitos
                     Text(
-                      'Requisitos: ${weapon.requiredStats}',
+                      'Requisitos: ${shield.requiredStats}',
                       style: const TextStyle(
                         color: AppTheme.textSecondaryColor,
                         fontSize: 12,
@@ -245,9 +243,9 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                   ],
                 ),
               ),
-              
+
               const SizedBox(width: 8),
-              
+
               // Flecha de navegación
               const Icon(
                 Icons.arrow_forward_ios,
@@ -279,48 +277,38 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
     );
   }
 
-  IconData _getWeaponIcon(String? category) {
+  IconData _getShieldIcon(String? category) {
     switch (category?.toLowerCase()) {
-      case 'espada recta':
-      case 'espada':
-        return Icons.construction;
-      case 'hacha':
-        return Icons.hardware;
-      case 'lanza':
-        return Icons.grain;
-      case 'arco':
-        return Icons.tune;
-      case 'bastón':
-        return Icons.timeline;
+      case 'escudo pequeño':
+        return Icons.shield_outlined;
+      case 'escudo mediano':
+        return Icons.shield;
+      case 'gran escudo':
+        return Icons.security;
       default:
-        return Icons.sports_esports;
+        return Icons.shield;
     }
   }
 
   Color _getCategoryColor(String? category) {
     switch (category?.toLowerCase()) {
-      case 'espada recta':
-      case 'espada':
-        return Colors.blue;
-      case 'hacha':
-        return Colors.orange;
-      case 'lanza':
+      case 'escudo pequeño':
         return Colors.green;
-      case 'arco':
+      case 'escudo mediano':
+        return Colors.blue;
+      case 'gran escudo':
         return Colors.purple;
-      case 'bastón':
-        return Colors.indigo;
       default:
         return Colors.grey;
     }
   }
 
-  void _navigateToWeaponDetail(Weapon weapon) {
+  void _navigateToShieldDetail(Shield shield) {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (context, animation, secondaryAnimation) => WeaponDetailScreen(
-          weapon: weapon,
+        pageBuilder: (context, animation, secondaryAnimation) => ShieldDetailScreen(
+          shield: shield,
         ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           const begin = Offset(1.0, 0.0);
@@ -344,4 +332,3 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
     );
   }
 }
-

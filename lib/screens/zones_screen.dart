@@ -2,19 +2,21 @@ import 'package:flutter/material.dart';
 import '../models/zone.dart';
 import '../models/boss.dart';
 import '../models/weapon.dart';
+import '../models/shield.dart';
 import '../models/item.dart';
 import '../models/mission.dart';
 import '../services/progress_service.dart';
 import '../services/auth_service.dart';
 import '../utils/app_theme.dart';
 import 'zone_detail_screen.dart';
-import 'weapons_screen.dart';
+import 'arsenal_screen.dart';
 
 class ZonesScreen extends StatefulWidget {
   final Map<String, Zone> zones;
   final List<Boss> bosses;
   final List<Boss> prologoBosses;
   final List<Weapon> weapons;
+  final List<Shield> shields;
   final List<Item> items;
   final List<Mission> missions;
   final List<Map<String, dynamic>> locations;
@@ -26,6 +28,7 @@ class ZonesScreen extends StatefulWidget {
     required this.bosses,
     required this.prologoBosses,
     required this.weapons,
+    required this.shields,
     required this.items,
     required this.missions,
     required this.locations,
@@ -435,7 +438,7 @@ class _ZonesScreenState extends State<ZonesScreen>
                 const SizedBox(width: 12),
                 Expanded(
                   child: ElevatedButton.icon(
-                    onPressed: () => _navigateToAllWeapons(),
+                    onPressed: () => _navigateToArsenal(),
                     icon: const Icon(Icons.construction),
                     label: const Text('Arsenal'),
                     style: ElevatedButton.styleFrom(
@@ -813,12 +816,13 @@ class _ZonesScreenState extends State<ZonesScreen>
     return levelRanges[levelText];
   }
 
-  void _navigateToAllWeapons() {
+  void _navigateToArsenal() {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (context, animation, secondaryAnimation) => WeaponsScreen(
+        pageBuilder: (context, animation, secondaryAnimation) => ArsenalScreen(
           weapons: widget.weapons,
+          shields: widget.shields,
         ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           const begin = Offset(1.0, 0.0);
