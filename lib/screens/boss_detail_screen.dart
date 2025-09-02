@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../models/boss.dart';
 import '../utils/app_theme.dart';
+import '../widgets/aurora_background.dart';
+import '../widgets/glass_container.dart';
 
 class BossDetailScreen extends StatelessWidget {
   final Boss boss;
@@ -27,171 +29,174 @@ class BossDetailScreen extends StatelessWidget {
           onPressed: () => Navigator.pop(context),
         ),
       ),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            // Imagen del jefe
-            if (boss.image != null) ...[
-              ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: CachedNetworkImage(
-                  imageUrl: boss.image!,
-                  placeholder: (context, url) => Container(
-                    height: 225,
-                    decoration: BoxDecoration(
-                      color: AppTheme.surfaceColor,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: const Center(
-                      child: CircularProgressIndicator(
-                        color: AppTheme.primaryColor,
-                      ),
-                    ),
-                  ),
-                  errorWidget: (context, url, error) => Container(
-                    height: 225,
-                    decoration: BoxDecoration(
-                      color: AppTheme.surfaceColor,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: const Center(
-                      child: Icon(
-                        Icons.error,
-                        color: AppTheme.textSecondaryColor,
-                        size: 48,
-                      ),
-                    ),
-                  ),
-                  fit: BoxFit.cover,
-                ),
-              ),
-              const SizedBox(height: 24),
-            ],
-            
-            // Nombre del jefe
-            Text(
-              boss.name,
-              style: const TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-                color: AppTheme.primaryColor,
-              ),
-            ),
-            const SizedBox(height: 16),
-            
-            // Descripción
-            if (boss.description != null) ...[
-              Text(
-                boss.description!,
-                style: const TextStyle(
-                  fontSize: 16,
-                  color: AppTheme.textColor,
-                  height: 1.5,
-                ),
-              ),
-              const SizedBox(height: 24),
-            ],
-            
-            // Información detallada en grid expandido
-            GridView.count(
-              shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: 2,
-              crossAxisSpacing: 16,
-              mainAxisSpacing: 16,
-              childAspectRatio: 1.1,
+      body: Stack(
+        children: [
+          const AuroraBackground(),
+          SingleChildScrollView(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                _buildInfoCard(
-                  'Ubicación',
-                  boss.location ?? 'Desconocida',
-                  Icons.location_on,
-                  AppTheme.primaryColor,
+                // Imagen del jefe
+                if (boss.image != null) ...[
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(12),
+                    child: CachedNetworkImage(
+                      imageUrl: boss.image!,
+                      placeholder: (context, url) => Container(
+                        height: 225,
+                        decoration: BoxDecoration(
+                          color: AppTheme.surfaceColor,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: const Center(
+                          child: CircularProgressIndicator(
+                            color: AppTheme.primaryColor,
+                          ),
+                        ),
+                      ),
+                      errorWidget: (context, url, error) => Container(
+                        height: 225,
+                        decoration: BoxDecoration(
+                          color: AppTheme.surfaceColor,
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: const Center(
+                          child: Icon(
+                            Icons.error,
+                            color: AppTheme.textSecondaryColor,
+                            size: 48,
+                          ),
+                        ),
+                      ),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  const SizedBox(height: 24),
+                ],
+
+                // Nombre del jefe
+                Text(
+                  boss.name,
+                  style: const TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: AppTheme.primaryColor,
+                  ),
                 ),
-                _buildInfoCard(
-                  'Región',
-                  boss.region ?? 'No especificada',
-                  Icons.map,
-                  Colors.blue,
+                const SizedBox(height: 16),
+
+                // Descripción
+                if (boss.description != null) ...[
+                  GlassContainer(
+                    padding: const EdgeInsets.all(16),
+                    child: Text(
+                      boss.description!,
+                      style: const TextStyle(
+                        fontSize: 16,
+                        color: AppTheme.textColor,
+                        height: 1.5,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 24),
+                ],
+
+                // Información detallada en grid expandido
+                GridView.count(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 16,
+                  mainAxisSpacing: 16,
+                  childAspectRatio: 1.1,
+                  children: [
+                    _buildInfoCard(
+                      'Ubicación',
+                      boss.location ?? 'Desconocida',
+                      Icons.location_on,
+                      AppTheme.primaryColor,
+                    ),
+                    _buildInfoCard(
+                      'Región',
+                      boss.region ?? 'No especificada',
+                      Icons.map,
+                      Colors.blue,
+                    ),
+                    _buildInfoCard(
+                      'Puntos de Vida',
+                      boss.healthPoints ?? 'No disponible',
+                      Icons.favorite,
+                      Colors.red,
+                    ),
+                    _buildInfoCard(
+                      'Runas Obtenidas',
+                      boss.runes != null ? _formatNumber(boss.runes!) : _extractRunesFromDrops(),
+                      Icons.monetization_on,
+                      AppTheme.primaryColor,
+                    ),
+                    _buildInfoCard(
+                      'Recompensa Principal',
+                      _getMainReward(),
+                      Icons.inventory,
+                      Colors.green,
+                    ),
+                    _buildInfoCard(
+                      'Item Especial',
+                      _getBestUniqueItem(),
+                      Icons.star,
+                      Colors.purple,
+                    ),
+                  ],
                 ),
-                _buildInfoCard(
-                  'Puntos de Vida',
-                  boss.healthPoints ?? 'No disponible',
-                  Icons.favorite,
-                  Colors.red,
-                ),
-                _buildInfoCard(
-                  'Runas Obtenidas',
-                  boss.runes != null ? _formatNumber(boss.runes!) : _extractRunesFromDrops(),
-                  Icons.monetization_on,
-                  AppTheme.primaryColor,
-                ),
-                _buildInfoCard(
-                  'Recompensa Principal',
-                  _getMainReward(),
-                  Icons.inventory,
-                  Colors.green,
-                ),
-                _buildInfoCard(
-                  'Item Especial',
-                  _getBestUniqueItem(),
-                  Icons.star,
-                  Colors.purple,
-                ),
+
+                const SizedBox(height: 24),
+
+                // Tipo de jefe
+                if (boss.type != null) ...[
+                  _buildTypeSection(boss.type!),
+                  const SizedBox(height: 16),
+                ],
+
+                // Debilidades
+                if (boss.weaknesses != null && boss.weaknesses!.isNotEmpty) ...[
+                  _buildListSection('Debilidades', boss.weaknesses!, Colors.green),
+                  const SizedBox(height: 16),
+                ],
+
+                // Fortalezas
+                if (boss.strengths != null && boss.strengths!.isNotEmpty) ...[
+                  _buildListSection('Fortalezas', boss.strengths!, Colors.red),
+                  const SizedBox(height: 16),
+                ],
+
+                // Inmunidades
+                if (boss.immunities != null && boss.immunities!.isNotEmpty) ...[
+                  _buildListSection('Inmunidades', boss.immunities!, Colors.orange),
+                  const SizedBox(height: 16),
+                ],
+
+                // Recompensas detalladas
+                if (boss.drops != null && boss.drops!.isNotEmpty) ...[
+                  _buildDropsSection(boss.drops!),
+                  const SizedBox(height: 16),
+                ],
+
+                // Recomendaciones
+                if (boss.recommendations != null && boss.recommendations!.isNotEmpty) ...[
+                  _buildRecommendationsSection(boss.recommendations!),
+                ],
               ],
             ),
-            
-            const SizedBox(height: 24),
-            
-            // Tipo de jefe
-            if (boss.type != null) ...[
-              _buildTypeSection(boss.type!),
-              const SizedBox(height: 16),
-            ],
-            
-            // Debilidades
-            if (boss.weaknesses != null && boss.weaknesses!.isNotEmpty) ...[
-              _buildListSection('Debilidades', boss.weaknesses!, Colors.green),
-              const SizedBox(height: 16),
-            ],
-            
-            // Fortalezas
-            if (boss.strengths != null && boss.strengths!.isNotEmpty) ...[
-              _buildListSection('Fortalezas', boss.strengths!, Colors.red),
-              const SizedBox(height: 16),
-            ],
-            
-            // Inmunidades
-            if (boss.immunities != null && boss.immunities!.isNotEmpty) ...[
-              _buildListSection('Inmunidades', boss.immunities!, Colors.orange),
-              const SizedBox(height: 16),
-            ],
-            
-            // Recompensas detalladas
-            if (boss.drops != null && boss.drops!.isNotEmpty) ...[
-              _buildDropsSection(boss.drops!),
-              const SizedBox(height: 16),
-            ],
-            
-            // Recomendaciones
-            if (boss.recommendations != null && boss.recommendations!.isNotEmpty) ...[
-              _buildRecommendationsSection(boss.recommendations!),
-            ],
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
 
   Widget _buildInfoCard(String title, String value, IconData icon, Color color) {
-    return Container(
+    return GlassContainer(
       padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: AppTheme.surfaceColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.backgroundColor),
-      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
@@ -233,14 +238,8 @@ class BossDetailScreen extends StatelessWidget {
   }
 
   Widget _buildTypeSection(String type) {
-    return Container(
-      width: double.infinity,
+    return GlassContainer(
       padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: AppTheme.surfaceColor,
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: AppTheme.backgroundColor),
-      ),
       child: Row(
         children: [
           Icon(Icons.sports_esports, color: AppTheme.primaryColor, size: 20),
@@ -295,13 +294,8 @@ class BossDetailScreen extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 12),
-        Container(
+        GlassContainer(
           padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: AppTheme.surfaceColor,
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: AppTheme.backgroundColor),
-          ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: items.map((item) => Padding(
@@ -367,14 +361,10 @@ class BossDetailScreen extends StatelessWidget {
         
         // Sección de Runas
         if (runas.isNotEmpty) ...[
-          Container(
-            width: double.infinity,
+          GlassContainer(
             padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppTheme.primaryColor.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: AppTheme.primaryColor),
-            ),
+            color: AppTheme.primaryColor.withOpacity(0.1),
+            border: Border.all(color: AppTheme.primaryColor),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -412,13 +402,8 @@ class BossDetailScreen extends StatelessWidget {
         
         // Sección de Items
         if (items.isNotEmpty) ...[
-          Container(
+          GlassContainer(
             padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppTheme.surfaceColor,
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: AppTheme.backgroundColor),
-            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -501,13 +486,8 @@ class BossDetailScreen extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 12),
-        Container(
+        GlassContainer(
           padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: AppTheme.surfaceColor,
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: AppTheme.backgroundColor),
-          ),
           child: Column(
             children: recommendations.map((recommendation) => Padding(
               padding: const EdgeInsets.symmetric(vertical: 6),

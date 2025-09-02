@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/shield.dart';
 import '../utils/app_theme.dart';
+import '../widgets/glass_container.dart';
 import 'shield_detail_screen.dart';
 
 class ShieldsScreen extends StatefulWidget {
@@ -49,7 +50,8 @@ class _ShieldsScreenState extends State<ShieldsScreen> {
     return Column(
       children: [
         // Barra de búsqueda y filtros
-        Container(
+        GlassContainer(
+          margin: const EdgeInsets.all(16),
           padding: const EdgeInsets.all(16),
           child: Column(
             children: [
@@ -60,14 +62,14 @@ class _ShieldsScreenState extends State<ShieldsScreen> {
                   prefixIcon: const Icon(Icons.search, color: AppTheme.primaryColor),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppTheme.backgroundColor),
+                    borderSide: BorderSide.none,
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                     borderSide: const BorderSide(color: AppTheme.primaryColor),
                   ),
                   filled: true,
-                  fillColor: AppTheme.surfaceColor,
+                  fillColor: AppTheme.surfaceColor.withOpacity(0.5),
                 ),
                 style: const TextStyle(color: AppTheme.textColor),
                 onChanged: (value) {
@@ -158,102 +160,101 @@ class _ShieldsScreenState extends State<ShieldsScreen> {
   }
 
   Widget _buildShieldCard(Shield shield) {
-    return Card(
-      margin: const EdgeInsets.only(bottom: 12),
-      child: InkWell(
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: GlassContainer(
         onTap: () => _navigateToShieldDetail(shield),
-        borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Row(
             children: [
               // Ícono del escudo por categoría
-              Container(
-                width: 50,
-                height: 50,
-                decoration: BoxDecoration(
-                  color: AppTheme.primaryColor.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(8),
+                Container(
+                  width: 50,
+                  height: 50,
+                  decoration: BoxDecoration(
+                    color: AppTheme.primaryColor.withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Icon(
+                    _getShieldIcon(shield.category),
+                    color: AppTheme.primaryColor,
+                    size: 28,
+                  ),
                 ),
-                child: Icon(
-                  _getShieldIcon(shield.category),
-                  color: AppTheme.primaryColor,
-                  size: 28,
-                ),
-              ),
 
-              const SizedBox(width: 16),
+                const SizedBox(width: 16),
 
-              // Información principal
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            shield.name,
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: AppTheme.textColor,
-                            ),
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                          decoration: BoxDecoration(
-                            color: _getCategoryColor(shield.category),
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Text(
-                            shield.category ?? 'Sin categoría',
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 11,
-                              fontWeight: FontWeight.bold,
+                // Información principal
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              shield.name,
+                              style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: AppTheme.textColor,
+                              ),
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-
-                    // Stats principales
-                    Row(
-                      children: [
-                        _buildStatChip('🛡️ ${shield.defence.firstWhere((stat) => stat.name == 'Phy').amount}', Colors.blue),
-                        const SizedBox(width: 8),
-                        _buildStatChip('⚖️ ${shield.weight?.toStringAsFixed(1)}', Colors.grey),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-
-                    // Requisitos
-                    Text(
-                      'Requisitos: ${shield.requiredStats}',
-                      style: const TextStyle(
-                        color: AppTheme.textSecondaryColor,
-                        fontSize: 12,
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: _getCategoryColor(shield.category),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              shield.category ?? 'Sin categoría',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 11,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ],
+                      const SizedBox(height: 8),
+
+                      // Stats principales
+                      Row(
+                        children: [
+                          _buildStatChip('🛡️ ${shield.defence.firstWhere((stat) => stat.name == 'Phy').amount}', Colors.blue),
+                          const SizedBox(width: 8),
+                          _buildStatChip('⚖️ ${shield.weight?.toStringAsFixed(1)}', Colors.grey),
+                        ],
+                      ),
+                      const SizedBox(height: 8),
+
+                      // Requisitos
+                      Text(
+                        'Requisitos: ${shield.requiredStats}',
+                        style: const TextStyle(
+                          color: AppTheme.textSecondaryColor,
+                          fontSize: 12,
+                        ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
                 ),
-              ),
 
-              const SizedBox(width: 8),
+                const SizedBox(width: 8),
 
-              // Flecha de navegación
-              const Icon(
-                Icons.arrow_forward_ios,
-                color: AppTheme.textSecondaryColor,
-                size: 16,
-              ),
-            ],
-          ),
+                // Flecha de navegación
+                const Icon(
+                  Icons.arrow_forward_ios,
+                  color: AppTheme.textSecondaryColor,
+                  size: 16,
+                ),
+              ],
+            ),
         ),
       ),
     );
