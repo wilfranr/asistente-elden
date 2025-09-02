@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import '../models/boss.dart';
 import '../models/weapon.dart';
+import '../models/shield.dart';
 import '../models/item.dart';
 import '../models/zone.dart';
 import '../models/mission.dart';
@@ -38,6 +39,7 @@ class DataService {
       final items = _parseItems(futures[3]);
       final locations = futures[4];
       final regionsDifficulty = futures[5];
+      final shields = _parseShields(futures[10]);
       
       // Combinar todos los jefes
       final allBosses = [...bosses, ...prologoBosses];
@@ -51,13 +53,13 @@ class DataService {
         'weapons': weapons,
         'items': items,
         'zones': zones,
+        'shields': shields,
         'locations': locations,
         'regionsDifficulty': regionsDifficulty,
         'armors': futures[6],
         'talismans': futures[7],
         'spirits': futures[8],
         'sorceries': futures[9],
-        'shields': futures[10],
         'npcs': futures[11],
         'ashes': futures[12],
         'ammos': futures[13],
@@ -135,6 +137,15 @@ class DataService {
     
     return jsonData.map((json) {
       return Weapon.fromJson(json);
+    }).toList();
+  }
+
+  // Parsear escudos desde JSON
+  static List<Shield> _parseShields(dynamic jsonData) {
+    if (jsonData is! List) return [];
+
+    return jsonData.map((json) {
+      return Shield.fromJson(json);
     }).toList();
   }
 
