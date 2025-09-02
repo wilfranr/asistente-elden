@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/weapon.dart';
 import '../utils/app_theme.dart';
+import '../widgets/glass_container.dart';
 import 'weapon_detail_screen.dart';
 
 class WeaponsScreen extends StatefulWidget {
@@ -48,7 +49,8 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
     return Column(
       children: [
         // Barra de búsqueda y filtros
-        Container(
+        GlassContainer(
+          margin: const EdgeInsets.all(16),
           padding: const EdgeInsets.all(16),
           child: Column(
             children: [
@@ -59,14 +61,14 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
                   prefixIcon: const Icon(Icons.search, color: AppTheme.primaryColor),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
-                    borderSide: const BorderSide(color: AppTheme.backgroundColor),
+                    borderSide: BorderSide.none,
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                     borderSide: const BorderSide(color: AppTheme.primaryColor),
                   ),
                   filled: true,
-                  fillColor: AppTheme.surfaceColor,
+                  fillColor: AppTheme.surfaceColor.withOpacity(0.5),
                 ),
                 style: const TextStyle(color: AppTheme.textColor),
                 onChanged: (value) {
@@ -157,105 +159,104 @@ class _WeaponsScreenState extends State<WeaponsScreen> {
   }
 
   Widget _buildWeaponCard(Weapon weapon) {
-    return Card(
-      margin: const EdgeInsets.only(bottom: 12),
-      child: InkWell(
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: GlassContainer(
         onTap: () => _navigateToWeaponDetail(weapon),
-        borderRadius: BorderRadius.circular(12),
         child: Padding(
           padding: const EdgeInsets.all(16),
           child: Row(
             children: [
               // Ícono del arma por categoría
-              Container(
-                width: 50,
-                height: 50,
-                decoration: BoxDecoration(
-                  color: AppTheme.primaryColor.withOpacity(0.1),
-                  borderRadius: BorderRadius.circular(8),
+                Container(
+                  width: 50,
+                  height: 50,
+                  decoration: BoxDecoration(
+                    color: AppTheme.primaryColor.withOpacity(0.1),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Icon(
+                    _getWeaponIcon(weapon.category),
+                    color: AppTheme.primaryColor,
+                    size: 28,
+                  ),
                 ),
-                child: Icon(
-                  _getWeaponIcon(weapon.category),
-                  color: AppTheme.primaryColor,
-                  size: 28,
-                ),
-              ),
-              
-              const SizedBox(width: 16),
-              
-              // Información principal
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            weapon.name,
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                              color: AppTheme.textColor,
-                            ),
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                        Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                          decoration: BoxDecoration(
-                            color: _getCategoryColor(weapon.category),
-                            borderRadius: BorderRadius.circular(12),
-                          ),
-                          child: Text(
-                            weapon.category ?? 'Sin categoría',
-                            style: const TextStyle(
-                              color: Colors.white,
-                              fontSize: 11,
-                              fontWeight: FontWeight.bold,
+
+                const SizedBox(width: 16),
+
+                // Información principal
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              weapon.name,
+                              style: const TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: AppTheme.textColor,
+                              ),
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    
-                    // Stats principales
-                    Row(
-                      children: [
-                        _buildStatChip('⚔️ ${weapon.physicalAttack}', Colors.red),
-                        const SizedBox(width: 8),
-                        _buildStatChip('📊 ${weapon.primaryScaling}', Colors.blue),
-                        const SizedBox(width: 8),
-                        if (weapon.weight != null)
-                          _buildStatChip('⚖️ ${weapon.weight!.toStringAsFixed(1)}', Colors.grey),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    
-                    // Requisitos
-                    Text(
-                      'Requisitos: ${weapon.requiredStats}',
-                      style: const TextStyle(
-                        color: AppTheme.textSecondaryColor,
-                        fontSize: 12,
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: _getCategoryColor(weapon.category),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              weapon.category ?? 'Sin categoría',
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 11,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ],
+                      const SizedBox(height: 8),
+
+                      // Stats principales
+                      Row(
+                        children: [
+                          _buildStatChip('⚔️ ${weapon.physicalAttack}', Colors.red),
+                          const SizedBox(width: 8),
+                          _buildStatChip('📊 ${weapon.primaryScaling}', Colors.blue),
+                          const SizedBox(width: 8),
+                          if (weapon.weight != null)
+                            _buildStatChip('⚖️ ${weapon.weight!.toStringAsFixed(1)}', Colors.grey),
+                        ],
+                      ),
+                      const SizedBox(height: 8),
+
+                      // Requisitos
+                      Text(
+                        'Requisitos: ${weapon.requiredStats}',
+                        style: const TextStyle(
+                          color: AppTheme.textSecondaryColor,
+                          fontSize: 12,
+                        ),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              
-              const SizedBox(width: 8),
-              
-              // Flecha de navegación
-              const Icon(
-                Icons.arrow_forward_ios,
-                color: AppTheme.textSecondaryColor,
-                size: 16,
-              ),
-            ],
-          ),
+
+                const SizedBox(width: 8),
+
+                // Flecha de navegación
+                const Icon(
+                  Icons.arrow_forward_ios,
+                  color: AppTheme.textSecondaryColor,
+                  size: 16,
+                ),
+              ],
+            ),
         ),
       ),
     );

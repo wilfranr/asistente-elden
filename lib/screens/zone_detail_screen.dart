@@ -6,6 +6,8 @@ import '../models/item.dart';
 import '../models/mission.dart';
 import '../services/progress_service.dart';
 import '../utils/app_theme.dart';
+import '../widgets/aurora_background.dart';
+import '../widgets/glass_container.dart';
 import 'boss_detail_screen.dart';
 import 'weapons_screen.dart';
 
@@ -34,13 +36,25 @@ class ZoneDetailScreen extends StatefulWidget {
 }
 
 class _ZoneDetailScreenState extends State<ZoneDetailScreen>
-    with SingleTickerProviderStateMixin {
+    with TickerProviderStateMixin {
   late TabController _tabController;
   Map<String, bool> progressState = {};
+
+  // Controlador para Parallax
+  late ScrollController _scrollController;
+  double _backgroundOffset = 0.0;
 
   @override
   void initState() {
     super.initState();
+
+    _scrollController = ScrollController();
+    _scrollController.addListener(() {
+      setState(() {
+        _backgroundOffset = _scrollController.offset * 0.3;
+      });
+    });
+
     // Calcular el número de pestañas dinámicamente
     int tabCount = 1; // Siempre hay jefes
     if (widget.zone.locaciones.isNotEmpty) tabCount++;
@@ -53,6 +67,7 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
   @override
   void dispose() {
     _tabController.dispose();
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -85,85 +100,82 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
           onPressed: () => Navigator.pop(context),
         ),
       ),
-      body: Column(
+      body: Stack(
         children: [
-          // Pestañas de navegación
-          Container(
-            color: AppTheme.surfaceColor,
-            child: TabBar(
-              controller: _tabController,
-              labelColor: AppTheme.primaryColor,
-              unselectedLabelColor: AppTheme.textSecondaryColor,
-              indicatorColor: AppTheme.primaryColor,
-              isScrollable: true,
-              tabs: [
-                _buildTab('Jefes', widget.zone.jefes.length, _calculateProgress(widget.zone.jefes)),
-                if (widget.zone.locaciones.isNotEmpty)
-                  _buildTab('Ubicaciones', widget.zone.locaciones.length, 0.0), // Por ahora 0%
-                // Misiones y Objetos se manejan desde la pantalla principal
-                // _buildTab('Misiones', widget.zone.misiones.length, _calculateProgress(widget.zone.misiones)),
-                // _buildTab('Objetos', widget.zone.objetos.length, _calculateProgress(widget.zone.objetos)),
-              ],
-            ),
-          ),
-          
-          // Contenido de las pestañas
-          Expanded(
-            child: TabBarView(
-              controller: _tabController,
-                          children: [
-              _buildBossesTab(),
-              if (widget.zone.locaciones.isNotEmpty) _buildLocationsTab(),
-              // _buildMissionsTab(), // Se maneja desde la pantalla principal
-              // _buildItemsTab(),   // Se maneja desde la pantalla principal
-            ],
-            ),
-          ),
-          
-          // Botones de navegación en la parte inferior
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppTheme.surfaceColor,
-              border: Border(
-                top: BorderSide(color: AppTheme.backgroundColor, width: 1),
+          const AuroraBackground(),
+          Column(
+            children: [
+              // Pestañas de navegación
+              GlassContainer(
+                margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                borderRadius: 12,
+                child: TabBar(
+                  controller: _tabController,
+                  labelColor: AppTheme.primaryColor,
+                  unselectedLabelColor: AppTheme.textSecondaryColor,
+                  indicatorColor: AppTheme.primaryColor,
+                  isScrollable: true,
+                  tabs: [
+                    _buildTab('Jefes', widget.zone.jefes.length, _calculateProgress(widget.zone.jefes)),
+                    if (widget.zone.locaciones.isNotEmpty)
+                      _buildTab('Ubicaciones', widget.zone.locaciones.length, 0.0),
+                  ],
+                ),
               ),
-            ),
-            child: Row(
-              children: [
-                Expanded(
-                  child: ElevatedButton.icon(
-                    onPressed: () => Navigator.pop(context),
-                    icon: const Icon(Icons.map),
-                    label: const Text('Zonas'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.backgroundColor,
-                      foregroundColor: AppTheme.textColor,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
+
+              // Contenido de las pestañas
+              Expanded(
+                child: TabBarView(
+                  controller: _tabController,
+                  children: [
+                    _buildBossesTab(),
+                    if (widget.zone.locaciones.isNotEmpty) _buildLocationsTab(),
+                  ],
+                ),
+              ),
+
+              // Botones de navegación en la parte inferior
+              GlassContainer(
+                margin: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(8),
+                borderRadius: 16,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () => Navigator.pop(context),
+                        icon: const Icon(Icons.map),
+                        label: const Text('Zonas'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppTheme.backgroundColor.withOpacity(0.5),
+                          foregroundColor: AppTheme.textColor,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
                       ),
                     ),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: ElevatedButton.icon(
-                    onPressed: () => _navigateToAllWeapons(),
-                    icon: const Icon(Icons.construction),
-                    label: const Text('Arsenal'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.primaryColor,
-                      foregroundColor: Colors.black,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () => _navigateToAllWeapons(),
+                        icon: const Icon(Icons.construction),
+                        label: const Text('Arsenal'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppTheme.primaryColor,
+                          foregroundColor: Colors.black,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
                       ),
                     ),
-                  ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ],
       ),
@@ -198,10 +210,14 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         .toList();
 
     if (zoneBosses.isEmpty) {
-      return const Center(
-        child: Text(
-          'No hay jefes registrados en esta zona.',
-          style: TextStyle(color: AppTheme.textSecondaryColor),
+      return Center(
+        child: GlassContainer(
+          padding: const EdgeInsets.all(24),
+          child: const Text(
+            'No hay jefes registrados en esta zona.',
+            style: TextStyle(color: AppTheme.textSecondaryColor),
+            textAlign: TextAlign.center,
+          ),
         ),
       );
     }
@@ -214,13 +230,10 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
       itemCount: zoneBosses.length + 1, // +1 para el indicador de ordenamiento
       itemBuilder: (context, index) {
         if (index == 0) {
-          return Container(
+          return GlassContainer(
             margin: const EdgeInsets.only(bottom: 16),
             padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              color: AppTheme.backgroundColor,
-              borderRadius: BorderRadius.circular(8),
-            ),
+            borderRadius: 8,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -245,73 +258,76 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         final isCompleted = progressState[boss.id] ?? false;
         final difficulty = _calculateBossDifficulty(boss);
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            leading: Checkbox(
-              value: isCompleted,
-              onChanged: (value) => _onProgressChanged(boss.id, value ?? false),
-            ),
-            title: Text(
-              '${index}. ${boss.name}',
-              style: TextStyle(
-                decoration: isCompleted ? TextDecoration.lineThrough : null,
-                color: isCompleted ? AppTheme.textSecondaryColor : AppTheme.textColor,
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: GlassContainer(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: ListTile(
+              leading: Checkbox(
+                value: isCompleted,
+                onChanged: (value) => _onProgressChanged(boss.id, value ?? false),
               ),
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    if (boss.healthPoints != null) ...[
-                      Text(
-                        '${boss.healthPoints} HP',
-                        style: const TextStyle(
-                          color: AppTheme.textSecondaryColor,
-                          fontSize: 12,
+              title: Text(
+                '${index}. ${boss.name}',
+                style: TextStyle(
+                  decoration: isCompleted ? TextDecoration.lineThrough : null,
+                  color: isCompleted ? AppTheme.textSecondaryColor : AppTheme.textColor,
+                ),
+              ),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      if (boss.healthPoints != null) ...[
+                        Text(
+                          '${boss.healthPoints} HP',
+                          style: const TextStyle(
+                            color: AppTheme.textSecondaryColor,
+                            fontSize: 12,
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                      ],
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                        decoration: BoxDecoration(
+                          color: AppTheme.getDifficultyColor(difficulty),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: Text(
+                          AppTheme.getDifficultyText(difficulty),
+                          style: const TextStyle(
+                            color: Colors.black,
+                            fontSize: 10,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
-                      const SizedBox(width: 12),
                     ],
-                    Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                      decoration: BoxDecoration(
-                        color: AppTheme.getDifficultyColor(difficulty),
-                        borderRadius: BorderRadius.circular(12),
+                  ),
+                  if (boss.drops != null && boss.drops!.isNotEmpty) ...[
+                    const SizedBox(height: 4),
+                    Text(
+                      boss.drops!.firstWhere(
+                        (drop) => drop.contains('Runes'),
+                        orElse: () => boss.drops!.first,
                       ),
-                      child: Text(
-                        AppTheme.getDifficultyText(difficulty),
-                        style: const TextStyle(
-                          color: Colors.black,
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      style: const TextStyle(
+                        color: AppTheme.primaryColor,
+                        fontSize: 12,
                       ),
                     ),
                   ],
-                ),
-                if (boss.drops != null && boss.drops!.isNotEmpty) ...[
-                  const SizedBox(height: 4),
-                  Text(
-                    boss.drops!.firstWhere(
-                      (drop) => drop.contains('Runes'),
-                      orElse: () => boss.drops!.first,
-                    ),
-                    style: const TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontSize: 12,
-                    ),
-                  ),
                 ],
-              ],
-            ),
-            trailing: TextButton(
-              onPressed: () => _navigateToBossDetail(boss),
-              child: const Text(
-                'Ver',
-                style: TextStyle(color: AppTheme.primaryColor),
+              ),
+              trailing: TextButton(
+                onPressed: () => _navigateToBossDetail(boss),
+                child: const Text(
+                  'Ver',
+                  style: TextStyle(color: AppTheme.primaryColor),
+                ),
               ),
             ),
           ),
@@ -341,11 +357,12 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         final mission = zoneMissions[index];
         final isCompleted = progressState[mission.id] ?? false;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            leading: Checkbox(
-              value: isCompleted,
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: GlassContainer(
+            child: ListTile(
+              leading: Checkbox(
+                value: isCompleted,
               onChanged: (value) => _onProgressChanged(mission.id, value ?? false),
             ),
             title: Text(
@@ -422,11 +439,12 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         final item = zoneItems[index];
         final isCompleted = progressState[item.id] ?? false;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            leading: Checkbox(
-              value: isCompleted,
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: GlassContainer(
+            child: ListTile(
+              leading: Checkbox(
+                value: isCompleted,
               onChanged: (value) => _onProgressChanged(item.id, value ?? false),
             ),
             title: Text(
@@ -519,24 +537,29 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
 
   Widget _buildLocationsList() {
     if (widget.zone.locaciones.isEmpty) {
-      return const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.location_on,
-              size: 64,
-              color: AppTheme.textSecondaryColor,
-            ),
-            SizedBox(height: 16),
-            Text(
-              'No hay ubicaciones registradas en esta zona.',
-              style: TextStyle(
+      return Center(
+        child: GlassContainer(
+          padding: const EdgeInsets.all(24),
+          child: const Column(
+            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.location_on,
+                size: 64,
                 color: AppTheme.textSecondaryColor,
-                fontSize: 18,
               ),
-            ),
-          ],
+              SizedBox(height: 16),
+              Text(
+                'No hay ubicaciones registradas en esta zona.',
+                style: TextStyle(
+                  color: AppTheme.textSecondaryColor,
+                  fontSize: 18,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
       );
     }
@@ -548,56 +571,59 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
         final locationId = widget.zone.locaciones[index];
         final isCompleted = progressState[locationId] ?? false;
 
-        return Card(
-          margin: const EdgeInsets.only(bottom: 12),
-          child: ListTile(
-            leading: Checkbox(
-              value: isCompleted,
-              onChanged: (value) => _onProgressChanged(locationId, value ?? false),
-            ),
-            title: Text(
-              _getLocationName(locationId),
-              style: TextStyle(
-                decoration: isCompleted ? TextDecoration.lineThrough : null,
-                color: isCompleted ? AppTheme.textSecondaryColor : AppTheme.textColor,
-                fontWeight: FontWeight.bold,
+        return Padding(
+          padding: const EdgeInsets.only(bottom: 12),
+          child: GlassContainer(
+            padding: const EdgeInsets.symmetric(vertical: 8.0),
+            child: ListTile(
+              leading: Checkbox(
+                value: isCompleted,
+                onChanged: (value) => _onProgressChanged(locationId, value ?? false),
               ),
-            ),
-            subtitle: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const SizedBox(height: 4),
-                Text(
-                  _getLocationDescription(locationId),
-                  style: const TextStyle(
-                    color: AppTheme.textSecondaryColor,
-                    fontSize: 14,
+              title: Text(
+                _getLocationName(locationId),
+                style: TextStyle(
+                  decoration: isCompleted ? TextDecoration.lineThrough : null,
+                  color: isCompleted ? AppTheme.textSecondaryColor : AppTheme.textColor,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  Text(
+                    _getLocationDescription(locationId),
+                    style: const TextStyle(
+                      color: AppTheme.textSecondaryColor,
+                      fontSize: 14,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 4),
-                Row(
-                  children: [
-                    Icon(
-                      Icons.location_on,
-                      size: 16,
-                      color: AppTheme.primaryColor,
-                    ),
-                    const SizedBox(width: 4),
-                    Expanded(
-                      child: Text(
-                        'Ubicación en ${widget.zone.name}',
-                        style: const TextStyle(
-                          color: AppTheme.primaryColor,
-                          fontSize: 12,
-                        ),
-                        overflow: TextOverflow.ellipsis,
+                  const SizedBox(height: 4),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.location_on,
+                        size: 16,
+                        color: AppTheme.primaryColor,
                       ),
-                    ),
-                  ],
-                ),
-              ],
+                      const SizedBox(width: 4),
+                      Expanded(
+                        child: Text(
+                          'Ubicación en ${widget.zone.name}',
+                          style: const TextStyle(
+                            color: AppTheme.primaryColor,
+                            fontSize: 12,
+                          ),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              trailing: _getLocationImage(locationId),
             ),
-            trailing: _getLocationImage(locationId),
           ),
         );
       },
@@ -737,87 +763,104 @@ class _ZoneDetailScreenState extends State<ZoneDetailScreen>
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          backgroundColor: AppTheme.surfaceColor,
-          title: Text(
-            item.name,
-            style: const TextStyle(
-              color: AppTheme.textColor,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          content: SingleChildScrollView(
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          contentPadding: EdgeInsets.zero,
+          content: GlassContainer(
+            padding: const EdgeInsets.all(24),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                if (item.description != null && item.description!.isNotEmpty) ...[
-                  Text(
-                    'Descripción:',
-                    style: const TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
+                Text(
+                  item.name,
+                  style: const TextStyle(
+                    color: AppTheme.textColor,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20,
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        if (item.description != null && item.description!.isNotEmpty) ...[
+                          Text(
+                            'Descripción:',
+                            style: const TextStyle(
+                              color: AppTheme.primaryColor,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            item.description!,
+                            style: const TextStyle(
+                              color: AppTheme.textColor,
+                              fontSize: 14,
+                            ),
+                          ),
+                          const SizedBox(height: 16),
+                        ],
+                        if (item.type != null) ...[
+                          Text(
+                            'Tipo:',
+                            style: const TextStyle(
+                              color: AppTheme.primaryColor,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            item.type!,
+                            style: const TextStyle(
+                              color: AppTheme.textColor,
+                              fontSize: 14,
+                            ),
+                          ),
+                          const SizedBox(height: 16),
+                        ],
+                        if (item.effect != null && item.effect!.isNotEmpty) ...[
+                          Text(
+                            'Efecto:',
+                            style: const TextStyle(
+                              color: AppTheme.primaryColor,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            item.effect!,
+                            style: const TextStyle(
+                              color: AppTheme.textColor,
+                              fontSize: 14,
+                            ),
+                          ),
+                        ],
+                      ],
                     ),
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    item.description!,
-                    style: const TextStyle(
-                      color: AppTheme.textColor,
-                      fontSize: 14,
+                ),
+                const SizedBox(height: 16),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: Text(
+                      'Cerrar',
+                      style: TextStyle(color: AppTheme.primaryColor),
                     ),
                   ),
-                  const SizedBox(height: 16),
-                ],
-                if (item.type != null) ...[
-                  Text(
-                    'Tipo:',
-                    style: const TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    item.type!,
-                    style: const TextStyle(
-                      color: AppTheme.textColor,
-                      fontSize: 14,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                ],
-                if (item.effect != null && item.effect!.isNotEmpty) ...[
-                  Text(
-                    'Efecto:',
-                    style: const TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    item.effect!,
-                    style: const TextStyle(
-                      color: AppTheme.textColor,
-                      fontSize: 14,
-                    ),
-                  ),
-                ],
+                ),
               ],
             ),
           ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(),
-              child: Text(
-                'Cerrar',
-                style: TextStyle(color: AppTheme.primaryColor),
-              ),
-            ),
-          ],
         );
       },
     );

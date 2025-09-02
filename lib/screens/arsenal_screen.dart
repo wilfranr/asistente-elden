@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/weapon.dart';
 import '../models/shield.dart';
 import '../utils/app_theme.dart';
+import '../widgets/aurora_background.dart';
 import 'weapons_screen.dart';
 import 'shields_screen.dart';
 
@@ -60,11 +61,16 @@ class _ArsenalScreenState extends State<ArsenalScreen> with SingleTickerProvider
           ],
         ),
       ),
-      body: TabBarView(
-        controller: _tabController,
+      body: Stack(
         children: [
-          WeaponsScreen(weapons: widget.weapons),
-          ShieldsScreen(shields: widget.shields),
+          const AuroraBackground(),
+          TabBarView(
+            controller: _tabController,
+            children: [
+              WeaponsScreen(weapons: widget.weapons),
+              ShieldsScreen(shields: widget.shields),
+            ],
+          ),
         ],
       ),
     );

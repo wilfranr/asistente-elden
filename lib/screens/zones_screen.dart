@@ -8,6 +8,8 @@ import '../models/mission.dart';
 import '../services/progress_service.dart';
 import '../services/auth_service.dart';
 import '../utils/app_theme.dart';
+import '../widgets/aurora_background.dart';
+import '../widgets/glass_container.dart';
 import 'zone_detail_screen.dart';
 import 'arsenal_screen.dart';
 
@@ -55,10 +57,22 @@ class _ZonesScreenState extends State<ZonesScreen>
   late AnimationController _cardAnimationController;
   late Animation<double> _cardAnimation;
 
+  // Controlador para Parallax
+  late ScrollController _scrollController;
+  double _backgroundOffset = 0.0;
+
   @override
   void initState() {
     super.initState();
     
+    // Controlador de Scroll para Parallax
+    _scrollController = ScrollController();
+    _scrollController.addListener(() {
+      setState(() {
+        _backgroundOffset = _scrollController.offset * 0.3;
+      });
+    });
+
     // Inicializar controladores de animación
     _progressAnimationController = AnimationController(
       duration: const Duration(milliseconds: 1500),
@@ -166,6 +180,7 @@ class _ZonesScreenState extends State<ZonesScreen>
   void dispose() {
     _progressAnimationController.dispose();
     _cardAnimationController.dispose();
+    _scrollController.dispose();
     super.dispose();
   }
 
@@ -188,287 +203,291 @@ class _ZonesScreenState extends State<ZonesScreen>
           ),
         ],
       ),
-      body: Column(
+      body: Stack(
         children: [
-          // Barra de progreso general
-          Container(
-            padding: const EdgeInsets.all(16),
-            child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    const Text(
-                      'Progreso General',
-                      style: TextStyle(
+          Transform.translate(
+            offset: Offset(0, _backgroundOffset),
+            child: const AuroraBackground(),
+          ),
+          Column(
+            children: [
+              // Barra de progreso general
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: GlassContainer(
+                  padding: const EdgeInsets.all(16),
+                  child: Column(
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text(
+                            'Progreso General',
+                            style: TextStyle(
+                              color: AppTheme.primaryColor,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          Text(
+                            '${overallProgress.toInt()}%',
+                            style: const TextStyle(
+                              color: AppTheme.primaryColor,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 8),
+                      AnimatedBuilder(
+                        animation: _progressAnimation,
+                        builder: (context, child) {
+                          return LinearProgressIndicator(
+                            value: (overallProgress / 100) * _progressAnimation.value,
+                            backgroundColor: AppTheme.surfaceColor.withOpacity(0.3),
+                            valueColor: AlwaysStoppedAnimation<Color>(
+                              AppTheme.primaryColor.withOpacity(0.8 + 0.2 * _progressAnimation.value),
+                            ),
+                            minHeight: 8,
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // Indicador de ordenamiento con filtro integrado
+              GestureDetector(
+                onTap: () => _showFilterModal(context),
+                child: GlassContainer(
+                  margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  padding: const EdgeInsets.all(12),
+                  borderRadius: 12,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        _selectedLevel != null ? Icons.filter_list : Icons.sort,
                         color: AppTheme.primaryColor,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
+                        size: 16,
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          _selectedLevel != null
+                            ? 'Filtrado: ${_getDifficultyText(_selectedLevel!)} (${_filteredZones.length} zonas)'
+                            : 'Zonas ordenadas por nivel recomendado (más bajo → más alto)',
+                          style: TextStyle(
+                            color: AppTheme.textSecondaryColor,
+                            fontSize: 12,
+                          ),
+                          textAlign: TextAlign.center,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      if (_selectedLevel != null)
+                        IconButton(
+                          onPressed: () {
+                            setState(() {
+                              _selectedLevel = null;
+                              _applyFilters();
+                            });
+                          },
+                          icon: Icon(Icons.close, color: AppTheme.primaryColor, size: 16),
+                          padding: EdgeInsets.zero,
+                          constraints: const BoxConstraints(minWidth: 24, minHeight: 24),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // Lista de zonas ordenadas
+              Expanded(
+                child: ListView.builder(
+                  controller: _scrollController,
+                  padding: const EdgeInsets.all(16),
+                  itemCount: _filteredZones.length,
+                  itemBuilder: (context, index) {
+                    final zone = _filteredZones[index];
+                    final zoneProgress = _calculateZoneProgress(zone);
+                    final difficulty = _getZoneDifficulty(zone.name);
+
+                    return AnimatedBuilder(
+                      animation: _cardAnimation,
+                      builder: (context, child) {
+                        return Transform.scale(
+                          scale: 0.8 + 0.2 * _cardAnimation.value,
+                          child: Opacity(
+                            opacity: _cardAnimation.value.clamp(0.0, 1.0),
+                            child: Padding(
+                              padding: const EdgeInsets.only(bottom: 16),
+                              child: GlassContainer(
+                                onTap: () => _navigateToZoneDetail(zone),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(16),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            Expanded(
+                                              child: Column(
+                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    zone.name,
+                                                    style: const TextStyle(
+                                                      fontSize: 20,
+                                                      fontWeight: FontWeight.bold,
+                                                      color: AppTheme.textColor,
+                                                    ),
+                                                  ),
+                                                  const SizedBox(height: 4),
+                                                  // Indicador de dificultad
+                                                  Container(
+                                                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                                                    decoration: BoxDecoration(
+                                                      color: _getDifficultyColor(difficulty),
+                                                      borderRadius: BorderRadius.circular(12),
+                                                    ),
+                                                    child: Text(
+                                                      _getDifficultyText(difficulty),
+                                                      style: const TextStyle(
+                                                        color: Colors.black,
+                                                        fontSize: 10,
+                                                        fontWeight: FontWeight.bold,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                            Text(
+                                              '${zoneProgress.toInt()}%',
+                                              style: const TextStyle(
+                                                color: AppTheme.primaryColor,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.w600,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                        const SizedBox(height: 8),
+                                        Text(
+                                          zone.description ?? 'Una de las regiones de las Tierras Intermedias.',
+                                          style: const TextStyle(
+                                            color: AppTheme.textSecondaryColor,
+                                            fontSize: 14,
+                                          ),
+                                        ),
+                                        const SizedBox(height: 16),
+                                        AnimatedBuilder(
+                                          animation: _progressAnimation,
+                                          builder: (context, child) {
+                                            return LinearProgressIndicator(
+                                              value: (zoneProgress / 100) * _progressAnimation.value,
+                                              backgroundColor: AppTheme.surfaceColor.withOpacity(0.3),
+                                              valueColor: AlwaysStoppedAnimation<Color>(
+                                                AppTheme.primaryColor.withOpacity(0.7 + 0.3 * _progressAnimation.value),
+                                              ),
+                                              minHeight: 6,
+                                            );
+                                          },
+                                        ),
+                                        const SizedBox(height: 12),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            _buildProgressItem('Jefes', zone.jefes.length, _calculateProgress(zone.jefes)),
+                                            _buildProgressItem('Misiones', zone.misiones.length, 0.0), // Por ahora 0%
+                                            _buildProgressItem('Armas', zone.armas.length, 0.0), // Por ahora 0%
+                                            _buildProgressItem('Objetos', zone.objetos.length, 0.0), // Por ahora 0%
+                                          ],
+                                        ),
+                                        const SizedBox(height: 8),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                          children: [
+                                            _buildProgressItem('Ubicaciones', zone.locaciones.length, 0.0), // Por ahora 0%
+                                            const Spacer(),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  },
+                ),
+              ),
+
+              // Botones de navegación en la parte inferior
+              GlassContainer(
+                margin: const EdgeInsets.all(16),
+                padding: const EdgeInsets.all(8),
+                borderRadius: 16,
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () {}, // Ya estamos en zonas
+                        icon: const Icon(Icons.map),
+                        label: const Text('Zonas'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppTheme.primaryColor,
+                          foregroundColor: Colors.black,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
                       ),
                     ),
-                    Text(
-                      '${overallProgress.toInt()}%',
-                      style: const TextStyle(
-                        color: AppTheme.primaryColor,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () => _navigateToArsenal(),
+                        icon: const Icon(Icons.construction),
+                        label: const Text('Arsenal'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppTheme.backgroundColor.withOpacity(0.5),
+                          foregroundColor: AppTheme.textColor,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: widget.onNavigateToItems,
+                        icon: const Icon(Icons.inventory_2),
+                        label: const Text('Inventario'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: AppTheme.primaryColor,
+                          foregroundColor: Colors.black,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
                       ),
                     ),
                   ],
                 ),
-                const SizedBox(height: 8),
-                AnimatedBuilder(
-                  animation: _progressAnimation,
-                  builder: (context, child) {
-                    return LinearProgressIndicator(
-                      value: (overallProgress / 100) * _progressAnimation.value,
-                      backgroundColor: AppTheme.surfaceColor,
-                      valueColor: AlwaysStoppedAnimation<Color>(
-                        AppTheme.primaryColor.withOpacity(0.8 + 0.2 * _progressAnimation.value),
-                      ),
-                      minHeight: 8,
-                    );
-                  },
-                ),
-              ],
-            ),
-          ),
-          
-                    // Indicador de ordenamiento con filtro integrado
-          GestureDetector(
-            onTap: () => _showFilterModal(context),
-            child: Container(
-              margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-              padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(
-                color: AppTheme.backgroundColor,
-                borderRadius: BorderRadius.circular(8),
-                border: Border.all(color: AppTheme.primaryColor.withOpacity(0.3)),
               ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(
-                    _selectedLevel != null ? Icons.filter_list : Icons.sort,
-                    color: AppTheme.primaryColor,
-                    size: 16,
-                  ),
-                  const SizedBox(width: 8),
-                  Expanded(
-                    child: Text(
-                      _selectedLevel != null 
-                        ? 'Filtrado: ${_getDifficultyText(_selectedLevel!)} (${_filteredZones.length} zonas)'
-                        : 'Zonas ordenadas por nivel recomendado (más bajo → más alto)',
-                      style: TextStyle(
-                        color: AppTheme.textSecondaryColor,
-                        fontSize: 12,
-                      ),
-                      textAlign: TextAlign.center,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                  if (_selectedLevel != null)
-                    IconButton(
-                      onPressed: () {
-                        setState(() {
-                          _selectedLevel = null;
-                          _applyFilters();
-                        });
-                      },
-                      icon: Icon(Icons.close, color: AppTheme.primaryColor, size: 16),
-                      padding: EdgeInsets.zero,
-                      constraints: const BoxConstraints(minWidth: 24, minHeight: 24),
-                    ),
-                ],
-              ),
-            ),
-          ),
-          
-          // Lista de zonas ordenadas
-          Expanded(
-            child: ListView.builder(
-              padding: const EdgeInsets.all(16),
-              itemCount: _filteredZones.length,
-              itemBuilder: (context, index) {
-                final zone = _filteredZones[index];
-                final zoneProgress = _calculateZoneProgress(zone);
-                final difficulty = _getZoneDifficulty(zone.name);
-                
-                return AnimatedBuilder(
-                  animation: _cardAnimation,
-                  builder: (context, child) {
-                    return Transform.scale(
-                      scale: 0.8 + 0.2 * _cardAnimation.value,
-                      child: Opacity(
-                        opacity: _cardAnimation.value.clamp(0.0, 1.0),
-                        child: Card(
-                  margin: const EdgeInsets.only(bottom: 16),
-                  child: InkWell(
-                    onTap: () => _navigateToZoneDetail(zone),
-                    borderRadius: BorderRadius.circular(12),
-                    child: Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      zone.name,
-                                      style: const TextStyle(
-                                        fontSize: 20,
-                                        fontWeight: FontWeight.bold,
-                                        color: AppTheme.textColor,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 4),
-                                    // Indicador de dificultad
-                                    Container(
-                                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                                      decoration: BoxDecoration(
-                                        color: _getDifficultyColor(difficulty),
-                                        borderRadius: BorderRadius.circular(12),
-                                      ),
-                                      child: Text(
-                                        _getDifficultyText(difficulty),
-                                        style: const TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 10,
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Text(
-                                '${zoneProgress.toInt()}%',
-                                style: const TextStyle(
-                                  color: AppTheme.primaryColor,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            zone.description ?? 'Una de las regiones de las Tierras Intermedias.',
-                            style: const TextStyle(
-                              color: AppTheme.textSecondaryColor,
-                              fontSize: 14,
-                            ),
-                          ),
-                          const SizedBox(height: 16),
-                          AnimatedBuilder(
-                            animation: _progressAnimation,
-                            builder: (context, child) {
-                              return LinearProgressIndicator(
-                                value: (zoneProgress / 100) * _progressAnimation.value,
-                                backgroundColor: AppTheme.surfaceColor,
-                                valueColor: AlwaysStoppedAnimation<Color>(
-                                  AppTheme.primaryColor.withOpacity(0.7 + 0.3 * _progressAnimation.value),
-                                ),
-                                minHeight: 6,
-                              );
-                            },
-                          ),
-                          const SizedBox(height: 12),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              _buildProgressItem('Jefes', zone.jefes.length, _calculateProgress(zone.jefes)),
-                              _buildProgressItem('Misiones', zone.misiones.length, 0.0), // Por ahora 0%
-                              _buildProgressItem('Armas', zone.armas.length, 0.0), // Por ahora 0%
-                              _buildProgressItem('Objetos', zone.objetos.length, 0.0), // Por ahora 0%
-                            ],
-                          ),
-                          const SizedBox(height: 8),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              _buildProgressItem('Ubicaciones', zone.locaciones.length, 0.0), // Por ahora 0%
-                              const Spacer(),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                        ),
-                      ),
-                    );
-                  },
-                );
-              },
-            ),
-          ),
-          
-          // Botones de navegación en la parte inferior
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppTheme.surfaceColor,
-              border: Border(
-                top: BorderSide(color: AppTheme.backgroundColor, width: 1),
-              ),
-            ),
-            child: Row(
-              children: [
-                Expanded(
-                  child: ElevatedButton.icon(
-                    onPressed: () {}, // Ya estamos en zonas
-                    icon: const Icon(Icons.map),
-                    label: const Text('Zonas'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.primaryColor,
-                      foregroundColor: Colors.black,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: ElevatedButton.icon(
-                    onPressed: () => _navigateToArsenal(),
-                    icon: const Icon(Icons.construction),
-                    label: const Text('Arsenal'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.backgroundColor,
-                      foregroundColor: AppTheme.textColor,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: ElevatedButton.icon(
-                    onPressed: widget.onNavigateToItems,
-                    icon: const Icon(Icons.inventory_2),
-                    label: const Text('Inventario'),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.primaryColor,
-                      foregroundColor: Colors.black,
-                      padding: const EdgeInsets.symmetric(vertical: 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
+            ],
           ),
         ],
       ),
@@ -519,16 +538,12 @@ class _ZonesScreenState extends State<ZonesScreen>
           onProgressChanged: () => _loadProgress(),
         ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
-          const begin = Offset(1.0, 0.0);
-          const end = Offset.zero;
-          const curve = Curves.easeInOutCubic;
-
-          var tween = Tween(begin: begin, end: end).chain(
-            CurveTween(curve: curve),
+          final tween = Tween(begin: 0.9, end: 1.0).chain(
+            CurveTween(curve: Curves.easeOutCubic),
           );
 
-          return SlideTransition(
-            position: animation.drive(tween),
+          return ScaleTransition(
+            scale: animation.drive(tween),
             child: FadeTransition(
               opacity: animation,
               child: child,
@@ -545,31 +560,48 @@ class _ZonesScreenState extends State<ZonesScreen>
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          backgroundColor: AppTheme.surfaceColor,
-          title: const Text(
-            'Cerrar Sesión',
-            style: TextStyle(color: AppTheme.textColor),
-          ),
-          content: const Text(
-            '¿Estás seguro de que quieres cerrar sesión?',
-            style: TextStyle(color: AppTheme.textSecondaryColor),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () => Navigator.of(context).pop(),
-              child: Text(
-                'Cancelar',
-                style: TextStyle(color: AppTheme.textSecondaryColor),
-              ),
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+          contentPadding: EdgeInsets.zero,
+          content: GlassContainer(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text(
+                  'Cerrar Sesión',
+                  style: TextStyle(color: AppTheme.textColor, fontSize: 20, fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  '¿Estás seguro de que quieres cerrar sesión?',
+                  style: TextStyle(color: AppTheme.textSecondaryColor),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: Text(
+                        'Cancelar',
+                        style: TextStyle(color: AppTheme.textSecondaryColor),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                        _logout();
+                      },
+                      child: const Text('Cerrar Sesión'),
+                    ),
+                  ],
+                ),
+              ],
             ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                _logout();
-              },
-              child: const Text('Cerrar Sesión'),
-            ),
-          ],
+          ),
         );
       },
     );
@@ -660,67 +692,67 @@ class _ZonesScreenState extends State<ZonesScreen>
   void _showFilterModal(BuildContext context) {
     showModalBottomSheet(
       context: context,
-      backgroundColor: AppTheme.surfaceColor,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (context) => Container(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-              // Header del modal
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Filtrar por Nivel',
-                    style: TextStyle(
-                      color: AppTheme.primaryColor,
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
+      isScrollControlled: true,
+      builder: (context) => GlassContainer(
+        margin: const EdgeInsets.all(16),
+        child: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+                // Header del modal
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Filtrar por Nivel',
+                      style: TextStyle(
+                        color: AppTheme.primaryColor,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  IconButton(
-                    onPressed: () => Navigator.pop(context),
-                    icon: Icon(Icons.close, color: AppTheme.textSecondaryColor),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16),
-              
-              // Opción "Todos los niveles"
-              _buildFilterOption(
-                context,
-                null,
-                'Todos los niveles',
-                'Mostrar todas las zonas',
-                Icons.all_inclusive,
-              ),
-              
-              // Separador
-              Divider(color: AppTheme.backgroundColor, height: 16),
-              
-              // Opciones de nivel específico
-              ..._availableLevelRanges.map((levelRange) {
-                final difficulty = _getDifficultyFromText(levelRange);
-                return Padding(
-                  padding: const EdgeInsets.only(bottom: 8),
-                  child: _buildFilterOption(
-                    context,
-                    difficulty,
-                    levelRange,
-                    'Zonas de este nivel',
-                    Icons.location_on,
-                  ),
-                );
-              }).toList(),
-              
-              const SizedBox(height: 16),
-            ],
-          ),
+                    IconButton(
+                      onPressed: () => Navigator.pop(context),
+                      icon: Icon(Icons.close, color: AppTheme.textSecondaryColor),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 16),
+
+                // Opción "Todos los niveles"
+                _buildFilterOption(
+                  context,
+                  null,
+                  'Todos los niveles',
+                  'Mostrar todas las zonas',
+                  Icons.all_inclusive,
+                ),
+
+                // Separador
+                Divider(color: AppTheme.backgroundColor, height: 16),
+
+                // Opciones de nivel específico
+                ..._availableLevelRanges.map((levelRange) {
+                  final difficulty = _getDifficultyFromText(levelRange);
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 8),
+                    child: _buildFilterOption(
+                      context,
+                      difficulty,
+                      levelRange,
+                      'Zonas de este nivel',
+                      Icons.location_on,
+                    ),
+                  );
+                }).toList(),
+
+                const SizedBox(height: 16),
+              ],
+            ),
         ),
-      );
+      ),
+    );
   }
 
   // Construir opción de filtro

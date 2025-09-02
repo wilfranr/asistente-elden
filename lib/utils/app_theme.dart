@@ -23,15 +23,15 @@ class AppTheme {
         primary: primaryColor,
         secondary: secondaryColor,
         surface: surfaceColor,
-        background: backgroundColor,
+        background: Colors.transparent, // Cambiado para el fondo de aurora
         onPrimary: Colors.black,
         onSecondary: textColor,
         onSurface: textColor,
         onBackground: textColor,
       ),
-      scaffoldBackgroundColor: backgroundColor,
+      scaffoldBackgroundColor: Colors.transparent, // Cambiado para el fondo de aurora
       appBarTheme: const AppBarTheme(
-        backgroundColor: backgroundColor,
+        backgroundColor: Colors.transparent, // Fondo transparente
         foregroundColor: textColor,
         elevation: 0,
         centerTitle: true,
@@ -42,10 +42,23 @@ class AppTheme {
         ),
       ),
       cardTheme: CardThemeData(
-        color: surfaceColor,
-        elevation: 4,
+        color: Colors.white.withOpacity(0.05), // Color base para el vidrio
+        elevation: 0, // La elevación se manejará con bordes y sombras
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(16),
+        ),
+      ),
+      dialogTheme: DialogTheme(
+        backgroundColor: Colors.transparent,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+      ),
+      bottomSheetTheme: BottomSheetThemeData(
+        backgroundColor: Colors.transparent,
+        modalBackgroundColor: Colors.transparent,
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
         ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
