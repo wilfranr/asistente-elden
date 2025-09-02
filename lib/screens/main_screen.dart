@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/boss.dart';
 import '../models/weapon.dart';
 import '../models/shield.dart';
+import '../models/armor.dart';
 import '../models/item.dart';
 import '../models/zone.dart';
 import '../models/mission.dart';
@@ -94,6 +95,7 @@ class _MainScreenState extends State<MainScreen> {
       prologoBosses: _gameData!['prologoBosses'] as List<Boss>,
       weapons: _gameData!['weapons'] as List<Weapon>,
       shields: _gameData!['shields'] as List<Shield>,
+      armors: _gameData!['armors'] as List<Armor>,
       items: _gameData!['items'] as List<Item>,
       missions: _gameData!['missions'] ?? <Mission>[],
       locations: _castLocations(_gameData!['locations']),

@@ -3,13 +3,14 @@ import '../models/zone.dart';
 import '../models/boss.dart';
 import '../models/weapon.dart';
 import '../models/shield.dart';
+import '../models/armor.dart';
 import '../models/item.dart';
 import '../models/mission.dart';
 import '../services/progress_service.dart';
 import '../services/auth_service.dart';
 import '../utils/app_theme.dart';
 import 'zone_detail_screen.dart';
-import 'arsenal_screen.dart';
+import 'equipment_screen.dart';
 
 class ZonesScreen extends StatefulWidget {
   final Map<String, Zone> zones;
@@ -17,6 +18,7 @@ class ZonesScreen extends StatefulWidget {
   final List<Boss> prologoBosses;
   final List<Weapon> weapons;
   final List<Shield> shields;
+  final List<Armor> armors;
   final List<Item> items;
   final List<Mission> missions;
   final List<Map<String, dynamic>> locations;
@@ -29,6 +31,7 @@ class ZonesScreen extends StatefulWidget {
     required this.prologoBosses,
     required this.weapons,
     required this.shields,
+    required this.armors,
     required this.items,
     required this.missions,
     required this.locations,
@@ -438,9 +441,9 @@ class _ZonesScreenState extends State<ZonesScreen>
                 const SizedBox(width: 12),
                 Expanded(
                   child: ElevatedButton.icon(
-                    onPressed: () => _navigateToArsenal(),
-                    icon: const Icon(Icons.construction),
-                    label: const Text('Arsenal'),
+                    onPressed: () => _navigateToEquipment(),
+                    icon: const Icon(Icons.shield_outlined),
+                    label: const Text('Equipamiento'),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: AppTheme.backgroundColor,
                       foregroundColor: AppTheme.textColor,
@@ -816,13 +819,14 @@ class _ZonesScreenState extends State<ZonesScreen>
     return levelRanges[levelText];
   }
 
-  void _navigateToArsenal() {
+  void _navigateToEquipment() {
     Navigator.push(
       context,
       PageRouteBuilder(
-        pageBuilder: (context, animation, secondaryAnimation) => ArsenalScreen(
+        pageBuilder: (context, animation, secondaryAnimation) => EquipmentScreen(
           weapons: widget.weapons,
           shields: widget.shields,
+          armors: widget.armors,
         ),
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           const begin = Offset(1.0, 0.0);

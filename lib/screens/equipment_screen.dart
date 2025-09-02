@@ -1,31 +1,35 @@
 import 'package:flutter/material.dart';
 import '../models/weapon.dart';
 import '../models/shield.dart';
+import '../models/armor.dart';
 import '../utils/app_theme.dart';
 import 'weapons_screen.dart';
 import 'shields_screen.dart';
+import 'armors_screen.dart';
 
-class ArsenalScreen extends StatefulWidget {
+class EquipmentScreen extends StatefulWidget {
   final List<Weapon> weapons;
   final List<Shield> shields;
+  final List<Armor> armors;
 
-  const ArsenalScreen({
+  const EquipmentScreen({
     super.key,
     required this.weapons,
     required this.shields,
+    required this.armors,
   });
 
   @override
-  State<ArsenalScreen> createState() => _ArsenalScreenState();
+  State<EquipmentScreen> createState() => _EquipmentScreenState();
 }
 
-class _ArsenalScreenState extends State<ArsenalScreen> with SingleTickerProviderStateMixin {
+class _EquipmentScreenState extends State<EquipmentScreen> with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 2, vsync: this);
+    _tabController = TabController(length: 3, vsync: this);
   }
 
   @override
@@ -39,7 +43,7 @@ class _ArsenalScreenState extends State<ArsenalScreen> with SingleTickerProvider
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Arsenal',
+          'Equipamiento',
           style: TextStyle(
             color: AppTheme.primaryColor,
             fontWeight: FontWeight.bold,
@@ -57,6 +61,7 @@ class _ArsenalScreenState extends State<ArsenalScreen> with SingleTickerProvider
           tabs: const [
             Tab(icon: Icon(Icons.construction), text: 'Armas'),
             Tab(icon: Icon(Icons.shield), text: 'Escudos'),
+            Tab(icon: Icon(Icons.security), text: 'Armaduras'),
           ],
         ),
       ),
@@ -65,6 +70,7 @@ class _ArsenalScreenState extends State<ArsenalScreen> with SingleTickerProvider
         children: [
           WeaponsScreen(weapons: widget.weapons),
           ShieldsScreen(shields: widget.shields),
+          ArmorsScreen(armors: widget.armors),
         ],
       ),
     );
